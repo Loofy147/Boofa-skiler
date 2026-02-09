@@ -8,9 +8,9 @@ Scenario: Newtonian mechanics → Einsteinian relativity transition
 """
 
 import sys
-sys.path.append('/home/claude')
+import os; sys.path.append(os.getcwd())
 
-from realization_engine import RealizationEngine, RealizationFeatures
+from core.engine import RealizationEngine, RealizationFeatures
 import json
 
 
@@ -376,7 +376,7 @@ class ParadigmShiftTest:
         }
     
     def export_results(self):
-        with open('/home/claude/test2_paradigm_shift_results.json', 'w') as f:
+        with open('data/test2_paradigm_shift_results.json', 'w') as f:
             json.dump(self.results, f, indent=2)
         print(f"\n✅ Results exported to test2_paradigm_shift_results.json")
 

@@ -4,26 +4,26 @@
   "domains": [
     {
       "field": "Physics",
-      "q_score": 0.9384,
-      "layer": 1,
+      "q_score": 0.9054,
+      "layer": 2,
       "principle": "energy minimization"
     },
     {
       "field": "Biology",
-      "q_score": 0.928,
-      "layer": 1,
+      "q_score": 0.8956,
+      "layer": 2,
       "principle": "fitness maximization"
     },
     {
       "field": "Computer Science",
-      "q_score": 0.971,
-      "layer": 0,
+      "q_score": 0.9344,
+      "layer": 1,
       "principle": "loss minimization"
     }
   ],
   "synthesis_analysis": {
-    "q_score": 0.9734,
-    "layer": 0,
+    "q_score": 0.9356,
+    "layer": 1,
     "parent_count": 3,
     "generativity": 0.98
   },

@@ -4,18 +4,18 @@
   "phases": [
     {
       "name": "Newtonian Paradigm",
-      "avg_q": 0.9342,
+      "avg_q": 0.9013333333333334,
       "avg_coherence": 1.0
     },
     {
       "name": "Einsteinian Revolution",
-      "avg_q": 0.8569333333333334,
+      "avg_q": 0.8223333333333334,
       "avg_coherence": 0.21666666666666667,
       "contradiction_count": 3
     },
     {
       "name": "Synthesis",
-      "q_score": 0.9554,
+      "q_score": 0.9194,
       "coherence": 0.95,
       "parents": 2
     }
@@ -29,16 +29,16 @@
   },
   "layer_evolution": {
     "newton": [
-      1,
-      1,
+      2,
+      2,
       2
     ],
     "einstein": [
-      2,
-      2,
-      2
+      3,
+      3,
+      3
     ],
-    "synthesis": 0
+    "synthesis": 2
   },
   "overall_result": "PASSED - All paradigm shift behaviors correct",
   "tests": {
