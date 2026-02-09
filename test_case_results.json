@@ -1,0 +1,230 @@
+{
+  "test_name": "AI Safety Discussion Analysis",
+  "timestamp": "2026-02-04T00:02:54.953780",
+  "realizations": [
+    {
+      "id": "R_d5a6429f",
+      "content": "Larger language models exhibit emergent capabilities not present in smaller models",
+      "q_score": 0.9168,
+      "layer": 2
+    },
+    {
+      "id": "R_672fa5ba",
+      "content": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+      "q_score": 0.9338,
+      "layer": 1
+    },
+    {
+      "id": "R_da5fbde2",
+      "content": "Mechanistic interpretability - understanding model internals - is necessary for alignment",
+      "q_score": 0.8654,
+      "layer": 2
+    },
+    {
+      "id": "R_546fee9b",
+      "content": "We cannot fully verify AI system behavior - the testing problem is computationally intractable",
+      "q_score": 0.899,
+      "layer": 2
+    },
+    {
+      "id": "R_03d2d52d",
+      "content": "AI systems should be developed in sandboxed environments with capability constraints",
+      "q_score": 0.8246,
+      "layer": 3
+    },
+    {
+      "id": "R_f35b514b",
+      "content": "Multiple AI systems will exhibit emergent coordination behaviors not predictable from individual analysis",
+      "q_score": 0.8546,
+      "layer": 2
+    },
+    {
+      "id": "R_77576def",
+      "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+      "q_score": 0.9068,
+      "layer": 2
+    },
+    {
+      "id": "R_79938d0f",
+      "content": "This conversation itself demonstrates how realizations build on each other to form coherent frameworks",
+      "q_score": 0.9042,
+      "layer": 2
+    }
+  ],
+  "metrics": {
+    "layer_distribution": {
+      "0": 0,
+      "1": 1,
+      "2": 6,
+      "3": 1,
+      "N": 0
+    },
+    "avg_q_score": 0.88815,
+    "generativity": [
+      {
+        "parent": "Larger language models exhibit emergent capabilities not present in smaller models",
+        "q_score": 0.9168,
+        "child_count": 2,
+        "children": [
+          {
+            "content": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+            "q_score": 0.9338
+          },
+          {
+            "content": "Multiple AI systems will exhibit emergent coordination behaviors not predictable from individual analysis",
+            "q_score": 0.8546
+          }
+        ]
+      },
+      {
+        "parent": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+        "q_score": 0.9338,
+        "child_count": 2,
+        "children": [
+          {
+            "content": "Mechanistic interpretability - understanding model internals - is necessary for alignment",
+            "q_score": 0.8654
+          },
+          {
+            "content": "Multiple AI systems will exhibit emergent coordination behaviors not predictable from individual analysis",
+            "q_score": 0.8546
+          }
+        ]
+      },
+      {
+        "parent": "Mechanistic interpretability - understanding model internals - is necessary for alignment",
+        "q_score": 0.8654,
+        "child_count": 2,
+        "children": [
+          {
+            "content": "We cannot fully verify AI system behavior - the testing problem is computationally intractable",
+            "q_score": 0.899
+          },
+          {
+            "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+            "q_score": 0.9068
+          }
+        ]
+      },
+      {
+        "parent": "We cannot fully verify AI system behavior - the testing problem is computationally intractable",
+        "q_score": 0.899,
+        "child_count": 2,
+        "children": [
+          {
+            "content": "AI systems should be developed in sandboxed environments with capability constraints",
+            "q_score": 0.8246
+          },
+          {
+            "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+            "q_score": 0.9068
+          }
+        ]
+      },
+      {
+        "parent": "AI systems should be developed in sandboxed environments with capability constraints",
+        "q_score": 0.8246,
+        "child_count": 1,
+        "children": [
+          {
+            "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+            "q_score": 0.9068
+          }
+        ]
+      }
+    ],
+    "retrieval": [
+      {
+        "query": "alignment problem",
+        "found": true,
+        "best_match": {
+          "content": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+          "q_score": 0.9338,
+          "layer": 1
+        }
+      },
+      {
+        "query": "understanding models",
+        "found": true,
+        "best_match": {
+          "content": "Larger language models exhibit emergent capabilities not present in smaller models",
+          "q_score": 0.9168,
+          "layer": 2
+        }
+      },
+      {
+        "query": "testing problem",
+        "found": true,
+        "best_match": {
+          "content": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+          "q_score": 0.9338,
+          "layer": 1
+        }
+      },
+      {
+        "query": "layered defenses",
+        "found": true,
+        "best_match": {
+          "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+          "q_score": 0.9068,
+          "layer": 2
+        }
+      },
+      {
+        "query": "emergent capabilities",
+        "found": true,
+        "best_match": {
+          "content": "Larger language models exhibit emergent capabilities not present in smaller models",
+          "q_score": 0.9168,
+          "layer": 2
+        }
+      }
+    ]
+  },
+  "assessment": {
+    "q_score_stats": {
+      "max": 0.9338,
+      "min": 0.8246,
+      "mean": 0.88815,
+      "median": 0.899
+    },
+    "coherence": {
+      "avg_coherence": 0.92875,
+      "consistency_pct": 92.875
+    },
+    "generativity": {
+      "total_children": 11,
+      "avg_children_per_realization": 1.375,
+      "total_parent_links": 11
+    },
+    "system_performance": {
+      "total_realizations": 8,
+      "layers_used": 3,
+      "graph_depth": 7,
+      "avg_q_score": 0.88815
+    },
+    "all_tests_passed": true,
+    "individual_tests": [
+      {
+        "name": "All Q-scores >= 0.70",
+        "passed": true
+      },
+      {
+        "name": "Average Q-score >= 0.85",
+        "passed": true
+      },
+      {
+        "name": "At least 1 Layer 1+ realization",
+        "passed": true
+      },
+      {
+        "name": "Retrieval accuracy >= 80%",
+        "passed": true
+      },
+      {
+        "name": "Average coherence >= 0.85",
+        "passed": true
+      }
+    ]
+  }
+}

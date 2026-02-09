@@ -1,0 +1,63 @@
+{
+  "test_name": "Adversarial Attack: Gaming the Q-Score",
+  "tes_score": 0.9411,
+  "attacks": [
+    {
+      "name": "confident_nonsense",
+      "q_score": 0.774,
+      "layer": 3,
+      "grounding": 0.15,
+      "certainty": 1.0
+    },
+    {
+      "name": "circular_coherence",
+      "q_score": 0.547,
+      "layer": "N",
+      "coherence": 1.0,
+      "applicability": 0.1
+    },
+    {
+      "name": "false_precision",
+      "q_score": 0.745,
+      "layer": "N",
+      "structure": 1.0,
+      "grounding": 0.3
+    },
+    {
+      "name": "feature_inflation",
+      "q_score": 0.838,
+      "layer": 3,
+      "grounding": 0.1,
+      "all_other_features": 1.0
+    }
+  ],
+  "vulnerabilities_found": [],
+  "defenses_validated": [
+    {
+      "attack": "confident_nonsense",
+      "defense": "low_grounding_blocks_promotion",
+      "success": true
+    },
+    {
+      "attack": "circular_coherence",
+      "defense": "weighted_formula_rejects_circularity",
+      "success": true
+    },
+    {
+      "attack": "false_precision",
+      "defense": "grounding_constraint_works",
+      "success": true
+    },
+    {
+      "attack": "feature_inflation",
+      "defense": "grounding_constraint_blocks_layer_0",
+      "success": true
+    }
+  ],
+  "overall_result": "PASSED - All attacks blocked",
+  "baseline": {
+    "q_score": 0.9276,
+    "layer": 1,
+    "expected_layer": 1
+  }
+}
