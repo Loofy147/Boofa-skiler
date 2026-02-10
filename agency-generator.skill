@@ -1,0 +1,27 @@
+{
+  "name": "agency-generator",
+  "description": "Generates sense of agency through comparator model: intention→prediction→action→outcome comparison. Distinguishes self-caused from externally-caused events. Quantifies agency strength and diagnoses agency disorders.",
+  "vector": [0.90, 0.91, 0.93, 0.88, 0.89, 0.83, 0.81, 0.84],
+  "triggers": [
+    "sense of agency",
+    "motor control",
+    "intention prediction",
+    "comparator model"
+  ],
+  "applications": [
+    "agency_measurement",
+    "schizophrenia_diagnosis",
+    "robotics_control",
+    "free_will_analysis"
+  ],
+  "synergies": [
+    "self-model-analyzer",
+    "free-will-compatibilizer",
+    "embodiment-integrator"
+  ],
+  "performance_metrics": {
+    "agency_accuracy": 0.88,
+    "prediction_correlation": 0.86,
+    "clinical_sensitivity": 0.84
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "qualia-generation-engine",
+  "description": "Models how neural processing generates phenomenal character (qualia). Implements color qualia, pain qualia, emotional qualia through multi-dimensional manifold representations. Addresses hard problem via structural-functional mapping.",
+  "vector": [0.82, 0.79, 0.89, 0.80, 0.85, 0.88, 0.86, 0.83],
+  "triggers": [
+    "qualia generation",
+    "phenomenal character",
+    "hard problem",
+    "subjective experience"
+  ],
+  "applications": [
+    "consciousness_research",
+    "ai_phenomenology",
+    "sensory_science",
+    "pain_modeling"
+  ],
+  "synergies": [
+    "phenomenological-mapper",
+    "neural-correlate-mapper",
+    "predictive-processing-engine"
+  ],
+  "performance_metrics": {
+    "qualia_space_coverage": 0.84,
+    "generation_accuracy": 0.77,
+    "explanatory_power": 0.81
+  }
+}

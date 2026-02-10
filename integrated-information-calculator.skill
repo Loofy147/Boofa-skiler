@@ -1,0 +1,27 @@
+{
+  "name": "integrated-information-calculator",
+  "description": "Computes integrated information (Φ) for neural/computational systems using IIT 4.0 framework. Identifies maximally irreducible conceptual structures, calculates cause-effect power, and determines consciousness level. Handles networks up to 100 nodes with GPU acceleration.",
+  "vector": [0.89, 0.92, 0.96, 0.79, 0.90, 0.85, 0.75, 0.82],
+  "triggers": [
+    "calculate phi",
+    "integrated information",
+    "IIT analysis",
+    "measure consciousness level"
+  ],
+  "applications": [
+    "consciousness_measurement",
+    "ai_sentience_evaluation",
+    "clinical_assessment",
+    "theory_validation"
+  ],
+  "synergies": [
+    "neural-correlate-mapper",
+    "consciousness-theory-evaluator",
+    "self-model-analyzer"
+  ],
+  "performance_metrics": {
+    "computation_accuracy": 0.96,
+    "max_network_size": 100,
+    "prediction_correlation": 0.81
+  }
+}

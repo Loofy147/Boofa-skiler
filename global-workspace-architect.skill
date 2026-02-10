@@ -1,0 +1,27 @@
+{
+  "name": "global-workspace-architect",
+  "description": "Designs and analyzes global workspace architectures for conscious access. Models broadcast dynamics, competition for workspace access, attention gating, and reportability thresholds. Implements Baars-Dehaene framework with predictive extensions.",
+  "vector": [0.90, 0.88, 0.94, 0.91, 0.89, 0.83, 0.81, 0.86],
+  "triggers": [
+    "global workspace",
+    "conscious access",
+    "attention broadcast",
+    "reportability mechanisms"
+  ],
+  "applications": [
+    "ai_consciousness_design",
+    "attention_modeling",
+    "working_memory_systems",
+    "executive_control"
+  ],
+  "synergies": [
+    "integrated-information-calculator",
+    "neural-correlate-mapper",
+    "self-model-analyzer"
+  ],
+  "performance_metrics": {
+    "access_prediction_accuracy": 0.86,
+    "broadcast_timing_correlation": 0.82,
+    "ai_implementation_success": 0.79
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "predictive-processing-engine",
+  "description": "Implements hierarchical predictive coding for perception, action, and interoception. Models precision-weighting, prediction errors, active inference, and free energy minimization. Connects to self-modeling and consciousness emergence.",
+  "vector": [0.93, 0.91, 0.95, 0.89, 0.91, 0.87, 0.80, 0.84],
+  "triggers": [
+    "predictive coding",
+    "prediction errors",
+    "active inference",
+    "free energy principle"
+  ],
+  "applications": [
+    "perception_modeling",
+    "interoception_analysis",
+    "self_model_generation",
+    "consciousness_theories"
+  ],
+  "synergies": [
+    "global-workspace-architect",
+    "phenomenological-mapper",
+    "self-model-analyzer"
+  ],
+  "performance_metrics": {
+    "prediction_accuracy": 0.91,
+    "inference_speed": 0.88,
+    "integration_quality": 0.89
+  }
+}

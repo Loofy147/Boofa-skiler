@@ -1,0 +1,27 @@
+{
+  "name": "embodiment-integrator",
+  "description": "Integrates interoceptive, proprioceptive, and exteroceptive signals to create embodied self-model. Models rubber hand illusion, body ownership, and sensorimotor coupling. Foundation for grounded consciousness and agency.",
+  "vector": [0.91, 0.88, 0.92, 0.86, 0.90, 0.82, 0.80, 0.85],
+  "triggers": [
+    "embodiment",
+    "body ownership",
+    "interoception",
+    "sensorimotor integration"
+  ],
+  "applications": [
+    "body_schema_modeling",
+    "robotics_embodiment",
+    "clinical_body_disorders",
+    "vr_presence"
+  ],
+  "synergies": [
+    "self-model-analyzer",
+    "phenomenological-mapper",
+    "predictive-processing-engine"
+  ],
+  "performance_metrics": {
+    "integration_quality": 0.87,
+    "ownership_prediction": 0.84,
+    "clinical_accuracy": 0.82
+  }
+}

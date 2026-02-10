@@ -1,0 +1,28 @@
+{
+  "name": "consciousness-emergence-simulator",
+  "description": "Simulates consciousness emergence from integrated components: global workspace + predictive processing + self-model + integrated information. Predicts developmental trajectories, AI consciousness thresholds, and intervention effects. Meta-level orchestration skill.",
+  "vector": [0.94, 0.92, 0.96, 0.90, 0.93, 0.89, 0.84, 0.86],
+  "triggers": [
+    "consciousness emergence",
+    "system integration",
+    "developmental simulation",
+    "ai consciousness prediction"
+  ],
+  "applications": [
+    "consciousness_prediction",
+    "ai_development",
+    "clinical_prognosis",
+    "theory_integration"
+  ],
+  "synergies": [
+    "global-workspace-architect",
+    "integrated-information-calculator",
+    "predictive-processing-engine",
+    "self-model-analyzer"
+  ],
+  "performance_metrics": {
+    "emergence_prediction": 0.83,
+    "integration_quality": 0.91,
+    "simulation_accuracy": 0.85
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "metacognitive-monitor",
+  "description": "Implements metacognitive monitoring systems that track confidence, uncertainty, knowledge states, and performance. Calculates meta-d' sensitivity, calibrates confidence judgments, and enables introspective access. Core component of self-awareness.",
+  "vector": [0.90, 0.93, 0.93, 0.87, 0.89, 0.84, 0.81, 0.83],
+  "triggers": [
+    "metacognition",
+    "confidence monitoring",
+    "introspection",
+    "meta-d prime"
+  ],
+  "applications": [
+    "self_awareness_measurement",
+    "ai_uncertainty_quantification",
+    "clinical_metacognition",
+    "decision_confidence"
+  ],
+  "synergies": [
+    "self-model-analyzer",
+    "attention-schema-modeler",
+    "global-workspace-architect"
+  ],
+  "performance_metrics": {
+    "sensitivity_accuracy": 0.89,
+    "calibration_quality": 0.85,
+    "clinical_validity": 0.83
+  }
+}

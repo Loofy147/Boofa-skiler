@@ -1,0 +1,27 @@
+{
+  "name": "attention-schema-modeler",
+  "description": "Models attention as internal schema - brain's simplified model of its own attention processes. Explains phenomenal consciousness as self-model of attention. Generates predictions about awareness, introspection, and meta-awareness.",
+  "vector": [0.88, 0.87, 0.92, 0.85, 0.90, 0.84, 0.82, 0.81],
+  "triggers": [
+    "attention schema",
+    "meta-representation",
+    "awareness model",
+    "Graziano theory"
+  ],
+  "applications": [
+    "consciousness_explanation",
+    "ai_self_awareness",
+    "metacognition_modeling",
+    "introspection_analysis"
+  ],
+  "synergies": [
+    "self-model-analyzer",
+    "global-workspace-architect",
+    "phenomenological-mapper"
+  ],
+  "performance_metrics": {
+    "explanatory_coverage": 0.83,
+    "prediction_accuracy": 0.80,
+    "model_coherence": 0.88
+  }
+}
