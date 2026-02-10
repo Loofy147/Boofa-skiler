@@ -1,0 +1,53 @@
+[
+  {
+    "config": {
+      "name": "Baseline Control",
+      "logic_type": "linear",
+      "weight_adaptation_rate": 0.05,
+      "meta_synergy_enabled": false,
+      "description": "Standard linear weighted sum logic."
+    },
+    "avg_q": 0.82392,
+    "max_q": 0.9734,
+    "variance_explained": {
+      "PC1": 79.63441866349513,
+      "PC2": 19.66904520774285,
+      "PC3": 0.3742648803045896
+    },
+    "dimension_count": 6
+  },
+  {
+    "config": {
+      "name": "Geometric Synergy",
+      "logic_type": "product",
+      "weight_adaptation_rate": 0.08,
+      "meta_synergy_enabled": true,
+      "description": "Uses product logic to penalize imbalanced realizations and meta-synergy to penalize overconfidence."
+    },
+    "avg_q": 0.7916871334516602,
+    "max_q": 1.0,
+    "variance_explained": {
+      "PC1": 79.63441866349513,
+      "PC2": 19.66904520774285,
+      "PC3": 0.3742648803045896
+    },
+    "dimension_count": 6
+  },
+  {
+    "config": {
+      "name": "Exponential Excellence",
+      "logic_type": "threshold_exponential",
+      "weight_adaptation_rate": 0.1,
+      "meta_synergy_enabled": true,
+      "description": "Rewards top-tier scores exponentially while penalizing meta-inconsistencies."
+    },
+    "avg_q": 0.8063201022338667,
+    "max_q": 1.0,
+    "variance_explained": {
+      "PC1": 79.63441866349513,
+      "PC2": 19.66904520774285,
+      "PC3": 0.3742648803045896
+    },
+    "dimension_count": 6
+  }
+]

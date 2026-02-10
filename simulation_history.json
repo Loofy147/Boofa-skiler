@@ -1,0 +1,226 @@
+{
+  "Standard": [
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.65515,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    }
+  ],
+  "Adversarial Resistant": [
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    },
+    {
+      "avg_q": 0.5301572019799682,
+      "weights": {
+        "Grounding": 0.18,
+        "Certainty": 0.22,
+        "Structure": 0.2,
+        "Applicability": 0.18,
+        "Coherence": 0.12,
+        "Generativity": 0.1
+      }
+    }
+  ]
+}

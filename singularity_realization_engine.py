@@ -254,7 +254,7 @@ class SingularityRealizationEngine:
         cov_matrix = np.cov(feature_centered.T)
         
         # Eigendecomposition
-        eigenvalues, eigenvectors = np.linalg.eig(cov_matrix)
+        eigenvalues, eigenvectors = np.linalg.eigh(cov_matrix)
         
         # Sort by eigenvalue (descending)
         idx = eigenvalues.argsort()[::-1]
@@ -262,18 +262,19 @@ class SingularityRealizationEngine:
         eigenvectors = eigenvectors[:, idx]
         
         # Total variance
-        total_variance = eigenvalues.sum()
+        total_variance = np.real(eigenvalues).sum()
+        if total_variance <= 0: total_variance = 1e-9
         
         print(f"\n   Variance Analysis:")
         for i in range(min(3, len(eigenvalues))):
-            variance_pct = eigenvalues[i] / total_variance * 100
+            variance_pct = float(np.real(eigenvalues[i])) / float(np.real(total_variance)) * 100
             print(f"     Component {i+1}: {variance_pct:.1f}% variance")
             analysis['variance_explained'][f'PC{i+1}'] = variance_pct
         
         # Discover new dimensions from components with high variance
         # that are NOT explained by existing dimensions
         for i, (eigenvalue, eigenvector) in enumerate(zip(eigenvalues, eigenvectors.T)):
-            variance_pct = eigenvalue / total_variance
+            variance_pct = float(np.real(eigenvalue)) / float(np.real(total_variance))
             
             if variance_pct > self.discovery_threshold and i >= 6:
                 # This component explains significant variance beyond core dimensions
@@ -309,12 +310,21 @@ class SingularityRealizationEngine:
         
         # Compute improvement opportunity
         # How much variance is still unexplained?
-        explained_variance = sum(eigenvalues[:6]) / total_variance
+        explained_variance = float(np.real(sum(eigenvalues[:6]))) / float(np.real(total_variance))
         analysis['improvement_opportunity'] = 1.0 - explained_variance
         
         print(f"\n   📊 Total variance explained by core dimensions: {explained_variance:.1%}")
         print(f"   📈 Improvement opportunity: {analysis['improvement_opportunity']:.1%}")
         
+        # Record performance for future weight updates
+        for r, actual_q in zip(realizations, q_scores):
+            baseline_q, _ = self.base_engine.calculate_q_score(r.features)
+            self.performance_history.append({
+                "id": r.id,
+                "q_score": actual_q,
+                "baseline_q": baseline_q,
+                "features": self.extract_features_from_realization(r)
+            })
         return analysis
     
     def _interpret_eigenvector(self, eigenvector: np.ndarray) -> Tuple[str, str]:
@@ -409,6 +419,15 @@ class SingularityRealizationEngine:
             print(f"   Final dimension count: {len(self.dimensions)}")
             print(f"   dQ/dt < {self.convergence_threshold}")
         
+        # Record performance for future weight updates
+        for r, actual_q in zip(realizations, q_scores):
+            baseline_q, _ = self.base_engine.calculate_q_score(r.features)
+            self.performance_history.append({
+                "id": r.id,
+                "q_score": actual_q,
+                "baseline_q": baseline_q,
+                "features": self.extract_features_from_realization(r)
+            })
         return analysis
     
     def _compute_weight_updates(self) -> Dict[str, float]:
