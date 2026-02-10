@@ -1,9 +1,17 @@
 import sys
 import os
 
+# Add root directory to path for imports
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 def test_imports():
-    print("Testing imports...")
-    modules = ["realization_engine", "singularity_realization_engine", "omega_meta_evolution", "numpy"]
+    print("Testing imports from new structure...")
+    modules = [
+        "core.realization_engine",
+        "core.singularity_realization_engine",
+        "engines.omega_meta_evolution",
+        "numpy"
+    ]
     for m in modules:
         try:
             __import__(m)
@@ -15,7 +23,7 @@ def test_imports():
 
 def test_realization_engine():
     print("\nTesting RealizationEngine...")
-    from realization_engine import RealizationEngine, RealizationFeatures
+    from core.realization_engine import RealizationEngine, RealizationFeatures
     try:
         engine = RealizationEngine()
         features = RealizationFeatures(0.9, 0.9, 0.9, 0.9, 0.9, 0.9)
@@ -29,8 +37,8 @@ def test_realization_engine():
 
 def test_singularity_engine():
     print("\nTesting SingularityRealizationEngine...")
-    from realization_engine import RealizationEngine, RealizationFeatures
-    from singularity_realization_engine import SingularityRealizationEngine
+    from core.realization_engine import RealizationEngine, RealizationFeatures
+    from core.singularity_realization_engine import SingularityRealizationEngine
     try:
         base_engine = RealizationEngine()
         singularity_engine = SingularityRealizationEngine(base_engine)
@@ -53,7 +61,7 @@ def test_singularity_engine():
 
 if __name__ == "__main__":
     if all([test_imports(), test_realization_engine(), test_singularity_engine()]):
-        print("\n✅ ALL VERIFIED")
+        print("\n✅ ALL VERIFIED IN NEW STRUCTURE")
         sys.exit(0)
     else:
         print("\n❌ VERIFICATION FAILED")
