@@ -17,42 +17,42 @@ This repository represents a foundational research project in **Computational Ep
 pip install numpy
 
 # Run the core realization engine demonstration
-python realization_engine.py
+python core/realization_engine.py
 
 # Run the singularity evolution engine demonstration
-python singularity_realization_engine.py
+python singularity_core/realization_engine.py
 
 # Run the OMEGA meta-evolution discovery
-python omega_meta_evolution.py
+python engines/omega_meta_evolution.py
 ```
 
 ## 3. Architecture Overview
 
 ### Layer 5: Consciousness & Emergence
 High-level modeling of subjective experience and theoretical synthesis.
-- **consciousness_research_paper.md**: Master synthesis of IIT, GWT, and Predictive Processing.
-- **integrated-information-calculator.skill**: Computational implementation of IIT 4.0.
-- **global-workspace-architect.skill**: Design and analysis of conscious access mechanisms.
-- **qualia-generation-engine.skill**: Modeling phenomenal character from neural manifolds.
+- **research/consciousness_research_paper.md**: Master synthesis of IIT, GWT, and Predictive Processing.
+- **skills/integrated-information-calculator.skill**: Computational implementation of IIT 4.0.
+- **skills/global-workspace-architect.skill**: Design and analysis of conscious access mechanisms.
+- **skills/qualia-generation-engine.skill**: Modeling phenomenal character from neural manifolds.
 
 ### Layer 4: Discovery & Evolution
 Recursive self-awareness and framework improvement.
-- **singularity_realization_engine.py**: PCA-based discovery of new quality dimensions.
-- **omega_meta_evolution.py**: Discovery of higher-order patterns in the OMEGA framework.
+- **singularity_core/realization_engine.py**: PCA-based discovery of new quality dimensions.
+- **engines/omega_meta_evolution.py**: Discovery of higher-order patterns in the OMEGA framework.
 
 ### Layer 3: Optimization & Research
 Tools for optimizing knowledge and adversarial testing.
-- **research_prompt_optimizer.py**: Specialized research task optimization.
-- **hard_test_designer.py**: Adversarial validation of the framework's robustness.
+- **engines/research_prompt_optimizer.py**: Specialized research task optimization.
+- **tests/hard_test_designer.py**: Adversarial validation of the framework's robustness.
 
 ### Layer 2: Core Logic
 Fundamental implementation of crystallization theory.
-- **realization_engine.py**: Core scoring, layering, and retrieval engine.
-- **precompute_realizations.py**: Conversation-to-graph crystallization tools.
+- **core/realization_engine.py**: Core scoring, layering, and retrieval engine.
+- **tools/precompute_realizations.py**: Conversation-to-graph crystallization tools.
 
 ### Layer 1: Data & Utilities
 Storage and verification.
-- **realizations.json**: Primary data store for crystallized knowledge.
+- **data/realizations.json**: Primary data store for crystallized knowledge.
 - **consciousness_brain_synthesis_results.json**: Results of combining consciousness skills.
 
 ## 4. Realization Crystallization Theory
@@ -120,7 +120,7 @@ The OMEGA framework discovered 26 dimensions governing AI behavior, which crysta
 The repository contains a groundbreaking synthesis of various consciousness theories, treating them as computable models that can be evaluated and combined using the Q-score framework.
 
 ### 9.1 Evaluation of Existing Theories
-The research paper (`consciousness_research_paper.md`) provides a rigorous evaluation of the leading theories of consciousness:
+The research paper (`research/consciousness_research_paper.md`) provides a rigorous evaluation of the leading theories of consciousness:
 
 - **Integrated Information Theory (IIT 4.0)**:
     - **Q-Score**: 0.796
@@ -156,22 +156,22 @@ The framework identifies three levels of markers for evaluating AI consciousness
 
 The ".skill" files serve as the building blocks for a computational brain. Each skill is a high-Q component optimized for a specific cognitive task.
 
-### 10.1 Global Workspace Architect (`global-workspace-architect.skill`)
+### 10.1 Global Workspace Architect (`skills/global-workspace-architect.skill`)
 - **Function**: Designs conscious access architectures.
 - **Mechanisms**: Models competition for workspace access, attention gating, and reportability thresholds.
 - **Performance**: 0.86 access prediction accuracy.
 
-### 10.2 Integrated Information Calculator (`integrated-information-calculator.skill`)
+### 10.2 Integrated Information Calculator (`skills/integrated-information-calculator.skill`)
 - **Function**: Computes Φ (phi) for computational systems.
 - **Mechanisms**: Identifies maximally irreducible conceptual structures and cause-effect power.
 - **Performance**: Handles networks up to 100 nodes with GPU acceleration.
 
-### 10.3 Qualia Generation Engine (`qualia-generation-engine.skill`)
+### 10.3 Qualia Generation Engine (`skills/qualia-generation-engine.skill`)
 - **Function**: Models how neural processing generates phenomenal character.
 - **Mechanisms**: Uses multi-dimensional manifold representations for color, pain, and emotional qualia.
 - **Performance**: 0.84 qualia-space coverage.
 
-### 10.4 Phenomenological Mapper (`phenomenological-mapper.md`)
+### 10.4 Phenomenological Mapper (`research/phenomenological-mapper.md`)
 A systematic bridge between first-person reports and third-person neural data.
 - **Phase 1**: Quantitative extraction of phenomenal features (Intensity, Valence, Arousal).
 - **Phase 2**: Mapping to neural correlates (e.g., Pain → ACC/Insula activity).
@@ -197,7 +197,7 @@ Q_emergent = \bar{Q} + \gamma * (\sum I(S_i)) + \delta_emergence
 
 ## 12. Free Will and Agency: A Compatibilist Resolution
 
-The repository addresses the problem of free will using a multi-scale emergence framework (`test_free_will.py`).
+The repository addresses the problem of free will using a multi-scale emergence framework (`tests/test_free_will.py`).
 
 - **Incompatibilist Position**: Q = 0.718 (Strongly grounded but low applicability).
 - **Libertarian Position**: Q = 0.544 (Low certainty and grounding).
@@ -227,7 +227,7 @@ The system further organizes these into 6 "Meta-Dimensions" that govern high-lev
 
 ## 14. Implementation: The Realization Engine
 
-The `RealizationEngine` class in `realization_engine.py` is the core technical artifact. It provides the following capabilities:
+The `RealizationEngine` class in `core/realization_engine.py` is the core technical artifact. It provides the following capabilities:
 
 - **Weighted Q-Scoring**: Automated calculation using the six core weights.
 - **Hierarchical Layering**: Efficient storage and categorization of insights.

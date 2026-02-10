@@ -26,9 +26,9 @@ Version: SRE-1.0 (Singularity Realization Engine)
 """
 
 import sys
-sys.path.append('/home/claude')
+# sys.path.append('/home/claude')
 
-from realization_engine import RealizationEngine, RealizationFeatures
+from .realization_engine import RealizationEngine, RealizationFeatures
 from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass, field
 import numpy as np
@@ -681,7 +681,7 @@ def demonstrate_singularity_engine():
     singularity_engine.print_framework_status()
     
     # Export evolved framework
-    singularity_engine.export_evolved_framework('/home/claude/evolved_realization_framework.json')
+    singularity_engine.export_evolved_framework('data/evolved_realization_framework.json')
     
     print("\n" + "="*80)
     print("✅ DEMONSTRATION COMPLETE")

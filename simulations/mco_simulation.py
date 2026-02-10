@@ -1,6 +1,6 @@
 import numpy as np
-from realization_engine import RealizationEngine, RealizationFeatures, Realization
-from singularity_realization_engine import SingularityRealizationEngine, QualityDimension
+from core.realization_engine import RealizationEngine, RealizationFeatures, Realization
+from core.singularity_realization_engine import SingularityRealizationEngine, QualityDimension
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Any, Tuple, Optional
 import json
