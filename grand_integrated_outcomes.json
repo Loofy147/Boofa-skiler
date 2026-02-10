@@ -1,0 +1,84 @@
+{
+  "stats": {
+    "merger_events": 10,
+    "highest_point": 1.1063680125246989
+  },
+  "domains": {
+    "STRATEGIC": {
+      "avg_q": 0.9219738911319882,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "TECHNICAL": {
+      "avg_q": 0.8282014586117249,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "ETHICAL": {
+      "avg_q": 0.8355905581075103,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    }
+  },
+  "universal_values": [
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.045971239409952
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.1063680125246989
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.07220772551546
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0409002587246474
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0719090654607704
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0545517573264778
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0166245580233018
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0308066035247767
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 0.9956700981443287
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:Aether-Omega Civilization_B0_B0_B0 x D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B1 x D:ETHICAL T:Aether-Omega Civilization_B0_B1_B2",
+      "q": 1.0524807343292002
+    }
+  ],
+  "highest_point": 1.1063680125246989
+}
