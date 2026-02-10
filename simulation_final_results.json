@@ -1,0 +1,71 @@
+[
+  {
+    "config": {
+      "name": "Baseline",
+      "logic_type": "linear",
+      "weight_adaptation_rate": 0.1,
+      "meta_synergy_enabled": false,
+      "description": "Standard."
+    },
+    "avg_q": 0.7845999999999996,
+    "final_weights": {
+      "Grounding": 0.18,
+      "Certainty": 0.22,
+      "Structure": 0.2,
+      "Applicability": 0.18,
+      "Coherence": 0.12,
+      "Generativity": 0.1
+    },
+    "variance_explained": {
+      "PC1": 97.70507666424261,
+      "PC2": 2.2934730002583157,
+      "PC3": 0.0014503354991096224
+    }
+  },
+  {
+    "config": {
+      "name": "Synergy",
+      "logic_type": "product",
+      "weight_adaptation_rate": 0.2,
+      "meta_synergy_enabled": true,
+      "description": "Synergistic."
+    },
+    "avg_q": 0.6660612636505866,
+    "final_weights": {
+      "Grounding": 0.17919992089486053,
+      "Certainty": 0.21775561908660093,
+      "Structure": 0.19787022826423126,
+      "Applicability": 0.17876211923755478,
+      "Coherence": 0.11892746730524986,
+      "Generativity": 0.09824978737575751
+    },
+    "variance_explained": {
+      "PC1": 97.70507666424261,
+      "PC2": 2.2934730002583157,
+      "PC3": 0.0014503354991096224
+    }
+  },
+  {
+    "config": {
+      "name": "Excellence",
+      "logic_type": "threshold_exponential",
+      "weight_adaptation_rate": 0.2,
+      "meta_synergy_enabled": true,
+      "description": "Excellence."
+    },
+    "avg_q": 0.6947413363897943,
+    "final_weights": {
+      "Grounding": 0.1785345424493528,
+      "Certainty": 0.21603973681184283,
+      "Structure": 0.19624830280714178,
+      "Applicability": 0.1777804073466069,
+      "Coherence": 0.11806776078732126,
+      "Generativity": 0.09689451269049049
+    },
+    "variance_explained": {
+      "PC1": 97.70507666424261,
+      "PC2": 2.2934730002583157,
+      "PC3": 0.0014503354991096224
+    }
+  }
+]
