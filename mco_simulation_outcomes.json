@@ -1,0 +1,385 @@
+{
+  "stats": {
+    "total_points": 41,
+    "adaptation_events": 5
+  },
+  "domains": {
+    "STRATEGIC": {
+      "avg_q": 0.6209666666666666,
+      "weights": {
+        "G": 0.9300000000000003,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "TECHNICAL": {
+      "avg_q": 0.625776923076923,
+      "weights": {
+        "G": 0.9300000000000003,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "ETHICAL": {
+      "avg_q": 0.5794199999999999,
+      "weights": {
+        "G": 0.9300000000000003,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    }
+  },
+  "tree": {
+    "n": "Singularity Protocol X",
+    "w": 100.0,
+    "s": "pending",
+    "c": [
+      {
+        "n": "Singularity Protocol X_S0",
+        "w": 33.333333333333336,
+        "s": "pending",
+        "c": [
+          {
+            "n": "Singularity Protocol X_S0_S0",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S0_S0_S0",
+                "w": 1.4425000000000001,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S0_S1",
+                "w": 1.471666666666667,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S0_S2",
+                "w": 1.667777777777778,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S0_S3",
+                "w": 1.9169444444444448,
+                "s": "completed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S0_S1",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S0_S1_S0",
+                "w": 1.5524444444444445,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S1_S1",
+                "w": 1.553111111111111,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S1_S2",
+                "w": 1.2704444444444445,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S1_S3",
+                "w": 1.3395555555555556,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S1_S4",
+                "w": 1.3653333333333333,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S0_S2",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S0_S2_S0",
+                "w": 1.550888888888889,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S2_S1",
+                "w": 1.2673333333333334,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S2_S2",
+                "w": 1.3553333333333333,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S2_S3",
+                "w": 1.410888888888889,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S0_S2_S4",
+                "w": 1.1926666666666665,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "n": "Singularity Protocol X_S1",
+        "w": 33.333333333333336,
+        "s": "pending",
+        "c": [
+          {
+            "n": "Singularity Protocol X_S1_S0",
+            "w": 8.333333333333334,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S1_S0_S0",
+                "w": 1.9044444444444446,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S0_S1",
+                "w": 1.776388888888889,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S0_S2",
+                "w": 1.656111111111111,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S1_S1",
+            "w": 8.333333333333334,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S1_S1_S0",
+                "w": 1.8322222222222224,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S1_S1",
+                "w": 1.8519444444444446,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S1_S2",
+                "w": 1.3700000000000003,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S1_S2",
+            "w": 8.333333333333334,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S1_S2_S0",
+                "w": 1.2872916666666667,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S2_S1",
+                "w": 1.3893750000000002,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S2_S2",
+                "w": 1.4014583333333333,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S2_S3",
+                "w": 1.4895833333333335,
+                "s": "completed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S1_S3",
+            "w": 8.333333333333334,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S1_S3_S0",
+                "w": 1.2002083333333333,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S3_S1",
+                "w": 1.4320833333333334,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S3_S2",
+                "w": 1.0393750000000002,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S1_S3_S3",
+                "w": 0.9983333333333334,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "n": "Singularity Protocol X_S2",
+        "w": 33.333333333333336,
+        "s": "pending",
+        "c": [
+          {
+            "n": "Singularity Protocol X_S2_S0",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S2_S0_S0",
+                "w": 1.3813333333333335,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S0_S1",
+                "w": 1.3402222222222222,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S0_S2",
+                "w": 1.3702222222222225,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S0_S3",
+                "w": 1.3860000000000001,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S0_S4",
+                "w": 1.118,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S2_S1",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S2_S1_S0",
+                "w": 1.610277777777778,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S1_S1",
+                "w": 1.8852777777777778,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S1_S2",
+                "w": 1.7641666666666669,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S1_S3",
+                "w": 1.9580555555555557,
+                "s": "completed",
+                "c": []
+              }
+            ]
+          },
+          {
+            "n": "Singularity Protocol X_S2_S2",
+            "w": 11.111111111111112,
+            "s": "pending",
+            "c": [
+              {
+                "n": "Singularity Protocol X_S2_S2_S0",
+                "w": 1.5947222222222226,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S2_S1",
+                "w": 2.054444444444445,
+                "s": "completed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S2_S2",
+                "w": 1.3875000000000002,
+                "s": "failed",
+                "c": []
+              },
+              {
+                "n": "Singularity Protocol X_S2_S2_S3",
+                "w": 1.378888888888889,
+                "s": "failed",
+                "c": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -236,6 +236,10 @@ class SingularityRealizationEngine:
                 features['layer'] / 5.0
             ])
         
+        # Skip analysis if dataset is too small
+        if len(realizations) < 2:
+            print("   ⚠️ Dataset too small for dimension discovery")
+            return analysis
         feature_matrix = np.array(feature_matrix)
         q_scores = np.array(q_scores)
         
