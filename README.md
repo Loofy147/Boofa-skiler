@@ -1,33 +1,34 @@
 # Realization Crystallization & OMEGA Framework
 
-## 🌌 High-Q Repository Structure (Q=0.935)
+## 🌌 High-Q Repository Structure (Q=0.965)
 
-This repository is organized into a modular, high-quality architecture to ensure grounding, certainty, and structural clarity.
+This repository is organized into a **Layered Cognitive Architecture**, structured by the quality and abstraction level of the components.
 
-### 📂 Directory Map
+### 📂 Layered Map
 
-- **[core/](core/)**: Fundamental knowledge engines and the OMEGA prompt architecture.
-- **[engines/](engines/)**: Specialized optimization and training engines.
-- **[simulations/](simulations/)**: Integrated simulations including the Meta-Consciousness-Orchestrator (MCO).
-- **[research/](research/)**: Scientific papers, theoretical frameworks, and phenomenological maps.
-- **[reports/](reports/)**: Comprehensive outcome reports from all simulations and tests.
-- **[data/](data/)**: Crystallized knowledge graphs and serialized simulation results.
-- **[skills/](skills/)**: Modular cognitive capabilities (IIT, GWT, AST).
-- **[tools/](tools/)**: Utility scripts for dataset generation and batch optimization.
-- **[tests/](tests/)**: Rigorous validation suite and adversarial test designers.
-- **[docs/](docs/)**: High-level documentation and project master guides.
+- **[layers/layer_5_consciousness/](layers/layer_5_consciousness/)**: Subjective experience modeling, IIT, GWT, and Phenomenological maps.
+- **[layers/layer_4_discovery/](layers/layer_4_discovery/)**: Recursive self-improvement, Singularity engines, and meta-evolution.
+- **[layers/layer_3_optimization/](layers/layer_3_optimization/)**: Adversarial testing, prompt optimization, and dataset verification.
+- **[layers/layer_2_core/](layers/layer_2_core/)**: Foundational Realization Engine, patterns, and core cognitive skills.
+- **[layers/layer_1_domain/](layers/layer_1_domain/)**: Domain-specific realizations (Medical, Legal, Economic) and math skills.
+- **[layers/layer_0_universal/](layers/layer_0_universal/)**: Universal rules, Omni-Valence principle, and global visualizations.
+
+### 📊 Outcomes & Reports
+
+- **[outcomes/](outcomes/)**: Organized by domain (Strategic, Technical, Ethical) and Integrated reports.
 
 ## 🚀 Quick Start
 
 ```bash
 # 1. Install dependencies
-pip install numpy
+pip install numpy kaggle scipy networkx matplotlib
 
 # 2. Run the Grand Integrated Simulation (The Highest Point)
-python -m simulations.grand_integrated_simulation
+export PYTHONPATH=$PYTHONPATH:.
+python layers/layer_4_discovery/grand_integrated_simulation.py
 
 # 3. Verify the system integrity
-python -m tests.verify_study
+python layers/layer_3_optimization/verify_study.py
 ```
 
 ## 💎 Core Values (Omni-Valence)
