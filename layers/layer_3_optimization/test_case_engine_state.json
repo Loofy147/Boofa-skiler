@@ -1,0 +1,242 @@
+{
+  "layers": {
+    "0": {},
+    "1": {
+      "R_672fa5ba": {
+        "id": "R_672fa5ba",
+        "content": "AI systems optimize for specified objectives, not intended outcomes - this is the alignment problem",
+        "features": {
+          "grounding": 0.92,
+          "certainty": 0.95,
+          "structure": 0.93,
+          "applicability": 0.94,
+          "coherence": 0.95,
+          "generativity": 0.9
+        },
+        "q_score": 0.9338,
+        "layer": 1,
+        "timestamp": "2026-02-14T14:32:04.850389",
+        "parents": [
+          "R_d5a6429f"
+        ],
+        "children": [
+          "R_da5fbde2",
+          "R_f35b514b"
+        ],
+        "turn_number": 2,
+        "context": "Researcher B identifies misalignment risk",
+        "evidence": [
+          "Superintelligence by Bostrom",
+          "AI Alignment Forum"
+        ]
+      }
+    },
+    "2": {
+      "R_d5a6429f": {
+        "id": "R_d5a6429f",
+        "content": "Larger language models exhibit emergent capabilities not present in smaller models",
+        "features": {
+          "grounding": 0.95,
+          "certainty": 0.92,
+          "structure": 0.9,
+          "applicability": 0.88,
+          "coherence": 1.0,
+          "generativity": 0.85
+        },
+        "q_score": 0.9168,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850340",
+        "parents": [],
+        "children": [
+          "R_672fa5ba",
+          "R_f35b514b"
+        ],
+        "turn_number": 1,
+        "context": "Researcher A observes scaling trends",
+        "evidence": [
+          "GPT-3 paper",
+          "Emergent Abilities paper"
+        ]
+      },
+      "R_da5fbde2": {
+        "id": "R_da5fbde2",
+        "content": "Mechanistic interpretability - understanding model internals - is necessary for alignment",
+        "features": {
+          "grounding": 0.85,
+          "certainty": 0.8,
+          "structure": 0.88,
+          "applicability": 0.9,
+          "coherence": 0.92,
+          "generativity": 0.88
+        },
+        "q_score": 0.8654,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850428",
+        "parents": [
+          "R_672fa5ba"
+        ],
+        "children": [
+          "R_546fee9b",
+          "R_77576def"
+        ],
+        "turn_number": 3,
+        "context": "Researcher C proposes interpretability research",
+        "evidence": [
+          "Anthropic's interpretability work",
+          "Circuits papers"
+        ]
+      },
+      "R_546fee9b": {
+        "id": "R_546fee9b",
+        "content": "We cannot fully verify AI system behavior - the testing problem is computationally intractable",
+        "features": {
+          "grounding": 0.98,
+          "certainty": 0.9,
+          "structure": 0.92,
+          "applicability": 0.85,
+          "coherence": 0.88,
+          "generativity": 0.82
+        },
+        "q_score": 0.899,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850468",
+        "parents": [
+          "R_da5fbde2"
+        ],
+        "children": [
+          "R_03d2d52d",
+          "R_77576def"
+        ],
+        "turn_number": 4,
+        "context": "Researcher D identifies fundamental limit",
+        "evidence": [
+          "Computational complexity",
+          "Verification literature"
+        ]
+      },
+      "R_f35b514b": {
+        "id": "R_f35b514b",
+        "content": "Multiple AI systems will exhibit emergent coordination behaviors not predictable from individual analysis",
+        "features": {
+          "grounding": 0.82,
+          "certainty": 0.85,
+          "structure": 0.88,
+          "applicability": 0.8,
+          "coherence": 0.9,
+          "generativity": 0.92
+        },
+        "q_score": 0.8546,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850541",
+        "parents": [
+          "R_d5a6429f",
+          "R_672fa5ba"
+        ],
+        "children": [
+          "R_77576def"
+        ],
+        "turn_number": 6,
+        "context": "Researcher F identifies multi-agent risk",
+        "evidence": [
+          "Multi-agent RL",
+          "Game theory"
+        ]
+      },
+      "R_77576def": {
+        "id": "R_77576def",
+        "content": "AI safety requires layered defenses: interpretability + verification + containment + coordination protocols",
+        "features": {
+          "grounding": 0.88,
+          "certainty": 0.87,
+          "structure": 0.92,
+          "applicability": 0.95,
+          "coherence": 0.95,
+          "generativity": 0.88
+        },
+        "q_score": 0.9068,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850571",
+        "parents": [
+          "R_da5fbde2",
+          "R_546fee9b",
+          "R_03d2d52d",
+          "R_f35b514b"
+        ],
+        "children": [
+          "R_79938d0f"
+        ],
+        "turn_number": 7,
+        "context": "Researcher A synthesizes discussion",
+        "evidence": [
+          "Defense in depth",
+          "Security engineering"
+        ]
+      },
+      "R_79938d0f": {
+        "id": "R_79938d0f",
+        "content": "This conversation itself demonstrates how realizations build on each other to form coherent frameworks",
+        "features": {
+          "grounding": 0.9,
+          "certainty": 0.88,
+          "structure": 0.94,
+          "applicability": 0.85,
+          "coherence": 0.98,
+          "generativity": 0.9
+        },
+        "q_score": 0.9042,
+        "layer": 2,
+        "timestamp": "2026-02-14T14:32:04.850601",
+        "parents": [
+          "R_77576def"
+        ],
+        "children": [],
+        "turn_number": 8,
+        "context": "Researcher B observes the process",
+        "evidence": [
+          "This very conversation"
+        ]
+      }
+    },
+    "3": {
+      "R_03d2d52d": {
+        "id": "R_03d2d52d",
+        "content": "AI systems should be developed in sandboxed environments with capability constraints",
+        "features": {
+          "grounding": 0.8,
+          "certainty": 0.75,
+          "structure": 0.85,
+          "applicability": 0.92,
+          "coherence": 0.85,
+          "generativity": 0.78
+        },
+        "q_score": 0.8246,
+        "layer": 3,
+        "timestamp": "2026-02-14T14:32:04.850509",
+        "parents": [
+          "R_546fee9b"
+        ],
+        "children": [
+          "R_77576def"
+        ],
+        "turn_number": 5,
+        "context": "Researcher E proposes containment",
+        "evidence": [
+          "Capability control literature"
+        ]
+      }
+    },
+    "N": {}
+  },
+  "stats": {
+    "total_realizations": 8,
+    "layer_distribution": {
+      "0": 0,
+      "1": 1,
+      "2": 6,
+      "3": 1,
+      "N": 0
+    },
+    "avg_q_score": 0.88815
+  },
+  "timestamp": "2026-02-14T14:32:04.852532"
+}
