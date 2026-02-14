@@ -1,0 +1,8 @@
+{
+  "slug": "hichambedrani/minimax-m2-5-synthesis-engine",
+  "title": "MiniMax-M2.5 Synthesis Engine",
+  "license": "apache-2.0",
+  "visibility": "public",
+  "modelType": "transformer",
+  "framework": "pytorch"
+}
