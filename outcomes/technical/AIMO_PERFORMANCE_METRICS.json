@@ -1,0 +1,244 @@
+{
+  "stats": {
+    "merger_events": 50,
+    "highest_point": 1.2492242805766798
+  },
+  "domains": {
+    "STRATEGIC": {
+      "avg_q": 1.0637586949636622,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "TECHNICAL": {
+      "avg_q": 1.0070489229963884,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "ETHICAL": {
+      "avg_q": 0.9504796204907786,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    }
+  },
+  "universal_values": [
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0831714894841231
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2105182016684877
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1523404573302423
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1198456998522013
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0884139449809482
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2487284468218036
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1473881748363188
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1976925467010258
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0621613589162306
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2375416657932288
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0511992780593653
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0766527812346738
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0591732787912453
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1746800025041826
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0861956463485318
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2393287843732392
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0884319987785909
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1588299732854486
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0983233085980142
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1281527244172687
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.223720274771534
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2262537450285464
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1942575453396787
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2383643503780046
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1180061499939602
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2129132153331765
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2410799916392532
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.133005634373738
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.208630515721584
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0560997133889667
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0661821213040448
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0582549584514322
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0621333140625138
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1309030536817313
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.160774523128894
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1453861668025362
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1278742284221244
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1187535118949232
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.197044423493337
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2205508792328268
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.130816615668292
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2474986943091888
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2492242805766798
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2001776153424581
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2193625309668759
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2457594835664831
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.2417164799997462
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.1243666280438704
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.0985481197766154
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO Solver Performance Verification_B0_B0 x D:TECHNICAL T:AIMO Solver Performance Verification_B0_B1 x D:ETHICAL T:AIMO Solver Performance Verification_B0_B2",
+      "q": 1.135665979315285
+    }
+  ],
+  "highest_point": 1.2492242805766798
+}

@@ -1,0 +1,444 @@
+{
+  "stats": {
+    "merger_events": 100,
+    "highest_point": 1.2496862876413728
+  },
+  "domains": {
+    "STRATEGIC": {
+      "avg_q": 1.013085115256889,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "TECHNICAL": {
+      "avg_q": 1.0215097127416763,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "ETHICAL": {
+      "avg_q": 0.9425075937365732,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    }
+  },
+  "universal_values": [
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1624258810801584
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2412818577224414
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2445315511868082
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.075391224078939
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.234859664318142
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.118013544798673
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0724098226333005
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.150255355935058
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1052210813696057
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0933181045166307
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0697465145487182
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.22982509428059
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.075563127758224
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0667268012117725
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1675947402231444
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.074234743698067
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2146648413687302
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1941120825131026
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.105051051755935
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1296772321971111
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2246041498597593
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0625602618784802
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1672266671891958
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0819729212705937
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2299808442600657
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2351613912509225
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1597644876656275
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1955950293768287
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1963889368497533
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1778021886421335
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1789191965255115
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.068806905754423
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2200829012205179
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2496862876413728
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2139842517875608
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0578060692298665
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0625330764125316
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2485990164068912
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1351181431587867
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1564562933991656
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2433019401034522
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1247432954816319
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1403485943492526
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0749920537176971
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1264552374379613
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.051581657125448
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1117824288255167
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0610721745210114
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2386879367542543
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1775350685148154
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1422033900154955
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0809229659575659
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0758640499753427
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.19526538839043
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2105214915441977
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1456625472850113
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1616599913155141
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2160331371059452
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1387299346910016
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.221783972449952
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1624688907991636
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1562751690661797
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1686078626681538
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2021633925782527
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2225990839593945
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0657131144792786
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1891457117647115
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1604187303395328
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1233644449755908
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1286788514316186
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1624487072056675
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.076352388223385
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.205315779100839
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0968058893121295
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1911990376955797
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.236805955890306
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2251819706282467
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.126631494098885
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1134819969826024
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.105293809964232
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0917794386193347
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2266430791765597
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0897406051298002
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2264230452061964
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1850493524721135
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1751422357314805
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1989727714367278
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2357640943301857
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0770458230713296
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.2082193826828906
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1799259925114067
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1172443781286026
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1408653615451423
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0982824051900633
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1263086066979788
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1201609378650608
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0805611975101597
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.1797383123841934
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.103207764260006
+    },
+    {
+      "content": "Omni-Valence: D:STRATEGIC T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B0 x D:TECHNICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B1 x D:ETHICAL T:AIMO 3 Mathematical Reasoning Synthesis Protocol_B0_B0_B2",
+      "q": 1.0907870080755504
+    }
+  ],
+  "highest_point": 1.2496862876413728
+}
