@@ -1,0 +1,109 @@
+{
+  "pipeline": {
+    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2311           False  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518           False  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770           False  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249           False  ",
+    "hf_model": {
+      "id": "MiniMaxAI/MiniMax-M2.5",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "minimax_m2",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "downloads": 6091,
+      "likes": 495
+    },
+    "final_q_score": 0.9205
+  },
+  "simulation": {
+    "stats": {
+      "merger_events": 10,
+      "highest_point": 1.125623983295446
+    },
+    "domains": {
+      "STRATEGIC": {
+        "avg_q": 0.8797883350199305,
+        "weights": {
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
+        }
+      },
+      "TECHNICAL": {
+        "avg_q": 0.8760870395299526,
+        "weights": {
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
+        }
+      },
+      "ETHICAL": {
+        "avg_q": 0.8406910198763705,
+        "weights": {
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
+        }
+      }
+    },
+    "universal_values": [
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.1055640240862226
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.125623983295446
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0305057430533187
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0287728371374214
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0981770950814438
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0551474919770716
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 0.998073483769133
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0415214406167916
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0423538603443305
+      },
+      {
+        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Synergy Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Synergy Protocol_B0_B0_B2",
+        "q": 1.0270599580475184
+      }
+    ],
+    "highest_point": 1.125623983295446
+  },
+  "timestamp": "2026-02-14T18:00:39.239693"
+}
