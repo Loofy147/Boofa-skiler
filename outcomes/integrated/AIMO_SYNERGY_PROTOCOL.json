@@ -1,0 +1,47 @@
+{
+  "protocol_id": "PROTO_AIMO_3_20260214",
+  "version": "1.0.0",
+  "timestamp": "2026-02-14T22:54:50.961013",
+  "phases": [
+    {
+      "step": 1,
+      "name": "Data Acquisition (Kaggle/HF)",
+      "domain": "TECHNICAL",
+      "weight": 0.2,
+      "action": "PIPELINE_EXECUTE_FETCH",
+      "verification_metric": "Q_SCORE > 0.85"
+    },
+    {
+      "step": 2,
+      "name": "Mathematical Synthesis",
+      "domain": "TECHNICAL",
+      "weight": 0.3,
+      "action": "MCO_EXECUTE_SYNTHESIS",
+      "verification_metric": "Q_SCORE > 0.85"
+    },
+    {
+      "step": 3,
+      "name": "Competitive Strategy",
+      "domain": "STRATEGIC",
+      "weight": 0.2,
+      "action": "GENERAL_COMPUTE",
+      "verification_metric": "Q_SCORE > 0.85"
+    },
+    {
+      "step": 4,
+      "name": "Operational Excellence",
+      "domain": "ETHICAL",
+      "weight": 0.15,
+      "action": "GENERAL_COMPUTE",
+      "verification_metric": "Q_SCORE > 0.85"
+    },
+    {
+      "step": 5,
+      "name": "Final Deployment",
+      "domain": "STRATEGIC",
+      "weight": 0.15,
+      "action": "AUTONOMOUS_SUBMIT",
+      "verification_metric": "Q_SCORE > 0.85"
+    }
+  ]
+}
