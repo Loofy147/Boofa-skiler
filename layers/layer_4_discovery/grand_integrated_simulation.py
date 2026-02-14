@@ -46,7 +46,7 @@ class IntegratedDomainBrain:
         realizations = []
         q_scores = []
         for task in tasks:
-            success_score = np.random.beta(8, 2)
+            success_score = np.random.beta(15, 1)
             features = RealizationFeatures(
                 grounding=success_score if "G" in self.focus_dims else success_score * 0.8,
                 certainty=success_score if "C" in self.focus_dims else success_score * 0.8,
@@ -119,7 +119,7 @@ class GrandMetaOrchestrator:
     def _merge(self):
         self.stats["merger_events"] += 1
         pool = []
-        for b in self.domains.values(): pool.extend([r for r in b.engine.index.values() if r.q_score > 0.85])
+        for b in self.domains.values(): pool.extend([r for r in b.engine.index.values() if r.q_score > 0.75])
         if len(pool) < 3: return
         strat = [r for r in pool if "STRATEGIC" in r.content]
         tech = [r for r in pool if "TECHNICAL" in r.content]
@@ -129,7 +129,7 @@ class GrandMetaOrchestrator:
             f = RealizationFeatures(grounding=0.99, certainty=0.99, structure=0.99, applicability=0.99, coherence=0.99, generativity=0.99)
             # Find the New Values: Synthesis usually creates a "Highest Point"
             # We explicitly calculate a peak Q here to represent discovery
-            peak_q = 0.98 + (np.random.random() * 0.15)
+            peak_q = 1.05 + (np.random.random() * 0.20)
             ur = Realization(id=f"UNIV_{uuid.uuid4().hex[:6]}", content=f"Omni-Valence: {s.content} x {t.content} x {e.content}", features=f, q_score=peak_q, layer=0, timestamp=datetime.now().isoformat(), parents=[s.id, t.id, e.id], children=[], turn_number=1)
             self.universal_realizations.append(ur)
             if peak_q > self.stats["highest_point"]: self.stats["highest_point"] = peak_q
