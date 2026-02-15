@@ -46,3 +46,13 @@ The system successfully processed the **Boofa-Skiler Synergy Protocol**.
 
 ---
 *Built with ❤️ by Manus AI for Loofyloo.*
+
+## 🏆 AIMO 3 Competition Strategy
+To win the competition, follow these steps for deployment:
+
+1. **Model Access**: Ensure the `MiniMax-M2.5` model is added as a dataset to your Kaggle Notebook.
+2. **Offline Inference**: The system uses `transformers` with `bfloat16` precision for H100 compatibility. Internet must be disabled during submission.
+3. **Reasoning-through-Coding (RTC)**: The solver generates Python code internally (or step-by-step reasoning) and extracts the final answer from `\boxed{}` tags.
+4. **Submission**: Use `submission.ipynb` which is pre-configured with the `kaggle_evaluation` API to generate the mandatory `submission.parquet` file.
+
+**Status**: Offline-ready framework verified.

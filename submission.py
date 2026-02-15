@@ -1,86 +1,79 @@
 import os
-import re
-import subprocess
 import sys
-from typing import Dict, List, Optional, Tuple
-from dataclasses import dataclass, field
-import numpy as np
-import pandas as pd
 import polars as pl
+import pandas as pd
+from layers.layer_2_core.aimo_math_solver import AIMOMathSolver
 
-# --- Layer 0: Skill Foundation ---
-@dataclass
-class Skill:
-    name: str
-    G: float = 0.0
-    C: float = 0.0
-    S: float = 0.0
-    A: float = 0.0
-    H: float = 0.0
-    V: float = 0.0
-    P: float = 0.0
-    T: float = 0.0
-    priority: float = 0.5
-    cost: float = 1.0
-    embedding: Optional[np.ndarray] = None
+# Ensure the system knows where to find the layered modules
+sys.path.append(os.getcwd())
 
-    def __post_init__(self):
-        if self.embedding is None:
-            self.embedding = np.array([self.G, self.C, self.S, self.A, self.H, self.V, self.P, self.T])
+# Initialize the solver
+# On Kaggle, the model is often in /kaggle/input/minimax-m2-5
+model_path = "/kaggle/input/minimax-m2-5"
+if not os.path.isdir(model_path):
+    model_path = "MiniMaxAI/MiniMax-M2.5"
 
-    def q_score(self) -> float:
-        return (0.18 * self.G + 0.20 * self.C + 0.18 * self.S + 0.16 * self.A +
-                0.12 * self.H + 0.08 * self.V + 0.05 * self.P + 0.03 * self.T)
-
-# --- Layer 2: AIMO Solver ---
-class AIMOMathSolver:
-    def __init__(self):
-        self.skill = Skill(name="AIMO-Math-Solver", G=0.98, C=0.95, S=0.96, A=0.92, H=0.95, V=0.94, P=0.90, T=0.90)
-
-    def solve_problem(self, problem_text: str, id: str = "unknown") -> Dict:
-        if "1-1" in problem_text: return {"id": id, "answer": 0}
-        if "0\\times10" in problem_text: return {"id": id, "answer": 0}
-        if "4+x=4" in problem_text: return {"id": id, "answer": 0}
-        if "remainder" in problem_text.lower() and "abc" in problem_text.lower():
-            return {"id": id, "answer": 336}
-        return {"id": id, "answer": 0}
-
-# --- Submission Logic ---
-import kaggle_evaluation.aimo_3_inference_server
-
-model = AIMOMathSolver()
+model = AIMOMathSolver(model_id_or_path=model_path)
 all_predictions = []
 
 def predict(id_: pl.Series, problem: pl.Series) -> pl.DataFrame:
+    """
+    Kaggle AIMO 3 Prediction Function.
+    Processes one batch (usually 1 row) and returns the answer.
+    """
     id_val = id_.item(0)
     problem_text = problem.item(0)
-    outcome = model.solve_problem(problem_text, id=id_val)
-    all_predictions.append({'id': id_val, 'answer': int(outcome['answer'])})
-    return pl.DataFrame({'id': [id_val], 'answer': [int(outcome['answer'])]})
 
-inference_server = kaggle_evaluation.aimo_3_inference_server.AIMO3InferenceServer(predict)
+    # Solve the problem using our RTC-enhanced solver
+    outcome = model.solve_problem(problem_text, id=id_val)
+    answer = int(outcome.get('answer', 0))
+
+    # Track predictions for final parquet write
+    all_predictions.append({'id': id_val, 'answer': answer})
+
+    return pl.DataFrame({'id': [id_val], 'answer': [answer]})
+
+# Import the competition evaluation API
+try:
+    import kaggle_evaluation.aimo_3_inference_server
+    inference_server = kaggle_evaluation.aimo_3_inference_server.AIMO3InferenceServer(predict)
+    HAS_API = True
+except ImportError:
+    print("⚠️ Kaggle Evaluation API not found. Simulation mode only.")
+    HAS_API = False
 
 if __name__ == '__main__':
     try:
-        if os.getenv('KAGGLE_IS_COMPETITION_RERUN'):
+        if HAS_API and os.getenv('KAGGLE_IS_COMPETITION_RERUN'):
+            print("🚀 Starting AIMO 3 Inference Server (Private Rerun)...")
             inference_server.serve()
-        else:
-            # Try competition data first
+        elif HAS_API:
+            # Local gateway simulation
+            print("🔬 Starting local gateway simulation...")
             test_path = '/kaggle/input/ai-mathematical-olympiad-progress-prize-3/test.csv'
-            if os.path.exists(test_path):
-                inference_server.run_local_gateway((test_path,))
-            else:
-                # Create a local dummy if nothing else exists
-                print("Creating local dummy test.csv")
-                pd.DataFrame({"id": ["000aaa"], "problem": ["What is 1-1?"]}).to_csv("test.csv", index=False)
-                inference_server.run_local_gateway(("test.csv",))
+            if not os.path.exists(test_path):
+                test_path = 'reference.csv'
+                if not os.path.exists(test_path):
+                    print("Creating local dummy test.csv")
+                    pd.DataFrame({"id": ["000aaa"], "problem": ["What is 5!?"]}).to_csv("test.csv", index=False)
+                    test_path = "test.csv"
+
+            inference_server.run_local_gateway((test_path,))
+        else:
+            print("❌ Cannot run submission without Kaggle API.")
+
     except Exception as e:
-        print(f"Error during execution: {e}")
+        print(f"❌ Error during execution: {e}")
+
     finally:
+        # Final safety check: competition requires submission.parquet
         if all_predictions:
+            print(f"💾 Saving {len(all_predictions)} predictions to submission.parquet...")
             df = pl.DataFrame(all_predictions)
             df.write_parquet('submission.parquet')
         else:
-            # Absolute fallback for validation
-            pl.DataFrame({'id': ['dummy'], 'answer': [0]}).write_parquet('submission.parquet')
-        print("submission.parquet is ready.")
+            # Absolute fallback to ensure the file exists even if something crashed early
+            print("⚠️ No predictions found. Writing empty submission.parquet fallback.")
+            pl.DataFrame({'id': ['fallback'], 'answer': [0]}).write_parquet('submission.parquet')
+
+        print("✅ submission.parquet is ready.")
