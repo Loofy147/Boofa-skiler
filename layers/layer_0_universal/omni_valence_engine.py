@@ -1,6 +1,6 @@
 import numpy as np
 from typing import List, Dict, Any, Tuple
-from layer0_foundation import Skill, synthesize_skills
+from layers.layer_0_universal.foundation import Skill, synthesize_skills
 from layers.layer_2_core.realization_engine import Realization, RealizationFeatures
 
 class OmniValenceEngine:

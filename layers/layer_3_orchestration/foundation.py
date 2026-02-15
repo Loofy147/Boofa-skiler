@@ -9,9 +9,9 @@ Surpasses OpenClaw's serial Lane Queues
 import sys
 sys.path.append('/home/claude')
 
-from layer0_foundation import Skill, select_skills, compute_utility
-from layer1_skills import create_layer1_ecosystem
-from layer2_self_evolution import AutoSkillDetector, QScoreOptimizer
+from layers.layer_0_universal.foundation import Skill, select_skills, compute_utility
+from layers.layer_1_domain.foundation import create_layer1_ecosystem
+from layers.layer_2_core.foundation import AutoSkillDetector, QScoreOptimizer
 import numpy as np
 from typing import List, Dict, Any, Tuple
 from dataclasses import dataclass, field

@@ -9,8 +9,8 @@ From skill-ecosystem-integration-guide.md
 import sys
 sys.path.append('/home/claude')
 
-from layer0_foundation import Skill, build_adjacency_matrix, synthesize_skills
-from layer1_skills import create_layer1_ecosystem
+from layers.layer_0_universal.foundation import Skill, build_adjacency_matrix, synthesize_skills
+from layers.layer_1_domain.foundation import create_layer1_ecosystem
 import numpy as np
 from typing import List, Dict, Tuple
 from collections import defaultdict

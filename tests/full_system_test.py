@@ -9,10 +9,10 @@ Demonstrates ClawdBot-Next capabilities.
 import sys
 sys.path.append('/home/claude')
 
-from layer0_foundation import *
-from layer1_skills import *
-from layer2_self_evolution import *
-from layer3_orchestration import *
+from layers.layer_0_universal.foundation import *
+from layers.layer_1_domain.foundation import *
+from layers.layer_2_core.foundation import *
+from layers.layer_3_orchestration.foundation import *
 import asyncio
 import time
 
