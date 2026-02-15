@@ -1,10 +1,12 @@
-{
+import json
+
+notebook = {
  "cells": [
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# \ud83d\ude80 Boofa-Skiler AIMO 3 Winning Submission\n",
+    "# 🚀 Boofa-Skiler AIMO 3 Winning Submission\n",
     "## Optimized for H100 Offline Inference\n",
     "\n",
     "This notebook implements the Boofa-skiler mathematical reasoning framework using the `MiniMax-M2.5` model."
@@ -12,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": None,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -27,10 +29,10 @@
     "\n",
     "def load_model():\n",
     "    if not os.path.exists(MODEL_PATH):\n",
-    "        print(\"\u26a0\ufe0f Model path not found. Running in simulation mode.\")\n",
+    "        print(\"⚠️ Model path not found. Running in simulation mode.\")\n",
     "        return None, None\n",
     "    \n",
-    "    print(f\"\u23f3 Loading model from {MODEL_PATH}...\")\n",
+    "    print(f\"⏳ Loading model from {MODEL_PATH}...\")\n",
     "    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)\n",
     "    model = AutoModelForCausalLM.from_pretrained(\n",
     "        MODEL_PATH, \n",
@@ -38,7 +40,7 @@
     "        device_map='auto', \n",
     "        trust_remote_code=True\n",
     "    )\n",
-    "    print(\"\u2705 Model loaded successfully.\")\n",
+    "    print(\"✅ Model loaded successfully.\")\n",
     "    return tokenizer, model\n",
     "\n",
     "tokenizer, model = load_model()\n",
@@ -69,7 +71,7 @@
     "    response = tokenizer.decode(outputs[0], skip_special_tokens=True)\n",
     "    ans = extract_answer(response)\n",
     "    \n",
-    "    print(f\"\ud83e\udde9 [{id_val}] -> {ans}\")\n",
+    "    print(f\"🧩 [{id_val}] -> {ans}\")\n",
     "    return pl.DataFrame({'id': [id_val], 'answer': [ans]})\n",
     "\n",
     "# --- 3. Submission API ---\n",
@@ -82,10 +84,10 @@
     "    else:\n",
     "        # Local dummy output for UI activation\n",
     "        pl.DataFrame({'id': ['dummy'], 'answer': [0]}).write_parquet('submission.parquet')\n",
-    "        print(\"\u2705 Dummy submission.parquet generated for UI.\")\n",
+    "        print(\"✅ Dummy submission.parquet generated for UI.\")\n",
     "except ImportError:\n",
     "    pl.DataFrame({'id': ['fallback'], 'answer': [0]}).write_parquet('submission.parquet')\n",
-    "    print(\"\u26a0\ufe0f API not found. Fallback parquet generated.\")\n"
+    "    print(\"⚠️ API not found. Fallback parquet generated.\")\n"
    ]
   }
  ],
@@ -99,3 +101,6 @@
  "nbformat": 4,
  "nbformat_minor": 4
 }
+
+with open('submission.ipynb', 'w') as f:
+    json.dump(notebook, f, indent=1)

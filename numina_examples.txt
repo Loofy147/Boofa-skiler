@@ -1,0 +1,99 @@
+--- Example 1 ---
+Problem: In 1988, a person's age was equal to the sum of the digits of their birth year. How old was this person?
+Solution: To solve this problem, let's break it down step-by-step:
+
+1. Let the person's birth year be \( Y \).
+2. In 1988, the person's age would be \( 1988 - Y \).
+3. The sum of the digits of \( Y \) should be equal to their age in 1988.
+
+Therefore, we need to find a year \( Y \) such that:
+
+\[ 1988 - Y = \text{sum of the digits of } Y \]
+
+We can solve this by iterating through possible values for \( Y \) and checking if the condition holds.
+
+Let's write a Python script to find the correct birth year \( Y \).
+```python
+def digit_sum(year):
+    """Calculate the sum of the digits of a year."""
+    return sum(int(digit) for digit in str(year))
+
+def find_birth_year():
+print((    for year in range(1900, 1989):))  # Reasonable range given the
+```
+```output
+Cell In[210], line 6
+    for year in range(1900, 1989):  # Reasonable range given the
+                                                                ^
+SyntaxError: incomplete input
+```
+It looks like the code was cut off prematurely. Let me continue with the complete code included.
+
+We'll define a function to compute the digit sum and then iterate over possible birth years within a reasonable range to find the correct year that satisfies the condition.
+```python
+def digit_sum(year):
+    """Calculate the sum of the digits of a year."""
+    return sum(int(digit) for digit in str(year))
+
+def find_birth_year():
+    for year in range(1900, 1989):  # Reasonable range given the context
+        age_in_1988 = 1988 - year
+        if age_in_1988 == digit_sum(year):
+            return age_in_1988
+
+age_1988 = find_birth_year()
+print(age_1988)
+```
+```output
+22
+```
+The person's age in 1988 was \( \boxed{22} \).
+
+--- Example 2 ---
+Problem: Let $n = 2^4 \cdot 3^5 \cdot 4^6\cdot 6^7$. How many natural-number factors does $n$ have?
+Solution: The problem involves determining the number of natural-number factors of a given integer \( n \). The given integer \( n \) is:
+
+\[
+n = 2^4 \cdot 3^5 \cdot 4^6 \cdot 6^7
+\]
+
+First, let's express the number \( n \) in terms of its prime factors.
+
+- \( 4 \) can be written as \( 2^2 \), so \( 4^6 = (2^2)^6 = 2^{12} \).
+- \( 6 \) can be written as \( 2 \cdot 3 \), so \( 6^7 = (2 \cdot 3)^7 = 2^7 \cdot 3^7 \).
+
+Therefore, combining these, we have:
+
+\[
+n = 2^4 \cdot 3^5 \cdot 2^{12} \cdot 2^7 \cdot 3^7
+\]
+
+Next, we add the exponents of each prime factor:
+
+\[
+n = 2^{4 + 12 + 7} \cdot 3^{5 + 7} = 2^{23} \cdot 3^{12}
+\]
+
+Now, to find the number of natural-number factors of \( n \), we use the formula that
+if \( n = p_1^{e_1} \cdot p_2^{e_2} \cdots p_k^{e_k} \), then the number of factors of \( n \) is \((e_1 + 1)(e_2 + 1) \cdots (e_k + 1) \).
+
+So, for \( n = 2^{23} \cdot 3^{12} \), the number of factors is:
+
+\[
+(23 + 1)(12 + 1)
+\]
+
+Now let's compute this using Python:
+```python
+# Given the exponents
+exp_2 = 23
+exp_3 = 12
+
+# Number of natural-number factors
+num_factors = (exp_2 + 1) * (exp_3 + 1)
+print(num_factors)
+```
+```output
+312
+```
+The number of natural-number factors of \( n \) is \(\boxed{312}\).

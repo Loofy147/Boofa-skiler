@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2314           False  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518           False  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770           False  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249           False  ",
+    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2321            True  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518            True  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770            True  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972            True  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249            True  ",
     "hf_model": {
       "id": "MiniMaxAI/MiniMax-M2.5",
       "tags": [
@@ -17,18 +17,18 @@
         "region:us"
       ],
       "downloads": 6091,
-      "likes": 508
+      "likes": 554
     },
     "final_q_score": 0.9205
   },
   "simulation": {
     "stats": {
       "merger_events": 50,
-      "highest_point": 1.2399880364204927
+      "highest_point": 1.2439180922553523
     },
     "domains": {
       "STRATEGIC": {
-        "avg_q": 1.0428444117790654,
+        "avg_q": 1.0356979690068828,
         "weights": {
           "G": 0.5,
           "C": 0.22,
@@ -39,7 +39,7 @@
         }
       },
       "TECHNICAL": {
-        "avg_q": 1.0281878585172288,
+        "avg_q": 1.0377236866403672,
         "weights": {
           "G": 0.5,
           "C": 0.22,
@@ -50,7 +50,7 @@
         }
       },
       "ETHICAL": {
-        "avg_q": 0.9771036646347913,
+        "avg_q": 0.9720059347774662,
         "weights": {
           "G": 0.5,
           "C": 0.22,
@@ -64,233 +64,233 @@
     "universal_values": [
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1774324232833697
+        "q": 1.228464518755632
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.226395551675441
+        "q": 1.1712358599127324
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0540565168467042
+        "q": 1.1912359707849438
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2253320477810234
+        "q": 1.1371864145699067
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2307936500373102
+        "q": 1.1845292436481305
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1747763811381762
+        "q": 1.2203677934579678
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1482931640484069
+        "q": 1.1792640613814915
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2390463248529962
+        "q": 1.071927016158561
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0883286034463433
+        "q": 1.2108830583999601
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0792616661729788
+        "q": 1.1527548422340388
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1933055801962171
+        "q": 1.1657641545105026
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0714077026309499
+        "q": 1.102982582710032
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2391487400229948
+        "q": 1.2042687872686284
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.105428135130778
+        "q": 1.0975355654997967
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1350255682478263
+        "q": 1.1944633994030829
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.108706048210433
+        "q": 1.0913814261883215
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1255839432063175
+        "q": 1.0696843131155087
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1102284024453033
+        "q": 1.0809679637305663
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.208955196969822
+        "q": 1.0793703082428707
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0579705656545495
+        "q": 1.1253095967134732
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2319061495341221
+        "q": 1.1211061457348643
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0617446745472734
+        "q": 1.07923028892892
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2135320480647007
+        "q": 1.2171820771171438
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0968619009455487
+        "q": 1.2439180922553523
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.052751761418028
+        "q": 1.1328990873529885
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2114093879062806
+        "q": 1.0850236325604332
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1427477340581893
+        "q": 1.217893002200273
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1853249852317267
+        "q": 1.097866083123713
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0741792936427212
+        "q": 1.1364028756845377
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2367385879529416
+        "q": 1.0789811035000065
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2000330256926226
+        "q": 1.2327031906173165
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2283660851839853
+        "q": 1.2308928054063137
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1919585930637064
+        "q": 1.1298183252159917
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1540523955446347
+        "q": 1.1811106046708448
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0633900689059208
+        "q": 1.2069303162691483
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0539743979864977
+        "q": 1.1989701490800664
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2373823296480568
+        "q": 1.0704908184363306
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2149322803376905
+        "q": 1.123466898016192
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1095249870241273
+        "q": 1.1354629571610595
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2170923561337426
+        "q": 1.1939021020570324
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1453897772052546
+        "q": 1.1475114429372988
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1049062431983705
+        "q": 1.1572268306457434
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1388687697682007
+        "q": 1.1371250327590399
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1382015860669068
+        "q": 1.240886882069446
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.233982262833966
+        "q": 1.1881234269249403
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1239045274219202
+        "q": 1.1834656927182539
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.1059345853569793
+        "q": 1.2069807895345663
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.2399880364204927
+        "q": 1.2388546586554614
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.0968845661064852
+        "q": 1.2103785443687611
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-        "q": 1.231712038159431
+        "q": 1.2355865128393464
       }
     ],
-    "highest_point": 1.2399880364204927
+    "highest_point": 1.2439180922553523
   },
   "projects": [
     {
       "name": "Project Alpha: Autonomous Strategic Architect",
       "synthesis": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-      "q_score": 1.2399880364204927
+      "q_score": 1.2439180922553523
     },
     {
       "name": "Project Beta: Global Realization Ledger",
       "synthesis": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-      "q_score": 1.2391487400229948
+      "q_score": 1.240886882069446
     },
     {
       "name": "Project Gamma: Predictive Institutional Auditor",
       "synthesis": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-      "q_score": 1.2390463248529962
+      "q_score": 1.2388546586554614
     },
     {
       "name": "Project Delta: Cross-Domain Innovation Synthesizer",
       "synthesis": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-      "q_score": 1.2373823296480568
+      "q_score": 1.2355865128393464
     },
     {
       "name": "Project Epsilon: Cognitive Operational Excellence Hub",
       "synthesis": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler Showcase Protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler Showcase Protocol_B0_B0_B2",
-      "q_score": 1.2367385879529416
+      "q_score": 1.2327031906173165
     }
   ],
-  "timestamp": "2026-02-14T20:14:06.523642"
+  "timestamp": "2026-02-15T06:25:54.844726"
 }

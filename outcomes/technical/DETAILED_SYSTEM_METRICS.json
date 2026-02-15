@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2312           False  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518           False  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770           False  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972           False  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249           False  ",
+    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2321            True  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518            True  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770            True  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972            True  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249            True  ",
     "hf_model": {
       "id": "MiniMaxAI/MiniMax-M2.5",
       "tags": [
@@ -17,454 +17,454 @@
         "region:us"
       ],
       "downloads": 6091,
-      "likes": 501
+      "likes": 554
     },
     "final_q_score": 0.9205
   },
   "simulation": {
     "stats": {
       "merger_events": 100,
-      "highest_point": 1.2476800081061972
+      "highest_point": 1.2499240799343587
     },
     "domains": {
       "STRATEGIC": {
-        "avg_q": 1.029166211000516,
+        "avg_q": 1.0475011573101443,
         "weights": {
-          "G": 0.5,
-          "C": 0.22,
-          "S": 0.2,
-          "A": 0.18,
-          "H": 0.12,
-          "V": 0.1
+          "G": 0.3,
+          "C": 0.22166021107181283,
+          "S": 0.20166021107181284,
+          "A": 0.18166021107181282,
+          "H": 0.12206747008535546,
+          "V": 0.10195865587033676
         }
       },
       "TECHNICAL": {
-        "avg_q": 0.9828662868309322,
+        "avg_q": 0.8836209180904554,
         "weights": {
-          "G": 0.5,
-          "C": 0.22,
-          "S": 0.2,
-          "A": 0.18,
-          "H": 0.12,
-          "V": 0.1
+          "G": 0.3,
+          "C": 0.22166021107181283,
+          "S": 0.20166021107181284,
+          "A": 0.18166021107181282,
+          "H": 0.12206747008535546,
+          "V": 0.10195865587033676
         }
       },
       "ETHICAL": {
-        "avg_q": 0.9588628334578139,
+        "avg_q": 0.7935074509429766,
         "weights": {
-          "G": 0.5,
-          "C": 0.22,
-          "S": 0.2,
-          "A": 0.18,
-          "H": 0.12,
-          "V": 0.1
+          "G": 0.3,
+          "C": 0.22166021107181283,
+          "S": 0.20166021107181284,
+          "A": 0.18166021107181282,
+          "H": 0.12206747008535546,
+          "V": 0.10195865587033676
         }
       }
     },
     "universal_values": [
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.11652458094211
+        "q": 1.1007482302168572
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2319289696862166
+        "q": 1.1497000642889061
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.068884116587905
+        "q": 1.1183610622178008
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1460594318563395
+        "q": 1.069223506695039
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0653184329470669
+        "q": 1.062988983231112
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1419717634053794
+        "q": 1.1234408590079992
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1765560805536759
+        "q": 1.1204146830393438
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0875464438359819
+        "q": 1.209677124216677
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1178381110203917
+        "q": 1.1041944777206538
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2180894240798232
+        "q": 1.2055601131409437
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1737635560315378
+        "q": 1.2011435461302145
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.063624381433577
+        "q": 1.132044128829751
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2105842845698973
+        "q": 1.2383086834575245
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1252889923314437
+        "q": 1.242169946206738
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2153856813342516
+        "q": 1.17755684933405
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1616336173675474
+        "q": 1.083563386915109
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.093269209519623
+        "q": 1.0615626078527105
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2020729791810763
+        "q": 1.0770398099459966
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1933890247327703
+        "q": 1.2421290053994367
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1971269659101142
+        "q": 1.0641197518584953
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1285840550657067
+        "q": 1.0714427885161404
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.083981517681525
+        "q": 1.1611370233735487
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2192187514570096
+        "q": 1.0755404318431048
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1458178342967291
+        "q": 1.1651434780594248
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1325981824491809
+        "q": 1.2093813123838522
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0931876488575674
+        "q": 1.2272203648812987
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2427784134108928
+        "q": 1.0724280378074504
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1402477738710726
+        "q": 1.138091345588113
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.218777087761519
+        "q": 1.0907258195637493
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2008816876116417
+        "q": 1.238630050182236
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.22800547925427
+        "q": 1.2137561156023164
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2344296040209506
+        "q": 1.1407521290492424
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2259711409222742
+        "q": 1.1614984745970105
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.109079636804061
+        "q": 1.0541024710853424
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.231205018961158
+        "q": 1.0819360521306274
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0790956992201164
+        "q": 1.124978426078379
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1488585499634345
+        "q": 1.1211339691280418
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1256639713696632
+        "q": 1.2431983570501364
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.20955188409993
+        "q": 1.234262372032579
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1500485695248068
+        "q": 1.1997469325701524
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2085840332157014
+        "q": 1.1215858094581612
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.084466973701672
+        "q": 1.198455958545897
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.219253165187319
+        "q": 1.0844873502145298
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0621476925009865
+        "q": 1.2002462031932342
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0545664874396847
+        "q": 1.0977641177776476
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1388204289350607
+        "q": 1.183550272038211
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1563335058836743
+        "q": 1.199152002695771
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0631822732073029
+        "q": 1.2117651761589907
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1394680584237515
+        "q": 1.0825258159058242
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1359021783348195
+        "q": 1.10809401538923
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1032927325066963
+        "q": 1.1124802565481915
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0516888472778636
+        "q": 1.1797608012814795
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.191851364551611
+        "q": 1.121485607469845
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1727643706487068
+        "q": 1.1173519516247907
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1211002106920571
+        "q": 1.181823323298465
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2476800081061972
+        "q": 1.220703699131179
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1119485992137594
+        "q": 1.085425410476137
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1071097669796022
+        "q": 1.1448103385101618
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0813328945086653
+        "q": 1.1827539994110574
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1542146397644795
+        "q": 1.068686359269104
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2067598011152898
+        "q": 1.2246739128088646
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0894534715268853
+        "q": 1.1573961125209544
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2456313952992506
+        "q": 1.2465465771599558
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0768229777386422
+        "q": 1.0513463133472987
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.149059394691674
+        "q": 1.2401998014490339
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1721799186324589
+        "q": 1.0842625923052405
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1170824297568434
+        "q": 1.0637417113503986
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1873088079711398
+        "q": 1.2380885658101364
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2163034550345788
+        "q": 1.151408574097058
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.099691894057869
+        "q": 1.1124957940785476
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0607031880169269
+        "q": 1.2378516749535313
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2400013273341544
+        "q": 1.1208607468333112
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2011332844481653
+        "q": 1.1868513570033623
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2180031980230501
+        "q": 1.2499240799343587
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.181809702036065
+        "q": 1.064816318269826
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1544918021272845
+        "q": 1.2240446627711452
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.080509038046539
+        "q": 1.2449856908294943
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1019361539077095
+        "q": 1.1353646046731287
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0538951506524121
+        "q": 1.1978263927737935
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0914349847161502
+        "q": 1.0611190763538796
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2112005266839605
+        "q": 1.1302643377006267
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0748204862178456
+        "q": 1.1122754795791236
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2387836290399614
+        "q": 1.130826042282658
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0572430922373548
+        "q": 1.0750183237561481
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1069752714349357
+        "q": 1.1630099212458922
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1352343164869856
+        "q": 1.129278444229255
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0526665784904394
+        "q": 1.0657070264642305
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2473443833506113
+        "q": 1.206090525517158
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1939911576187554
+        "q": 1.2361679132442105
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0977688699019772
+        "q": 1.2062609592208011
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0989589404930833
+        "q": 1.1981791521708691
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1370658888976586
+        "q": 1.192869876667362
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2446233742103603
+        "q": 1.1836236177521977
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1389408604275575
+        "q": 1.2142879422203092
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2306726867249314
+        "q": 1.186285302017614
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1816876933825853
+        "q": 1.078871239873973
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1569305649082327
+        "q": 1.2248836645011956
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1545119296567992
+        "q": 1.1999827613544396
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.10138319617544
+        "q": 1.2272370591460036
       },
       {
         "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1372486212176325
+        "q": 1.1814569962843624
       }
     ],
-    "highest_point": 1.2476800081061972
+    "highest_point": 1.2499240799343587
   },
   "achievement_reached": true,
-  "timestamp": "2026-02-14T18:38:35.367411"
+  "timestamp": "2026-02-15T06:25:03.258595"
 }
