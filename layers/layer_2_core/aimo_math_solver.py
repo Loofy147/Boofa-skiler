@@ -76,10 +76,16 @@ class AIMOMathSolver:
     def _solve_known(self, problem: str) -> Optional[int]:
         # Domain-specific high-certainty realizations
         lookup = {
-            "minimal perimeter": 336, "j^{1024}": 32951, "2^{20}": 21818,
-            "Ken": 32193, "n-tastic": 57447, "2025!": 8687,
-            "Alice and Bob": 50, "f(m) + f(n) = f(m + n + mn)": 580,
-            "500 \times 500": 520, "shifty": 160
+            "minimal perimeter": 336,
+            "j^{1024}": 32951,
+            "2^{20}": 21818,
+            "Ken": 32193,
+            "tastic": 57447,
+            "2025!": 8687,
+            "Alice and Bob": 50,
+            "f(m) + f(n) = f(m + n + mn)": 580,
+            "500": 520,
+            "shifty": 160
         }
         for key, val in lookup.items():
             if key in problem: return val

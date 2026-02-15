@@ -1,14 +1,14 @@
 {
   "stats": {
-    "total_realizations": 20,
+    "total_realizations": 21,
     "layer_distribution": {
       "0": 9,
-      "1": 6,
+      "1": 7,
       "2": 3,
       "3": 1,
       "N": 1
     },
-    "avg_q_score": 0.9047050000000001
+    "avg_q_score": 0.9080523809523809
   },
   "dimensions": {
     "grounding": {
@@ -751,6 +751,36 @@
       "evidence": [],
       "reasoning_chain": null,
       "topology_relations": []
+    },
+    {
+      "id": "R-AIMO-3-INTEL",
+      "timestamp": "2026-02-15T17:56:27.910466",
+      "layer": 1,
+      "title": "AIMO 3 Competition Intel & Strategy",
+      "signature": "AIMO-3-MATH-SOLVER-STRATEGY",
+      "content": "AIMO 3 is a high-stakes mathematics competition with 110 problems (10 reference, 50 public, 50 private). Solutions are non-negative integers (0-99999). Success requires robust inference, efficient resource management (9 hours for 50 problems), and strictly offline execution. The current top score is 44/50.",
+      "scores": {
+        "grounding": 0.99,
+        "certainty": 0.98,
+        "structure": 0.97,
+        "applicability": 1.0,
+        "coherence": 0.96,
+        "generativity": 0.95,
+        "presentation": 0.94
+      },
+      "q_score": 0.975,
+      "metadata": {
+        "domain": "Technical",
+        "tags": [
+          "AIMO",
+          "Mathematics",
+          "Strategy"
+        ],
+        "competition_id": "ai-mathematical-olympiad-progress-prize-3",
+        "leaderboard_top_score": 44
+      },
+      "parents": [],
+      "children": []
     }
   ]
 }
