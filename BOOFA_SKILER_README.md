@@ -1,48 +1,18 @@
-# Boofa-skiler 🚀
+# 🚀 Boofa-skiler Pipeline Guide
 
-**Boofa-skiler** is a self-evolving AI pipeline that bridges **Hugging Face** and **Kaggle**, optimized for maximum business value and operational excellence.
+This guide covers the technical bridge between **Hugging Face** and **Kaggle**.
 
-## 🌟 Key Features
-- **Integrated Intelligence**: Connects Kaggle datasets with Hugging Face's `MiniMax-M2.5` model.
-- **Self-Optimization**: Uses a proprietary Q-Score framework to maintain high-quality outputs.
-- **Automated Workflows**: Pattern detection via `auto-skill-detector` to streamline complex tasks.
-- **Master Outcome Generation**: Integrated with the Grand Meta Orchestrator for deep realization synthesis.
+For the overall system documentation, please see the **[Main README](README.md)**.
 
-## 🏗️ Project Architectures
-The system has identified and architected 5 high-value business projects:
-1. **Autonomous Strategic Architect**: Hierarchical Bayesian Inference for strategic foresight.
-2. **Global Realization Ledger**: High-integrity DAG for crystallized knowledge.
-3. **Predictive Institutional Auditor**: Bias-transparent autonomous auditing.
-4. **Cross-Domain Innovation Synthesizer**: MCO-driven innovation synthesis.
-5. **Cognitive Operational Excellence Hub**: Organizational throughput optimization.
+## 🌟 Pipeline Features
+- **Data Acquisition**: Automated fetching of competitions and model metadata.
+- **Environment Management**: Secure API token handling for Kaggle and HF.
+- **Meta-Outcome Generation**: Triggering the Grand Meta Orchestrator from pipeline results.
 
-Detailed blueprints are available in: **[docs/PROJECT_ARCHITECTURES.md](docs/PROJECT_ARCHITECTURES.md)**
-
-## 📊 Q-Score Optimization
-The project targets a Q-Score of **> 0.9**.
-
-**Latest Peak Q-Score: 1.2492** (Achieved on 2026-02-14) 🏆 ACHIEVEMENT UNLOCKED
-
-| Dimension | Initial | Optimized | Weight |
-| :--- | :---: | :---: | :---: |
-| Grounding (G) | 0.75 | 0.98 | 18% |
-| Certainty (C) | 0.70 | 0.95 | 22% |
-| Structure (S) | 0.85 | 0.92 | 20% |
-| Applicability (A) | 0.80 | 0.90 | 18% |
-| Coherence (H) | 0.75 | 0.95 | 12% |
-| Generativity (V) | 0.80 | 0.92 | 10% |
-
-## 🛠️ Latest Run Results
-The system successfully processed the **Boofa-Skiler Synergy Protocol**.
-- **Report**: [outcomes/integrated/NEW_BOOFA_SKILER_REPORT.md](outcomes/integrated/NEW_BOOFA_SKILER_REPORT.md)
-- **Top Business Projects**: [outcomes/strategic/TOP_5_BUSINESS_PROJECTS.md](outcomes/strategic/TOP_5_BUSINESS_PROJECTS.md)
-- **Metrics**: [outcomes/technical/DETAILED_SYSTEM_METRICS.json](outcomes/technical/DETAILED_SYSTEM_METRICS.json)
-
-## 🗺️ Roadmap
-- ✅ **Phase 1**: Rule Activation & Pattern Detection.
-- ✅ **Phase 2**: Outcome Calculation & Strategic Forecasting.
-- ✅ **Phase 3**: Value Appreciation & Reusable Skill Synthesis.
-- 🚀 **Phase 4**: Autonomous Business Project Deployment (In Progress).
+## 🛠️ Commands
+- \`python3 pipeline.py\`: Execute the raw data bridge.
+- \`python3 master_outcome_generator.py\`: Full evolution run (Pipeline + Synthesis).
+- \`python3 showcase_demo.py\`: Run the system-wide demonstration.
 
 ---
-*Built with ❤️ by Manus AI for Loofyloo.*
+*Verified by Boofa-Skiler Technical Lead | Jules*
