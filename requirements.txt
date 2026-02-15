@@ -46,4 +46,4 @@ typer-slim
 typing_extensions
 urllib3
 webencodings
-gradio==4.44.1
+gradio==5.31.0
