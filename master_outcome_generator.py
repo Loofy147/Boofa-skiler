@@ -33,7 +33,7 @@ def generate_master_report(pipeline_data, simulation_report, achievement_reached
 ---
 
 ## 1. Executive Summary
-This report presents the outcomes of an **Full Vision Integrated Evolution Run** (500 Cycles). The system was tasked with reaching a "Singularity Achievement" (Q > 1.20) through sustained recursive synthesis and cross-domain merger logic.
+This report presents the outcomes of an **Full Vision Integrated Evolution Run** (5000 Cycles). The system was tasked with reaching a "Singularity Achievement" (Q > 1.20) through sustained recursive synthesis and cross-domain merger logic.
 
 ---
 
@@ -49,7 +49,7 @@ This report presents the outcomes of an **Full Vision Integrated Evolution Run**
 
 ---
 
-## 3. Full Vision Simulation Metrics (500 Cycles)
+## 3. Full Vision Simulation Metrics (5000 Cycles)
 The **Grand Meta Orchestrator (MCO)** maintained high structural integrity across a prolonged execution window.
 
 ### 📈 Domain Performance:
@@ -75,7 +75,7 @@ The goal of this run was to surpass the 1.20 Q-score threshold.
 **Final Delta**: {highest_q - 1.20:.4f}
 
 ### Evolution Dynamics
-During the 500-cycle run, the system performed **{simulation_report.get('stats', {}).get('merger_events', 0)} merger events**. The sustained "Pressure for Excellence" forced the domains to prune lower-quality realizations, resulting in a significantly more refined Layer 0 set.
+During the 5000-cycle run, the system performed **{simulation_report.get('stats', {}).get('merger_events', 0)} merger events**. The sustained "Pressure for Excellence" forced the domains to prune lower-quality realizations, resulting in a significantly more refined Layer 0 set.
 
 ---
 
@@ -91,7 +91,7 @@ During the 500-cycle run, the system performed **{simulation_report.get('stats',
     return report
 
 def main():
-    print("🚀 Starting Full Vision Master Outcome Generation (500 Cycles)...")
+    print("🚀 Starting Full Vision Master Outcome Generation (5000 Cycles)...")
 
     # 1. Run Boofa-Skiler Pipeline
     k_token = os.getenv("KAGGLE_API_TOKEN")
@@ -122,7 +122,7 @@ def main():
     )
 
     print("⚙️ Executing 500 Simulation Cycles...")
-    mco.execute_and_merge(cycles=500)
+    mco.execute_and_merge(cycles=5000)
     sim_report = mco.get_report()
 
     highest_q = float(sim_report.get("highest_point", 0.0))
