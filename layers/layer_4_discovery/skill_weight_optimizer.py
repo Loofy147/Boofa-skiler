@@ -769,7 +769,7 @@ if __name__ == "__main__":
     trainer, history, metrics = main()
     
     print("\nTo use the trained weights:")
-    print("  from skill_weight_optimizer import SkillWeightTrainer, SkillMath")
+    print("  from layers.layer_4_discovery.skill_weight_optimizer import SkillWeightTrainer, SkillMath")
     print("  trainer = SkillWeightTrainer()")
     print("  trainer.load_weights('trained_skill_weights.json')")
     print()

@@ -9,7 +9,7 @@ Building on Layer 0 foundation.
 import sys
 sys.path.append('/home/claude')
 
-from layer0_foundation import Skill, synthesize_skills, compute_interaction
+from layers.layer_0_universal.foundation import Skill, synthesize_skills, compute_interaction
 import numpy as np
 from typing import List, Dict, Any
 from dataclasses import dataclass

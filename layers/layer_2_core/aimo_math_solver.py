@@ -2,7 +2,7 @@ import numpy as np
 from typing import Dict, List, Tuple, Optional
 import os
 import re
-from layer0_foundation import Skill
+from layers.layer_0_universal.foundation import Skill
 
 class AIMOMathSolver:
     """

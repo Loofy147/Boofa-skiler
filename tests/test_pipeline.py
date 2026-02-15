@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from pipeline import BoofaSkiler
+from layers.layer_3_optimization.pipeline import BoofaSkiler
 
 class TestBoofaSkiler(unittest.TestCase):
     def setUp(self):
@@ -28,7 +28,7 @@ class TestBoofaSkiler(unittest.TestCase):
         # Check if it contains the header and 2 competitions
         self.assertEqual(len(result.splitlines()), 4)
 
-    @patch('pipeline.model_info')
+    @patch('layers.layer_3_optimization.pipeline.model_info')
     def test_get_hf_model_details(self, mock_model_info):
         mock_info = MagicMock()
         mock_info.modelId = "test-model"

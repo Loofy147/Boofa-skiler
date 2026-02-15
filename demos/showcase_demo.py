@@ -3,7 +3,7 @@ import json
 import sys
 import numpy as np
 from datetime import datetime
-from pipeline import BoofaSkiler
+from layers.layer_3_optimization.pipeline import BoofaSkiler
 from layers.layer_4_discovery.grand_integrated_simulation import GrandMetaOrchestrator, RealizationFeatures
 
 # Add current directory to path for layered imports
