@@ -2,14 +2,17 @@ import os
 import sys
 import polars as pl
 import pandas as pd
-from layers.layer_2_core.aimo_math_solver import AIMOMathSolver
 
 # Ensure the system knows where to find the layered modules
+# Add current directory and the data/aimo_3 directory for local simulation
 sys.path.append(os.getcwd())
+sys.path.append(os.path.join(os.getcwd(), "data/aimo_3"))
+
+from layers.layer_2_core.aimo_math_solver import AIMOMathSolver
 
 # Initialize the solver
-# On Kaggle, the model is often in /kaggle/input/minimax-m2-5
-model_path = "/kaggle/input/minimax-m2-5"
+# On Kaggle, the model is often in /kaggle/input/minimax-m2-5-sft
+model_path = "/kaggle/input/minimax-m2-5-sft"
 if not os.path.isdir(model_path):
     model_path = "MiniMaxAI/MiniMax-M2.5"
 
@@ -24,7 +27,7 @@ def predict(id_: pl.Series, problem: pl.Series) -> pl.DataFrame:
     id_val = id_.item(0)
     problem_text = problem.item(0)
 
-    # Solve the problem using our RTC-enhanced solver
+    # Solve the problem using our solver
     outcome = model.solve_problem(problem_text, id=id_val)
     answer = int(outcome.get('answer', 0))
 
@@ -52,15 +55,21 @@ if __name__ == '__main__':
             print("🔬 Starting local gateway simulation...")
             test_path = '/kaggle/input/ai-mathematical-olympiad-progress-prize-3/test.csv'
             if not os.path.exists(test_path):
-                test_path = 'reference.csv'
+                # Fallback to local data paths
+                test_path = 'data/aimo_3/test.csv'
                 if not os.path.exists(test_path):
-                    print("Creating local dummy test.csv")
-                    pd.DataFrame({"id": ["000aaa"], "problem": ["What is 5!?"]}).to_csv("test.csv", index=False)
-                    test_path = "test.csv"
+                    test_path = 'reference.csv'
 
+            print(f"Using test data from: {test_path}")
             inference_server.run_local_gateway((test_path,))
         else:
-            print("❌ Cannot run submission without Kaggle API.")
+            # Absolute fallback simulation
+            print("🔬 Starting manual simulation (No API)...")
+            test_path = 'data/aimo_3/test.csv'
+            if os.path.exists(test_path):
+                df = pd.read_csv(test_path)
+                for _, row in df.iterrows():
+                    predict(pl.Series([row['id']]), pl.Series([row['problem']]))
 
     except Exception as e:
         print(f"❌ Error during execution: {e}")
