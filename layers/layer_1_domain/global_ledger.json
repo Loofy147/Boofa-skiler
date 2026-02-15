@@ -1,0 +1,67 @@
+{
+  "R_48D3182E": {
+    "id": "R_48D3182E",
+    "content": "Universal Rule: Complexity decreases Q-score unless grounded by symmetry.",
+    "layer": 0,
+    "features": {
+      "G": 0.99,
+      "C": 0.98,
+      "S": 0.97,
+      "A": 0.95,
+      "H": 0.98,
+      "V": 0.96
+    },
+    "q_score": 1.1064,
+    "parents": [],
+    "children": [
+      "R_57C5AE04"
+    ],
+    "metadata": {
+      "source": "Manual Crystallization"
+    },
+    "timestamp": "2026-02-15T22:44:34.205488"
+  },
+  "R_57C5AE04": {
+    "id": "R_57C5AE04",
+    "content": "Derived Pattern: Symmetry in math problems allows for modular pruning.",
+    "layer": 2,
+    "features": {
+      "G": 0.95,
+      "C": 0.94,
+      "S": 0.92,
+      "A": 0.9,
+      "H": 0.94,
+      "V": 0.92
+    },
+    "q_score": 0.985,
+    "parents": [
+      "R_48D3182E"
+    ],
+    "children": [],
+    "metadata": {
+      "source": "Project Beta Simulation"
+    },
+    "timestamp": "2026-02-15T22:44:34.207278"
+  },
+  "R_4E355703": {
+    "id": "R_4E355703",
+    "content": "Integrated Vision: STRATEGIC x TECHNICAL x VISION x CONSCIOUSNESS",
+    "layer": 0,
+    "features": {
+      "G": 0.9,
+      "C": 0.9,
+      "S": 0.9,
+      "A": 0.9,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 1.3498498917370831,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "project": "Alpha",
+      "phase": "Practical Realization"
+    },
+    "timestamp": "2026-02-15T22:45:09.364336"
+  }
+}
