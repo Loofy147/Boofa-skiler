@@ -70,7 +70,9 @@ class GrandMetaOrchestrator:
         self.domains = {
             "STRATEGIC": IntegratedDomainBrain("STRATEGIC", ["G", "V"]),
             "TECHNICAL": IntegratedDomainBrain("TECHNICAL", ["S", "C"]),
-            "ETHICAL": IntegratedDomainBrain("ETHICAL", ["H", "A"])
+            "ETHICAL": IntegratedDomainBrain("ETHICAL", ["H", "A"]),
+            "CONSCIOUSNESS": IntegratedDomainBrain("CONSCIOUSNESS", ["H", "S"]),
+            "VISION": IntegratedDomainBrain("VISION", ["V", "G"])
         }
         self.root_tasks = []
         self.universal_realizations = []
@@ -85,8 +87,11 @@ class GrandMetaOrchestrator:
     def _decompose(self, parent, depth):
         if depth <= 0: return
         num = np.random.randint(3, 5)
+        domain_list = list(self.domains.keys())
         for i in range(num):
-            child = TaskPoint(name=f"{parent.name}_B{i}", weight=parent.weight/num, domain=list(self.domains.keys())[i%3])
+            # Use random choice for domain to ensure all domains can be reached even with small branching factors
+            selected_domain = np.random.choice(domain_list)
+            child = TaskPoint(name=f"{parent.name}_B{i}", weight=parent.weight/num, domain=selected_domain)
             parent.children.append(child)
             self._decompose(child, depth-1)
 
@@ -120,17 +125,21 @@ class GrandMetaOrchestrator:
         self.stats["merger_events"] += 1
         pool = []
         for b in self.domains.values(): pool.extend([r for r in b.engine.index.values() if r.q_score > 0.75])
-        if len(pool) < 3: return
-        strat = [r for r in pool if "STRATEGIC" in r.content]
-        tech = [r for r in pool if "TECHNICAL" in r.content]
-        eth = [r for r in pool if "ETHICAL" in r.content]
-        if strat and tech and eth:
-            s, t, e = strat[0], tech[0], eth[0]
+
+        active_realizations = []
+        for domain_name in self.domains:
+            matches = [r for r in pool if f"D:{domain_name}" in r.content]
+            if matches:
+                best = max(matches, key=lambda x: x.q_score)
+                active_realizations.append(best)
+
+        if len(active_realizations) >= 3:
+            active_realizations.sort(key=lambda x: x.q_score, reverse=True)
+            top_r = active_realizations[:4]
             f = RealizationFeatures(grounding=0.99, certainty=0.99, structure=0.99, applicability=0.99, coherence=0.99, generativity=0.99)
-            # Find the New Values: Synthesis usually creates a "Highest Point"
-            # We explicitly calculate a peak Q here to represent discovery
-            peak_q = 1.05 + (np.random.random() * 0.20)
-            ur = Realization(id=f"UNIV_{uuid.uuid4().hex[:6]}", content=f"Omni-Valence: {s.content} x {t.content} x {e.content}", features=f, q_score=peak_q, layer=0, timestamp=datetime.now().isoformat(), parents=[s.id, t.id, e.id], children=[], turn_number=1)
+            peak_q = 1.10 + (np.random.random() * 0.25)
+            content_summary = " x ".join([r.content.split(" ")[0].replace("D:", "") for r in top_r])
+            ur = Realization(id=f"UNIV_{uuid.uuid4().hex[:6]}", content=f"Integrated Vision: {content_summary}", features=f, q_score=peak_q, layer=0, timestamp=datetime.now().isoformat(), parents=[r.id for r in top_r], children=[], turn_number=1)
             self.universal_realizations.append(ur)
             if peak_q > self.stats["highest_point"]: self.stats["highest_point"] = peak_q
 

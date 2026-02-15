@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2321            True  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518            True  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770            True  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972            True  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249            True  ",
+    "kaggle_sample": "ref                                                                              deadline             category          reward  teamCount  userHasEntered  \n-------------------------------------------------------------------------------  -------------------  ---------  -------------  ---------  --------------  \nhttps://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3    2026-04-15 23:59:00  Featured   2,207,152 Usd       2332            True  \nhttps://www.kaggle.com/competitions/passenger-screening-algorithm-challenge      2017-12-15 23:59:00  Featured   1,500,000 Usd        518            True  \nhttps://www.kaggle.com/competitions/zillow-prize-1                               2018-01-10 15:59:00  Featured   1,200,000 Usd       3770            True  \nhttps://www.kaggle.com/competitions/data-science-bowl-2017                       2017-04-12 23:59:00  Featured   1,000,000 Usd       1972            True  \nhttps://www.kaggle.com/competitions/vesuvius-challenge-ink-detection             2023-06-14 23:59:00  Featured   1,000,000 Usd       1249            True  ",
     "hf_model": {
       "id": "MiniMaxAI/MiniMax-M2.5",
       "tags": [
@@ -16,455 +16,2077 @@
         "fp8",
         "region:us"
       ],
-      "downloads": 6091,
-      "likes": 554
+      "downloads": 11092,
+      "likes": 587
     },
     "final_q_score": 0.9205
   },
   "simulation": {
     "stats": {
-      "merger_events": 100,
-      "highest_point": 1.2499240799343587
+      "merger_events": 500,
+      "highest_point": 1.3493948346325908
     },
     "domains": {
       "STRATEGIC": {
-        "avg_q": 1.0475011573101443,
+        "avg_q": 1.0220600979406038,
         "weights": {
-          "G": 0.3,
-          "C": 0.22166021107181283,
-          "S": 0.20166021107181284,
-          "A": 0.18166021107181282,
-          "H": 0.12206747008535546,
-          "V": 0.10195865587033676
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
         }
       },
       "TECHNICAL": {
-        "avg_q": 0.8836209180904554,
+        "avg_q": 0.9870627812589817,
         "weights": {
-          "G": 0.3,
-          "C": 0.22166021107181283,
-          "S": 0.20166021107181284,
-          "A": 0.18166021107181282,
-          "H": 0.12206747008535546,
-          "V": 0.10195865587033676
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
         }
       },
       "ETHICAL": {
-        "avg_q": 0.7935074509429766,
+        "avg_q": 0.9760488450309379,
         "weights": {
-          "G": 0.3,
-          "C": 0.22166021107181283,
-          "S": 0.20166021107181284,
-          "A": 0.18166021107181282,
-          "H": 0.12206747008535546,
-          "V": 0.10195865587033676
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
+        }
+      },
+      "CONSCIOUSNESS": {
+        "avg_q": 0.962168458420678,
+        "weights": {
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
+        }
+      },
+      "VISION": {
+        "avg_q": 1.0211509367530485,
+        "weights": {
+          "G": 0.5,
+          "C": 0.22,
+          "S": 0.2,
+          "A": 0.18,
+          "H": 0.12,
+          "V": 0.1
         }
       }
     },
     "universal_values": [
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1007482302168572
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2911380940472081
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1497000642889061
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1804705593778855
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1183610622178008
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1809409393708905
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.069223506695039
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.31425380183005
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.062988983231112
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2583133340298776
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1234408590079992
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2946273225599092
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1204146830393438
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.160651440442422
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.209677124216677
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.194871076505276
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1041944777206538
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1275433535225976
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2055601131409437
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.222523287879606
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2011435461302145
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1694789969566508
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.132044128829751
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1151073757226884
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2383086834575245
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.137245595067852
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.242169946206738
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2561829311852477
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.17755684933405
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.195974024854024
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.083563386915109
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1931133852688853
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0615626078527105
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3460103592951183
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0770398099459966
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1301373702052162
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2421290053994367
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.296062630029446
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0641197518584953
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.108828034701033
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0714427885161404
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1638065205946881
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1611370233735487
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.314793473929231
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0755404318431048
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1924328763036771
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1651434780594248
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2266810686005947
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2093813123838522
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.156737121814646
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2272203648812987
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.268628822177379
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0724280378074504
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.326714483189558
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.138091345588113
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1323811829726484
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0907258195637493
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2881087996335445
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.238630050182236
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.193395178435185
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2137561156023164
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.326830412839788
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1407521290492424
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1747570571466928
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1614984745970105
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1517414451248094
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0541024710853424
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1626136853449813
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0819360521306274
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.301068409617973
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.124978426078379
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1819803864350484
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1211339691280418
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3157591438448906
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2431983570501364
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1099518848775751
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.234262372032579
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2777895555765815
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1997469325701524
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2766440950378406
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1215858094581612
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2486174961258256
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.198455958545897
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2670836658453053
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0844873502145298
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1614435578007751
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2002462031932342
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1961436959620813
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0977641177776476
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2262854825378036
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.183550272038211
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1211499231499964
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.199152002695771
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.322384820054894
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2117651761589907
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.248652753914717
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0825258159058242
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.201958716752789
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.10809401538923
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1720954865316158
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1124802565481915
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3061950390310328
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1797608012814795
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2698410382649374
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.121485607469845
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2206832659059481
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1173519516247907
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2602736718727516
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.181823323298465
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1664807514586604
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.220703699131179
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3185651713319189
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.085425410476137
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2279950198435068
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1448103385101618
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.223862952482465
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1827539994110574
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.34429101655967
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.068686359269104
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1359974807445532
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2246739128088646
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2926085978242483
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1573961125209544
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3375544465239073
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2465465771599558
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1574116472362102
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0513463133472987
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3011830874973682
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2401998014490339
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.196352292801014
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0842625923052405
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2992612995412656
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0637417113503986
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2229084669966497
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2380885658101364
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1201465785911555
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.151408574097058
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2796048166485132
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1124957940785476
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.209139485887529
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2378516749535313
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2117953347289872
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1208607468333112
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.320413227045923
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1868513570033623
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1360026942387376
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2499240799343587
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2061056165794433
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.064816318269826
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2241184611163818
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2240446627711452
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.200092285317768
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2449856908294943
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1746353058387784
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1353646046731287
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.246837675051795
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1978263927737935
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2804871944903466
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0611190763538796
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3482438190411736
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1302643377006267
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2811925781769162
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1122754795791236
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.191575334685917
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.130826042282658
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3281620224364843
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0750183237561481
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.267487591398794
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1630099212458922
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1556108432411083
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.129278444229255
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2611347718458736
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.0657070264642305
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2649507303618595
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.206090525517158
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3277080776463481
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2361679132442105
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.346903833102385
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2062609592208011
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3093164304972371
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1981791521708691
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2289159983224653
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.192869876667362
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3110304233393664
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1836236177521977
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.318730830461068
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2142879422203092
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2414327262572464
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.186285302017614
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.125468685207503
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.078871239873973
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2076820618065738
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2248836645011956
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.252542312888315
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1999827613544396
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2599492922648416
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.2272370591460036
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2681666401832825
       },
       {
-        "content": "Omni-Valence: D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0 x D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1 x D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
-        "q": 1.1814569962843624
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2189976917776324
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1559388577273852
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.335046267481804
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1488869776878412
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2153218530599117
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3142481580964394
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2006487391416467
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.127979744507072
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.238447817648956
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.321907365135287
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3486909203378115
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3161612714800563
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3340823022404147
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2109225341898007
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3472279602501303
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2543947603242405
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2495589976453652
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2245401330465968
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1241334955272397
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3051156972670062
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.231078122298205
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3393161128898585
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2976386088251484
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3133419313121755
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2547898220159015
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3343299597209568
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1891733086359504
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3384802052414975
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.225048578195942
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2308735804375168
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1650309337790943
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1127537691193732
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1491267327623444
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1976447306612896
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1604828821789104
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2047136373901637
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1247034045226174
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1842180271369658
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.283299168728855
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1258094162506356
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2067097093760657
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3445044022924726
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2947030491908942
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1785815630333119
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1250363401661512
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1616342337940166
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2092499935385868
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.282795615438204
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2424249427594383
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1452288364332626
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3240427402946722
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3455939602198823
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.113121533251468
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.212535552598471
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3415481633820847
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3041965643973907
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2987929604919985
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3266169242693082
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3041426058065264
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.271409693296136
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1712603085856987
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.116319995037196
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.145686281003819
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1888593133209409
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2972877985421776
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1421604861020127
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3020459584295736
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.342493680156677
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3458541655448693
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2417969192736327
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1997659927336706
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3435251114955475
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1900627277834919
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3292726445148277
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2648792486596196
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.239708125232426
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.109629017223222
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3247513629299918
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3117776858534684
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.137360032659402
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1333298155628053
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3111911606172422
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2707272324598375
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3162393588512156
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.323457150577643
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3408601840680974
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.316310588848435
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1645226610179022
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1399608926704294
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2018246942851583
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1773346267644047
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1893128273231954
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2195982760829018
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1705495431931208
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2193847907350461
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2491747786743586
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1128040761984435
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1632431053710042
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1203106718520597
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1848446723707005
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1985843557396025
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3376849323064037
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.188330406126327
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1214916166353568
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3350553035374695
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2186426940224842
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1997629485942507
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1426991662200885
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2377355251192008
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1548773381775579
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1324854917400742
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2188139627189292
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1779449430092772
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3364441361426578
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1585820439170138
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1494035609717779
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1131203348770935
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2247870410272472
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3077171019680367
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2094576793527543
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3118468227578317
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2540886155333784
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3268002444819813
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1253017444727083
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1026582363776554
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2762899861923602
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1340616660578855
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.285879845320294
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2574625837743536
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1587537302873026
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2293887412979356
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3249996104778283
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2427264565112877
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1898583912532845
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1549622195345197
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3426461894338766
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3423171487686556
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3386307102269117
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1312280341170244
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1990188914413968
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1098393742209758
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.34086531815195
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2886772604844978
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1410209769819057
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3328985361609933
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1174648170452466
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1931659907606553
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3102091603614738
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2506030282641643
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1784885609138982
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1031088290149544
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1851676966349596
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3292669642467205
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2849563823558863
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2501126918865897
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.246925925828625
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2145121405521475
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1149124268276567
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3467753477067885
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2347346755802016
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.130911871695859
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.23478229479913
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3487817135771811
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3007230102667722
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.347430750709003
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3452607872896851
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3389140219505573
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1276074994624996
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1721348604105228
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.212770753945748
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.199771125780047
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.207069227346412
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.208570611800291
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1791985958691207
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.190059297017267
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1678295154585259
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2803464582047366
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1992337638614925
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1452071381629763
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1803292489060297
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1350623195812128
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2227361012587716
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1680945242766694
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.34270363307156
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1157066249953247
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1810084783435701
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1352295031860784
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2376096858994154
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3162139013536487
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2858017644205113
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1909305578545462
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.340153675937437
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2264839596857062
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2703018749160433
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1041007090645705
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.297210309038178
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1954374830420549
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3324233997618609
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1355428373296992
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.240515030412599
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2600194926316608
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2025967448831842
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2902249905929315
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1761767581727147
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.167877991699423
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1841877530651517
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.202611265014604
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2189649782045977
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2616508785635032
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.268044141158745
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1303540239595469
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1101534567914684
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1701305300479041
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.255577710545473
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1804302937412836
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.241253448058403
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2001590490323686
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2508963065869325
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1840497731880375
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.313984883904052
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.244608780816172
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1881500492261459
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1551846070105938
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1321149011700076
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.180326436775248
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3171778085638073
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1919619068097662
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3286770673350896
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1631389921721396
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.182992223355548
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1961295254189894
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2245806706515763
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2905754864137884
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1039322536418053
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1559968313174602
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3214556829038675
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1805832706406223
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2541294244292192
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2420738952455401
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1845120087277925
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2168826076596446
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1886752705951025
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2348125902884883
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2535293885655518
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3302343259460272
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1055597327377495
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1947949499419332
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.168326938461595
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.205118347498541
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.191876263175638
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2280463446688723
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.342107928445978
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2833985261574212
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2372782009586285
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3299033587090139
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3208252356987291
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3029545974189223
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.27499348811166
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2146745527003646
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2503137502181931
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2278578514592178
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2921107601710318
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1720215982229873
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3208210380085723
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1658883709490104
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.308888702514657
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1014271532173174
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3448357806757323
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3490469930241669
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2906544932893456
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3395243753584667
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1070646751897741
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1047238198615381
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2723709774607515
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1127264356548345
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1248604846246486
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1366319515457972
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2083595625485766
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2487683118015376
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2882278811061987
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3084502399359814
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1263034023786274
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1170705445635158
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2823705379003116
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2637412410626505
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2984991132202002
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2422660489147246
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3432921276970544
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.142821182811084
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1901596650231543
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3302471772308275
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1493572439186135
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2848238805260288
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1368153066871498
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1624863591340877
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2124541939883293
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2852657820458246
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2883544056667644
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3213592218243924
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3351760129447823
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1406032086223874
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.31305784937987
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1651781532720262
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2950903421963074
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2093048955021435
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2026309632209577
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1241392734893199
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.341869633061365
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2698929364755407
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.105866284613369
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2849996881425045
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1932552199757998
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3047530047939129
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.110517242908644
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1874565200747151
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2800465565191974
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1842977359718212
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.334147613877656
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.158347829752043
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2229737545951274
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3263728896050542
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2145472038978289
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1674538188739993
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1160735023377042
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2034501141787635
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.193321815610615
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1013490030337458
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.287552815204279
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1880522554171709
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1282990227557774
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.275327035253054
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.148540530778086
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1260223231454134
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1256182383239033
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2361184637165394
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2442850528033476
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2981605531890545
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2685617800305722
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1822702493572095
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2495929423516836
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2473481440330185
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.218505469814725
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1533269221051563
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1298798632665112
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2887561301522996
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1633877667397179
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.248986707015483
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.152966724919752
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3415662395388976
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.259062256737972
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2803546797844771
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1970098979640114
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.213111360178072
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.12239120931641
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.323085676817166
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1167265544613951
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1798691202513605
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1122549066195884
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1340296843091873
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2306888510664868
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2953404090782097
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.154711728907099
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.202065764926432
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2049036331151441
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3121166874598893
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.177317202742012
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1512783879960466
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3461463351554468
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.243124481162429
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2930269161759045
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3068022342113697
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2312354599894026
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2551616165339983
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1077140305401356
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3096211099504547
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.207860643593798
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.155100167909978
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3182050988257392
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.237666137524023
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3235487894365132
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2870743687806758
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2464241989106024
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1155149709196084
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.193598279265658
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2447957112323196
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.266376438149622
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.120935066029005
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1863943303501698
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1732496800496823
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.236463858906115
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1622243643289
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.212504594791625
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1962986014084493
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2443596161500974
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3472467154424717
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.252115946055608
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2124025754202055
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1667230816009517
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.1445581902746795
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.3493948346325908
+      },
+      {
+        "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+        "q": 1.2350139008908525
       }
     ],
-    "highest_point": 1.2499240799343587
+    "highest_point": 1.3493948346325908
   },
   "achievement_reached": true,
-  "timestamp": "2026-02-15T06:25:03.258595"
+  "timestamp": "2026-02-15T15:44:13.227757"
 }
