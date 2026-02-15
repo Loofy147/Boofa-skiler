@@ -76,6 +76,21 @@ class DataGatherer:
             })
         return realizations
 
+def _get_default_mock_data():
+    """Provides minimal but valid mock data structure if file is missing."""
+    return [
+        {
+            "content": "Kaggle Dataset 'AI Mathematical Olympiad' offers potential features for reasoning optimization.",
+            "features": {"grounding": 0.9, "certainty": 0.9, "structure": 0.85, "applicability": 0.95, "coherence": 0.9, "generativity": 0.8},
+            "source": "Kaggle", "id": "aimo-3"
+        },
+        {
+            "content": "HF Dataset 'MiniMaxAI/MiniMax-M2.5' is a high-impact data source enhancing system grounding.",
+            "features": {"grounding": 0.95, "certainty": 0.92, "structure": 0.9, "applicability": 0.98, "coherence": 0.95, "generativity": 0.9},
+            "source": "HF", "id": "minimax"
+        }
+    ]
+
 def gather_all():
     k_token = os.getenv("KAGGLE_API_TOKEN")
     h_token = os.getenv("HF_TOKEN")
@@ -83,6 +98,23 @@ def gather_all():
     if not k_token or not h_token:
         logger.error("Tokens missing")
         return []
+
+    if k_token == "DUMMY" or h_token == "DUMMY":
+        logger.warning("Running gather_all in MOCK mode due to DUMMY tokens.")
+        mock_data_path = "data/comprehensive_external_data.json"
+
+        if os.path.exists(mock_data_path):
+            try:
+                with open(mock_data_path, "r") as f:
+                    data = json.load(f)
+                    logger.info(f"Loaded {len(data)} records from mock data file")
+                    return data
+            except Exception as e:
+                logger.error(f"Failed to parse mock data file: {e}")
+                return _get_default_mock_data()
+        else:
+            logger.warning(f"Mock data file not found at {mock_data_path}, using default mock data")
+            return _get_default_mock_data()
 
     gatherer = DataGatherer(k_token, h_token)
 

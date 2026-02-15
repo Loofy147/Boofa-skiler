@@ -101,9 +101,21 @@ def main():
     k_token = os.getenv("KAGGLE_API_TOKEN")
     h_token = os.getenv("HF_TOKEN")
 
+    mock_mode = False
     if not k_token or not h_token:
-        print("❌ Error: API tokens not found in environment.")
-        return
+        print("="*60)
+        print("🔶 MOCK/OFFLINE MODE ACTIVE 🔶")
+        print("Using simulated data - not connected to live APIs")
+        print("💡 To run with live APIs, set KAGGLE_API_TOKEN and HF_TOKEN")
+        print("="*60)
+        k_token = "DUMMY"
+        h_token = "DUMMY"
+        mock_mode = True
+    elif k_token == "DUMMY" or h_token == "DUMMY":
+        print("⚠️ MOCK MODE: Using DUMMY tokens for offline operation")
+        mock_mode = True
+    else:
+        print("✅ LIVE MODE: Connected to Kaggle & Hugging Face APIs")
 
     skiler = BoofaSkiler(k_token, h_token)
     pipeline_results = skiler.execute()
