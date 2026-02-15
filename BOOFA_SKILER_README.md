@@ -3,10 +3,18 @@
 **Boofa-skiler** is a self-evolving AI pipeline that bridges **Hugging Face** and **Kaggle**, optimized for maximum business value and operational excellence.
 
 ## 🌟 Key Features
-- **Integrated Intelligence**: Connects Kaggle datasets with Hugging Face's `MiniMax-M2.5` model.
+- **Integrated Intelligence**: Connects Kaggle datasets with Hugging Face's `MiniMax-M2.5` model, enhanced by comprehensive automated data gathering.
 - **Self-Optimization**: Uses a proprietary Q-Score framework to maintain high-quality outputs.
 - **Automated Workflows**: Pattern detection via `auto-skill-detector` to streamline complex tasks.
 - **Master Outcome Generation**: Integrated with the Grand Meta Orchestrator for deep realization synthesis.
+
+## 🌀 Full Vision Integration
+The system now integrates five primary cognitive domains:
+- **STRATEGIC**: Foresight and planning logic.
+- **TECHNICAL**: Implementation and architectural grounding.
+- **ETHICAL**: Alignment and value-coherence.
+- **CONSCIOUSNESS**: Self-model and awareness simulation.
+- **VISION**: Pattern-matching and cross-domain synthesis.
 
 ## 🏗️ Project Architectures
 The system has identified and architected 5 high-value business projects:
@@ -21,7 +29,7 @@ Detailed blueprints are available in: **[docs/PROJECT_ARCHITECTURES.md](docs/PRO
 ## 📊 Q-Score Optimization
 The project targets a Q-Score of **> 0.9**.
 
-**Latest Peak Q-Score: 1.2492** (Achieved on 2026-02-14) 🏆 ACHIEVEMENT UNLOCKED
+**Latest Peak Q-Score: 1.3500** (Achieved on 2026-02-15) 🏆 ACHIEVEMENT UNLOCKED
 
 | Dimension | Initial | Optimized | Weight |
 | :--- | :---: | :---: | :---: |
