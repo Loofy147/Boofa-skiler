@@ -1,0 +1,28 @@
+{
+  "competition_id": "ai-mathematical-olympiad-progress-prize-3",
+  "rules_summary": "\n- Competition: AI Mathematical Olympiad - Progress Prize 3\n- Sponsor: XTX Investments Limited\n- Total Prizes: $2,117,152\n- Overall Progress Prize Target: 47/50 on both public and private sets\n- Top 5 Places: $262,144 (1st), $131,072 (2nd), $65,536 (3rd), $32,768 (4th), $16,384 (5th)\n- Additional Prizes: Longest Leader ($20k), Hard Problem ($30k), Math Corpus ($30k), Writeup ($30k)\n- Max Team Size: 20\n- Submission Limit: 1 per day\n- Model Release Limit: AMLTs must be released prior to March 15, 2026\n- License: CC-BY 4.0\n",
+  "current_leaderboard_sample": [
+    "Next Page Token = CfDJ8E2Nv-_xTuFMnx6IZ-XCV9yTElaaNkNIwysrFHwI7RBmNjTbpB6Jj7yhiBcy-Y_PyKuEH1Xu8TMqNGb7NJVgRUw",
+    "  teamId  teamName              submissionDate              score  ",
+    "--------  --------------------  --------------------------  -----  ",
+    "14798945  i.won.a.maths.debate  2026-02-15 06:24:35.133000  44     ",
+    "15016752  Neeraj                2026-02-12 21:59:04.496000  44     ",
+    "15119426  Hrithik Reddy         2026-02-13 06:23:18.483000  44     ",
+    "14809153  Varra                 2026-02-15 00:26:17.646000  44     ",
+    "14827487  Pai                   2026-02-06 21:38:22.536000  44     ",
+    "14953109  Aman                  2026-02-15 11:20:11.390000  44     ",
+    "15235944  ttytaen               2026-02-11 21:48:16.960000  44     ",
+    "14984751  Boris Liskovets       2026-02-15 13:12:53.393000  44     ",
+    "14914988  Harrabi Raouf         2026-02-15 16:46:48.710000  44     ",
+    "14808304  Gliding Moran         2026-02-14 00:57:20.440000  43     ",
+    "14805139  Neer                  2026-02-02 03:16:24.656000  43     ",
+    "14805125  Rustam Bazarbayev     2026-02-14 18:02:14.913000  43     ",
+    "14821453  Math not mathing      2026-02-15 12:25:58.100000  43     ",
+    "14989279  reyvan14              2026-02-13 23:25:11.296000  43     ",
+    "14833324  101                   2026-02-13 07:09:10.516000  43     ",
+    "14807228  diego.exe             2026-02-15 05:08:08.496000  43     ",
+    "14831713  lkevincc              2026-02-12 03:18:23.313000  43     "
+  ],
+  "target_score": 47,
+  "top_current_score": 44
+}
