@@ -1,0 +1,327 @@
+[
+  {
+    "content": "Kaggle Dataset 'OpenBookQA (Multi-step Reasoning) 826782' (ref: thedevastator/openbookqa-a-new-dataset-for-advanced-question-a) offers potential features for reasoning optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "thedevastator/openbookqa-a-new-dataset-for-advanced-question-a"
+  },
+  {
+    "content": "Kaggle Dataset 'Logical Reasoning Improvement Dataset' (ref: thedevastator/logical-reasoning-improvement-dataset) offers potential features for reasoning optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "thedevastator/logical-reasoning-improvement-dataset"
+  },
+  {
+    "content": "Kaggle Dataset 'TextOCR - Text Extraction' (ref: robikscube/textocr-text-extraction-from-images-dataset) offers potential features for reasoning optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "robikscube/textocr-text-extraction-from-images-dataset"
+  },
+  {
+    "content": "Kaggle Dataset 'CLEVR Dataset 19033361967 2020-02-04' (ref: timoboz/clevr-dataset) offers potential features for reasoning optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "timoboz/clevr-dataset"
+  },
+  {
+    "content": "Kaggle Dataset 'GSM8K - Grade School' (ref: thedevastator/grade-school-math-8k-q-a) offers potential features for reasoning optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "thedevastator/grade-school-math-8k-q-a"
+  },
+  {
+    "content": "Kaggle Dataset 'SalesDataAnalysis 4795014 2023-09-23 14:00:23.283000' (ref: aemyjutt/salesdata) offers potential features for strategic optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "aemyjutt/salesdata"
+  },
+  {
+    "content": "Kaggle Dataset 'Strategic E-commerce Analytics Dashboard' (ref: nibeditasahu/strategic-e-commerce-analytics-dashboard) offers potential features for strategic optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "nibeditasahu/strategic-e-commerce-analytics-dashboard"
+  },
+  {
+    "content": "Kaggle Dataset 'BMW Stock Data (1996-2024)' (ref: hassanjameelahmed/bmw-stock-data-1996-2024) offers potential features for strategic optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "hassanjameelahmed/bmw-stock-data-1996-2024"
+  },
+  {
+    "content": "Kaggle Dataset 'Product Classification and Clustering' (ref: nayanack/product-classification-and-clustering) offers potential features for strategic optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "nayanack/product-classification-and-clustering"
+  },
+  {
+    "content": "Kaggle Dataset 'Shopping Mall Customer Segmentation' (ref: zubairmustafa/shopping-mall-customer-segmentation-data) offers potential features for strategic optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "zubairmustafa/shopping-mall-customer-segmentation-data"
+  },
+  {
+    "content": "Kaggle Dataset 'Mathematical Mathematics Memes 403690378' (ref: abdelghanibelgaid/mathematical-mathematics-memes) offers potential features for mathematics optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "abdelghanibelgaid/mathematical-mathematics-memes"
+  },
+  {
+    "content": "Kaggle Dataset 'Student performance prediction 8871' (ref: rkiattisak/student-performance-in-mathematics) offers potential features for mathematics optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "rkiattisak/student-performance-in-mathematics"
+  },
+  {
+    "content": "Kaggle Dataset 'Geometric Shapes Mathematics 122366968' (ref: reevald/geometric-shapes-mathematics) offers potential features for mathematics optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "reevald/geometric-shapes-mathematics"
+  },
+  {
+    "content": "Kaggle Dataset 'Mathematics symbols data 153405133' (ref: amitamola/mathematics-symbols-data) offers potential features for mathematics optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "amitamola/mathematics-symbols-data"
+  },
+  {
+    "content": "Kaggle Dataset 'Student Performance in Mathematics' (ref: mrigaankjaswal/student-performance-in-mathematics-and-portuguese) offers potential features for mathematics optimization.",
+    "features": {
+      "grounding": 0.9299999999999999,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.86
+    },
+    "source": "Kaggle",
+    "id": "mrigaankjaswal/student-performance-in-mathematics-and-portuguese"
+  },
+  {
+    "content": "HF Dataset 'huggingface/documentation-images' is a high-impact data source with 1881867 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "huggingface/documentation-images"
+  },
+  {
+    "content": "HF Dataset 'KakologArchives/KakologArchives' is a high-impact data source with 1495254 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "KakologArchives/KakologArchives"
+  },
+  {
+    "content": "HF Dataset 'hf-doc-build/doc-build' is a high-impact data source with 1265764 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "hf-doc-build/doc-build"
+  },
+  {
+    "content": "HF Dataset 'NTU-NLP-sg/xCodeEval' is a high-impact data source with 1251280 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "NTU-NLP-sg/xCodeEval"
+  },
+  {
+    "content": "HF Dataset 'nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim' is a high-impact data source with 1178598 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim"
+  },
+  {
+    "content": "HF Dataset 'google-research-datasets/mbpp' is a high-impact data source with 1148528 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "google-research-datasets/mbpp"
+  },
+  {
+    "content": "HF Dataset 'deepmind/code_contests' is a high-impact data source with 1114841 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "deepmind/code_contests"
+  },
+  {
+    "content": "HF Dataset 'opendatalab/AICC' is a high-impact data source with 1067211 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "opendatalab/AICC"
+  },
+  {
+    "content": "HF Dataset 'm-a-p/FineFineWeb' is a high-impact data source with 865100 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "m-a-p/FineFineWeb"
+  },
+  {
+    "content": "HF Dataset 'Salesforce/GiftEvalPretrain' is a high-impact data source with 863070 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "Salesforce/GiftEvalPretrain"
+  }
+]

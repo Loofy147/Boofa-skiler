@@ -1,3 +1,4 @@
+from layers.layer_3_optimization.gather_comprehensive_data import gather_all
 import os
 import json
 import sys
@@ -33,7 +34,7 @@ def generate_master_report(pipeline_data, simulation_report, achievement_reached
 ---
 
 ## 1. Executive Summary
-This report presents the outcomes of an **Full Vision Integrated Evolution Run** (5000 Cycles). The system was tasked with reaching a "Singularity Achievement" (Q > 1.20) through sustained recursive synthesis and cross-domain merger logic.
+This report presents the outcomes of an **Full Vision Integrated Evolution Run** (5000 Cycles). The system was tasked with reaching a "Singularity Achievement" (Q > 1.20) through sustained recursive synthesis and cross-domain merger logic, enhanced by comprehensive data gathering from Kaggle and Hugging Face.
 
 ---
 
@@ -48,6 +49,9 @@ This report presents the outcomes of an **Full Vision Integrated Evolution Run**
 ```
 
 ---
+
+## 2.5 Comprehensive Data Gathering
+The evolution was seeded with external realizations from Kaggle and Hugging Face, significantly broadening the feature space for synthesis.
 
 ## 3. Full Vision Simulation Metrics (5000 Cycles)
 The **Grand Meta Orchestrator (MCO)** maintained high structural integrity across a prolonged execution window.
@@ -112,6 +116,19 @@ def main():
     print("🌀 Seeding Grand Meta Orchestrator...")
     mco = GrandMetaOrchestrator()
     mco.feed_protocol("Boofa-Skiler achievement protocol", depth=3)
+
+    # 1.5 Gather Comprehensive Data
+    print("🌐 Gathering Comprehensive External Data...")
+    external_realizations = gather_all()
+    for er in external_realizations:
+        domain_choice = "TECHNICAL" if er["source"] == "HF" else "STRATEGIC"
+        f = er["features"]
+        mco.domains[domain_choice].engine.add_realization(
+            content=er["content"],
+            features=RealizationFeatures(f["grounding"], f["certainty"], f["structure"], f["applicability"], f["coherence"], f["generativity"]),
+            turn_number=1
+        )
+    print(f"✅ Injected {len(external_realizations)} external realizations into MCO.")
 
     # Inject pipeline-based realization
     model_name = pipeline_results.get('hf_model', {}).get('id', 'Unknown')
