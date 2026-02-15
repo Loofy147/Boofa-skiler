@@ -9,9 +9,14 @@ def run_submission():
     solver = AIMOMathSolver()
 
     # 1. Load data
-    test_path = "test.csv"
-    if not os.path.exists(test_path):
+    # Priority: 1. test.csv (Production), 2. reference.csv (Local Validation)
+    if os.path.exists("test.csv"):
+        test_path = "test.csv"
+    elif os.path.exists("reference.csv"):
+        test_path = "reference.csv"
+    else:
         # Create a mock test.csv if missing (for demo)
+        test_path = "test.csv"
         df_test = pd.DataFrame({
             "id": ["test_1", "test_2"],
             "problem": [
@@ -23,7 +28,7 @@ def run_submission():
         print("Created mock test.csv for demo.")
 
     test_df = pd.read_csv(test_path)
-    print(f"Loaded {len(test_df)} problems.")
+    print(f"Loaded {len(test_df)} problems from {test_path}.")
 
     # 2. Process problems
     results = []
