@@ -16,7 +16,7 @@ license: apache-2.0
 
 ## 🌟 Key Features
 - **Integrated Intelligence**: Connects Kaggle datasets with Hugging Face's MiniMax-M2.5 model.
-- **Self-Optimization**: Uses a proprietary Q-Score framework (latest peak: 1.24+).
+- **Self-Optimization**: Uses a proprietary Q-Score framework (latest peak: 1.3500).
 - **Automated Workflows**: Pattern detection via auto-skill-detector.
 - **Master Outcome Generation**: Integrated with the Grand Meta Orchestrator.
 
