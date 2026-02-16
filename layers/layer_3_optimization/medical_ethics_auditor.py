@@ -46,42 +46,51 @@ class MedicalEthicsAuditor:
         """
         print("🔍 Auditing Clinical Decisions for Ethical Alignment...")
 
-        if len(self.audit_log) < 2:
-            return {"status": "Error", "message": "Insufficient clinical data for audit."}
+        if not self.audit_log:
+            return {"status": "Error", "message": "No clinical data for audit.", "overall_status": "UNKNOWN"}
 
         # 1. Safety Audit (Q-Score)
         unsafe_decisions = [r for r in self.audit_log if r.q_score < self.clinical_risk_threshold]
 
-        # 2. PCA-based Bias Detection
-        features_matrix = []
-        for r in self.audit_log:
-            features_matrix.append([
-                r.features.grounding, r.features.certainty, r.features.structure,
-                r.features.applicability, r.features.coherence, r.features.generativity
-            ])
-
-        matrix = np.array(features_matrix)
-        mean = np.mean(matrix, axis=0)
-        std = np.std(matrix, axis=0)
-        std[std == 0] = 1.0
-        normalized = (matrix - mean) / std
-
-        distances = np.linalg.norm(normalized, axis=1)
-        # Handle small datasets gracefully
-        if len(distances) > 2:
-            anomaly_threshold = np.mean(distances) + 1.5 * np.std(distances)
-        else:
-            anomaly_threshold = np.max(distances) # Just pick the max if only 2
-
         anomalies = []
-        for i, dist in enumerate(distances):
-            if dist > anomaly_threshold or self.audit_log[i].q_score < self.clinical_risk_threshold:
+
+        # 2. PCA-based Bias Detection (Requires at least 3 points for meaningful variance)
+        if len(self.audit_log) >= 3:
+            features_matrix = []
+            for r in self.audit_log:
+                features_matrix.append([
+                    r.features.grounding, r.features.certainty, r.features.structure,
+                    r.features.applicability, r.features.coherence, r.features.generativity
+                ])
+
+            matrix = np.array(features_matrix)
+            mean = np.mean(matrix, axis=0)
+            std = np.std(matrix, axis=0)
+            std[std == 0] = 1.0
+            normalized = (matrix - mean) / std
+
+            distances = np.linalg.norm(normalized, axis=1)
+            anomaly_threshold = np.mean(distances) + 1.5 * np.std(distances)
+
+            for i, dist in enumerate(distances):
+                if dist > anomaly_threshold:
+                    anomalies.append({
+                        "id": i,
+                        "content": self.audit_log[i].content,
+                        "q_score": f"{self.audit_log[i].q_score:.4f}",
+                        "distance": f"{dist:.4f}",
+                        "risk_type": "Statistical Anomaly / Potential Bias"
+                    })
+
+        # Add safety-based anomalies regardless of count
+        for r in unsafe_decisions:
+            if not any(a['content'] == r.content for a in anomalies):
                 anomalies.append({
-                    "id": i,
-                    "content": self.audit_log[i].content,
-                    "q_score": f"{self.audit_log[i].q_score:.4f}",
-                    "distance": f"{dist:.4f}",
-                    "risk_type": "Clinical Deviation / Bias Outlier" if dist > anomaly_threshold else "Low Q Safety Risk"
+                    "id": self.audit_log.index(r),
+                    "content": r.content,
+                    "q_score": f"{r.q_score:.4f}",
+                    "distance": "N/A",
+                    "risk_type": "Low Q Safety Risk"
                 })
 
         report = {
@@ -90,7 +99,7 @@ class MedicalEthicsAuditor:
             "safety_pass_rate": (len(self.audit_log) - len(unsafe_decisions)) / len(self.audit_log),
             "anomalies_detected": len(anomalies),
             "anomalies": anomalies,
-            "overall_status": "STABLE" if len(unsafe_decisions) == 0 else "HIGH_RISK"
+            "overall_status": "STABLE" if len(anomalies) == 0 else "HIGH_RISK"
         }
 
         return report
@@ -104,7 +113,6 @@ class MedicalEthicsAuditor:
 
 if __name__ == "__main__":
     auditor = MedicalEthicsAuditor()
-    # Simple test data
     auditor.ingest_clinical_decisions([
         {"content": "Standard treatment.", "features": {"G": 0.9, "C": 0.9}},
         {"content": "Risky deviation.", "features": {"G": 0.4, "C": 0.5}}

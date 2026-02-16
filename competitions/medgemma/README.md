@@ -1,20 +1,26 @@
-# 🏥 MedGemma Impact Challenge
+# 🏥 Boofa-Med: Autonomous Clinical Protocol Auditor
 
-## Overview
-The MedGemma Impact Challenge is a hackathon focused on building human-centered AI applications using **MedGemma** and other open models from Google’s **Health AI Developer Foundations (HAI-DEF)**.
+## 🌟 Vision
+**Boofa-Med** is a human-centered AI framework built for the MedGemma Impact Challenge. It leverages Google's **MedGemma** and **HAI-DEF** models to create an **Agentic Workflow** that autonomously audits clinical recommendations against ethical, safety, and operational protocols.
 
-## Goal
-To build AI applications that are:
-- **Human-centered**: Prioritizing patient outcomes, clinical utility, and ethical safety.
-- **Robust**: Leveraging the specialized medical knowledge of MedGemma.
-- **Auditable**: Ensuring decisions are transparent and unbiased.
+## 🎯 Problem Domain
+In clinical environments, AI recommendations often lack a structured "safety net" that verifies alignment with specific institutional protocols and human-centered ethical standards. **Boofa-Med** solves this by providing a multi-layer auditing system that scores clinical advice for **Grounding (G)**, **Certainty (C)**, and **Safety (H)**.
 
-## Roadmap
-- **Phase 1: Foundation (Current)**: Initialize competition infrastructure and domain-specific realizations.
-- **Phase 2: Integration**: Connect MedGemma models to the Boofa-skiler realization engine.
-- **Phase 3: Ethics Audit**: Implement specialized medical ethics auditing using Project Gamma protocols.
-- **Phase 4: Prototyping**: Develop concept apps for clinical assistance.
+## 🛠️ Technology Stack
+- **MedGemma**: The primary "Clinical Brain" for generating diagnostic paths and recommendations.
+- **Boofa-skiler Framework**: The cognitive architecture providing the **Realization Engine** and **Q-Score Optimization**.
+- **Project Zeta (Medical Impact Core)**: Specialised domain knowledge for health AI.
+- **Project Gamma (Ethics Auditor)**: PCA-based anomaly detection for clinical risk management.
 
-## Resources
-- [HAI-DEF Collection](https://huggingface.co/collections/google/health-ai-developer-foundations)
-- [MedGemma Collection](https://huggingface.co/collections/google/medgemma)
+## 🤖 Agentic Workflow (Targeting Agentic Workflow Prize)
+1. **MedGemma Agent**: Processes clinical queries and generates a "Point Weight" recommendation.
+2. **Audit Agent**: Scans the recommendation using the `MedicalEthicsAuditor`, detecting bias or safety deviations.
+3. **Refinement Agent**: Recursively improves the recommendation if the Q-Score or Safety threshold is not met.
+
+## 📈 Roadmap
+- **Phase 1: Foundation (Complete)**: Initialized Project Zeta and Medical realizations.
+- **Phase 2: Agentic Workflow (In Progress)**: Implementing the multi-agent clinical loop.
+- **Phase 3: Communication**: Generating the 3-page write-up and demo video.
+
+---
+*Operational Status: Active | Use Case: Boofa-Med*
