@@ -24,6 +24,3 @@ In clinical environments, AI recommendations often lack a structured "safety net
 
 ---
 *Operational Status: Active | Use Case: Boofa-Med*
-
-## 🧪 Automated Verification
-Boofa-Med uses GitHub Actions for continuous clinical verification. Check the status in the **Actions** tab of your repository.
