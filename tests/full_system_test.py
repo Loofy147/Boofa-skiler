@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """
 FULL SYSTEM INTEGRATION TEST
@@ -7,7 +8,7 @@ Demonstrates ClawdBot-Next capabilities.
 """
 
 import sys
-sys.path.append('/home/claude')
+sys.path.append(os.getcwd())
 
 from layers.layer_0_universal.foundation import *
 from layers.layer_1_domain.foundation import *
