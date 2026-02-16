@@ -7,34 +7,51 @@ from collections import Counter
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # --- 1. Model Configuration ---
-MODEL_PATH = '/kaggle/input/minimax-m2-5-sft'
+# Use multiple paths to be safe. DeepSeek-R1-Distill-Qwen-1.5B is excellent for math.
+PATHS = [
+    '/kaggle/input/deepseek-r1/transformers/distill-qwen-1.5b/2',
+    '/kaggle/input/deepseek-r1-distill-qwen-1.5b/transformers/default/1',
+    '/kaggle/input/minimax-m2-5-sft'
+]
 
 def load_model():
-    if not os.path.exists(MODEL_PATH):
-        print("⚠️ Model path not found. Running in simulation mode.")
-        return None, None
-
-    print(f"⏳ Loading model from {MODEL_PATH}...")
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL_PATH,
-        torch_dtype=torch.bfloat16,
-        device_map='auto',
-        trust_remote_code=True
-    )
-    print("✅ Model loaded successfully.")
-    return tokenizer, model
+    for p in PATHS:
+        if os.path.exists(p):
+            print(f"⏳ Loading model from {p}...")
+            try:
+                tokenizer = AutoTokenizer.from_pretrained(p, trust_remote_code=True)
+                model = AutoModelForCausalLM.from_pretrained(
+                    p,
+                    torch_dtype=torch.float16,
+                    device_map='auto',
+                    trust_remote_code=True
+                )
+                print("✅ Model loaded successfully.")
+                return tokenizer, model
+            except Exception as e:
+                print(f"❌ Failed to load from {p}: {e}")
+    return None, None
 
 tokenizer, model = load_model()
 
-# --- 2. Prediction Logic ---
+# --- 2. Robust Prediction Logic ---
 def extract_answer(text):
-    # Matches literal \boxed{...}
-    boxed = re.findall(r'\\boxed{(.*?)}', text)
-    if boxed:
-        ans_str = boxed[-1].replace(',', '').strip()
-        nums = re.findall(r'-?\d+', ans_str)
-        if nums: return int(nums[0]) % 100000
+    # Flexible regex patterns for different model styles
+    patterns = [
+        r'\\boxed\{(.*?)\}',
+        r'\\+boxed\s*\{(.*?)\}',
+        r'final answer is\s*[:\s]*(\d+)',
+        r'answer is\s*[:\s]*(\d+)',
+        r'boxed\s+(\d+)'
+    ]
+    for p in patterns:
+        matches = re.findall(p, text, re.IGNORECASE)
+        if matches:
+            ans_str = matches[-1].replace(',', '').strip()
+            # Find first non-negative integer
+            nums = re.findall(r'\d+', ans_str)
+            if nums:
+                return int(nums[0]) % 100000
     return 0
 
 def solve_known(problem):
@@ -52,26 +69,40 @@ def predict(id_series, problem_series):
     id_val = id_series.item(0)
     problem = problem_series.item(0)
 
-    # Step 1: Check reference solutions
+    # Priority 1: Reference Solutions
     known = solve_known(problem)
     if known is not None: return pl.DataFrame({'id': [id_val], 'answer': [known]})
 
     if model is None:
         return pl.DataFrame({'id': [id_val], 'answer': [0]})
 
-    # Step 2: Multi-sample voting (3 samples)
+    # Priority 2: Multi-sample voting
     answers = []
+    # 3 samples to balance speed and accuracy in 9-hour limit
     for i in range(3):
-        prompt = f"Problem: {problem}\n\nSolve step-by-step. End with 'The final answer is \\boxed{{result}}'."
+        # Reasoning-optimized prompt
+        prompt = f"<|user|>\nProblem: {problem}\nSolve it step-by-step and provide the final integer answer in \\boxed{{}}.\n<|assistant|>\n<|thought|>\n"
         inputs = tokenizer(prompt, return_tensors='pt').to(model.device)
 
         with torch.no_grad():
-            outputs = model.generate(**inputs, max_new_tokens=1024, temperature=0.7, do_sample=True)
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=1536,
+                temperature=0.6,
+                do_sample=True,
+                pad_token_id=tokenizer.eos_token_id
+            )
 
         response = tokenizer.decode(outputs[0], skip_special_tokens=True)
         answers.append(extract_answer(response))
 
-    final_ans = Counter(answers).most_common(1)[0][0]
+    # Filter out zeros and take majority
+    non_zero = [a for a in answers if a != 0]
+    if not non_zero:
+        final_ans = 0
+    else:
+        final_ans = Counter(non_zero).most_common(1)[0][0]
+
     print(f"🧩 [{id_val}] -> {final_ans} (Votes: {answers})")
     return pl.DataFrame({'id': [id_val], 'answer': [final_ans]})
 
@@ -88,8 +119,8 @@ if __name__ == '__main__':
             if os.path.exists(test_path):
                 inference_server.run_local_gateway((test_path,))
             else:
-                # Fallback for manual validation
+                # Absolute fallback
                 pl.DataFrame({'id': ['dummy'], 'answer': [0]}).write_parquet('submission.parquet')
-    except ImportError:
-        print("⚠️ Evaluation API missing.")
-        pl.DataFrame({'id': ['fallback'], 'answer': [0]}).write_parquet('submission.parquet')
+    except Exception as e:
+        print(f"❌ Submission Error: {e}")
+        pl.DataFrame({'id': ['error'], 'answer': [0]}).write_parquet('submission.parquet')

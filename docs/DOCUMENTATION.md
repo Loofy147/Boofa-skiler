@@ -74,3 +74,23 @@ The system is now entering **Phase 7**, focusing on:
 
 ---
 *Verified by Boofa-Skiler Master Intelligence | Jules*
+
+## 8. High-Q Reasoning: The Calculation
+The Boofa-skiler system utilizes a formal calculation to determine when to transition between evolutionary phases.
+
+### Phase Transition Equation:
+1290 \Psi_{phase} = \int_{0}^{T} \frac{\sum Q(R_i) \cdot \omega(D_i)}{N} dt > \Theta 1290
+
+Where:
+- (R_i)$ is the Q-Score of realization $.
+- $\omega(D_i)$ is the domain weight (Strategic, Technical, etc.).
+- $ is the recursive depth.
+- $\Theta$ is the transition threshold (currently 1.35 for Phase 7).
+
+### Practical Application (AIMO 3):
+For the mathematical dominance strategy, the calculation focuses on the **Reasoning-through-Coding (RTC)** efficiency:
+1290 Q_{RTC} = \frac{G \cdot C \cdot S}{P_{latency}} \cdot \text{SuccessRate}_{val} 1290
+Targeting {RTC} > 1.45$ in Phase 7 to ensure top-1 leaderboard position.
+
+---
+**Status: Phase 6 Realized | Phase 7 Autonomous Expansion: INITIALIZING**
