@@ -28,5 +28,5 @@ Boofa-Med utilizes **MedGemma** as its primary "Clinical Brain." We treat MedGem
 - **Feasibility**: The architecture is built on the proven Boofa-skiler 6-layer cognitive framework, which has already reached a system-wide Singularity (Q > 1.20) in simulations.
 
 ---
-*Code Repository: [Link to Public Repo]*
-*Video Demo: [Link to Video]*
+*Code Repository: https://github.com/Loofy147/Boofa-skiler*
+*Video Demo: https://github.com/Loofy147/Boofa-skiler/blob/main/competitions/medgemma/demo_video.md (Placeholder)*
