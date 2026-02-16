@@ -1,7 +1,7 @@
 {
   "id": "hichambedrani/boofa-skiler-aimo-prize-submission",
   "title": "Boofa-skiler AIMO Prize Submission",
-  "code_file": "submission.py",
+  "code_file": "bundled_submission.py",
   "language": "python",
   "kernel_type": "script",
   "is_private": "true",

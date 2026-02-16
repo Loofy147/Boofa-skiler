@@ -63,7 +63,7 @@ class AIMOMathSolver:
         # 3-5 samples is very safe.
         for i in range(samples):
             print(f"  └─ Sample {i+1}/{samples}...")
-            prompt = f"Problem: {problem}\n\nSolve step-by-step. End with 'The final answer is \\\\boxed{{result}}'."
+            prompt = f"Problem: {problem}\n\nSolve step-by-step. End with 'The final answer is \\boxed{{result}}'."
             inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
             with torch.no_grad():
@@ -87,7 +87,7 @@ class AIMOMathSolver:
         # Simple arithmetic for placeholders
         try:
             # Look for patterns like "1-1", "0*10", "4+x=4"
-            clean_problem = problem.replace('$', '').replace('\\\\', '').replace('{', '').replace('}', '')
+            clean_problem = problem.replace('$', '').replace('\\', '').replace('{', '').replace('}', '')
 
             # Case 1: "What is 1-1?" or "0 times 10"
             match = re.search(r'(\d+)\s*([-+*\/]|times|plus|minus)\s*(\d+)', clean_problem, re.IGNORECASE)
@@ -111,7 +111,7 @@ class AIMOMathSolver:
         return 0
 
     def _extract_boxed_answer(self, text: str) -> int:
-        boxed = re.findall(r'\\\\boxed\{(.*?)\}', text)
+        boxed = re.findall(r'\\boxed{(.*?)}', text)
         if boxed:
             ans_str = boxed[-1].replace(',', '').strip()
             # Handle cases like \boxed{123 \text{ units}}
@@ -141,5 +141,5 @@ class AIMOMathSolver:
 if __name__ == "__main__":
     s = AIMOMathSolver()
     print(f"Mock 1-1: {s.solve_problem('What is $1-1$?', id='000aaa')['answer']}")
-    print(f"Mock 0*10: {s.solve_problem('What is $0\\\\times10$?', id='111bbb')['answer']}")
+    print(f"Mock 0*10: {s.solve_problem('What is $0\\times10$?', id='111bbb')['answer']}")
     print(f"Mock 4+x=4: {s.solve_problem('Solve $4+x=4$ for $x$.', id='222ccc')['answer']}")
