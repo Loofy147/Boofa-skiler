@@ -29,6 +29,8 @@ This document provides a comprehensive map of the reorganized repository, ensuri
 - **[layer_5_consciousness/](layers/layer_5_consciousness/)**: Theoretical emergence modeling.
 
 ### 🏆 [competitions/](competitions/) - Domain Challenges
+- **[medgemma/](competitions/medgemma/)**: MedGemma Impact Challenge (Project Zeta).
+  - `medgemma_solver.py`: Medical reasoning bridge.
 - **[aimo/](competitions/aimo/)**: AI Mathematical Olympiad progress prize components.
   - `submission.py`: Main inference script.
   - `aimo_math_solver.py`: The central reasoning engine.

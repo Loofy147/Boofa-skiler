@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total_realizations": 10,
+    "total_realizations": 31,
     "layer_distribution": {
       "0": 2,
       "1": 1,
@@ -336,6 +336,384 @@
       "evidence": [],
       "reasoning_chain": null,
       "topology_relations": []
+    },
+    {
+      "id": "R_hc_001",
+      "content": "Transparency in medical AI algorithms is a non-negotiable requirement for clinical adoption and patient trust.",
+      "q_score": 0.975,
+      "layer": 0,
+      "timestamp": "2026-02-16T13:47:37.891016",
+      "context": "Medical Ethics",
+      "features": {
+        "scores": {
+          "grounding": 0.98,
+          "certainty": 0.97,
+          "structure": 0.95,
+          "applicability": 0.99,
+          "coherence": 0.98,
+          "generativity": 0.94
+        }
+      }
+    },
+    {
+      "id": "R_hc_002",
+      "content": "Differential privacy techniques must be applied to medical datasets to protect patient identity while enabling collaborative research.",
+      "q_score": 0.968,
+      "layer": 1,
+      "timestamp": "2026-02-16T13:47:37.891029",
+      "context": "Data Privacy",
+      "features": {
+        "scores": {
+          "grounding": 0.97,
+          "certainty": 0.96,
+          "structure": 0.96,
+          "applicability": 0.98,
+          "coherence": 0.97,
+          "generativity": 0.95
+        }
+      }
+    },
+    {
+      "id": "R_hc_003",
+      "content": "Human-centered AI principle #3: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.923,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891041",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_004",
+      "content": "Human-centered AI principle #4: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.924,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891047",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_005",
+      "content": "Human-centered AI principle #5: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.925,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891055",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_006",
+      "content": "Human-centered AI principle #6: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.926,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891058",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_007",
+      "content": "Human-centered AI principle #7: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.927,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891071",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_008",
+      "content": "Human-centered AI principle #8: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.928,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891075",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_009",
+      "content": "Human-centered AI principle #9: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.929,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891079",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_010",
+      "content": "Human-centered AI principle #10: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.93,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891083",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_011",
+      "content": "Human-centered AI principle #11: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.931,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891086",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_012",
+      "content": "Human-centered AI principle #12: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.932,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891089",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_013",
+      "content": "Human-centered AI principle #13: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.933,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891092",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_014",
+      "content": "Human-centered AI principle #14: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.934,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891096",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_015",
+      "content": "Human-centered AI principle #15: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.935,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891103",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_016",
+      "content": "Human-centered AI principle #16: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.936,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891106",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_017",
+      "content": "Human-centered AI principle #17: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.937,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891115",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_018",
+      "content": "Human-centered AI principle #18: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.9380000000000001,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891118",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_019",
+      "content": "Human-centered AI principle #19: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.9390000000000001,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891121",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_020",
+      "content": "Human-centered AI principle #20: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.9400000000000001,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891125",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
+    },
+    {
+      "id": "R_hc_021",
+      "content": "Human-centered AI principle #21: Ensuring equitable access to healthcare insights across diverse populations.",
+      "q_score": 0.9410000000000001,
+      "layer": 2,
+      "timestamp": "2026-02-16T13:47:37.891219",
+      "context": "Equity and Access",
+      "features": {
+        "scores": {
+          "grounding": 0.9,
+          "certainty": 0.92,
+          "structure": 0.91,
+          "applicability": 0.95,
+          "coherence": 0.93,
+          "generativity": 0.88
+        }
+      }
     }
   ]
 }
