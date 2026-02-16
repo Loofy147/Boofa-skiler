@@ -10,7 +10,6 @@ def process_clinical_case(query):
     workflow = BoofaMedWorkflow()
     result = workflow.run(query)
 
-    # Format the output for the UI
     report = f"## 🩺 Boofa-Med Workflow Results\n\n"
     report += f"**Query:** {result['query']}\n\n"
     report += f"### 🏁 Final Recommendation\n> {result['final_recommendation']}\n\n"
@@ -62,7 +61,6 @@ with gr.Blocks(title="Boofa-Med: Clinical Protocol Auditor") as demo:
     gr.Markdown("- **Recursive Refinement**: Continuous Q-Score optimization.")
 
 if __name__ == "__main__":
-    # For testing in the environment, we don't necessarily need to launch
-    # but we'll ensure it can be launched.
-    print("✅ Boofa-Med Demo App Ready.")
-    # demo.launch() # Uncomment for local use
+    port = int(os.environ.get("PORT", 7860))
+    print(f"🚀 Launching Boofa-Med Demo on port {port}...")
+    demo.launch(server_name="0.0.0.0", server_port=port)

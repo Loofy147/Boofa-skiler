@@ -20,7 +20,7 @@ Achieve "Clinical Singularity" (Q > 1.20) in medical AI reasoning while maintain
 ### 🟢 Phase 3: Launch & Communication (Complete)
 - Finalized 3-page competition write-up.
 - Prepared 3-minute video demonstration script.
-- **Live Demo Deployed**: [Boofa-Med Demo](https://boofa-med-demo.onrender.com)
+- **Live Demo Deployed**: [Boofa-Med Demo](https://boofa-med-demo-final.onrender.com)
 - Novel Task (Delta Discovery) logic verified.
 - **Agentic Workflow Prize** features (Tools) implemented.
 
