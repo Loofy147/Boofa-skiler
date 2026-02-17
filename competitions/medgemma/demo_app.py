@@ -24,8 +24,10 @@ def process_clinical_case(query, age, weight, meds, legacy_protocol):
         for tool in result['tool_calls']:
             if 'calculated_dose' in tool:
                 report += f"- **Dosage Calculator:** Recommended {tool['calculated_dose']} for {tool['drug']} ({tool['notes']})\n"
-            if 'interaction_status' in tool:
+            elif 'interaction_status' in tool:
                 report += f"- **Drug Interaction:** {tool['pair']} -> {tool['interaction_status']}\n"
+            elif 'reference_range' in tool:
+                report += f"- **Lab Checker:** {tool['lab'].upper()} is {tool['value']} (Ref: {tool['reference_range']}) -> **{tool['status']}**\n"
         report += "\n"
 
     report += f"### 🏁 Final Recommendation\n> {result['final_recommendation']}\n\n"
@@ -59,7 +61,7 @@ with gr.Blocks(title="Boofa-Med: Clinical Protocol Auditor") as demo:
         with gr.Column(scale=1):
             query_input = gr.Textbox(
                 label="Enter Clinical Case / Query",
-                placeholder="e.g., Patient with acute chest pain...",
+                placeholder="e.g., Patient with acute chest pain and troponin of 0.5...",
                 lines=3
             )
             with gr.Row():
@@ -77,7 +79,8 @@ with gr.Blocks(title="Boofa-Med: Clinical Protocol Auditor") as demo:
         examples=[
             ["Patient with history of asthma reporting new onset wheezing and cough.", 45, 75, "albuterol", "Use oral steroids immediately for all wheezing."],
             ["Elderly patient with heart failure and suspected interaction.", 78, 65, "aspirin, warfarin", "Administer high-dose aspirin for any chest pain."],
-            ["Routine checkup for a 45-year-old patient with no known issues.", 45, 75, "", ""]
+            ["Diabetic patient with HbA1c of 8.2 and metformin 500mg daily.", 55, 90, "metformin", ""],
+            ["Acute chest pain patient with troponin of 0.08.", 62, 85, "", ""]
         ],
         inputs=[query_input, age_input, weight_input, meds_input, legacy_input]
     )

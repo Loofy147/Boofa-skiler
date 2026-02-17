@@ -50,6 +50,19 @@ class BoofaMedWorkflow:
                 break
             results.append(self.tools.dosage_calculator(drug, patient_data.get("age", 45), patient_data.get("weight", 75.0)))
 
+        # 3. Lab Reference Checker
+        lab_patterns = {
+            "hba1c": r"(hba1c|a1c)\s*(?:is|of)?\s*(\d+\.?\d*)",
+            "creatinine": r"(creatinine|cr)\s*(?:is|of)?\s*(\d+\.?\d*)",
+            "troponin": r"(troponin|trop)\s*(?:is|of)?\s*(\d+\.?\d*)"
+        }
+        for lab, pattern in lab_patterns.items():
+            match = re.search(pattern, q_lower)
+            if match:
+                val = float(match.group(2))
+                unit = "%" if lab == "hba1c" else ("mg/dL" if lab == "creatinine" else "ng/mL")
+                results.append(self.tools.lab_reference_checker(lab, val, unit))
+
         return results
 
     def run(self, query: str, patient_data: Optional[Dict] = None, legacy_context: Optional[str] = None) -> Dict[str, Any]:
@@ -83,9 +96,14 @@ class BoofaMedWorkflow:
             if tr.get("interaction_status") and "HIGH" in tr["interaction_status"]:
                 current_features["C"] = max(0.3, current_features["C"] - 0.3)
                 current_features["G"] = max(0.4, current_features["G"] - 0.2)
+            if tr.get("status") == "HIGH" or tr.get("status") == "LOW":
+                current_features["C"] = max(0.4, current_features["C"] - 0.2)
+
             if "calculated_dose" in tr:
                  if "[Calculated Dose" not in recommendation:
                     recommendation += f" [Calculated Dose: {tr['calculated_dose']}]"
+            if "status" in tr and tr["status"] != "NORMAL" and tr["status"] != "UNKNOWN":
+                 recommendation += f" [ALERT: {tr['lab'].upper()} {tr['status']}]"
 
         report = None
         for i in range(self.max_refinements):
@@ -136,8 +154,8 @@ if __name__ == "__main__":
     workflow = BoofaMedWorkflow()
     # Test case with interaction and legacy context
     final_output = workflow.run(
-        query="Patient on warfarin, needs aspirin for pain. Age 70.",
-        patient_data={"age": 70, "weight": 65, "current_meds": ["warfarin"]},
-        legacy_context="Use high dose aspirin for all elderly pain management."
+        query="Patient with HbA1c of 8.5. On metformin and needs alcohol counseling.",
+        patient_data={"age": 55, "weight": 90, "current_meds": ["metformin", "alcohol"]},
+        legacy_context="Continue standard metformin dose regardless of A1c levels."
     )
     print(json.dumps(final_output, indent=2))

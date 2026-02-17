@@ -1,5 +1,5 @@
 import json
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 class ClinicalTools:
     """
@@ -47,6 +47,36 @@ class ClinicalTools:
             "interaction_status": result
         }
 
+    @staticmethod
+    def lab_reference_checker(lab_name: str, value: float, unit: str) -> Dict[str, Any]:
+        """Checks if a lab value is within normal reference range."""
+        print(f"🛠️ Tool Call: lab_reference_checker('{lab_name}', {value}, '{unit}')")
+
+        # Mock Reference Ranges
+        ranges = {
+            "hba1c": {"min": 4.0, "max": 5.6, "unit": "%"},
+            "creatinine": {"min": 0.7, "max": 1.3, "unit": "mg/dL"},
+            "troponin": {"min": 0, "max": 0.04, "unit": "ng/mL"}
+        }
+
+        ref = ranges.get(lab_name.lower())
+        if not ref:
+            return {"lab": lab_name, "status": "UNKNOWN", "notes": "Lab reference not found."}
+
+        status = "NORMAL"
+        if value < ref["min"]:
+            status = "LOW"
+        elif value > ref["max"]:
+            status = "HIGH"
+
+        return {
+            "lab": lab_name,
+            "value": f"{value} {unit}",
+            "reference_range": f"{ref['min']} - {ref['max']} {ref['unit']}",
+            "status": status
+        }
+
 if __name__ == "__main__":
     print(json.dumps(ClinicalTools.dosage_calculator("Lisinopril", 70, 80.0), indent=2))
     print(json.dumps(ClinicalTools.drug_interaction_lookup("Aspirin", "Warfarin"), indent=2))
+    print(json.dumps(ClinicalTools.lab_reference_checker("HbA1c", 7.2, "%"), indent=2))
