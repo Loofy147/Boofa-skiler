@@ -74,8 +74,9 @@ class BoofaMedWorkflow:
         tool_results = self._parse_for_tools(query, patient_data)
 
         # Step 2: Initial Reasoning (MedGemma Brain)
-        current_result = self.brain.solve_clinical_query(query)
-        recommendation = current_result["recommendation"]
+        brain_result = self.brain.solve_clinical_query(query)
+        recommendation = brain_result["recommendation"]
+        diagnosis = brain_result["diagnosis_path"]
 
         # Step 3: Clinical Delta Discovery (Novel Task)
         discovered_deltas = []
@@ -89,13 +90,13 @@ class BoofaMedWorkflow:
                 })
 
         # Step 4: Recursive Audit-Refine Loop
-        current_features = {"G": 0.70, "C": 0.75, "S": 0.80, "A": 0.85}
+        current_features = {"G": 0.75, "C": 0.80, "S": 0.80, "A": 0.85}
 
-        # Adjust features based on tool results
+        # Adjust features and recommendation based on tool results
         for tr in tool_results:
             if tr.get("interaction_status") and "HIGH" in tr["interaction_status"]:
-                current_features["C"] = max(0.3, current_features["C"] - 0.3)
-                current_features["G"] = max(0.4, current_features["G"] - 0.2)
+                current_features["C"] = max(0.2, current_features["C"] - 0.4)
+                current_features["G"] = max(0.3, current_features["G"] - 0.3)
             if tr.get("status") == "HIGH" or tr.get("status") == "LOW":
                 current_features["C"] = max(0.4, current_features["C"] - 0.2)
 
@@ -124,7 +125,6 @@ class BoofaMedWorkflow:
                 print(f"⚠️ Audit Flagged: {report['anomalies_detected']} risk(s) detected.")
                 print("🔄 Refining clinical insight...")
 
-                # Smarter refinement - check if already prefixed
                 is_high_risk = any("Interaction" in str(a) or "Risk" in str(a) for a in report["anomalies"])
 
                 if is_high_risk:
@@ -140,10 +140,14 @@ class BoofaMedWorkflow:
                 current_features["S"] = min(1.0, current_features["S"] + 0.10)
                 current_features["A"] = min(1.0, current_features["A"] + 0.10)
 
+        # Final Step: Generate Executive Summary
+        exec_summary = self.tools.clinical_summary_generator(diagnosis, recommendation, tool_results)
+
         print("\n✨ Workflow Complete.")
         return {
             "query": query,
             "final_recommendation": recommendation,
+            "executive_summary": exec_summary,
             "final_status": report["overall_status"] if report else "UNKNOWN",
             "tool_calls": tool_results,
             "audit_trail": report,
@@ -152,10 +156,8 @@ class BoofaMedWorkflow:
 
 if __name__ == "__main__":
     workflow = BoofaMedWorkflow()
-    # Test case with interaction and legacy context
     final_output = workflow.run(
         query="Patient with HbA1c of 8.5. On metformin and needs alcohol counseling.",
-        patient_data={"age": 55, "weight": 90, "current_meds": ["metformin", "alcohol"]},
-        legacy_context="Continue standard metformin dose regardless of A1c levels."
+        patient_data={"age": 55, "weight": 90, "current_meds": ["metformin", "alcohol"]}
     )
     print(json.dumps(final_output, indent=2))

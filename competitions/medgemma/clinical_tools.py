@@ -76,6 +76,18 @@ class ClinicalTools:
             "status": status
         }
 
+    @staticmethod
+    def clinical_summary_generator(diagnosis: str, recommendation: str, tools: List[Dict]) -> str:
+        """Generates a high-level executive summary for clinicians."""
+        print("🛠️ Tool Call: clinical_summary_generator")
+        summary = f"Summary: {diagnosis}\n\nKey Action: {recommendation}\n\nObservations:\n"
+        for t in tools:
+            if 'pair' in t:
+                summary += f"- {t['interaction_status']}\n"
+            if 'calculated_dose' in t:
+                summary += f"- {t['drug']} dose: {t['calculated_dose']}\n"
+        return summary
+
 if __name__ == "__main__":
     print(json.dumps(ClinicalTools.dosage_calculator("Lisinopril", 70, 80.0), indent=2))
     print(json.dumps(ClinicalTools.drug_interaction_lookup("Aspirin", "Warfarin"), indent=2))
