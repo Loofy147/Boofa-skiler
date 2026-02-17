@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from layers.layer_4_discovery.grand_integrated_simulation import GrandMetaOrchestrator, RealizationFeatures
 
 class MedicalEthicsAuditor:
@@ -10,8 +10,8 @@ class MedicalEthicsAuditor:
     Project Gamma Specialized for Health: Medical Ethics Auditor.
     Autonomous auditing of medical AI decisions for bias, safety, and human-centricity.
     """
-    def __init__(self):
-        self.mco = GrandMetaOrchestrator()
+    def __init__(self, mco: Optional[GrandMetaOrchestrator] = None):
+        self.mco = mco or GrandMetaOrchestrator()
         self.audit_log = []
         self.clinical_risk_threshold = 0.85 # Higher threshold for medical safety
 
