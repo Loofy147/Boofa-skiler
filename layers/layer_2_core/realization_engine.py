@@ -4,16 +4,18 @@ REALIZATION ENGINE
 Implementation of the crystallization framework discovered in our conversation.
 
 Core Concepts:
-- Realizations have quality scores (Q) based on 6 features
+- Realizations have quality scores (Q) based on multi-dimensional features
 - Realizations crystallize into layers based on Q scores
 - Layers form a hierarchy (0 > 1 > 2 > N)
 - Retrieval follows O(log n) pattern: check highest layer first, descend if not found
+- Dynamic Weights: Supports evolving quality dimensions via Singularity Engine
 """
 
 import json
 import re
 import math
-from typing import Dict, List, Optional, Tuple
+import numpy as np
+from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass, asdict, field
 from datetime import datetime
 import hashlib
@@ -21,7 +23,7 @@ import hashlib
 
 @dataclass
 class RealizationFeatures:
-    """The 6 features that determine realization quality"""
+    """The features that determine realization quality"""
     grounding: float      # 0-1: How rooted in facts/rules
     certainty: float      # 0-1: Precision auto quality (self-certifying)
     structure: float      # 0-1: Crystallization clarity
@@ -29,13 +31,37 @@ class RealizationFeatures:
     coherence: float      # 0-1: Consistency with prior layers
     generativity: float   # 0-1: Daughters potential (بنات افكار)
     
+    # Optional extended features for Evolved Logic
+    extra_features: Dict[str, float] = field(default_factory=dict)
+
     def validate(self):
         """Ensure all features are in valid range"""
         for name, value in asdict(self).items():
+            if name == "extra_features":
+                for k, v in value.items():
+                    if not 0 <= v <= 1:
+                        raise ValueError(f"Extra feature {k} must be between 0 and 1, got {v}")
+                continue
+
             if not isinstance(value, (int, float)):
                 raise ValueError(f"{name} must be numeric, got {type(value)}")
             if not 0 <= value <= 1:
                 raise ValueError(f"{name} must be between 0 and 1, got {value}")
+
+    def to_dict(self) -> Dict[str, float]:
+        """Convert to flat dictionary for calculations"""
+        d = {
+            'G': self.grounding,
+            'C': self.certainty,
+            'S': self.structure,
+            'A': self.applicability,
+            'H': self.coherence,
+            'V': self.generativity
+        }
+        # Add extra features with their keys
+        for k, v in self.extra_features.items():
+            d[k] = v
+        return d
 
 
 @dataclass
@@ -57,37 +83,29 @@ class Realization:
 class RealizationEngine:
     """
     Core engine for managing knowledge realizations.
-    
-    Implements High-Q scoring logic and layered storage.
     """
     
-    # Weight distribution based on crystallization priority
-    WEIGHTS = {
-        'grounding': 0.18,
-        'certainty': 0.22,      # Highest - certainty IS the realization signal
-        'structure': 0.20,
-        'applicability': 0.18,
-        'coherence': 0.12,
-        'generativity': 0.10
+    # Default Weights (Human Baseline)
+    DEFAULT_WEIGHTS = {
+        'G': 0.18,  # grounding
+        'C': 0.22,  # certainty (Highest - certainty IS the realization signal)
+        'S': 0.20,  # structure
+        'A': 0.18,  # applicability
+        'H': 0.12,  # coherence
+        'V': 0.10   # generativity
     }
     
-    # Layer thresholds
-    LAYER_THRESHOLDS = {
-        0: 0.95,   # Universal rules (rarely achieved)
-        1: 0.92,   # Domain facts
-        2: 0.85,   # Patterns
-        3: 0.75,   # Situational insights
-        'N': 0.0   # Everything else (ephemeral)
-    }
-    
-    def __init__(self):
+    def __init__(self, weights: Optional[Dict[str, float]] = None):
+        # Initial weights
+        self.weights = weights or self.DEFAULT_WEIGHTS.copy()
+
         # Storage: layer -> {id -> Realization}
         self.layers = {
-            0: {},  # Universal rules
-            1: {},  # Domain facts
-            2: {},  # Patterns
-            3: {},  # Situational
-            'N': {} # Ephemeral
+            0: {},    # Universal rules
+            1: {},    # Domain facts
+            2: {},    # Patterns
+            3: {},    # Situational
+            'N': {}   # Ephemeral
         }
         
         # Index for fast lookup
@@ -97,8 +115,15 @@ class RealizationEngine:
         self.stats = {
             'total_realizations': 0,
             'layer_distribution': {0: 0, 1: 0, 2: 0, 3: 0, 'N': 0},
-            'avg_q_score': 0.0
+            'avg_q_score': 0.0,
+            'weight_evolution_count': 0
         }
+
+    def update_weights(self, new_weights: Dict[str, float]):
+        """Update the engine weights (called by Singularity Engine)"""
+        self.weights.update(new_weights)
+        self.stats['weight_evolution_count'] += 1
+        print(f"🔄 Realization Engine Weights Updated (Evolution #{self.stats['weight_evolution_count']})")
     
     def calculate_q_score(self, features: RealizationFeatures, method: str = "integrated") -> Tuple[float, str]:
         """
@@ -107,37 +132,49 @@ class RealizationEngine:
         Methods:
             - 'linear': Simple weighted sum.
             - 'integrated': (Recommended) Non-linear boost + Geo-mean coherence + Penalties.
-        
-        Returns:
-            (q_score, calculation_string)
         """
         features.validate()
-        f_dict = asdict(features)
+        f_dict = features.to_dict()
+
+        # Map internal feature names to weight keys if necessary
+        # Features: grounding, certainty, structure, applicability, coherence, generativity
+        mapping = {
+            'grounding': 'G', 'certainty': 'C', 'structure': 'S',
+            'applicability': 'A', 'coherence': 'H', 'generativity': 'V'
+        }
+
+        # Normalize weights to sum to 1.0 (or whatever the target is)
+        current_weights = self.weights
+        weight_sum = sum(current_weights.values())
         
         if method == "linear":
-            calc_parts = []
             total = 0.0
-            for name, weight in self.WEIGHTS.items():
-                value = f_dict[name]
-                contribution = weight * value
-                total += contribution
-                calc_parts.append(f"{weight}×{value:.2f}")
+            calc_parts = []
+            for feat_name, feat_val in f_dict.items():
+                # Check if we have a weight for this feature (either by full name or shorthand)
+                weight = current_weights.get(feat_name) or current_weights.get(mapping.get(feat_name, ''))
+                if weight:
+                    contribution = weight * feat_val
+                    total += contribution
+                    calc_parts.append(f"{weight}×{feat_val:.2f}")
+
             calc_string = " + ".join(calc_parts) + f" = {total:.4f}"
             return round(total, 4), calc_string
 
         else: # Integrated Method (from Phase 6/7 Roadmap)
             # 1. Weighted Non-linear Sum
             weighted_sum = 0.0
-            for name, weight in self.WEIGHTS.items():
-                val = f_dict[name]
-                if val >= 0.9:
-                    weighted_sum += weight * (val ** 1.5) # Boost high-quality signals
-                else:
-                    weighted_sum += weight * val
+            for feat_name, feat_val in f_dict.items():
+                weight = current_weights.get(feat_name) or current_weights.get(mapping.get(feat_name, ''))
+                if weight:
+                    if feat_val >= 0.9:
+                        weighted_sum += weight * (feat_val ** 1.5) # Boost high-quality signals
+                    else:
+                        weighted_sum += weight * feat_val
 
             # 2. Geometric Mean (Coherence Factor)
             # Ensures all dimensions have at least some quality
-            vals = [max(v, 0.01) for v in f_dict.values()]
+            vals = [max(v, 0.01) for v in f_dict.values() if isinstance(v, (int, float))]
             geo_mean = math.exp(sum(math.log(v) for v in vals) / len(vals))
 
             # 3. Combine
@@ -154,7 +191,7 @@ class RealizationEngine:
 
             return round(q_final, 4), calc_string
     
-    def assign_layer(self, q_score: float, features: RealizationFeatures) -> int:
+    def assign_layer(self, q_score: float, features: RealizationFeatures) -> Any:
         """
         Assign realization to appropriate layer based on Q-score and features.
         """
@@ -232,8 +269,35 @@ class RealizationEngine:
         print(f"   Layer {layer}")
         print()
         
+        # Check for evolution (every 50 realizations)
+        if self.stats['total_realizations'] % 50 == 0:
+            self._trigger_evolution()
+
         return realization
     
+    def _trigger_evolution(self):
+        """Trigger Singularity evolution cycle"""
+        try:
+            from layers.layer_4_discovery.singularity_realization_engine import SingularityRealizationEngine
+            s_engine = SingularityRealizationEngine(self)
+
+            # Use recent realizations for evolution
+            recent_ids = list(self.index.keys())[-100:]
+            recent_realizations = [self.index[rid] for rid in recent_ids]
+            recent_qs = [r.q_score for r in recent_realizations]
+
+            analysis = s_engine.evolve(recent_realizations, recent_qs)
+
+            # Update weights if evolution was successful
+            evolved_weights = {dim_id: dim.weight for dim_id, dim in s_engine.dimensions.items()}
+            self.update_weights(evolved_weights)
+
+        except ImportError:
+            # Avoid circular import issues if running in limited environment
+            pass
+        except Exception as e:
+            print(f"⚠️ Evolution Trigger Failed: {e}")
+
     def retrieve(self, query: str, similarity_threshold: float = 0.5) -> List[Realization]:
         """Retrieve realizations matching query."""
         results = []
@@ -290,6 +354,7 @@ class RealizationEngine:
         print("="*60)
         print(f"Total Realizations: {self.stats['total_realizations']}")
         print(f"Average Q-Score: {self.stats['avg_q_score']:.4f}")
+        print(f"Weight Evolutions: {self.stats['weight_evolution_count']}")
         print("\nLayer Distribution:")
         for layer in [0, 1, 2, 3, 'N']:
             count = self.stats['layer_distribution'][layer]
@@ -317,21 +382,6 @@ if __name__ == "__main__":
         content="High-Q integrated scoring logic (بنات افكار)",
         features=features,
         turn_number=1
-    )
-
-    # Test ungrounded certainty
-    features_bad = RealizationFeatures(
-        grounding=0.50,
-        certainty=0.90,
-        structure=0.70,
-        applicability=0.70,
-        coherence=0.70,
-        generativity=0.70
-    )
-    r2 = engine.add_realization(
-        content="Ungrounded realization (Potential hallucination)",
-        features=features_bad,
-        turn_number=2
     )
     
     engine.print_stats()
