@@ -61,23 +61,39 @@ class AIMOMathSolver:
         import torch
         answers = []
 
+        system_rules = (
+            "Rules: The answer is a non-negative integer between 0 and 99999. "
+            "Notation: \overline{abc} means 100a + 10b + c. "
+            "Logarithms are natural unless specified. "
+            "For remainder questions, return the smallest non-negative remainder."
+        )
+
         for i in range(samples):
             print(f"  └─ Sample {i+1}/{samples}...")
-            prompt = (
-                f"Problem: {problem}\n\n"
-                "Solve this problem step-by-step. If appropriate, write a Python script to verify your reasoning "
-                "or perform calculations. Wrap the Python code in ```python ... ``` blocks. "
-                "The final answer must be a non-negative integer between 0 and 999999. "
-                "End your response with 'The final answer is \\boxed{result}'."
-            )
+            # Use DeepSeek-R1 style prompt if it's DeepSeek
+            if "deepseek" in self.model_id_or_path.lower():
+                prompt = (
+                    f"<|user|>\n{system_rules}\n\nProblem: {problem}\n\n"
+                    "Solve this step-by-step. Use Python code in ```python ... ``` blocks for complex calculations. "
+                    "End with 'The final answer is \\boxed{result}'.\n"
+                    "<|assistant|>\n<|thought|>\n"
+                )
+            else:
+                prompt = (
+                    f"{system_rules}\n\nProblem: {problem}\n\n"
+                    "Solve this step-by-step. Use Python code in ```python ... ``` blocks for calculations. "
+                    "End with 'The final answer is \\boxed{result}'."
+                )
+
             inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
             with torch.no_grad():
                 outputs = self.model.generate(
                     **inputs,
-                    max_new_tokens=2048,
-                    temperature=0.7,
-                    do_sample=True
+                    max_new_tokens=1536,
+                    temperature=0.6,
+                    do_sample=True,
+                    pad_token_id=self.tokenizer.eos_token_id
                 )
 
             response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
@@ -97,21 +113,25 @@ class AIMOMathSolver:
             answers.append(ans)
 
         if not answers: return 0
-        most_common = Counter(answers).most_common(1)
+        non_zero = [a for a in answers if a != 0]
+        most_common = Counter(non_zero if non_zero else answers).most_common(1)
         return most_common[0][0]
 
     def _execute_code(self, code: str) -> Optional[int]:
         try:
+            if "\n" not in code.strip() and not code.strip().startswith("print"):
+                code = f"print({code})"
+
             result = subprocess.run(
                 [sys.executable, "-c", code],
                 capture_output=True,
                 text=True,
-                timeout=30
+                timeout=15
             )
             stdout = result.stdout.strip()
-            nums = re.findall(r'\d+', stdout)
+            nums = re.findall(r'-?\d+', stdout)
             if nums:
-                return int(nums[-1]) % 1000000
+                return max(0, int(nums[-1])) % 100000
         except Exception as e:
             print(f"      ⚠️ RTC Error: {e}")
         return None
@@ -128,21 +148,30 @@ class AIMOMathSolver:
                 if op in ['+', 'plus']: return a + b
                 if op in ['*', 'times', 'x']: return a * b
                 if op in ['/', 'divided']: return int(a / b) if b != 0 else 0
-            match = re.search(r'(\d+)\s*\+\s*x\s*=\s*(\d+)', clean_problem)
-            if match:
-                a, b = match.groups()
-                return int(b) - int(a)
         except Exception:
             pass
         return 0
 
     def _extract_boxed_answer(self, text: str) -> int:
-        boxed = re.findall(r'\\+boxed\s*\{(.*?)\}', text)
-        if boxed:
-            ans_str = boxed[-1].replace(',', '').strip()
-            nums = re.findall(r'-?\d+', ans_str)
-            if nums:
-                return int(nums[0]) % 1000000
+        # Robust answer extraction
+        patterns = [
+            r'\\+boxed\s*\{(.*?)\}',
+            r'final answer is\s*[:\s]*(\d+)',
+            r'answer is\s*[:\s]*(\d+)',
+            r'boxed\s+(\d+)',
+            r'\\boxed\{(.*?)\}'
+        ]
+        for p in patterns:
+            try:
+                matches = re.findall(p, text, re.IGNORECASE)
+                if matches:
+                    ans_str = matches[-1].replace(',', '').strip()
+                    nums = re.findall(r'-?\d+', ans_str)
+                    if nums: return max(0, int(nums[0])) % 100000
+            except: continue
+
+        nums = re.findall(r'\d+', text)
+        if nums: return int(nums[-1]) % 100000
         return 0
 
     def _solve_known(self, problem: str) -> Optional[int]:
@@ -158,6 +187,5 @@ class AIMOMathSolver:
 
 if __name__ == "__main__":
     s = AIMOMathSolver()
-    print(f"Regex Test 1: {s._extract_boxed_answer(r'The answer is \boxed{ 42 }')}")
-    print(f"Regex Test 2: {s._extract_boxed_answer(r'\\boxed{ 100 }')}")
+    print(f"Regex Test: {s._extract_boxed_answer(r'The answer is \boxed{42}')}")
     print(f"RTC Test: {s._execute_code('print(12345)')}")
