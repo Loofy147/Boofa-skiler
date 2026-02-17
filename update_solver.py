@@ -1,4 +1,6 @@
-import numpy as np
+import os
+
+content = r'''import numpy as np
 from typing import Dict, List, Tuple, Optional
 import os
 import re
@@ -161,3 +163,6 @@ if __name__ == "__main__":
     print(f"Regex Test 1: {s._extract_boxed_answer(r'The answer is \boxed{ 42 }')}")
     print(f"Regex Test 2: {s._extract_boxed_answer(r'\\boxed{ 100 }')}")
     print(f"RTC Test: {s._execute_code('print(12345)')}")
+'''
+with open("layers/layer_2_core/aimo_math_solver.py", "w") as f:
+    f.write(content)
