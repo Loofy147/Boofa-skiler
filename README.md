@@ -1,31 +1,26 @@
-# 🚀 Boofa-skiler: Full Vision Evolution
+# 🤖 Boofa-Skiler: High-Q Autonomous Intelligence Framework
 
-**Boofa-skiler** is a self-evolving AI system based on a **Layered Cognitive Architecture** (Layers 0-5), optimized for maximum business value and structural quality (Q-Score).
+Boofa-Skiler is a recursive, self-evolving cognitive architecture designed for high-integrity strategic synthesis and technical excellence.
 
-## 🌟 Key Features
-- **High-Q Organization**: Deeply structured repository with clear abstraction layers.
-- **Self-Evolution**: PCA-driven dimension discovery and recursive self-improvement.
-- **Multi-Domain Synthesis**: Integration of Technical, Strategic, and Ethical intelligence.
-- **AIMO 3 Ready**: Optimized for mathematical reasoning and competition performance.
+## 🚀 Key Features
+- **6-Layered Cognitive Architecture**: From Universal Rules (L0) to Consciousness Modeling (L5).
+- **Q-Score Governance**: Rigorous quality measurement based on Grounding, Certainty, Structure, Applicability, Coherence, and Generativity.
+- **Architectural Services Hub**: Standalone services for Realization, Audit, and Discovery.
+- **Agentic Workflow**: Recursive Audit-Refine loops specialized for medical (Boofa-Med) and mathematical (AIMO) domains.
 
-## 📂 Repository Structure
-For a detailed map, see [docs/MAP.md](docs/MAP.md).
+## 🛠️ Getting Started
+1. **Architecture**: Explore `docs/MASTER_ARCHITECTURE.md`.
+2. **Roadmap**: Check `docs/MASTER_ROADMAP_CHECKLIST.md` for Phase 7 progress.
+3. **Execution**: Use `layers/layer_4_discovery/master_outcome_generator.py` for system evolution.
 
-- **[layers/](layers/)**: The 6-layer cognitive core.
-- **[competitions/](competitions/)**: Targeted competitive implementations (e.g., AIMO).
-- **[outcomes/](outcomes/)**: Generated reports and simulation results.
-- **[demos/](demos/)**: Interactive showcases and web interfaces.
-- **[tests/](tests/)**: Comprehensive validation suite.
-
-## 🚀 Quick Start
-1.  **Install**: `pip install -r requirements.txt`
-2.  **Verify**: `export PYTHONPATH=$PYTHONPATH:. && python3 tests/full_system_test.py`
-3.  **Evolve**: `export PYTHONPATH=$PYTHONPATH:. && python3 layers/layer_4_discovery/master_outcome_generator.py`
-
-## 📚 Documentation
-- [Master Documentation](docs/DOCUMENTATION.md)
-- [System Map](docs/MAP.md)
-- [Q-Score Framework](docs/BENCHMARK_RESULTS.md)
+## 🧪 Verification
+Run the comprehensive test suite to ensure High-Q stability:
+```bash
+export PYTHONPATH=$PYTHONPATH:.
+python3 tests/verify_aimo_performance.py
+python3 tests/full_system_test.py
+python3 tests/test_medgemma_workflow.py
+```
 
 ---
-*Built with ❤️ for High-Q Excellence.*
+*Status: Phase 6 Realized | Phase 7 Autonomous Expansion: INITIALIZING*

@@ -12,8 +12,9 @@ Core Concepts:
 
 import json
 import re
+import math
 from typing import Dict, List, Optional, Tuple
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import datetime
 import hashlib
 
@@ -31,6 +32,8 @@ class RealizationFeatures:
     def validate(self):
         """Ensure all features are in valid range"""
         for name, value in asdict(self).items():
+            if not isinstance(value, (int, float)):
+                raise ValueError(f"{name} must be numeric, got {type(value)}")
             if not 0 <= value <= 1:
                 raise ValueError(f"{name} must be between 0 and 1, got {value}")
 
@@ -47,29 +50,18 @@ class Realization:
     parents: List[str]  # IDs of realizations this builds on
     children: List[str]  # IDs of realizations spawned from this
     turn_number: int
-    
-    # Metadata
-    context: str = ""  # Surrounding conversation
-    evidence: List[str] = None  # Supporting facts
-    
-    def __post_init__(self):
-        if self.evidence is None:
-            self.evidence = []
+    context: str = ""
+    evidence: List[str] = field(default_factory=list)
 
 
 class RealizationEngine:
     """
-    The core engine for managing realizations.
+    Core engine for managing knowledge realizations.
     
-    Implements:
-    - Q-score calculation
-    - Layer assignment
-    - Hierarchical storage
-    - O(log n) retrieval
-    - Invalidation strategies
+    Implements High-Q scoring logic and layered storage.
     """
     
-    # Feature weights for Q-score calculation
+    # Weight distribution based on crystallization priority
     WEIGHTS = {
         'grounding': 0.18,
         'certainty': 0.22,      # Highest - certainty IS the realization signal
@@ -108,38 +100,63 @@ class RealizationEngine:
             'avg_q_score': 0.0
         }
     
-    def calculate_q_score(self, features: RealizationFeatures) -> Tuple[float, str]:
+    def calculate_q_score(self, features: RealizationFeatures, method: str = "integrated") -> Tuple[float, str]:
         """
-        Calculate quality score using weighted sum.
+        Calculate quality score.
+
+        Methods:
+            - 'linear': Simple weighted sum.
+            - 'integrated': (Recommended) Non-linear boost + Geo-mean coherence + Penalties.
         
         Returns:
             (q_score, calculation_string)
         """
         features.validate()
+        f_dict = asdict(features)
         
-        calc_parts = []
-        total = 0.0
-        
-        for name, weight in self.WEIGHTS.items():
-            value = getattr(features, name)
-            contribution = weight * value
-            total += contribution
-            calc_parts.append(f"{weight}×{value:.2f}")
-        
-        calc_string = " + ".join(calc_parts) + f" = {total:.4f}"
-        
-        return round(total, 4), calc_string
+        if method == "linear":
+            calc_parts = []
+            total = 0.0
+            for name, weight in self.WEIGHTS.items():
+                value = f_dict[name]
+                contribution = weight * value
+                total += contribution
+                calc_parts.append(f"{weight}×{value:.2f}")
+            calc_string = " + ".join(calc_parts) + f" = {total:.4f}"
+            return round(total, 4), calc_string
+
+        else: # Integrated Method (from Phase 6/7 Roadmap)
+            # 1. Weighted Non-linear Sum
+            weighted_sum = 0.0
+            for name, weight in self.WEIGHTS.items():
+                val = f_dict[name]
+                if val >= 0.9:
+                    weighted_sum += weight * (val ** 1.5) # Boost high-quality signals
+                else:
+                    weighted_sum += weight * val
+
+            # 2. Geometric Mean (Coherence Factor)
+            # Ensures all dimensions have at least some quality
+            vals = [max(v, 0.01) for v in f_dict.values()]
+            geo_mean = math.exp(sum(math.log(v) for v in vals) / len(vals))
+
+            # 3. Combine
+            q_final = weighted_sum * (0.6 + 0.4 * geo_mean)
+
+            # 4. Penalties
+            # Penalty for ungrounded certainty (hallucination indicator)
+            penalty_applied = ""
+            if features.certainty > features.grounding + 0.2:
+                q_final *= 0.7
+                penalty_applied = " [Ungrounded Certainty Penalty]"
+
+            calc_string = f"Integrated(WS={weighted_sum:.3f}, GM={geo_mean:.3f}){penalty_applied} = {q_final:.4f}"
+
+            return round(q_final, 4), calc_string
     
     def assign_layer(self, q_score: float, features: RealizationFeatures) -> int:
         """
         Assign realization to appropriate layer based on Q-score and features.
-        
-        Layer assignment rules:
-        - Q ≥ 0.95 AND Grounding ≥ 0.90 → Layer 0 (Universal Rule)
-        - Q ≥ 0.92 → Layer 1 (Domain Fact)
-        - Q ≥ 0.85 → Layer 2 (Pattern)
-        - Q ≥ 0.75 → Layer 3 (Situational)
-        - Q < 0.75 → Layer N (Ephemeral)
         """
         if q_score >= 0.95 and features.grounding >= 0.90:
             return 0
@@ -168,8 +185,6 @@ class RealizationEngine:
     ) -> Realization:
         """
         Add a new realization to the system.
-        
-        Automatically calculates Q-score and assigns to layer.
         """
         if parents is None:
             parents = []
@@ -220,119 +235,56 @@ class RealizationEngine:
         return realization
     
     def retrieve(self, query: str, similarity_threshold: float = 0.5) -> List[Realization]:
-        """
-        Retrieve realizations matching query.
-        
-        Uses hierarchical search: start at Layer 0, descend if needed.
-        """
+        """Retrieve realizations matching query."""
         results = []
-        
-        # Search from highest layer to lowest
         for layer in [0, 1, 2, 3, 'N']:
             layer_results = self._search_layer(layer, query, similarity_threshold)
             results.extend(layer_results)
-            
-            # If we found high-quality results, stop (optimization)
             if layer_results and layer in [0, 1]:
                 break
-        
-        # Sort by Q-score descending
         results.sort(key=lambda r: r.q_score, reverse=True)
-        
         return results
     
     def _search_layer(self, layer: int, query: str, threshold: float) -> List[Realization]:
         """Search within a specific layer"""
         results = []
         query_lower = query.lower()
-        
         for realization in self.layers[layer].values():
-            # Simple keyword matching (could be enhanced with embeddings)
             content_lower = realization.content.lower()
-            
-            # Check for keyword matches
             query_words = set(query_lower.split())
             content_words = set(content_lower.split())
             overlap = len(query_words & content_words)
-            
             if overlap > 0 or query_lower in content_lower:
                 results.append(realization)
-        
         return results
     
     def get_realization_tree(self, r_id: str, depth: int = 3) -> Dict:
-        """
-        Get realization and its family tree (parents + children).
-        
-        Returns hierarchical structure showing بنات افكار (daughters of ideas).
-        """
-        if r_id not in self.index:
-            return None
-        
+        """Get realization and its family tree."""
+        if r_id not in self.index: return None
         realization = self.index[r_id]
-        
-        tree = {
-            'id': r_id,
-            'content': realization.content,
-            'q_score': realization.q_score,
-            'layer': realization.layer,
-            'parents': [],
-            'children': []
-        }
-        
+        tree = {'id': r_id, 'content': realization.content, 'q_score': realization.q_score, 'layer': realization.layer, 'parents': [], 'children': []}
         if depth > 0:
-            # Get parents
             for parent_id in realization.parents:
                 parent_tree = self.get_realization_tree(parent_id, depth - 1)
-                if parent_tree:
-                    tree['parents'].append(parent_tree)
-            
-            # Get children (بنات افكار)
+                if parent_tree: tree['parents'].append(parent_tree)
             for child_id in realization.children:
                 child_tree = self.get_realization_tree(child_id, depth - 1)
-                if child_tree:
-                    tree['children'].append(child_tree)
-        
+                if child_tree: tree['children'].append(child_tree)
         return tree
     
     def _update_avg_q(self):
-        """Update average Q-score statistic"""
-        if self.stats['total_realizations'] == 0:
-            self.stats['avg_q_score'] = 0.0
+        if self.stats['total_realizations'] == 0: self.stats['avg_q_score'] = 0.0
         else:
             total_q = sum(r.q_score for r in self.index.values())
             self.stats['avg_q_score'] = total_q / self.stats['total_realizations']
     
     def export_state(self) -> Dict:
-        """Export entire state as JSON-serializable dict"""
-        return {
-            'layers': {
-                str(k): {r_id: self._realization_to_dict(r) 
-                        for r_id, r in v.items()}
-                for k, v in self.layers.items()
-            },
-            'stats': self.stats,
-            'timestamp': datetime.now().isoformat()
-        }
+        return {'layers': {str(k): {r_id: self._realization_to_dict(r) for r_id, r in v.items()} for k, v in self.layers.items()}, 'stats': self.stats, 'timestamp': datetime.now().isoformat()}
     
     def _realization_to_dict(self, r: Realization) -> Dict:
-        """Convert Realization to dict"""
-        return {
-            'id': r.id,
-            'content': r.content,
-            'features': asdict(r.features),
-            'q_score': r.q_score,
-            'layer': r.layer,
-            'timestamp': r.timestamp,
-            'parents': r.parents,
-            'children': r.children,
-            'turn_number': r.turn_number,
-            'context': r.context,
-            'evidence': r.evidence
-        }
+        return {'id': r.id, 'content': r.content, 'features': asdict(r.features), 'q_score': r.q_score, 'layer': r.layer, 'timestamp': r.timestamp, 'parents': r.parents, 'children': r.children, 'turn_number': r.turn_number, 'context': r.context, 'evidence': r.evidence}
     
     def print_stats(self):
-        """Print system statistics"""
         print("\n" + "="*60)
         print("REALIZATION ENGINE STATISTICS")
         print("="*60)
@@ -342,13 +294,7 @@ class RealizationEngine:
         for layer in [0, 1, 2, 3, 'N']:
             count = self.stats['layer_distribution'][layer]
             pct = (count / self.stats['total_realizations'] * 100) if self.stats['total_realizations'] > 0 else 0
-            layer_name = {
-                0: "Universal Rules",
-                1: "Domain Facts",
-                2: "Patterns",
-                3: "Situational",
-                'N': "Ephemeral"
-            }[layer]
+            layer_name = {0: "Universal Rules", 1: "Domain Facts", 2: "Patterns", 3: "Situational", 'N': "Ephemeral"}[layer]
             print(f"  Layer {layer} ({layer_name}): {count} ({pct:.1f}%)")
         print("="*60 + "\n")
 
@@ -357,7 +303,7 @@ if __name__ == "__main__":
     # Quick test
     engine = RealizationEngine()
     
-    # Test realization
+    # Test high quality realization
     features = RealizationFeatures(
         grounding=0.95,
         certainty=0.93,
@@ -368,10 +314,24 @@ if __name__ == "__main__":
     )
     
     r = engine.add_realization(
-        content="Realizations crystallize into layers (بنات افكار)",
+        content="High-Q integrated scoring logic (بنات افكار)",
         features=features,
-        turn_number=1,
-        evidence=["Observable in conversation", "Matches how knowledge accumulates"]
+        turn_number=1
+    )
+
+    # Test ungrounded certainty
+    features_bad = RealizationFeatures(
+        grounding=0.50,
+        certainty=0.90,
+        structure=0.70,
+        applicability=0.70,
+        coherence=0.70,
+        generativity=0.70
+    )
+    r2 = engine.add_realization(
+        content="Ungrounded realization (Potential hallucination)",
+        features=features_bad,
+        turn_number=2
     )
     
     engine.print_stats()

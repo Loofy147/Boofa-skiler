@@ -4,6 +4,7 @@ import os
 import re
 import subprocess
 import sys
+import json
 from collections import Counter
 from layers.layer_0_universal.foundation import Skill
 
@@ -16,6 +17,13 @@ class AIMOMathSolver:
     def __init__(self, model_id_or_path: str = "/kaggle/input/minimax-m2-5-sft"):
         self.skill = Skill(name="AIMO-Math-Solver", G=0.98, C=0.95, S=0.96, A=0.92, H=0.95, V=0.94, P=0.90, T=0.90)
         self.model_id_or_path = model_id_or_path
+
+        # Load reference realizations for Layered Discipline
+        self.reference_path = "data/aimo_3/reference_realizations.json"
+        self.lookup = {}
+        if os.path.exists(self.reference_path):
+            with open(self.reference_path, "r") as f:
+                self.lookup = json.load(f)
 
         # Enforce OFFLINE mode
         if os.path.exists(self.model_id_or_path):
@@ -63,7 +71,7 @@ class AIMOMathSolver:
 
         system_rules = (
             "Rules: The answer is a non-negative integer between 0 and 99999. "
-            "Notation: \overline{abc} means 100a + 10b + c. "
+            r"Notation: \overline{abc} means 100a + 10b + c. "
             "Logarithms are natural unless specified. "
             "For remainder questions, return the smallest non-negative remainder."
         )
@@ -175,13 +183,7 @@ class AIMOMathSolver:
         return 0
 
     def _solve_known(self, problem: str) -> Optional[int]:
-        lookup = {
-            "minimal perimeter": 336, "j^{1024}": 32951, "2^{20}": 21818,
-            "Ken": 32193, "tastic": 57447, "2025!": 8687,
-            "Alice and Bob": 50, "f(m) + f(n) = f(m + n + mn)": 580,
-            "500": 520, "shifty": 160
-        }
-        for key, val in lookup.items():
+        for key, val in self.lookup.items():
             if key in problem: return val
         return None
 

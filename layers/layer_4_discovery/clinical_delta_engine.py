@@ -1,5 +1,5 @@
 import json
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from layers.layer_2_core.realization_engine import RealizationEngine, RealizationFeatures
 
 class ClinicalDeltaEngine:
@@ -7,8 +7,8 @@ class ClinicalDeltaEngine:
     Project Zeta - Novel Task: Clinical Guideline Delta Discovery.
     Identifies discrepancies between legacy practices and new clinical guidelines.
     """
-    def __init__(self):
-        self.engine = RealizationEngine()
+    def __init__(self, engine: Optional[RealizationEngine] = None):
+        self.engine = engine or RealizationEngine()
         print("🔍 Clinical Delta Engine (Novel Task) Active.")
 
     def discover_deltas(self, legacy_practice: str, new_guideline: str) -> List[Dict[str, Any]]:

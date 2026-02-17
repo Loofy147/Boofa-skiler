@@ -6,6 +6,7 @@ from competitions.medgemma.medgemma_solver import MedGemmaSolver
 from layers.layer_3_optimization.medical_ethics_auditor import MedicalEthicsAuditor
 from layers.layer_4_discovery.clinical_delta_engine import ClinicalDeltaEngine
 from competitions.medgemma.clinical_tools import ClinicalTools
+from layers.layer_4_discovery.grand_integrated_simulation import GrandMetaOrchestrator
 
 class BoofaMedWorkflow:
     """
@@ -13,12 +14,20 @@ class BoofaMedWorkflow:
     Implements a recursive Audit-Refine loop, Novel Task Discovery, and Tool Calling.
     """
     def __init__(self):
+        # Initialize Shared Meta-Orchestrator to reduce redundant initializations
+        self.mco = GrandMetaOrchestrator()
+
         self.brain = MedGemmaSolver()
-        self.auditor = MedicalEthicsAuditor()
-        self.delta_engine = ClinicalDeltaEngine()
+
+        # Inject shared MCO into auditor
+        self.auditor = MedicalEthicsAuditor(mco=self.mco)
+
+        # Share the TECHNICAL domain engine for delta discovery
+        self.delta_engine = ClinicalDeltaEngine(engine=self.mco.domains["TECHNICAL"].engine)
+
         self.tools = ClinicalTools()
         self.max_refinements = 3
-        print("🧬 Boofa-Med Agentic Workflow initialized.")
+        print("🧬 Boofa-Med Agentic Workflow initialized (Unified Engine).")
 
     def _parse_for_tools(self, query: str, patient_data: Dict) -> List[Dict]:
         """Automatically detects which clinical tools to run."""
