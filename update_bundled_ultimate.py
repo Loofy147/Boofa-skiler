@@ -1,4 +1,6 @@
 import os
+
+content = r'''import os
 import re
 import torch
 import subprocess
@@ -207,3 +209,6 @@ if __name__ == '__main__':
         # Final safety net
         if not os.path.exists('submission.parquet'):
             pl.DataFrame({'id': ['error'], 'answer': [0]}).write_parquet('submission.parquet')
+'''
+with open("competitions/aimo/bundled_submission.py", "w") as f:
+    f.write(content)
