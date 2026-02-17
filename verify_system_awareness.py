@@ -79,7 +79,7 @@ def test_aimo_logic():
         solver = AIMOMathSolver()
 
         # Test extraction
-        test_text = "The solution is \boxed{123}."
+        test_text = r"The solution is \boxed{123}."
         ans = solver._extract_boxed_answer(test_text)
         if ans == 123:
             print("  ✅ AIMO: Regex Answer Extraction")
@@ -88,7 +88,7 @@ def test_aimo_logic():
             return False
 
         # Test mock arithmetic
-        mock_ans = solver._solve_via_mock("What is 100 times 5?")
+        mock_ans = solver._solve_via_mock("What is 100 * 5?")
         if mock_ans == 500:
             print("  ✅ AIMO: Mock Arithmetic Solver")
         else:

@@ -1,0 +1,266 @@
+{
+  "stats": {
+    "merger_events": 50,
+    "highest_point": 1.330901383632089
+  },
+  "domains": {
+    "STRATEGIC": {
+      "avg_q": 1.0978798429964503,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "TECHNICAL": {
+      "avg_q": 1.027199484772441,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "ETHICAL": {
+      "avg_q": 0.9766814712196654,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "CONSCIOUSNESS": {
+      "avg_q": 0.9673023403182455,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    },
+    "VISION": {
+      "avg_q": 1.0559099597805726,
+      "weights": {
+        "G": 0.5,
+        "C": 0.22,
+        "S": 0.2,
+        "A": 0.18,
+        "H": 0.12,
+        "V": 0.1
+      }
+    }
+  },
+  "universal_values": [
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3131578420197827
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1041299713044743
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.176879867002982
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2849962504089172
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1215229718767603
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.330901383632089
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1382902526251988
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2466883103824211
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2489080006233477
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2670297507480779
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1595338626671743
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3223667464050184
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3139780572507689
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.141426713000118
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1719453640345707
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2050052680300003
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.246029940459621
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1616928735192624
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.252133367081925
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2103387355975173
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.111716312595971
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1884903862332152
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2789557407801462
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1492076515908347
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1771279538181223
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1222218148879346
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.121991532736582
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3134349005044306
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.319194337535252
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1165896156218298
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1390158466166873
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1089599015903129
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.212666793669999
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.179095399524213
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.141579842218707
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3137515563832205
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2343043390426731
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.127156023273903
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3028934375349785
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.3268265868271658
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2656920440641846
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1405446987672543
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1239484655755652
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1574631656674013
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.180117569634881
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2933242884611784
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2164305373061461
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1524959396725742
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.1403358977089273
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "q": 1.2014599537606734
+    }
+  ],
+  "highest_point": 1.330901383632089
+}

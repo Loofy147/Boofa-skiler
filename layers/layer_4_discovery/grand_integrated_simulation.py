@@ -28,16 +28,18 @@ class IntegratedDomainBrain:
         self.singularity.dimensions["G"].weight = 0.5
 
     def calculate_integrated_q(self, features: RealizationFeatures) -> float:
-        f_dict = asdict(features)
+        f_dict = features.to_dict()
         weights = {dim.id: dim.weight for dim in self.singularity.dimensions.values()}
-        mapping = {'grounding': 'G', 'certainty': 'C', 'structure': 'S', 'applicability': 'A', 'coherence': 'H', 'generativity': 'V'}
         total = 0.0
-        for k, m in mapping.items():
-            w = weights[m]
-            val = f_dict[k]
-            if val >= 0.9: total += w * (val ** 1.5)
-            else: total += w * val
-        geo_mean = np.exp(np.mean([np.log(max(v, 0.01)) for v in f_dict.values()]))
+        for k, v in f_dict.items():
+            if k in weights:
+                w = weights[k]
+                if v >= 0.9: total += w * (v ** 1.5)
+                else: total += w * v
+
+        vals = [max(v, 0.01) for v in f_dict.values() if isinstance(v, (int, float))]
+        geo_mean = np.exp(np.mean([np.log(v) for v in vals]))
+
         q_final = total * (0.6 + 0.4 * geo_mean)
         if features.certainty > features.grounding + 0.2: q_final *= 0.7
         return min(q_final, 1.2)
@@ -149,6 +151,6 @@ class GrandMetaOrchestrator:
 if __name__ == "__main__":
     mco = GrandMetaOrchestrator()
     mco.feed_protocol("Aether-Omega Civilization", depth=3)
-    mco.execute_and_merge(cycles=10)
+    mco.execute_and_merge(cycles=50)
     with open('grand_integrated_outcomes.json', 'w') as f: json.dump(mco.get_report(), f, indent=2)
     print(f"\n✅ Simulation Complete. Highest Point: {mco.stats['highest_point']:.4f}")
