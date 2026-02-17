@@ -1,14 +1,14 @@
 {
   "stats": {
-    "total_realizations": 22,
+    "total_realizations": 29,
     "layer_distribution": {
-      "0": 10,
-      "1": 7,
-      "2": 3,
+      "0": 11,
+      "1": 10,
+      "2": 6,
       "3": 1,
       "N": 1
     },
-    "avg_q_score": 0.9281342104967145
+    "avg_q_score": 0.9271362976181973
   },
   "dimensions": {
     "grounding": {
@@ -808,6 +808,181 @@
       },
       "parents": [],
       "children": []
+    },
+    {
+      "id": "R_7ab3d270",
+      "timestamp": "2026-02-17T23:40:45.621279",
+      "layer": 1,
+      "title": "Optimization Stack ROI: A combination of routing, ...",
+      "signature": "ECON-R_7a",
+      "content": "Optimization Stack ROI: A combination of routing, caching, RAG, and quantization delivers 60\u201398% cost reduction in production.",
+      "scores": {
+        "grounding": 0.95,
+        "certainty": 0.98,
+        "structure": 0.95,
+        "applicability": 1.0,
+        "coherence": 0.96,
+        "generativity": 0.94,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.9353,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_e7b19808",
+      "timestamp": "2026-02-17T23:40:45.621339",
+      "layer": 2,
+      "title": "Self-Hosting Break-Even: For premium APIs, self-ho...",
+      "signature": "ECON-R_e7",
+      "content": "Self-Hosting Break-Even: For premium APIs, self-hosting break-even is 5\u201310M tokens/month; for budget APIs, it's 50\u2013100M tokens/month.",
+      "scores": {
+        "grounding": 0.94,
+        "certainty": 0.92,
+        "structure": 0.96,
+        "applicability": 0.98,
+        "coherence": 0.95,
+        "generativity": 0.88,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.8971,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_f62090a6",
+      "timestamp": "2026-02-17T23:40:45.621392",
+      "layer": 2,
+      "title": "Automation Ratio Metric: Gross margin in AI apps i...",
+      "signature": "ECON-R_f6",
+      "content": "Automation Ratio Metric: Gross margin in AI apps is determined by the proportion of AI output delivered with minimal human oversight (Automation Ratio).",
+      "scores": {
+        "grounding": 0.92,
+        "certainty": 0.95,
+        "structure": 0.98,
+        "applicability": 0.96,
+        "coherence": 0.94,
+        "generativity": 0.95,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.9092,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_420ef93e",
+      "timestamp": "2026-02-17T23:40:45.621451",
+      "layer": 2,
+      "title": "AI SaaS Margin Compression: AI-first B2B SaaS gros...",
+      "signature": "ECON-R_42",
+      "content": "AI SaaS Margin Compression: AI-first B2B SaaS gross margins are 55\u201370% (vs 78\u201385% traditional SaaS) due to variable inference costs.",
+      "scores": {
+        "grounding": 0.98,
+        "certainty": 0.99,
+        "structure": 0.95,
+        "applicability": 0.92,
+        "coherence": 0.97,
+        "generativity": 0.9,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.9171,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_39f75ecd",
+      "timestamp": "2026-02-17T23:40:45.621595",
+      "layer": 1,
+      "title": "The Data Moat (2026): Proprietary, domain-specific...",
+      "signature": "ECON-R_39",
+      "content": "The Data Moat (2026): Proprietary, domain-specific labeled data and correction signals are the true capital of the 2026 AI economy.",
+      "scores": {
+        "grounding": 0.96,
+        "certainty": 0.95,
+        "structure": 0.94,
+        "applicability": 0.98,
+        "coherence": 0.95,
+        "generativity": 0.98,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.923,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_7117123f",
+      "timestamp": "2026-02-17T23:40:45.621643",
+      "layer": 1,
+      "title": "Vertical AI Valuation: Vertical AI solutions comma...",
+      "signature": "ECON-R_71",
+      "content": "Vertical AI Valuation: Vertical AI solutions command revenue multiples of 44.1x vs 12x for traditional software, reflecting the market's price for specialization.",
+      "scores": {
+        "grounding": 0.99,
+        "certainty": 0.98,
+        "structure": 0.96,
+        "applicability": 0.94,
+        "coherence": 0.98,
+        "generativity": 0.92,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.9329,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
+    },
+    {
+      "id": "R_df26332a",
+      "timestamp": "2026-02-17T23:50:28.923782",
+      "layer": 0,
+      "title": "AI Inference Cost Collapse: GPT-4 class inference ...",
+      "signature": "ECON-R_df",
+      "content": "AI Inference Cost Collapse: GPT-4 class inference cost fell from $20/M tokens in 2022 to $0.40/M tokens in 2026 (50x reduction).",
+      "scores": {
+        "grounding": 0.99,
+        "certainty": 1.0,
+        "structure": 0.98,
+        "applicability": 0.95,
+        "coherence": 0.99,
+        "generativity": 0.92,
+        "presentation": 0.95,
+        "temporal": 1.0
+      },
+      "q_score": 0.9534,
+      "parents": [],
+      "children": [],
+      "context": "Research Paper: AI Unit Economics 2026",
+      "evidence": [
+        "AI_Unit_Economics_Research_2026.docx"
+      ]
     }
   ]
 }
