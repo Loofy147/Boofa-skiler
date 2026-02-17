@@ -1,5 +1,6 @@
-import sys; sys.path.append('data/aimo_3')
 import os
+
+content = r'''import os
 import re
 import torch
 import subprocess
@@ -161,3 +162,6 @@ if __name__ == '__main__':
         # Always ensure a parquet exists
         if not os.path.exists('submission.parquet'):
             pl.DataFrame({'id': ['error'], 'answer': [0]}).write_parquet('submission.parquet')
+'''
+with open("competitions/aimo/bundled_submission.py", "w") as f:
+    f.write(content)
