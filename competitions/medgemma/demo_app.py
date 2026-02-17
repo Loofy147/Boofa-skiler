@@ -19,6 +19,10 @@ def process_clinical_case(query, age, weight, meds, legacy_protocol):
     report = f"## 🩺 Boofa-Med Workflow Results\n\n"
     report += f"**Query:** {result['query']}\n\n"
 
+    if 'executive_summary' in result:
+        report += "### 📋 Executive Summary\n"
+        report += f"```\n{result['executive_summary']}\n```\n\n"
+
     if result.get('tool_calls'):
         report += "### 🛠️ Tool Observations\n"
         for tool in result['tool_calls']:
