@@ -1,4 +1,4 @@
-# 🗺️ Repository Map: High-Q Organization (v2.1.0)
+# 🗺️ Repository Map: High-Q Organization (v2.2.0)
 
 This document provides a comprehensive map of the Boofa-Skiler system, reflecting the Phase 7 Autonomous Expansion architecture.
 
@@ -8,6 +8,7 @@ This document provides a comprehensive map of the Boofa-Skiler system, reflectin
 - `realization_service.py`: Centralized API for knowledge crystallization.
 - `audit_service.py`: Ethical and technical safety monitoring.
 - `discovery_service.py`: Evolution and phase transition orchestration.
+- `recursive_self_realization_loop.py`: Orchestrates self-feeding evolution loops.
 
 ### 🧠 [layers/](layers/) - Core Cognitive Architecture
 - **[layer_0_universal/](layers/layer_0_universal/)**: Foundational rules and Omni-Valence engine.

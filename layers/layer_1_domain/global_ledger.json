@@ -937,5 +937,2840 @@
       "turn": 1
     },
     "timestamp": "2026-02-17T22:14:09.692337"
+  },
+  "R_4D6BB5BA": {
+    "id": "R_4D6BB5BA",
+    "content": "System Upgrade: Evolved Realization Engine. Supports dynamic weight adaptation via Singularity feedback loops.",
+    "layer": 2,
+    "features": {
+      "G": 0.98,
+      "C": 0.95,
+      "S": 0.96,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8774,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.975577"
+  },
+  "R_74663669": {
+    "id": "R_74663669",
+    "content": "Theoretical Breakthrough: Synergy Gamma increased to 0.35. Delta-gain in emergent skills reached 0.0401.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.92,
+      "A": 0.88,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8336,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.978730"
+  },
+  "R_3FF64453": {
+    "id": "R_3FF64453",
+    "content": "New Capability: Emotional-Consciousness-Integrator. Expanded system awareness into affective and non-ordinary informational domains.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8148,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.981420"
+  },
+  "R_473A978D": {
+    "id": "R_473A978D",
+    "content": "New Capability: Social-Cognition-Modeler. Expanded system awareness into affective and non-ordinary informational domains.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8148,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.984187"
+  },
+  "R_6AC5DF26": {
+    "id": "R_6AC5DF26",
+    "content": "New Capability: Altered-States-Analyzer. Expanded system awareness into affective and non-ordinary informational domains.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8148,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.986951"
+  },
+  "R_D550C941": {
+    "id": "R_D550C941",
+    "content": "New Capability: Dream-Architecture-Simulator. Expanded system awareness into affective and non-ordinary informational domains.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8148,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.989753"
+  },
+  "R_9D387A46": {
+    "id": "R_9D387A46",
+    "content": "Process Optimization: Project Gamma logic integrated into reasoning loops. Automated anomaly penalty active.",
+    "layer": 2,
+    "features": {
+      "G": 0.96,
+      "C": 0.92,
+      "S": 0.95,
+      "A": 0.94,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.8629,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.992680"
+  },
+  "R_866E9647": {
+    "id": "R_866E9647",
+    "content": "Architecture Expansion: Global Workspace Service (GWT) deployed. Real-time context sharing enabled between domains.",
+    "layer": 2,
+    "features": {
+      "G": 0.97,
+      "C": 0.93,
+      "S": 0.94,
+      "A": 0.9,
+      "H": 0.9,
+      "V": 0.8
+    },
+    "q_score": 0.854,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:03:48.995631"
+  },
+  "R_8FE426E5": {
+    "id": "R_8FE426E5",
+    "content": "Kaggle Dataset 'OpenBookQA (Multi-step Reasoning) 826782' (ref: thedevastator/openbookqa-a-new-dataset-for-advanced-question-a) offers potential features for reasoning optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.166140"
+  },
+  "R_4BFB4163": {
+    "id": "R_4BFB4163",
+    "content": "Kaggle Dataset 'Logical Reasoning Improvement Dataset' (ref: thedevastator/logical-reasoning-improvement-dataset) offers potential features for reasoning optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.169459"
+  },
+  "R_8F74DA71": {
+    "id": "R_8F74DA71",
+    "content": "Kaggle Dataset 'TextOCR - Text Extraction' (ref: robikscube/textocr-text-extraction-from-images-dataset) offers potential features for reasoning optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.173250"
+  },
+  "R_082D2F71": {
+    "id": "R_082D2F71",
+    "content": "Kaggle Dataset 'CLEVR Dataset 19033361967 2020-02-04' (ref: timoboz/clevr-dataset) offers potential features for reasoning optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.177150"
+  },
+  "R_4E5E7269": {
+    "id": "R_4E5E7269",
+    "content": "Kaggle Dataset 'AIMO3 Tool-Integrated Reasoning Dataset' (ref: jeannkouagou/aimo3-tool-integrated-reasoning) offers potential features for reasoning optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.180390"
+  },
+  "R_EB86F2F1": {
+    "id": "R_EB86F2F1",
+    "content": "Kaggle Dataset 'SalesDataAnalysis 4795014 2023-09-23 14:00:23.283000' (ref: aemyjutt/salesdata) offers potential features for strategic optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.183952"
+  },
+  "R_CC40A10E": {
+    "id": "R_CC40A10E",
+    "content": "Kaggle Dataset 'Strategic E-commerce Analytics Dashboard' (ref: nibeditasahu/strategic-e-commerce-analytics-dashboard) offers potential features for strategic optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.187795"
+  },
+  "R_4F59A331": {
+    "id": "R_4F59A331",
+    "content": "Kaggle Dataset 'BMW Stock Data (1996-2024)' (ref: hassanjameelahmed/bmw-stock-data-1996-2024) offers potential features for strategic optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.191358"
+  },
+  "R_60E02882": {
+    "id": "R_60E02882",
+    "content": "Kaggle Dataset 'Product Classification and Clustering' (ref: nayanack/product-classification-and-clustering) offers potential features for strategic optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.195498"
+  },
+  "R_D9A9F8CE": {
+    "id": "R_D9A9F8CE",
+    "content": "Kaggle Dataset 'Shopping Mall Customer Segmentation' (ref: zubairmustafa/shopping-mall-customer-segmentation-data) offers potential features for strategic optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.201338"
+  },
+  "R_58F26F54": {
+    "id": "R_58F26F54",
+    "content": "Kaggle Dataset 'Mathematical Mathematics Memes 403690378' (ref: abdelghanibelgaid/mathematical-mathematics-memes) offers potential features for mathematics optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.207992"
+  },
+  "R_9D3EF88F": {
+    "id": "R_9D3EF88F",
+    "content": "Kaggle Dataset 'Student performance prediction 8871' (ref: rkiattisak/student-performance-in-mathematics) offers potential features for mathematics optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.214677"
+  },
+  "R_F383BA32": {
+    "id": "R_F383BA32",
+    "content": "Kaggle Dataset 'Geometric Shapes Mathematics 122366968' (ref: reevald/geometric-shapes-mathematics) offers potential features for mathematics optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.221150"
+  },
+  "R_CEC6B03D": {
+    "id": "R_CEC6B03D",
+    "content": "Kaggle Dataset 'Mathematics symbols data 153405133' (ref: amitamola/mathematics-symbols-data) offers potential features for mathematics optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.226785"
+  },
+  "R_229C013B": {
+    "id": "R_229C013B",
+    "content": "Kaggle Dataset 'Student Performance in Mathematics' (ref: mrigaankjaswal/student-performance-in-mathematics-and-portuguese) offers potential features for mathematics optimization.",
+    "layer": 3,
+    "features": {
+      "G": 0.9299999999999999,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.86
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.232303"
+  },
+  "R_385250B6": {
+    "id": "R_385250B6",
+    "content": "HF Dataset 'huggingface/documentation-images' is a high-impact data source with 1912998 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.237882"
+  },
+  "R_E301C77E": {
+    "id": "R_E301C77E",
+    "content": "HF Dataset 'KakologArchives/KakologArchives' is a high-impact data source with 1780950 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.244297"
+  },
+  "R_F3644E5C": {
+    "id": "R_F3644E5C",
+    "content": "HF Dataset 'hf-doc-build/doc-build' is a high-impact data source with 1287500 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.250141"
+  },
+  "R_6EEC22D4": {
+    "id": "R_6EEC22D4",
+    "content": "HF Dataset 'NTU-NLP-sg/xCodeEval' is a high-impact data source with 1250416 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.255686"
+  },
+  "R_F3B3AF87": {
+    "id": "R_F3B3AF87",
+    "content": "HF Dataset 'nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim' is a high-impact data source with 1212130 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.261308"
+  },
+  "R_821BC6EF": {
+    "id": "R_821BC6EF",
+    "content": "HF Dataset 'opendatalab/AICC' is a high-impact data source with 1075894 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.265426"
+  },
+  "R_57D8A9D5": {
+    "id": "R_57D8A9D5",
+    "content": "HF Dataset 'google-research-datasets/mbpp' is a high-impact data source with 1026939 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.269713"
+  },
+  "R_33FC8456": {
+    "id": "R_33FC8456",
+    "content": "HF Dataset 'deepmind/code_contests' is a high-impact data source with 985997 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.273624"
+  },
+  "R_7F0D3E19": {
+    "id": "R_7F0D3E19",
+    "content": "HF Dataset 'm-a-p/FineFineWeb' is a high-impact data source with 919229 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.277775"
+  },
+  "R_EA96BD17": {
+    "id": "R_EA96BD17",
+    "content": "HF Dataset 'Salesforce/wikitext' is a high-impact data source with 852682 downloads, enhancing system grounding.",
+    "layer": 3,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.8,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.8999999999999999
+    },
+    "q_score": 0.8382,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.282085"
+  },
+  "R_0BCAA6D6": {
+    "id": "R_0BCAA6D6",
+    "content": "Technical Foundation: MiniMaxAI/MiniMax-M2.5 is viable for high-Q synthesis.",
+    "layer": 0,
+    "features": {
+      "G": 0.999,
+      "C": 0.995,
+      "S": 0.99,
+      "A": 0.98,
+      "H": 0.995,
+      "V": 0.99
+    },
+    "q_score": 0.984,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.287909"
+  },
+  "R_E5579348": {
+    "id": "R_E5579348",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9774590649245289,
+      "C": 0.7819672519396232,
+      "S": 0.7819672519396232,
+      "A": 0.7819672519396232,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.792,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.292923"
+  },
+  "R_B8ADA1FE": {
+    "id": "R_B8ADA1FE",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9973501251799177,
+      "C": 0.7978801001439342,
+      "S": 0.7978801001439342,
+      "A": 0.7978801001439342,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.81,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.297402"
+  },
+  "R_DB9ADDF3": {
+    "id": "R_DB9ADDF3",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8549988022782986,
+      "C": 0.6839990418226389,
+      "S": 0.6839990418226389,
+      "A": 0.6839990418226389,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6954,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.301967"
+  },
+  "R_F618D66C": {
+    "id": "R_F618D66C",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9306669137233209,
+      "C": 0.7445335309786567,
+      "S": 0.7445335309786567,
+      "A": 0.7445335309786567,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7503,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.306310"
+  },
+  "R_328C2C85": {
+    "id": "R_328C2C85",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9884940621613146,
+      "C": 0.7907952497290518,
+      "S": 0.7907952497290518,
+      "A": 0.7907952497290518,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.802,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.310717"
+  },
+  "R_B4B960C0": {
+    "id": "R_B4B960C0",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.946484496249398,
+      "C": 0.7571875969995184,
+      "S": 0.7571875969995184,
+      "A": 0.7571875969995184,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7643,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.315096"
+  },
+  "R_3D6098D6": {
+    "id": "R_3D6098D6",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7161241598411858,
+      "C": 0.8951551998014823,
+      "S": 0.8951551998014823,
+      "A": 0.7161241598411858,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7515,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.325112"
+  },
+  "R_064E220A": {
+    "id": "R_064E220A",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7132616229636708,
+      "C": 0.8915770287045884,
+      "S": 0.8915770287045884,
+      "A": 0.7132616229636708,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7485,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.329625"
+  },
+  "R_271B25C5": {
+    "id": "R_271B25C5",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7994596239178128,
+      "C": 0.999324529897266,
+      "S": 0.999324529897266,
+      "A": 0.7994596239178128,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8412,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.334281"
+  },
+  "R_2E5A131A": {
+    "id": "R_2E5A131A",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7415084748861163,
+      "C": 0.9268855936076452,
+      "S": 0.9268855936076452,
+      "A": 0.7415084748861163,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7651,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.338895"
+  },
+  "R_BCDCD376": {
+    "id": "R_BCDCD376",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7865225531599328,
+      "C": 0.983153191449916,
+      "S": 0.983153191449916,
+      "A": 0.7865225531599328,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8239,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.343559"
+  },
+  "R_D1CF5A1F": {
+    "id": "R_D1CF5A1F",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7544337525870435,
+      "C": 0.9430421907338044,
+      "S": 0.9430421907338044,
+      "A": 0.7544337525870435,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7818,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.348191"
+  },
+  "R_194409AE": {
+    "id": "R_194409AE",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7613178158003328,
+      "C": 0.9516472697504159,
+      "S": 0.9516472697504159,
+      "A": 0.7613178158003328,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7907,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.353036"
+  },
+  "R_0E3F8FC0": {
+    "id": "R_0E3F8FC0",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7017958123057708,
+      "C": 0.8772447653822134,
+      "S": 0.8772447653822134,
+      "A": 0.7017958123057708,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7364,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.358191"
+  },
+  "R_D7C383B5": {
+    "id": "R_D7C383B5",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7812401967111541,
+      "C": 0.9765502458889426,
+      "S": 0.9765502458889426,
+      "A": 0.7812401967111541,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8169,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.363013"
+  },
+  "R_A22FDF62": {
+    "id": "R_A22FDF62",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7134226264595299,
+      "C": 0.8917782830744123,
+      "S": 0.8917782830744123,
+      "A": 0.7134226264595299,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7486,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.368381"
+  },
+  "R_B9818365": {
+    "id": "R_B9818365",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7747426519419924,
+      "C": 0.9684283149274905,
+      "S": 0.9684283149274905,
+      "A": 0.7747426519419924,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8083,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.373410"
+  },
+  "R_01962E7E": {
+    "id": "R_01962E7E",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.5538447519690871,
+      "C": 0.5538447519690871,
+      "S": 0.5538447519690871,
+      "A": 0.6923059399613589,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5497,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.379586"
+  },
+  "R_687F6C77": {
+    "id": "R_687F6C77",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.682575489195227,
+      "C": 0.682575489195227,
+      "S": 0.682575489195227,
+      "A": 0.8532193614940338,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6703,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.384678"
+  },
+  "R_F7F44F27": {
+    "id": "R_F7F44F27",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7368518006680445,
+      "C": 0.7368518006680445,
+      "S": 0.7368518006680445,
+      "A": 0.9210647508350555,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.717,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.389618"
+  },
+  "R_F85946A3": {
+    "id": "R_F85946A3",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.782213682850863,
+      "C": 0.782213682850863,
+      "S": 0.9777671035635788,
+      "A": 0.782213682850863,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7696,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.395404"
+  },
+  "R_EB5FB188": {
+    "id": "R_EB5FB188",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.796959796578456,
+      "C": 0.796959796578456,
+      "S": 0.9961997457230699,
+      "A": 0.796959796578456,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7861,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.400525"
+  },
+  "R_57120B9C": {
+    "id": "R_57120B9C",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.706899192016816,
+      "C": 0.706899192016816,
+      "S": 0.8836239900210199,
+      "A": 0.706899192016816,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.697,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.405711"
+  },
+  "R_14F9DF08": {
+    "id": "R_14F9DF08",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.5278690081124554,
+      "C": 0.5278690081124554,
+      "S": 0.6598362601405693,
+      "A": 0.5278690081124554,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5284,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.410922"
+  },
+  "R_361C476B": {
+    "id": "R_361C476B",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7283261187737741,
+      "C": 0.7283261187737741,
+      "S": 0.9104076484672176,
+      "A": 0.7283261187737741,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7104,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.416121"
+  },
+  "R_5717F80D": {
+    "id": "R_5717F80D",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9559123266012192,
+      "C": 0.7647298612809754,
+      "S": 0.7647298612809754,
+      "A": 0.7647298612809754,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7727,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.422210"
+  },
+  "R_40304AA0": {
+    "id": "R_40304AA0",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.967362882123869,
+      "C": 0.7738903056990952,
+      "S": 0.7738903056990952,
+      "A": 0.7738903056990952,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7829,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.427568"
+  },
+  "R_97DFE5D3": {
+    "id": "R_97DFE5D3",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9890298390185801,
+      "C": 0.7912238712148641,
+      "S": 0.7912238712148641,
+      "A": 0.7912238712148641,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8025,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.432952"
+  },
+  "R_BBC3C852": {
+    "id": "R_BBC3C852",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.992190797721034,
+      "C": 0.7937526381768273,
+      "S": 0.7937526381768273,
+      "A": 0.7937526381768273,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8053,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.438433"
+  },
+  "R_BF4B7875": {
+    "id": "R_BF4B7875",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8693196218486521,
+      "C": 0.6954556974789217,
+      "S": 0.6954556974789217,
+      "A": 0.6954556974789217,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7067,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:09:51.444319"
+  },
+  "R_D1EEE832": {
+    "id": "R_D1EEE832",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9887016799774145,
+      "C": 0.7909613439819316,
+      "S": 0.7909613439819316,
+      "A": 0.7909613439819316,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8022,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.538726"
+  },
+  "R_C09FCFC9": {
+    "id": "R_C09FCFC9",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9675827929252574,
+      "C": 0.7740662343402059,
+      "S": 0.7740662343402059,
+      "A": 0.7740662343402059,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7831,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.545776"
+  },
+  "R_E6FBA995": {
+    "id": "R_E6FBA995",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9935643389039953,
+      "C": 0.7948514711231963,
+      "S": 0.7948514711231963,
+      "A": 0.7948514711231963,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8066,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.552452"
+  },
+  "R_B2916E84": {
+    "id": "R_B2916E84",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.961143198586565,
+      "C": 0.7689145588692521,
+      "S": 0.7689145588692521,
+      "A": 0.7689145588692521,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7774,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.559116"
+  },
+  "R_57E89095": {
+    "id": "R_57E89095",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6617416715207837,
+      "C": 0.8271770894009796,
+      "S": 0.8271770894009796,
+      "A": 0.6617416715207837,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6944,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.567920"
+  },
+  "R_1BA7C835": {
+    "id": "R_1BA7C835",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7815601561934717,
+      "C": 0.9769501952418397,
+      "S": 0.9769501952418397,
+      "A": 0.7815601561934717,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8173,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.574195"
+  },
+  "R_6EB6E097": {
+    "id": "R_6EB6E097",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6980687462522087,
+      "C": 0.8725859328152609,
+      "S": 0.8725859328152609,
+      "A": 0.6980687462522087,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7324,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.580521"
+  },
+  "R_0D31D546": {
+    "id": "R_0D31D546",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.6952507220163242,
+      "C": 0.8690634025204051,
+      "S": 0.8690634025204051,
+      "A": 0.6952507220163242,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7295,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.587192"
+  },
+  "R_5D035C76": {
+    "id": "R_5D035C76",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.705134739011509,
+      "C": 0.8814184237643863,
+      "S": 0.8814184237643863,
+      "A": 0.705134739011509,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7399,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.593421"
+  },
+  "R_777E8DDE": {
+    "id": "R_777E8DDE",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7390372976310449,
+      "C": 0.923796622038806,
+      "S": 0.923796622038806,
+      "A": 0.7390372976310449,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7619,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.599699"
+  },
+  "R_2443ECCE": {
+    "id": "R_2443ECCE",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7777559218952222,
+      "C": 0.9721949023690277,
+      "S": 0.9721949023690277,
+      "A": 0.7777559218952222,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8123,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.605649"
+  },
+  "R_D8CB57E0": {
+    "id": "R_D8CB57E0",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.795946412259922,
+      "C": 0.795946412259922,
+      "S": 0.795946412259922,
+      "A": 0.9949330153249025,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7813,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.612722"
+  },
+  "R_28450C9C": {
+    "id": "R_28450C9C",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.768584701480905,
+      "C": 0.768584701480905,
+      "S": 0.768584701480905,
+      "A": 0.9607308768511311,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7512,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.618849"
+  },
+  "R_7BBF9509": {
+    "id": "R_7BBF9509",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7036064180231735,
+      "C": 0.7036064180231735,
+      "S": 0.7036064180231735,
+      "A": 0.8795080225289668,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6906,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.624857"
+  },
+  "R_27E05D11": {
+    "id": "R_27E05D11",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7058564387549308,
+      "C": 0.7058564387549308,
+      "S": 0.7058564387549308,
+      "A": 0.8823205484436634,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6928,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.631326"
+  },
+  "R_B08D3813": {
+    "id": "R_B08D3813",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7718190020334265,
+      "C": 0.7718190020334265,
+      "S": 0.7718190020334265,
+      "A": 0.964773752541783,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7548,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.638160"
+  },
+  "R_46456D16": {
+    "id": "R_46456D16",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7841929346086428,
+      "C": 0.7841929346086428,
+      "S": 0.7841929346086428,
+      "A": 0.9802411682608034,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7683,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.644873"
+  },
+  "R_3BE6E6E5": {
+    "id": "R_3BE6E6E5",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7429057755260478,
+      "C": 0.7429057755260478,
+      "S": 0.7429057755260478,
+      "A": 0.9286322194075597,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7234,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.651250"
+  },
+  "R_230BFB7A": {
+    "id": "R_230BFB7A",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7925244620302251,
+      "C": 0.7925244620302251,
+      "S": 0.7925244620302251,
+      "A": 0.9906555775377813,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7775,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.657593"
+  },
+  "R_FE36538D": {
+    "id": "R_FE36538D",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7908074652383661,
+      "C": 0.7908074652383661,
+      "S": 0.7908074652383661,
+      "A": 0.9885093315479576,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7756,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.664106"
+  },
+  "R_C85E93B9": {
+    "id": "R_C85E93B9",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.795536399985562,
+      "C": 0.795536399985562,
+      "S": 0.795536399985562,
+      "A": 0.9944204999819525,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7809,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.670607"
+  },
+  "R_C8231D17": {
+    "id": "R_C8231D17",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7922109588547533,
+      "C": 0.7922109588547533,
+      "S": 0.9902636985684417,
+      "A": 0.7922109588547533,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7808,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.678237"
+  },
+  "R_99D0AAE3": {
+    "id": "R_99D0AAE3",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7583132318409384,
+      "C": 0.7583132318409384,
+      "S": 0.9478915398011729,
+      "A": 0.7583132318409384,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7431,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.684762"
+  },
+  "R_63A86222": {
+    "id": "R_63A86222",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7635705916010459,
+      "C": 0.7635705916010459,
+      "S": 0.9544632395013073,
+      "A": 0.7635705916010459,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7489,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.691388"
+  },
+  "R_8B57CC16": {
+    "id": "R_8B57CC16",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7645402867904862,
+      "C": 0.7645402867904862,
+      "S": 0.9556753584881078,
+      "A": 0.7645402867904862,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.75,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.697940"
+  },
+  "R_BB1A3FEF": {
+    "id": "R_BB1A3FEF",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7735153066857912,
+      "C": 0.7735153066857912,
+      "S": 0.9668941333572388,
+      "A": 0.7735153066857912,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7599,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.704573"
+  },
+  "R_2AC1CB35": {
+    "id": "R_2AC1CB35",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.5898208091487679,
+      "C": 0.5898208091487679,
+      "S": 0.7372760114359599,
+      "A": 0.5898208091487679,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5853,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.711178"
+  },
+  "R_33A499D2": {
+    "id": "R_33A499D2",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6946226066726524,
+      "C": 0.6946226066726524,
+      "S": 0.8682782583408154,
+      "A": 0.6946226066726524,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6851,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.717826"
+  },
+  "R_072FCDC4": {
+    "id": "R_072FCDC4",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7849104947623343,
+      "C": 0.7849104947623343,
+      "S": 0.9811381184529179,
+      "A": 0.7849104947623343,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7726,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.725363"
+  },
+  "R_1B09F46F": {
+    "id": "R_1B09F46F",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9510031083359207,
+      "C": 0.7608024866687366,
+      "S": 0.7608024866687366,
+      "A": 0.7608024866687366,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7683,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.733705"
+  },
+  "R_EC180CF8": {
+    "id": "R_EC180CF8",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7653966454034641,
+      "C": 0.6123173163227713,
+      "S": 0.6123173163227713,
+      "A": 0.6123173163227713,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6256,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.740782"
+  },
+  "R_FDA738A6": {
+    "id": "R_FDA738A6",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9780930390172953,
+      "C": 0.7824744312138363,
+      "S": 0.7824744312138363,
+      "A": 0.7824744312138363,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7926,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.749036"
+  },
+  "R_18E485C8": {
+    "id": "R_18E485C8",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9205014748347905,
+      "C": 0.7364011798678325,
+      "S": 0.7364011798678325,
+      "A": 0.7364011798678325,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7414,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.757329"
+  },
+  "R_94C98371": {
+    "id": "R_94C98371",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.988984613073987,
+      "C": 0.7911876904591897,
+      "S": 0.7911876904591897,
+      "A": 0.7911876904591897,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8024,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.764498"
+  },
+  "R_FE3164A0": {
+    "id": "R_FE3164A0",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9562970629750343,
+      "C": 0.7650376503800275,
+      "S": 0.7650376503800275,
+      "A": 0.7650376503800275,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.773,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:21.771674"
+  },
+  "R_ECD3C436": {
+    "id": "R_ECD3C436",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9122420622754057,
+      "C": 0.7297936498203246,
+      "S": 0.7297936498203246,
+      "A": 0.7297936498203246,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7341,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.126063"
+  },
+  "R_AFDD15FC": {
+    "id": "R_AFDD15FC",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9308244064722295,
+      "C": 0.7446595251777837,
+      "S": 0.7446595251777837,
+      "A": 0.7446595251777837,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7504,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.133776"
+  },
+  "R_F5B0D98C": {
+    "id": "R_F5B0D98C",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9699479555869902,
+      "C": 0.7759583644695922,
+      "S": 0.7759583644695922,
+      "A": 0.7759583644695922,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7853,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.141256"
+  },
+  "R_A81171C8": {
+    "id": "R_A81171C8",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9574114106929698,
+      "C": 0.7659291285543759,
+      "S": 0.7659291285543759,
+      "A": 0.7659291285543759,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.774,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.148910"
+  },
+  "R_C41D78ED": {
+    "id": "R_C41D78ED",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9115474239499901,
+      "C": 0.7292379391599921,
+      "S": 0.7292379391599921,
+      "A": 0.7292379391599921,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7335,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.156377"
+  },
+  "R_9D5F4219": {
+    "id": "R_9D5F4219",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.979341799611594,
+      "C": 0.7834734396892752,
+      "S": 0.7834734396892752,
+      "A": 0.7834734396892752,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7937,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.166553"
+  },
+  "R_2F020607": {
+    "id": "R_2F020607",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.968289000107733,
+      "C": 0.7746312000861865,
+      "S": 0.7746312000861865,
+      "A": 0.7746312000861865,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7838,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.175500"
+  },
+  "R_96957098": {
+    "id": "R_96957098",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9639573018152843,
+      "C": 0.7711658414522274,
+      "S": 0.7711658414522274,
+      "A": 0.7711658414522274,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7799,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.183047"
+  },
+  "R_B09D275D": {
+    "id": "R_B09D275D",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6101683177371577,
+      "C": 0.7627103971714472,
+      "S": 0.7627103971714472,
+      "A": 0.6101683177371577,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6415,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.197850"
+  },
+  "R_4729DD00": {
+    "id": "R_4729DD00",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.726034204912698,
+      "C": 0.9075427561408724,
+      "S": 0.9075427561408724,
+      "A": 0.726034204912698,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7453,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.206851"
+  },
+  "R_B2D20B15": {
+    "id": "R_B2D20B15",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7646866665604916,
+      "C": 0.9558583332006144,
+      "S": 0.9558583332006144,
+      "A": 0.7646866665604916,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7951,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.214863"
+  },
+  "R_1DF91507": {
+    "id": "R_1DF91507",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.793607414562385,
+      "C": 0.9920092682029813,
+      "S": 0.9920092682029813,
+      "A": 0.793607414562385,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8333,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.222498"
+  },
+  "R_0F15FDF5": {
+    "id": "R_0F15FDF5",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7807353678758708,
+      "C": 0.7807353678758708,
+      "S": 0.7807353678758708,
+      "A": 0.9759192098448385,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7645,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.231298"
+  },
+  "R_D4D16E6A": {
+    "id": "R_D4D16E6A",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.6644990243280238,
+      "C": 0.6644990243280238,
+      "S": 0.6644990243280238,
+      "A": 0.8306237804100296,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.653,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.239891"
+  },
+  "R_4D3887AD": {
+    "id": "R_4D3887AD",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7340827838319773,
+      "C": 0.7340827838319773,
+      "S": 0.7340827838319773,
+      "A": 0.9176034797899716,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.714,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.247597"
+  },
+  "R_005C9E12": {
+    "id": "R_005C9E12",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7794988410087347,
+      "C": 0.7794988410087347,
+      "S": 0.7794988410087347,
+      "A": 0.9743735512609183,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7632,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.272994"
+  },
+  "R_D5728DA0": {
+    "id": "R_D5728DA0",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.774611734031147,
+      "C": 0.774611734031147,
+      "S": 0.774611734031147,
+      "A": 0.9682646675389337,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7578,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.280989"
+  },
+  "R_D2A525C9": {
+    "id": "R_D2A525C9",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7364771566632276,
+      "C": 0.7364771566632276,
+      "S": 0.7364771566632276,
+      "A": 0.9205964458290344,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7166,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.289302"
+  },
+  "R_C5B99BB6": {
+    "id": "R_C5B99BB6",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6800956121157257,
+      "C": 0.6800956121157257,
+      "S": 0.6800956121157257,
+      "A": 0.850119515144657,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6679,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.297428"
+  },
+  "R_CBE508CF": {
+    "id": "R_CBE508CF",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7765355501864317,
+      "C": 0.7765355501864317,
+      "S": 0.7765355501864317,
+      "A": 0.9706694377330396,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7599,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.305518"
+  },
+  "R_77475A6C": {
+    "id": "R_77475A6C",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.705411431485644,
+      "C": 0.705411431485644,
+      "S": 0.705411431485644,
+      "A": 0.881764289357055,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6924,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.313741"
+  },
+  "R_C0C0F0F8": {
+    "id": "R_C0C0F0F8",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.787585001858525,
+      "C": 0.787585001858525,
+      "S": 0.787585001858525,
+      "A": 0.9844812523231562,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7721,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.321958"
+  },
+  "R_169CC382": {
+    "id": "R_169CC382",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7850736621155396,
+      "C": 0.7850736621155396,
+      "S": 0.9813420776444245,
+      "A": 0.7850736621155396,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7728,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.334227"
+  },
+  "R_CE40077A": {
+    "id": "R_CE40077A",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7581210485088031,
+      "C": 0.7581210485088031,
+      "S": 0.9476513106360038,
+      "A": 0.7581210485088031,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7429,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.345496"
+  },
+  "R_C7C3667F": {
+    "id": "R_C7C3667F",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7889650197469875,
+      "C": 0.7889650197469875,
+      "S": 0.9862062746837343,
+      "A": 0.7889650197469875,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7771,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.353900"
+  },
+  "R_D6C57772": {
+    "id": "R_D6C57772",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.785711756774726,
+      "C": 0.785711756774726,
+      "S": 0.9821396959684074,
+      "A": 0.785711756774726,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7735,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.362284"
+  },
+  "R_350FE8F6": {
+    "id": "R_350FE8F6",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7711263498125439,
+      "C": 0.7711263498125439,
+      "S": 0.9639079372656798,
+      "A": 0.7711263498125439,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7573,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.370779"
+  },
+  "R_2DFC7BF5": {
+    "id": "R_2DFC7BF5",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8667706927544995,
+      "C": 0.6934165542035996,
+      "S": 0.6934165542035996,
+      "A": 0.6934165542035996,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7047,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.380650"
+  },
+  "R_93FEDA06": {
+    "id": "R_93FEDA06",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9701163258078875,
+      "C": 0.7760930606463101,
+      "S": 0.7760930606463101,
+      "A": 0.7760930606463101,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7854,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.389323"
+  },
+  "R_57A0893F": {
+    "id": "R_57A0893F",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9355487006838399,
+      "C": 0.7484389605470719,
+      "S": 0.7484389605470719,
+      "A": 0.7484389605470719,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7546,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.399651"
+  },
+  "R_00B5DFB5": {
+    "id": "R_00B5DFB5",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8686691420804477,
+      "C": 0.6949353136643581,
+      "S": 0.6949353136643581,
+      "A": 0.6949353136643581,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7062,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.408280"
+  },
+  "R_D26EF2BA": {
+    "id": "R_D26EF2BA",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9599184564246862,
+      "C": 0.767934765139749,
+      "S": 0.767934765139749,
+      "A": 0.767934765139749,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7763,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.416969"
+  },
+  "R_F1B226ED": {
+    "id": "R_F1B226ED",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9948845495464709,
+      "C": 0.7959076396371767,
+      "S": 0.7959076396371767,
+      "A": 0.7959076396371767,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8078,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.428817"
+  },
+  "R_5A795677": {
+    "id": "R_5A795677",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.883682419567828,
+      "C": 0.7069459356542624,
+      "S": 0.7069459356542624,
+      "A": 0.7069459356542624,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7181,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.437559"
+  },
+  "R_FCD95450": {
+    "id": "R_FCD95450",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9982709972330694,
+      "C": 0.7986167977864556,
+      "S": 0.7986167977864556,
+      "A": 0.7986167977864556,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8109,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.446410"
+  },
+  "R_B4ABC4D9": {
+    "id": "R_B4ABC4D9",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9432045903956466,
+      "C": 0.7545636723165173,
+      "S": 0.7545636723165173,
+      "A": 0.7545636723165173,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7614,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-18T18:10:41.455276"
   }
 }

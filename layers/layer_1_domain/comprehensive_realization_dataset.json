@@ -1,14 +1,14 @@
 {
   "stats": {
-    "total_realizations": 79,
+    "total_realizations": 82,
     "layer_distribution": {
-      "0": 11,
+      "0": 14,
       "1": 10,
       "2": 6,
       "3": 51,
       "N": 1
     },
-    "avg_q_score": 0.8609740839357939
+    "avg_q_score": 0.8788632112208992
   },
   "dimensions": {
     "grounding": {
@@ -2233,6 +2233,87 @@
       "evidence": [
         "http://arxiv.org/abs/2301.12158v2"
       ]
+    },
+    {
+      "id": "R_1771438192",
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
+      "layer": 0,
+      "features": {
+        "grounding": 0.999,
+        "certainty": 0.995,
+        "structure": 0.99,
+        "applicability": 0.98,
+        "coherence": 0.995,
+        "generativity": 0.99,
+        "presentation": 0.98
+      },
+      "q_score": 1.349954527448041,
+      "metadata": {
+        "domain": "Universal",
+        "tags": [
+          "Singularity",
+          "Integrated Vision",
+          "MCO"
+        ],
+        "timestamp": "2026-02-18T18:09:52.187411",
+        "source": "GrandMetaOrchestrator Simulation"
+      },
+      "parents": [],
+      "children": []
+    },
+    {
+      "id": "R_1771438222",
+      "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x ETHICAL",
+      "layer": 0,
+      "features": {
+        "grounding": 0.999,
+        "certainty": 0.995,
+        "structure": 0.99,
+        "applicability": 0.98,
+        "coherence": 0.995,
+        "generativity": 0.99,
+        "presentation": 0.98
+      },
+      "q_score": 1.3499052486883307,
+      "metadata": {
+        "domain": "Universal",
+        "tags": [
+          "Singularity",
+          "Integrated Vision",
+          "MCO"
+        ],
+        "timestamp": "2026-02-18T18:10:22.620543",
+        "source": "GrandMetaOrchestrator Simulation"
+      },
+      "parents": [],
+      "children": []
+    },
+    {
+      "id": "R_1771438242",
+      "content": "Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS",
+      "layer": 0,
+      "features": {
+        "grounding": 0.999,
+        "certainty": 0.995,
+        "structure": 0.99,
+        "applicability": 0.98,
+        "coherence": 0.995,
+        "generativity": 0.99,
+        "presentation": 0.98
+      },
+      "q_score": 1.3499709130496398,
+      "metadata": {
+        "domain": "Universal",
+        "tags": [
+          "Singularity",
+          "Integrated Vision",
+          "MCO"
+        ],
+        "timestamp": "2026-02-18T18:10:42.334985",
+        "source": "GrandMetaOrchestrator Simulation"
+      },
+      "parents": [],
+      "children": []
     }
   ]
 }
