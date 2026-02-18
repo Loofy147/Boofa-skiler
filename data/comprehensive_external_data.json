@@ -52,7 +52,7 @@
     "id": "timoboz/clevr-dataset"
   },
   {
-    "content": "Kaggle Dataset 'GSM8K - Grade School' (ref: thedevastator/grade-school-math-8k-q-a) offers potential features for reasoning optimization.",
+    "content": "Kaggle Dataset 'AIMO3 Tool-Integrated Reasoning Dataset' (ref: jeannkouagou/aimo3-tool-integrated-reasoning) offers potential features for reasoning optimization.",
     "features": {
       "grounding": 0.9299999999999999,
       "certainty": 0.9,
@@ -62,7 +62,7 @@
       "generativity": 0.86
     },
     "source": "Kaggle",
-    "id": "thedevastator/grade-school-math-8k-q-a"
+    "id": "jeannkouagou/aimo3-tool-integrated-reasoning"
   },
   {
     "content": "Kaggle Dataset 'SalesDataAnalysis 4795014 2023-09-23 14:00:23.283000' (ref: aemyjutt/salesdata) offers potential features for strategic optimization.",
@@ -195,7 +195,7 @@
     "id": "mrigaankjaswal/student-performance-in-mathematics-and-portuguese"
   },
   {
-    "content": "HF Dataset 'huggingface/documentation-images' is a high-impact data source with 1881867 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'huggingface/documentation-images' is a high-impact data source with 1912998 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -208,7 +208,7 @@
     "id": "huggingface/documentation-images"
   },
   {
-    "content": "HF Dataset 'KakologArchives/KakologArchives' is a high-impact data source with 1495254 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'KakologArchives/KakologArchives' is a high-impact data source with 1780950 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -221,7 +221,7 @@
     "id": "KakologArchives/KakologArchives"
   },
   {
-    "content": "HF Dataset 'hf-doc-build/doc-build' is a high-impact data source with 1265764 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'hf-doc-build/doc-build' is a high-impact data source with 1287500 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -234,7 +234,7 @@
     "id": "hf-doc-build/doc-build"
   },
   {
-    "content": "HF Dataset 'NTU-NLP-sg/xCodeEval' is a high-impact data source with 1251280 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'NTU-NLP-sg/xCodeEval' is a high-impact data source with 1250416 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -247,7 +247,7 @@
     "id": "NTU-NLP-sg/xCodeEval"
   },
   {
-    "content": "HF Dataset 'nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim' is a high-impact data source with 1178598 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim' is a high-impact data source with 1212130 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -260,33 +260,7 @@
     "id": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim"
   },
   {
-    "content": "HF Dataset 'google-research-datasets/mbpp' is a high-impact data source with 1148528 downloads, enhancing system grounding.",
-    "features": {
-      "grounding": 0.95,
-      "certainty": 0.9,
-      "structure": 0.8,
-      "applicability": 0.95,
-      "coherence": 0.9,
-      "generativity": 0.8999999999999999
-    },
-    "source": "HF",
-    "id": "google-research-datasets/mbpp"
-  },
-  {
-    "content": "HF Dataset 'deepmind/code_contests' is a high-impact data source with 1114841 downloads, enhancing system grounding.",
-    "features": {
-      "grounding": 0.95,
-      "certainty": 0.9,
-      "structure": 0.8,
-      "applicability": 0.95,
-      "coherence": 0.9,
-      "generativity": 0.8999999999999999
-    },
-    "source": "HF",
-    "id": "deepmind/code_contests"
-  },
-  {
-    "content": "HF Dataset 'opendatalab/AICC' is a high-impact data source with 1067211 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'opendatalab/AICC' is a high-impact data source with 1075894 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -299,7 +273,33 @@
     "id": "opendatalab/AICC"
   },
   {
-    "content": "HF Dataset 'm-a-p/FineFineWeb' is a high-impact data source with 865100 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'google-research-datasets/mbpp' is a high-impact data source with 1026939 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "google-research-datasets/mbpp"
+  },
+  {
+    "content": "HF Dataset 'deepmind/code_contests' is a high-impact data source with 985997 downloads, enhancing system grounding.",
+    "features": {
+      "grounding": 0.95,
+      "certainty": 0.9,
+      "structure": 0.8,
+      "applicability": 0.95,
+      "coherence": 0.9,
+      "generativity": 0.8999999999999999
+    },
+    "source": "HF",
+    "id": "deepmind/code_contests"
+  },
+  {
+    "content": "HF Dataset 'm-a-p/FineFineWeb' is a high-impact data source with 919229 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -312,7 +312,7 @@
     "id": "m-a-p/FineFineWeb"
   },
   {
-    "content": "HF Dataset 'Salesforce/GiftEvalPretrain' is a high-impact data source with 863070 downloads, enhancing system grounding.",
+    "content": "HF Dataset 'Salesforce/wikitext' is a high-impact data source with 852682 downloads, enhancing system grounding.",
     "features": {
       "grounding": 0.95,
       "certainty": 0.9,
@@ -322,6 +322,6 @@
       "generativity": 0.8999999999999999
     },
     "source": "HF",
-    "id": "Salesforce/GiftEvalPretrain"
+    "id": "Salesforce/wikitext"
   }
 ]
