@@ -63,5 +63,879 @@
       "phase": "Practical Realization"
     },
     "timestamp": "2026-02-15T22:45:09.364336"
+  },
+  "R_70454C1D": {
+    "id": "R_70454C1D",
+    "content": "Scaled Ledger Integration Fact",
+    "layer": 1,
+    "features": {
+      "G": 0.9
+    },
+    "q_score": 0.92,
+    "parents": [],
+    "children": [],
+    "metadata": {},
+    "timestamp": "2026-02-17T22:13:28.650894"
+  },
+  "R_D085421D": {
+    "id": "R_D085421D",
+    "content": "High-Q integrated scoring logic (\u0628\u0646\u0627\u062a \u0627\u0641\u0643\u0627\u0631)",
+    "layer": 2,
+    "features": {
+      "G": 0.95,
+      "C": 0.93,
+      "S": 0.92,
+      "A": 0.9,
+      "H": 0.95,
+      "V": 0.92
+    },
+    "q_score": 0.8678,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:13:42.236493"
+  },
+  "R_2F7D2830": {
+    "id": "R_2F7D2830",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9624334118332047,
+      "C": 0.7699467294665638,
+      "S": 0.7699467294665638,
+      "A": 0.7699467294665638,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7785,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.561862"
+  },
+  "R_D3901104": {
+    "id": "R_D3901104",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9893842359279632,
+      "C": 0.7915073887423706,
+      "S": 0.7915073887423706,
+      "A": 0.7915073887423706,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8028,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.562944"
+  },
+  "R_D3292078": {
+    "id": "R_D3292078",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.8764145725151844,
+      "C": 0.7011316580121476,
+      "S": 0.7011316580121476,
+      "A": 0.7011316580121476,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7123,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.563783"
+  },
+  "R_1A61A150": {
+    "id": "R_1A61A150",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B1_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9965283974762044,
+      "C": 0.7972227179809636,
+      "S": 0.7972227179809636,
+      "A": 0.7972227179809636,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8093,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.564625"
+  },
+  "R_49D3CC66": {
+    "id": "R_49D3CC66",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.936559046850779,
+      "C": 0.7492472374806232,
+      "S": 0.7492472374806232,
+      "A": 0.7492472374806232,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7555,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.565667"
+  },
+  "R_D81E2DEC": {
+    "id": "R_D81E2DEC",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9930303989019643,
+      "C": 0.7944243191215715,
+      "S": 0.7944243191215715,
+      "A": 0.7944243191215715,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8061,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.566685"
+  },
+  "R_94E4D987": {
+    "id": "R_94E4D987",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.966547403151093,
+      "C": 0.7732379225208744,
+      "S": 0.7732379225208744,
+      "A": 0.7732379225208744,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7822,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.567664"
+  },
+  "R_DAA04AD5": {
+    "id": "R_DAA04AD5",
+    "content": "D:STRATEGIC T:Aether-Omega Civilization_B2_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9621668256025934,
+      "C": 0.7697334604820747,
+      "S": 0.7697334604820747,
+      "A": 0.7697334604820747,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7783,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.568690"
+  },
+  "R_901489FA": {
+    "id": "R_901489FA",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7903008890224976,
+      "C": 0.987876111278122,
+      "S": 0.987876111278122,
+      "A": 0.7903008890224976,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8289,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.629790"
+  },
+  "R_134A91A9": {
+    "id": "R_134A91A9",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.758876236445769,
+      "C": 0.9485952955572111,
+      "S": 0.9485952955572111,
+      "A": 0.758876236445769,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7875,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.631154"
+  },
+  "R_229EAEF5": {
+    "id": "R_229EAEF5",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7538954637051959,
+      "C": 0.9423693296314948,
+      "S": 0.9423693296314948,
+      "A": 0.7538954637051959,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7811,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.632445"
+  },
+  "R_16A6629D": {
+    "id": "R_16A6629D",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7918694592145921,
+      "C": 0.98983682401824,
+      "S": 0.98983682401824,
+      "A": 0.7918694592145921,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.831,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.633654"
+  },
+  "R_18A59752": {
+    "id": "R_18A59752",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7456918976821524,
+      "C": 0.9321148721026904,
+      "S": 0.9321148721026904,
+      "A": 0.7456918976821524,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7705,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.634944"
+  },
+  "R_C8A12BC1": {
+    "id": "R_C8A12BC1",
+    "content": "D:TECHNICAL T:Aether-Omega Civilization_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7162030302031531,
+      "C": 0.8952537877539414,
+      "S": 0.8952537877539414,
+      "A": 0.7162030302031531,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7516,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.636234"
+  },
+  "R_ECE8F30C": {
+    "id": "R_ECE8F30C",
+    "content": "D:ETHICAL T:Aether-Omega Civilization_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7916399078494643,
+      "C": 0.7916399078494643,
+      "S": 0.7916399078494643,
+      "A": 0.9895498848118303,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7766,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.638698"
+  },
+  "R_861ED028": {
+    "id": "R_861ED028",
+    "content": "D:ETHICAL T:Aether-Omega Civilization_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7413211304161227,
+      "C": 0.7413211304161227,
+      "S": 0.7413211304161227,
+      "A": 0.9266514130201533,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7217,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.640101"
+  },
+  "R_AB353A3B": {
+    "id": "R_AB353A3B",
+    "content": "D:ETHICAL T:Aether-Omega Civilization_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7633086203710872,
+      "C": 0.7633086203710872,
+      "S": 0.7633086203710872,
+      "A": 0.9541357754638589,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7455,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.641592"
+  },
+  "R_7B5F4F1A": {
+    "id": "R_7B5F4F1A",
+    "content": "D:ETHICAL T:Aether-Omega Civilization_B1_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7975285097632931,
+      "C": 0.7975285097632931,
+      "S": 0.7975285097632931,
+      "A": 0.9969106372041163,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7831,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.643160"
+  },
+  "R_DD4A4080": {
+    "id": "R_DD4A4080",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7435551258889199,
+      "C": 0.7435551258889199,
+      "S": 0.9294439073611498,
+      "A": 0.7435551258889199,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7269,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.645663"
+  },
+  "R_FF1307B7": {
+    "id": "R_FF1307B7",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7432343720839983,
+      "C": 0.7432343720839983,
+      "S": 0.9290429651049978,
+      "A": 0.7432343720839983,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7266,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.647303"
+  },
+  "R_F5FF1B43": {
+    "id": "R_F5FF1B43",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7271998901984283,
+      "C": 0.7271998901984283,
+      "S": 0.9089998627480353,
+      "A": 0.7271998901984283,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7092,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.648952"
+  },
+  "R_2FA670B2": {
+    "id": "R_2FA670B2",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7332026933033624,
+      "C": 0.7332026933033624,
+      "S": 0.916503366629203,
+      "A": 0.7332026933033624,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7157,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.650698"
+  },
+  "R_070FD38B": {
+    "id": "R_070FD38B",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7662247777677686,
+      "C": 0.7662247777677686,
+      "S": 0.9577809722097108,
+      "A": 0.7662247777677686,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7518,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.652433"
+  },
+  "R_E747087B": {
+    "id": "R_E747087B",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7505590200296719,
+      "C": 0.7505590200296719,
+      "S": 0.9381987750370898,
+      "A": 0.7505590200296719,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7346,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.654245"
+  },
+  "R_50ED9870": {
+    "id": "R_50ED9870",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6524437995667466,
+      "C": 0.6524437995667466,
+      "S": 0.8155547494584332,
+      "A": 0.6524437995667466,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6444,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.656461"
+  },
+  "R_503EF298": {
+    "id": "R_503EF298",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7704955357539514,
+      "C": 0.7704955357539514,
+      "S": 0.9631194196924391,
+      "A": 0.7704955357539514,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7566,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.658330"
+  },
+  "R_2FAFEEB2": {
+    "id": "R_2FAFEEB2",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7671547947023597,
+      "C": 0.7671547947023597,
+      "S": 0.9589434933779496,
+      "A": 0.7671547947023597,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7529,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.660292"
+  },
+  "R_49B97D8D": {
+    "id": "R_49B97D8D",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7691556715849241,
+      "C": 0.7691556715849241,
+      "S": 0.9614445894811551,
+      "A": 0.7691556715849241,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7551,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.662560"
+  },
+  "R_5362F9B0": {
+    "id": "R_5362F9B0",
+    "content": "D:CONSCIOUSNESS T:Aether-Omega Civilization_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7802968559991993,
+      "C": 0.7802968559991993,
+      "S": 0.975371069998999,
+      "A": 0.7802968559991993,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7675,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.664557"
+  },
+  "R_200589FF": {
+    "id": "R_200589FF",
+    "content": "D:VISION T:Aether-Omega Civilization_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.91231832038943,
+      "C": 0.729854656311544,
+      "S": 0.729854656311544,
+      "A": 0.729854656311544,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7342,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.667969"
+  },
+  "R_5D064641": {
+    "id": "R_5D064641",
+    "content": "D:VISION T:Aether-Omega Civilization_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9498859627464874,
+      "C": 0.7599087701971899,
+      "S": 0.7599087701971899,
+      "A": 0.7599087701971899,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7673,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.670243"
+  },
+  "R_5E8DF9BE": {
+    "id": "R_5E8DF9BE",
+    "content": "D:VISION T:Aether-Omega Civilization_B1_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9055467816644188,
+      "C": 0.7244374253315351,
+      "S": 0.7244374253315351,
+      "A": 0.7244374253315351,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7283,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.672414"
+  },
+  "R_823DB092": {
+    "id": "R_823DB092",
+    "content": "D:VISION T:Aether-Omega Civilization_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9540302530996317,
+      "C": 0.7632242024797055,
+      "S": 0.7632242024797055,
+      "A": 0.7632242024797055,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.771,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.674879"
+  },
+  "R_2ABFA930": {
+    "id": "R_2ABFA930",
+    "content": "D:VISION T:Aether-Omega Civilization_B1_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9528920953417488,
+      "C": 0.7623136762733991,
+      "S": 0.7623136762733991,
+      "A": 0.7623136762733991,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.77,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.677084"
+  },
+  "R_DEB2CF84": {
+    "id": "R_DEB2CF84",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9694825224977653,
+      "C": 0.7755860179982124,
+      "S": 0.7755860179982124,
+      "A": 0.7755860179982124,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7848,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.679532"
+  },
+  "R_DF0E2D8E": {
+    "id": "R_DF0E2D8E",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9728683718334908,
+      "C": 0.7782946974667927,
+      "S": 0.7782946974667927,
+      "A": 0.7782946974667927,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7879,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.681959"
+  },
+  "R_76B30A6E": {
+    "id": "R_76B30A6E",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.890626357435905,
+      "C": 0.7125010859487241,
+      "S": 0.7125010859487241,
+      "A": 0.7125010859487241,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7236,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.684542"
+  },
+  "R_E4F0572E": {
+    "id": "R_E4F0572E",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9533395399232929,
+      "C": 0.7626716319386344,
+      "S": 0.7626716319386344,
+      "A": 0.7626716319386344,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7704,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.687006"
+  },
+  "R_57DEED15": {
+    "id": "R_57DEED15",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9664850265927124,
+      "C": 0.77318802127417,
+      "S": 0.77318802127417,
+      "A": 0.77318802127417,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7821,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.689650"
+  },
+  "R_9E4BCE0F": {
+    "id": "R_9E4BCE0F",
+    "content": "D:VISION T:Aether-Omega Civilization_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9314215491826434,
+      "C": 0.7451372393461148,
+      "S": 0.7451372393461148,
+      "A": 0.7451372393461148,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.751,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-17T22:14:09.692337"
   }
 }

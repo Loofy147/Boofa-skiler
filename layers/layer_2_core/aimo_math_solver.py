@@ -115,7 +115,32 @@ class AIMOMathSolver:
             ans = self._extract_boxed_answer(response)
             q = SampleQuality(grounding=0.5, certainty=0.8, structure=0.9, coherence=1.0)
             sample_results.append({"answer": ans, "response": response, "quality": q})
-        return self._synergy_weighted_voting(sample_results)
+        audited = self._audit_samples(sample_results)
+        return self._synergy_weighted_voting(audited)
+
+    def _audit_samples(self, samples: List[Dict]) -> List[Dict]:
+        if len(samples) < 3: return samples
+        features_matrix = []
+        for s in samples:
+            q = s["quality"]
+            features_matrix.append([q.grounding, q.certainty, q.structure, q.coherence])
+        matrix = np.array(features_matrix)
+        mean = np.mean(matrix, axis=0)
+        std = np.std(matrix, axis=0)
+        std[std == 0] = 1.0
+        normalized = (matrix - mean) / std
+        distances = np.linalg.norm(normalized, axis=1)
+        threshold = np.mean(distances) + 1.5 * np.std(distances)
+        audited_samples = []
+        for i, s in enumerate(samples):
+            if distances[i] > threshold:
+                print(f"      ⚠️ Sample {i} flagged as Anomaly. Penalizing.")
+                s["quality"].grounding *= 0.5
+            if s["quality"].certainty > s["quality"].grounding + 0.3:
+                print(f"      ⚠️ Sample {i} flagged for Ungrounded Certainty. Penalizing.")
+                s["quality"].certainty *= 0.6
+            audited_samples.append(s)
+        return audited_samples
 
     def _synergy_weighted_voting(self, results: List[Dict]) -> Dict:
         if not results: return {"answer": 0, "q_score": 0.0}
@@ -148,7 +173,8 @@ class AIMOMathSolver:
             ans = base_ans if i < (samples * 0.8) else (base_ans + 1) % 100000
             q = SampleQuality(grounding=0.9, certainty=0.8, structure=0.9, coherence=0.6)
             mock_results.append({"answer": ans, "quality": q})
-        return self._synergy_weighted_voting(mock_results)
+        audited = self._audit_samples(mock_results)
+        return self._synergy_weighted_voting(audited)
 
     def _execute_code(self, code: str) -> Optional[int]:
         try:

@@ -3,67 +3,75 @@ import hashlib
 import os
 from datetime import datetime
 from typing import List, Dict, Optional, Any
+from collections import defaultdict
 
 class GlobalRealizationLedger:
     """
-    Project Beta: Global Realization Ledger
-    Goal: A high-integrity store for crystallized knowledge (realizations).
-    Features: SHA-256 Hashing, DAG relationships, Q-Score Verification.
+    Project Beta: Global Realization Ledger (Phase 7 Scaled Version)
+    Goal: High-integrity, high-throughput store for knowledge DAGs.
     """
     def __init__(self, ledger_path: str = "layers/layer_1_domain/global_ledger.json"):
         self.ledger_path = ledger_path
         self.realizations = self._load_ledger()
+        self.layer_index = defaultdict(list)
+        self._rebuild_index()
+        self.buffer = []
+        print(f"💎 Scaled Ledger Active: {len(self.realizations)} nodes indexed.")
 
     def _load_ledger(self) -> Dict[str, Dict]:
         if os.path.exists(self.ledger_path):
             with open(self.ledger_path, "r") as f:
-                return json.load(f)
+                try:
+                    return json.load(f)
+                except:
+                    return {}
         return {}
 
+    def _rebuild_index(self):
+        self.layer_index.clear()
+        for rid, r in self.realizations.items():
+            self.layer_index[r.get("layer", "N")].append(rid)
+
     def _generate_id(self, content: str) -> str:
-        """Generates a content-based SHA-256 ID (R_XXXXXXXX)."""
         h = hashlib.sha256(content.encode()).hexdigest()
         return f"R_{h[:8].upper()}"
 
-    def add_realization(self, content: str, layer: int, features: Dict[str, float], q_score: float, parents: List[str] = None, metadata: Dict = None) -> str:
-        """Adds a verified realization to the ledger."""
+    def add_realization(self, content: str, layer: int, features: Dict[str, float], q_score: float, parents: List[str] = None, metadata: Dict = None, immediate_save: bool = True) -> str:
         rid = self._generate_id(content)
-
-        if rid in self.realizations:
-            print(f"ℹ️ Realization {rid} already exists in ledger.")
-            return rid
+        if rid in self.realizations: return rid
 
         realization = {
-            "id": rid,
-            "content": content,
-            "layer": layer,
-            "features": features,
-            "q_score": q_score,
-            "parents": parents or [],
-            "children": [],
-            "metadata": metadata or {},
-            "timestamp": datetime.now().isoformat()
+            "id": rid, "content": content, "layer": layer, "features": features,
+            "q_score": q_score, "parents": parents or [], "children": [],
+            "metadata": metadata or {}, "timestamp": datetime.now().isoformat()
         }
 
-        # Update parents' children lists
         for pid in realization["parents"]:
             if pid in self.realizations:
                 if rid not in self.realizations[pid]["children"]:
                     self.realizations[pid]["children"].append(rid)
 
         self.realizations[rid] = realization
-        self._save_ledger()
-        print(f"💎 Crystallized Realization {rid} in Global Ledger (Q={q_score:.4f}).")
+        self.layer_index[layer].append(rid)
+
+        if immediate_save:
+            self._save_ledger()
+        else:
+            self.buffer.append(rid)
+            if len(self.buffer) >= 10:
+                self.flush_buffer()
+
         return rid
 
+    def flush_buffer(self):
+        if self.buffer:
+            self._save_ledger()
+            self.buffer = []
+            print(f"📦 Ledger Buffer Flushed.")
+
     def verify_integrity(self) -> bool:
-        """Verifies the integrity of all nodes in the DAG."""
         for rid, r in self.realizations.items():
-            expected_id = self._generate_id(r["content"])
-            if rid != expected_id:
-                print(f"❌ Integrity Breach at {rid}! Expected {expected_id}")
-                return False
-        print("✅ Global Ledger Integrity Verified.")
+            if rid != self._generate_id(r["content"]): return False
         return True
 
     def _save_ledger(self):
@@ -74,25 +82,10 @@ class GlobalRealizationLedger:
     def get_realization(self, rid: str) -> Optional[Dict]:
         return self.realizations.get(rid)
 
+    def query_layer(self, layer: int) -> List[Dict]:
+        return [self.realizations[rid] for rid in self.layer_index.get(layer, [])]
+
 if __name__ == "__main__":
     ledger = GlobalRealizationLedger()
-
-    # Test Entry
-    rid1 = ledger.add_realization(
-        content="Universal Rule: Complexity decreases Q-score unless grounded by symmetry.",
-        layer=0,
-        features={"G": 0.99, "C": 0.98, "S": 0.97, "A": 0.95, "H": 0.98, "V": 0.96},
-        q_score=1.1064,
-        metadata={"source": "Manual Crystallization"}
-    )
-
-    rid2 = ledger.add_realization(
-        content="Derived Pattern: Symmetry in math problems allows for modular pruning.",
-        layer=2,
-        features={"G": 0.95, "C": 0.94, "S": 0.92, "A": 0.90, "H": 0.94, "V": 0.92},
-        q_score=0.985,
-        parents=[rid1],
-        metadata={"source": "Project Beta Simulation"}
-    )
-
-    ledger.verify_integrity()
+    rid = ledger.add_realization("Scaled Ledger Integration Fact", 1, {"G": 0.9}, 0.92)
+    print(f"Integrity: {ledger.verify_integrity()}")

@@ -151,6 +151,6 @@ class GrandMetaOrchestrator:
 if __name__ == "__main__":
     mco = GrandMetaOrchestrator()
     mco.feed_protocol("Aether-Omega Civilization", depth=3)
-    mco.execute_and_merge(cycles=50)
+    mco.execute_and_merge(cycles=100)
     with open('grand_integrated_outcomes.json', 'w') as f: json.dump(mco.get_report(), f, indent=2)
     print(f"\n✅ Simulation Complete. Highest Point: {mco.stats['highest_point']:.4f}")
