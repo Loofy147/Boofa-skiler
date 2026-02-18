@@ -1,0 +1,4 @@
+data/research_papers/
+data/research/
+__pycache__/
+*.pyc

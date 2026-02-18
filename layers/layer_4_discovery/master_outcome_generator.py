@@ -143,22 +143,28 @@ def main():
     print(f"✅ Injected {len(external_realizations)} external realizations into MCO.")
 
 
-    # 1.7 Inject Economic Research Paper Realizations
-    print("💎 Injecting Economic Research Paper Realizations...")
+    # 1.7 Inject All High-Q Domain Realizations
+    print("💎 Injecting High-Q Domain Realizations...")
     try:
         with open("layers/layer_1_domain/comprehensive_realization_dataset.json", "r") as f:
             full_dataset = json.load(f)
-            econ_realizations = [r for r in full_dataset["realizations"] if r.get("context") == "Research Paper: AI Unit Economics 2026"]
-            for er in econ_realizations:
-                s = er["scores"]
-                mco.domains["STRATEGIC"].engine.add_realization(
-                    content=er["content"],
+            # Filter for Layer 0 and 1 (highest quality)
+            high_q_realizations = [r for r in full_dataset["realizations"] if r.get("layer") in [0, 1]]
+            for r in high_q_realizations:
+                s = r["scores"]
+                # Distribute to domains based on content or context
+                domain = "STRATEGIC"
+                if "Arxiv" in r.get("context", "") or "HF" in r.get("signature", ""):
+                    domain = "TECHNICAL"
+
+                mco.domains[domain].engine.add_realization(
+                    content=r["content"],
                     features=RealizationFeatures(s["grounding"], s["certainty"], s["structure"], s["applicability"], s["coherence"], s["generativity"]),
                     turn_number=1
                 )
-            print(f"✅ Injected {len(econ_realizations)} research paper realizations into MCO.")
+            print(f"✅ Injected {len(high_q_realizations)} high-Q domain realizations into MCO.")
     except Exception as e:
-        print(f"⚠️ Could not load economic realizations: {e}")
+        print(f"⚠️ Could not load domain realizations: {e}")
 
     # Inject pipeline-based realization
     model_name = pipeline_results.get('hf_model', {}).get('id', 'Unknown')
