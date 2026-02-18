@@ -83,32 +83,59 @@ class AIMOMathSolver:
         if self.mode == "LOCAL":
             answer_data = self._batch_inference_placeholder(problem_text, n_samples)
         else:
-            answer_data = self._mock_batch_inference(problem_text, n_samples)
+            answer_data = self._solve_via_mock_with_synergy(problem_text, samples=samples)
 
-        self.problems_solved += 1
-        return {"id": id, "answer": answer_data["answer"], "quality": answer_data["q_score"], "method": "v4_ensemble"}
+        return {"id": id, "answer": answer_data["answer"], "quality": answer_data["q_score"], "method": f"synergy_ensemble_{mode.lower()}"}
 
-    def _calculate_dynamic_samples(self, problem: str) -> int:
-        elapsed = time.time() - self.notebook_start_time
-        remaining_time = self.total_limit - elapsed
-        remaining_probs = max(1, self.problems_total - self.problems_solved)
+    def _strategic_router(self, problem: str) -> str:
+        """
+        Decision engine for inference optimization (60-98% cost reduction strategy).
+        """
+        # Search for economic or strategic realizations in the problem
+        matches = self.realization_engine.retrieve(problem, similarity_threshold=0.3)
+        if any(r.q_score > 0.9 for r in matches):
+            return "DEEP"
 
-        time_per_prob = remaining_time / remaining_probs
+        # Complexity heuristics
+        if len(problem) > 500 or "assume" in problem.lower() or "optimize" in problem.lower():
+            return "DEEP"
 
-        # Base samples: 5-30
-        base = 15
+        return "STANDARD"
 
-        # Adjust for complexity
-        if len(problem) > 500 or "optimize" in problem.lower() or " economics" in problem.lower():
-            base += 5
+    def _solve_via_local_with_synergy(self, problem: str, samples: int = 5) -> Dict:
+        # Placeholder for actual LLM inference
+        sample_results = []
+        for i in range(samples):
+            response = f"Reasoning {i}. Final Answer: \\boxed{i % 2}"
+            ans = self._extract_boxed_answer(response)
+            q = SampleQuality(grounding=0.5, certainty=0.8, structure=0.9, coherence=1.0)
+            sample_results.append({"answer": ans, "response": response, "quality": q})
+        audited = self._audit_samples(sample_results)
+        return self._synergy_weighted_voting(audited)
 
-        # Adjust for remaining time (aggressive if time permits)
-        if time_per_prob > 600: # > 10 mins per problem
-            base += 5
-        elif time_per_prob < 180: # < 3 mins per problem
-            base = max(3, base - 10)
-
-        return min(32, base) # Cap at 32 samples for memory/time safety
+    def _audit_samples(self, samples: List[Dict]) -> List[Dict]:
+        if len(samples) < 3: return samples
+        features_matrix = []
+        for s in samples:
+            q = s["quality"]
+            features_matrix.append([q.grounding, q.certainty, q.structure, q.coherence])
+        matrix = np.array(features_matrix)
+        mean = np.mean(matrix, axis=0)
+        std = np.std(matrix, axis=0)
+        std[std == 0] = 1.0
+        normalized = (matrix - mean) / std
+        distances = np.linalg.norm(normalized, axis=1)
+        threshold = np.mean(distances) + 1.5 * np.std(distances)
+        audited_samples = []
+        for i, s in enumerate(samples):
+            if distances[i] > threshold:
+                print(f"      ⚠️ Sample {i} flagged as Anomaly. Penalizing.")
+                s["quality"].grounding *= 0.5
+            if s["quality"].certainty > s["quality"].grounding + 0.3:
+                print(f"      ⚠️ Sample {i} flagged for Ungrounded Certainty. Penalizing.")
+                s["quality"].certainty *= 0.6
+            audited_samples.append(s)
+        return audited_samples
 
     def _synergy_weighted_voting(self, results: List[Dict]) -> Dict:
         if not results: return {"answer": 0, "q_score": 0.0}
@@ -154,8 +181,8 @@ class AIMOMathSolver:
                 rtc_success=rtc
             )
             mock_results.append({"answer": ans, "quality": q})
-
-        return self._synergy_weighted_voting(mock_results)
+        audited = self._audit_samples(mock_results)
+        return self._synergy_weighted_voting(audited)
 
     def _batch_inference_placeholder(self, problem: str, n: int) -> Dict:
         # In a real environment, this would call vLLM server

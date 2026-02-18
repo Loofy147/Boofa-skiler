@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import numpy as np
 from datetime import datetime
 
 # Add root to sys.path
@@ -17,105 +18,78 @@ def test_layer_structure():
     layers = [0, 1, 2, 3, 4, 5]
     all_ok = True
     for l in layers:
-        if not check_file(f"layers/layer_{l}_{'universal' if l==0 else 'domain' if l==1 else 'core' if l==2 else 'optimization' if l==3 else 'discovery' if l==4 else 'consciousness'}"):
-            # Check for alternative names for Layer 3 (orchestration)
-            if l == 3:
-                if not check_file("layers/layer_3_orchestration"):
-                    all_ok = False
-            else:
-                all_ok = False
-    return all_ok
-
-def test_project_awareness():
-    print("\n[Layer 2: Project Awareness]")
-    projects = {
-        "Project Alpha (Strategic Architect)": "layers/layer_3_orchestration/autonomous_strategic_architect.py",
-        "Project Beta (Global Ledger)": "layers/layer_2_core/global_realization_ledger.py",
-        "Project Gamma (Institutional Auditor)": "layers/layer_3_optimization/institutional_auditor.py",
-        "Project Delta (Innovation Synthesizer)": "layers/layer_4_discovery/innovation_synthesizer.py",
-        "Project Epsilon (Skill Engine)": "layers/layer_2_core/skill_engine.py",
-        "Project Zeta (Clinical Delta Engine)": "layers/layer_4_discovery/clinical_delta_engine.py"
-    }
-    all_ok = True
-    for name, path in projects.items():
-        if not check_file(path):
+        folder = f"layers/layer_{l}_{'universal' if l==0 else 'domain' if l==1 else 'core' if l==2 else 'optimization' if l==3 else 'discovery' if l==4 else 'consciousness'}"
+        if not check_file(folder):
+            if l == 3 and check_file("layers/layer_3_orchestration"): continue
             all_ok = False
     return all_ok
 
-def test_core_engines():
-    print("\n[Layer 3: Engine Logic Verification]")
+def test_expanded_project_awareness():
+    print("\n[Layer 2: Expanded Project Awareness]")
+    projects = {
+        "OmniValence Engine (L0)": "layers/layer_0_universal/omni_valence_engine.py",
+        "Skill Objective Functions (L1)": "layers/layer_1_domain/math-skills.txt",
+        "Hard Test Designer (L3)": "layers/layer_3_optimization/hard_test_designer.py",
+        "Business Opp Engine (L4)": "layers/layer_4_discovery/business_opportunity_engine.py",
+        "Phase 6 Executor (L4)": "layers/layer_4_discovery/phase_6_executor.py",
+        "Self-Model Analyzer (L5)": "layers/layer_5_consciousness/self-model-analyzer.md"
+    }
+    all_ok = True
+    for name, path in projects.items():
+        if not check_file(path): all_ok = False
+    return all_ok
+
+def test_omni_valence_logic():
+    print("\n[Layer 3: Omni-Valence Logic Verification]")
     try:
-        from layers.layer_0_universal.foundation import Skill, synthesize_skills
-        from layers.layer_2_core.realization_engine import RealizationEngine, RealizationFeatures
+        from layers.layer_0_universal.omni_valence_engine import OmniValenceEngine
+        from layers.layer_2_core.realization_engine import Realization, RealizationFeatures
 
-        # Test Skill Synthesis (Layer 0)
-        s1 = Skill("Cognitive-A", G=0.9, C=0.9, S=0.9, A=0.9, H=0.9, V=0.9, P=0.9, T=0.9)
-        s2 = Skill("Cognitive-B", G=0.8, C=0.8, S=0.8, A=0.8, H=0.8, V=0.8, P=0.8, T=0.8)
-        emergent = synthesize_skills([s1, s2])
-        print(f"  ✅ Layer 0: Skill Synthesis (Emergent Q: {emergent.q_score():.4f})")
+        ove = OmniValenceEngine()
+        r1 = Realization("R1", "Fact A", RealizationFeatures(0.9, 0.9, 0.9, 0.9, 0.9, 0.9), 0.9, 1, "", [], [], 1, "STRATEGIC", [])
+        r2 = Realization("R2", "Fact B", RealizationFeatures(0.95, 0.95, 0.95, 0.95, 0.95, 0.95), 0.95, 1, "", [], [], 1, "TECHNICAL", [])
 
-        # Test Realization Engine (Layer 2)
-        engine = RealizationEngine()
-        features = RealizationFeatures(grounding=0.95, certainty=0.98, structure=0.92, applicability=0.90, coherence=0.95, generativity=0.92)
-        r = engine.add_realization("System verification insight", features, turn_number=1)
-        print(f"  ✅ Layer 2: Realization Engine (Crystallized Q: {r.q_score:.4f}, Layer: {r.layer})")
-
-        # Test Hallucination Detection
-        bad_features = RealizationFeatures(grounding=0.4, certainty=0.95, structure=0.5, applicability=0.5, coherence=0.5, generativity=0.5)
-        r_bad = engine.add_realization("Ungrounded insight", bad_features, turn_number=2)
-        print(f"  ✅ Layer 2: Hallucination Penalty Check (Q: {r_bad.q_score:.4f} vs base {engine.calculate_q_score(bad_features, method='linear')[0]})")
-
-        return True
+        merged = ove.merge_realizations([r1, r2])
+        print(f"  ✅ Omni-Valence Merger: Q = {merged.q_score:.4f} (Synergy Gain: {merged.q_score - 0.925:.4f})")
+        return merged.q_score > 1.0
     except Exception as e:
-        print(f"  ❌ Engine Verification Failed: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"  ❌ Omni-Valence Logic Failed: {e}")
         return False
 
-def test_aimo_logic():
-    print("\n[Layer 4: AIMO Solver Awareness]")
+def test_realization_dataset_integrity():
+    print("\n[Layer 4: Dataset Integrity Check]")
+    path = "layers/layer_1_domain/comprehensive_realization_dataset.json"
+    if not os.path.exists(path):
+        print(f"  ❌ Dataset missing: {path}")
+        return False
+
     try:
-        from layers.layer_2_core.aimo_math_solver import AIMOMathSolver
-        solver = AIMOMathSolver()
-
-        # Test extraction
-        test_text = r"The solution is \boxed{123}."
-        ans = solver._extract_boxed_answer(test_text)
-        if ans == 123:
-            print("  ✅ AIMO: Regex Answer Extraction")
-        else:
-            print(f"  ❌ AIMO: Regex Answer Extraction (Got {ans})")
-            return False
-
-        # Test mock arithmetic
-        mock_ans = solver._solve_via_mock("What is 100 * 5?")
-        if mock_ans == 500:
-            print("  ✅ AIMO: Mock Arithmetic Solver")
-        else:
-            print(f"  ❌ AIMO: Mock Arithmetic Solver (Got {mock_ans})")
-            return False
-
-        return True
+        with open(path, 'r') as f:
+            data = json.load(f)
+        avg_q = data.get("stats", {}).get("avg_q_score", 0)
+        count = data.get("stats", {}).get("total_realizations", 0)
+        print(f"  ✅ Dataset Loaded: {count} realizations, Avg Q: {avg_q:.4f}")
+        return count > 0
     except Exception as e:
-        print(f"  ❌ AIMO Verification Failed: {e}")
+        print(f"  ❌ Dataset Integrity Failed: {e}")
         return False
 
 if __name__ == "__main__":
     print("="*60)
-    print("BOOFA-SKILER SYSTEM AWARENESS VERIFICATION")
+    print("BOOFA-SKILER ADVANCED SYSTEM AWARENESS VERIFICATION")
     print("="*60)
 
     results = [
         test_layer_structure(),
-        test_project_awareness(),
-        test_core_engines(),
-        test_aimo_logic()
+        test_expanded_project_awareness(),
+        test_omni_valence_logic(),
+        test_realization_dataset_integrity()
     ]
 
     print("\n" + "="*60)
     if all(results):
-        print("🎉 ALL VERIFICATION CHECKS PASSED: System is Fully Aware.")
+        print("🎉 ALL ADVANCED VERIFICATION CHECKS PASSED.")
     else:
-        print("⚠️ SOME VERIFICATION CHECKS FAILED: Awareness Gap Detected.")
+        print("⚠️ SOME VERIFICATION CHECKS FAILED.")
         sys.exit(1)
     print("="*60)

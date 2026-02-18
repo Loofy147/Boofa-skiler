@@ -1,11 +1,11 @@
 {
   "stats": {
-    "merger_events": 50,
-    "highest_point": 1.330901383632089
+    "merger_events": 100,
+    "highest_point": 1.342347416518893
   },
   "domains": {
     "STRATEGIC": {
-      "avg_q": 1.0978798429964503,
+      "avg_q": 1.0633555022998695,
       "weights": {
         "G": 0.5,
         "C": 0.22,
@@ -16,7 +16,7 @@
       }
     },
     "TECHNICAL": {
-      "avg_q": 1.027199484772441,
+      "avg_q": 1.0190780926525587,
       "weights": {
         "G": 0.5,
         "C": 0.22,
@@ -27,7 +27,7 @@
       }
     },
     "ETHICAL": {
-      "avg_q": 0.9766814712196654,
+      "avg_q": 0.9861460492561467,
       "weights": {
         "G": 0.5,
         "C": 0.22,
@@ -38,7 +38,7 @@
       }
     },
     "CONSCIOUSNESS": {
-      "avg_q": 0.9673023403182455,
+      "avg_q": 0.9504222800885312,
       "weights": {
         "G": 0.5,
         "C": 0.22,
@@ -49,7 +49,7 @@
       }
     },
     "VISION": {
-      "avg_q": 1.0559099597805726,
+      "avg_q": 1.0358534613353345,
       "weights": {
         "G": 0.5,
         "C": 0.22,
@@ -62,205 +62,405 @@
   },
   "universal_values": [
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3131578420197827
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1357012280141359
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1041299713044743
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2900404216843233
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.176879867002982
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2833981738253046
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2849962504089172
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2661710503493027
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1215229718767603
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.249368194568022
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.330901383632089
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1558558221308692
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1382902526251988
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2679150106844423
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2466883103824211
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1953545444381237
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2489080006233477
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.227592275500649
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2670297507480779
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1194680545734987
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1595338626671743
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3339301517491924
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3223667464050184
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1267226857130768
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3139780572507689
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1507528607313875
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.141426713000118
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1257983778633578
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1719453640345707
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.100688972499782
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2050052680300003
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2024253350905365
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.246029940459621
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2968425109733062
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1616928735192624
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2547494720926038
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.252133367081925
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2210022094264161
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2103387355975173
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1320029188128404
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.111716312595971
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.137072550655215
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1884903862332152
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.281141766927234
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2789557407801462
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2347765791275938
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1492076515908347
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2002608357880968
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1771279538181223
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1380539927793123
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1222218148879346
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1946553167176266
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.121991532736582
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.264735515651135
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3134349005044306
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1588032985383596
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.319194337535252
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1144101698712239
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1165896156218298
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1769087039278807
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1390158466166873
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1578142584574396
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1089599015903129
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.152555391677268
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.212666793669999
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2831750347062498
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.179095399524213
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1136204504447473
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.141579842218707
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3152375611318898
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3137515563832205
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1369768861587652
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2343043390426731
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.289593948863252
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.127156023273903
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1028083952483814
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3028934375349785
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2800321628642397
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.3268265868271658
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2794261629877601
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2656920440641846
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2786335211588482
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1405446987672543
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1814657471856678
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1239484655755652
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3421381660639327
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1574631656674013
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2441583467119466
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.180117569634881
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1721608521697766
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2933242884611784
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.215090920170745
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2164305373061461
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1519731175734447
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1524959396725742
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1549162350176663
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.1403358977089273
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.251302065359811
     },
     {
-      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS",
-      "q": 1.2014599537606734
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2745245021676512
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2572802565329788
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2968301378404516
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1368399098248632
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1433198592594853
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3165801812965443
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1284504254559524
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1655248120730006
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1102914487078321
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.342347416518893
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3305617717145144
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2329427626284886
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.183164601607782
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.137975020540722
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2627548827872919
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2282397489748726
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1283013499874488
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2395592034770684
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1982226810365701
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1031723059539815
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.293576013966104
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.201851672923113
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2984139833373103
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3243534119711828
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2188758498130208
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.108750812971209
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2047204973648833
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3166423098396822
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1516702345300116
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.102272527447439
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.161117074578422
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2816539901144142
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1282418794366311
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1910724064545235
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.209741293109492
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.315976675895299
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1721608628107014
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2547192597312489
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1464217413916011
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.3051308476619026
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1862067838255228
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1531202092244008
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.172939357845863
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.143741388987158
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1751280105293436
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.320312060952859
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2532876846897598
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.300695943708683
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2165686871650074
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.1538513295282393
+    },
+    {
+      "content": "Integrated Vision: STRATEGIC x VISION x TECHNICAL x ETHICAL",
+      "q": 1.2391566044090045
     }
   ],
-  "highest_point": 1.330901383632089
+  "highest_point": 1.342347416518893
 }

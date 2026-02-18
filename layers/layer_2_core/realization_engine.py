@@ -259,6 +259,21 @@ class RealizationEngine:
             if parent_id in self.index:
                 self.index[parent_id].children.append(r_id)
         
+        # Phase 7: Sync with Global Ledger
+        try:
+            from layers.layer_2_core.global_realization_ledger import GlobalRealizationLedger
+            ledger = GlobalRealizationLedger()
+            ledger.add_realization(
+                content=content,
+                layer=layer if isinstance(layer, int) else 3,
+                features=features.to_dict(),
+                q_score=q_score,
+                parents=parents,
+                metadata={"engine": "RealizationEngine", "turn": turn_number}
+            )
+        except Exception as e:
+            print(f"⚠️ Ledger Sync Failed: {e}")
+
         # Update stats
         self.stats['total_realizations'] += 1
         self.stats['layer_distribution'][layer] += 1
