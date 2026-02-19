@@ -1,12 +1,12 @@
 {
-  "id": "hichambedrani/boofa-skiler-aimo-prize-tpu",
-  "title": "Boofa-skiler AIMO Prize TPU",
+  "id": "hichambedrani/boofa-skiler-aimo-prize-v3",
+  "title": "Boofa-skiler AIMO Prize v3",
   "code_file": "submission.py",
   "language": "python",
   "kernel_type": "script",
   "is_private": "false",
-  "enable_gpu": "false",
-  "enable_tpu": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
   "enable_internet": "false",
   "dataset_sources": [],
   "competition_sources": [
