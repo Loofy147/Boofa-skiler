@@ -3772,5 +3772,1643 @@
       "turn": 1
     },
     "timestamp": "2026-02-18T18:10:41.455276"
+  },
+  "R_87DEA4A1": {
+    "id": "R_87DEA4A1",
+    "content": "The total entropy of an isolated system can never decrease over time.",
+    "layer": 1,
+    "features": {
+      "G": 0.98,
+      "C": 0.99,
+      "S": 0.96,
+      "A": 0.9,
+      "H": 1.0,
+      "V": 0.92
+    },
+    "q_score": 0.9254,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.692903"
+  },
+  "R_EF11BA8F": {
+    "id": "R_EF11BA8F",
+    "content": "Energy and mass are equivalent and related by E = mc\u00b2.",
+    "layer": 1,
+    "features": {
+      "G": 0.99,
+      "C": 0.98,
+      "S": 0.97,
+      "A": 0.95,
+      "H": 0.98,
+      "V": 0.95
+    },
+    "q_score": 0.946,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.711145"
+  },
+  "R_4FF6E27F": {
+    "id": "R_4FF6E27F",
+    "content": "Intelligent agents will converge on instrumental goals like self-preservation and resource acquisition.",
+    "layer": 3,
+    "features": {
+      "G": 0.85,
+      "C": 0.88,
+      "S": 0.82,
+      "A": 0.9,
+      "H": 0.85,
+      "V": 0.92
+    },
+    "q_score": 0.8099,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.723156"
+  },
+  "R_91800DC3": {
+    "id": "R_91800DC3",
+    "content": "AI systems optimize for specified objective functions, which may not match intended human values.",
+    "layer": 2,
+    "features": {
+      "G": 0.92,
+      "C": 0.95,
+      "S": 0.93,
+      "A": 0.94,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8777,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.733383"
+  },
+  "R_7E6037FA": {
+    "id": "R_7E6037FA",
+    "content": "Heritable variation combined with differential reproductive success leads to adaptation.",
+    "layer": 2,
+    "features": {
+      "G": 0.96,
+      "C": 0.94,
+      "S": 0.95,
+      "A": 0.92,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8872,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.743457"
+  },
+  "R_F9596088": {
+    "id": "R_F9596088",
+    "content": "Evolution can be visualized as hill-climbing on a fitness landscape.",
+    "layer": 3,
+    "features": {
+      "G": 0.88,
+      "C": 0.85,
+      "S": 0.9,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.75
+    },
+    "q_score": 0.8063,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.753702"
+  },
+  "R_7E7A5B32": {
+    "id": "R_7E7A5B32",
+    "content": "Optimization in differentiable spaces is achieved by iteratively moving against the gradient.",
+    "layer": 1,
+    "features": {
+      "G": 0.98,
+      "C": 0.98,
+      "S": 0.98,
+      "A": 0.95,
+      "H": 1.0,
+      "V": 0.92
+    },
+    "q_score": 0.9447,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.763715"
+  },
+  "R_EA48B18C": {
+    "id": "R_EA48B18C",
+    "content": "System performance is optimized by placing frequently accessed data in faster, smaller storage layers.",
+    "layer": 2,
+    "features": {
+      "G": 0.94,
+      "C": 0.92,
+      "S": 0.93,
+      "A": 0.95,
+      "H": 0.95,
+      "V": 0.85
+    },
+    "q_score": 0.8725,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.774189"
+  },
+  "R_CA55AEF0": {
+    "id": "R_CA55AEF0",
+    "content": "All intelligent systems\u2014biological, artificial, or organizational\u2014solve resource constraints via isomorphic pre-computation layers.",
+    "layer": 0,
+    "features": {
+      "G": 0.98,
+      "C": 0.95,
+      "S": 0.98,
+      "A": 0.98,
+      "H": 0.98,
+      "V": 0.98
+    },
+    "q_score": 0.9508,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.784280"
+  },
+  "R_6F771453": {
+    "id": "R_6F771453",
+    "content": "A distributed system can only provide two of Consistency, Availability, and Partition tolerance.",
+    "layer": 2,
+    "features": {
+      "G": 0.95,
+      "C": 0.98,
+      "S": 0.95,
+      "A": 0.9,
+      "H": 0.95,
+      "V": 0.8
+    },
+    "q_score": 0.8808,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.794441"
+  },
+  "R_A3DABFC6": {
+    "id": "R_A3DABFC6",
+    "content": "The brain reorganizes itself by forming new neural connections throughout life.",
+    "layer": 2,
+    "features": {
+      "G": 0.94,
+      "C": 0.9,
+      "S": 0.92,
+      "A": 0.95,
+      "H": 0.95,
+      "V": 0.88
+    },
+    "q_score": 0.8666,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.805591"
+  },
+  "R_1964E207": {
+    "id": "R_1964E207",
+    "content": "Any consistent formal system sufficient for arithmetic contains statements that cannot be proven or disproven.",
+    "layer": 1,
+    "features": {
+      "G": 0.99,
+      "C": 1.0,
+      "S": 0.98,
+      "A": 0.8,
+      "H": 0.98,
+      "V": 0.95
+    },
+    "q_score": 0.9244,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.816606"
+  },
+  "R_D87C7472": {
+    "id": "R_D87C7472",
+    "content": "A set of strategies where no player can benefit by changing their strategy while others keep theirs unchanged.",
+    "layer": 2,
+    "features": {
+      "G": 0.97,
+      "C": 0.98,
+      "S": 0.96,
+      "A": 0.92,
+      "H": 0.98,
+      "V": 0.9
+    },
+    "q_score": 0.9159,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.826967"
+  },
+  "R_FAFBBD26": {
+    "id": "R_FAFBBD26",
+    "content": "LLM attention mechanisms are limited by a fixed-size context window, creating an information bottleneck.",
+    "layer": 2,
+    "features": {
+      "G": 0.96,
+      "C": 0.95,
+      "S": 0.95,
+      "A": 0.92,
+      "H": 0.95,
+      "V": 0.85
+    },
+    "q_score": 0.8873,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.837806"
+  },
+  "R_8268DCFA": {
+    "id": "R_8268DCFA",
+    "content": "The gradient of the loss function is efficiently computed using the chain rule through computational graphs.",
+    "layer": 1,
+    "features": {
+      "G": 0.98,
+      "C": 0.99,
+      "S": 0.97,
+      "A": 0.95,
+      "H": 0.98,
+      "V": 0.9
+    },
+    "q_score": 0.9361,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.849042"
+  },
+  "R_5861EB21": {
+    "id": "R_5861EB21",
+    "content": "Maybe we should use more GPU memory for this task.",
+    "layer": 3,
+    "features": {
+      "G": 0.3,
+      "C": 0.4,
+      "S": 0.5,
+      "A": 0.6,
+      "H": 0.5,
+      "V": 0.2
+    },
+    "q_score": 0.3253,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.860231"
+  },
+  "R_9E5BCB5D": {
+    "id": "R_9E5BCB5D",
+    "content": "Standard BERT embeddings are insufficient for representing complex logical hierarchies in prompts.",
+    "layer": 3,
+    "features": {
+      "G": 0.78,
+      "C": 0.8,
+      "S": 0.75,
+      "A": 0.85,
+      "H": 0.88,
+      "V": 0.7
+    },
+    "q_score": 0.7286,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.871472"
+  },
+  "R_B70F7B51": {
+    "id": "R_B70F7B51",
+    "content": "Adding explicit persona markers consistently improves reasoning output in complex prompts.",
+    "layer": 3,
+    "features": {
+      "G": 0.86,
+      "C": 0.88,
+      "S": 0.85,
+      "A": 0.9,
+      "H": 0.92,
+      "V": 0.8
+    },
+    "q_score": 0.8125,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.881767"
+  },
+  "R_FD5C06BC": {
+    "id": "R_FD5C06BC",
+    "content": "The average of results from many trials should be close to the expected value.",
+    "layer": 2,
+    "features": {
+      "G": 0.98,
+      "C": 0.99,
+      "S": 0.96,
+      "A": 0.92,
+      "H": 0.98,
+      "V": 0.85
+    },
+    "q_score": 0.9192,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.892059"
+  },
+  "R_91BF4F2D": {
+    "id": "R_91BF4F2D",
+    "content": "The DNA molecule consists of two strands that wind around each other like a twisted ladder.",
+    "layer": 0,
+    "features": {
+      "G": 0.99,
+      "C": 1.0,
+      "S": 0.98,
+      "A": 0.95,
+      "H": 0.98,
+      "V": 0.92
+    },
+    "q_score": 0.951,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.902181"
+  },
+  "R_99A1C782": {
+    "id": "R_99A1C782",
+    "content": "AIMO 3 is a high-stakes mathematics competition with 110 problems (10 reference, 50 public, 50 private). Solutions are non-negative integers (0-99999). Success requires robust inference, efficient resource management (9 hours for 50 problems), and strictly offline execution. The current top score is 44/50.",
+    "layer": 0,
+    "features": {
+      "G": 0.99,
+      "C": 0.98,
+      "S": 0.97,
+      "A": 1.0,
+      "H": 0.96,
+      "V": 0.95
+    },
+    "q_score": 0.9575,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.912183"
+  },
+  "R_7AB3D270": {
+    "id": "R_7AB3D270",
+    "content": "Optimization Stack ROI: A combination of routing, caching, RAG, and quantization delivers 60\u201398% cost reduction in production.",
+    "layer": 1,
+    "features": {
+      "G": 0.95,
+      "C": 0.98,
+      "S": 0.95,
+      "A": 1.0,
+      "H": 0.96,
+      "V": 0.94
+    },
+    "q_score": 0.9353,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.922348"
+  },
+  "R_E7B19808": {
+    "id": "R_E7B19808",
+    "content": "Self-Hosting Break-Even: For premium APIs, self-hosting break-even is 5\u201310M tokens/month; for budget APIs, it's 50\u2013100M tokens/month.",
+    "layer": 2,
+    "features": {
+      "G": 0.94,
+      "C": 0.92,
+      "S": 0.96,
+      "A": 0.98,
+      "H": 0.95,
+      "V": 0.88
+    },
+    "q_score": 0.8971,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.932572"
+  },
+  "R_F62090A6": {
+    "id": "R_F62090A6",
+    "content": "Automation Ratio Metric: Gross margin in AI apps is determined by the proportion of AI output delivered with minimal human oversight (Automation Ratio).",
+    "layer": 2,
+    "features": {
+      "G": 0.92,
+      "C": 0.95,
+      "S": 0.98,
+      "A": 0.96,
+      "H": 0.94,
+      "V": 0.95
+    },
+    "q_score": 0.9092,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.942861"
+  },
+  "R_420EF93E": {
+    "id": "R_420EF93E",
+    "content": "AI SaaS Margin Compression: AI-first B2B SaaS gross margins are 55\u201370% (vs 78\u201385% traditional SaaS) due to variable inference costs.",
+    "layer": 2,
+    "features": {
+      "G": 0.98,
+      "C": 0.99,
+      "S": 0.95,
+      "A": 0.92,
+      "H": 0.97,
+      "V": 0.9
+    },
+    "q_score": 0.9171,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.953003"
+  },
+  "R_39F75ECD": {
+    "id": "R_39F75ECD",
+    "content": "The Data Moat (2026): Proprietary, domain-specific labeled data and correction signals are the true capital of the 2026 AI economy.",
+    "layer": 1,
+    "features": {
+      "G": 0.96,
+      "C": 0.95,
+      "S": 0.94,
+      "A": 0.98,
+      "H": 0.95,
+      "V": 0.98
+    },
+    "q_score": 0.923,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.963152"
+  },
+  "R_7117123F": {
+    "id": "R_7117123F",
+    "content": "Vertical AI Valuation: Vertical AI solutions command revenue multiples of 44.1x vs 12x for traditional software, reflecting the market's price for specialization.",
+    "layer": 1,
+    "features": {
+      "G": 0.99,
+      "C": 0.98,
+      "S": 0.96,
+      "A": 0.94,
+      "H": 0.98,
+      "V": 0.92
+    },
+    "q_score": 0.9329,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.973317"
+  },
+  "R_DF26332A": {
+    "id": "R_DF26332A",
+    "content": "AI Inference Cost Collapse: GPT-4 class inference cost fell from $20/M tokens in 2022 to $0.40/M tokens in 2026 (50x reduction).",
+    "layer": 0,
+    "features": {
+      "G": 0.99,
+      "C": 1.0,
+      "S": 0.98,
+      "A": 0.95,
+      "H": 0.99,
+      "V": 0.92
+    },
+    "q_score": 0.9534,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.984319"
+  },
+  "R_66B2FA35": {
+    "id": "R_66B2FA35",
+    "content": "[A Meta-Learning Algorithm for Interrogative Agendas]: Explainability is a key challenge and a major research theme in AI research\nfor developing intelligent systems that are capable of working with humans more\neffectively. An obvious choice in developing explainable intelligent systems\nrelies on employing knowledge representation formalisms which are inherently\ntailored towards expressing human knowledge e.g., interrogative agendas. In the\nscope of this work, we focus on formal concept analysis (FCA), a standard\nknowledge representation formalism, to express interrogative agendas, and in\nparticular to categorize objects w.r.t. a given set of features. Several\nFCA-based algorithms have already been in use for standard machine learning\ntasks such as classification and outlier detection. These algorithms use a\nsingle concept lattice for such a task, meaning that the set of features used\nfor the categorization is fixed. Different sets of features may have different\nimportance in that c...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:49.995441"
+  },
+  "R_8BE5460D": {
+    "id": "R_8BE5460D",
+    "content": "[What is a decision problem?]: This paper presents a general framework about what is a decision problem. Our\nmotivation is related to the fact that decision analysis and operational\nresearch are structured (as disciplines) around classes of methods, while\ninstead we should first characterise the decision problems our clients present\nus. For this purpose we introduce a new framework, independent from any\nexisting method, based upon primitives provided by (or elicited from) the\nclient. We show that the number of archetypal decision problems are finite and\nso the archetypal decision support methods.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.006106"
+  },
+  "R_8D4AD8ED": {
+    "id": "R_8D4AD8ED",
+    "content": "[Knowledge Reasoning via Jointly Modeling Knowledge Graphs and Soft Rules]: Knowledge graphs (KGs) play a crucial role in many applications, such as\nquestion answering, but incompleteness is an urgent issue for their broad\napplication. Much research in knowledge graph completion (KGC) has been\nperformed to resolve this issue. The methods of KGC can be classified into two\nmajor categories: rule-based reasoning and embedding-based reasoning. The\nformer has high accuracy and good interpretability, but a major challenge is to\nobtain effective rules on large-scale KGs. The latter has good efficiency and\nscalability, but it relies heavily on data richness and cannot fully use domain\nknowledge in the form of logical rules. We propose a novel method that injects\nrules and learns representations iteratively to take full advantage of rules\nand embeddings. Specifically, we model the conclusions of rule groundings as\n0-1 variables and use a rule confidence regularizer to remove the uncertainty\n...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.016994"
+  },
+  "R_EE6CADA9": {
+    "id": "R_EE6CADA9",
+    "content": "[Mind Reasoning Manners: Enhancing Type Perception for Generalized Zero-shot Logical Reasoning over Text]: Logical reasoning task involves diverse types of complex reasoning over text,\nbased on the form of multiple-choice question answering. Given the context,\nquestion and a set of options as the input, previous methods achieve superior\nperformances on the full-data setting. However, the current benchmark dataset\nhas the ideal assumption that the reasoning type distribution on the train\nsplit is close to the test split, which is inconsistent with many real\napplication scenarios. To address it, there remain two problems to be studied:\n(1) How is the zero-shot capability of the models (train on seen types and test\non unseen types)? (2) How to enhance the perception of reasoning types for the\nmodels? For problem 1, we propose a new benchmark for generalized zero-shot\nlogical reasoning, named ZsLR. It includes six splits based on the three type\nsampling strategies. For problem 2, a type...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.027869"
+  },
+  "R_C0E139FF": {
+    "id": "R_C0E139FF",
+    "content": "[Semantic rule Web-based Diagnosis and Treatment of Vector-Borne Diseases using SWRL rules]: Vector-borne diseases (VBDs) are a kind of infection caused through the\ntransmission of vectors generated by the bites of infected parasites, bacteria,\nand viruses, such as ticks, mosquitoes, triatomine bugs, blackflies, and\nsandflies. If these diseases are not properly treated within a reasonable time\nframe, the mortality rate may rise. In this work, we propose a set of\nontologies that will help in the diagnosis and treatment of vector-borne\ndiseases. For developing VBD's ontology, electronic health records taken from\nthe Indian Health Records website, text data generated from Indian government\nmedical mobile applications, and doctors' prescribed handwritten notes of\npatients are used as input. This data is then converted into correct text using\nOptical Character Recognition (OCR) and a spelling checker after\npre-processing. Natural Language Processing (NLP) is applied for entity\nextraction...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.038736"
+  },
+  "R_41097484": {
+    "id": "R_41097484",
+    "content": "[A Divide-Align-Conquer Strategy for Program Synthesis]: A major bottleneck in search-based program synthesis is the exponentially\ngrowing search space which makes learning large programs intractable. Humans\nmitigate this problem by leveraging the compositional nature of the real world:\nIn structured domains, a logical specification can often be decomposed into\nsmaller, complementary solution programs. We show that compositional\nsegmentation can be applied in the programming by examples setting to divide\nthe search for large programs across multiple smaller program synthesis\nproblems. For each example, we search for a decomposition into smaller units\nwhich maximizes the reconstruction accuracy in the output under a latent task\nprogram. A structural alignment of the constituent parts in the input and\noutput leads to pairwise correspondences used to guide the program synthesis\nsearch. In order to align the input/output structures, we make use of the\nStructure-Mapping Theory (SMT), a f...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.050157"
+  },
+  "R_48BCFAE0": {
+    "id": "R_48BCFAE0",
+    "content": "[A Robust Multilabel Method Integrating Rule-based Transparent Model, Soft Label Correlation Learning and Label Noise Resistance]: Model transparency, label correlation learning and the robust-ness to label\nnoise are crucial for multilabel learning. However, few existing methods study\nthese three characteristics simultaneously. To address this challenge, we\npropose the robust multilabel Takagi-Sugeno-Kang fuzzy system (R-MLTSK-FS) with\nthree mechanisms. First, we design a soft label learning mechanism to reduce\nthe effect of label noise by explicitly measuring the interactions between\nlabels, which is also the basis of the other two mechanisms. Second, the\nrule-based TSK FS is used as the base model to efficiently model the inference\nrelationship be-tween features and soft labels in a more transparent way than\nmany existing multilabel models. Third, to further improve the performance of\nmultilabel learning, we build a correlation enhancement learning mechanism\nbased on the soft labe...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.061367"
+  },
+  "R_ACA74554": {
+    "id": "R_ACA74554",
+    "content": "[Measuring Board Game Distance]: This paper presents a general approach for measuring distances between board\ngames within the Ludii general game system. These distances are calculated\nusing a previously published set of general board game concepts, each of which\nrepresents a common game idea or shared property. Our results compare and\ncontrast two different measures of distance, highlighting the subjective nature\nof such metrics and discussing the different ways that they can be interpreted.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.072286"
+  },
+  "R_5955BCE4": {
+    "id": "R_5955BCE4",
+    "content": "[Causal Abstraction for Faithful Model Interpretation]: A faithful and interpretable explanation of an AI model's behavior and\ninternal structure is a high-level explanation that is human-intelligible but\nalso consistent with the known, but often opaque low-level causal details of\nthe model. We argue that the theory of causal abstraction provides the\nmathematical foundations for the desired kinds of model explanations. In causal\nabstraction analysis, we use interventions on model-internal states to\nrigorously assess whether an interpretable high-level causal model is a\nfaithful description of an AI model. Our contributions in this area are: (1) We\ngeneralize causal abstraction to cyclic causal structures and typed high-level\nvariables. (2) We show how multi-source interchange interventions can be used\nto conduct causal abstraction analyses. (3) We define a notion of approximate\ncausal abstraction that allows us to assess the degree to which a high-level\ncausal model is a causal abst...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.083157"
+  },
+  "R_C27383A3": {
+    "id": "R_C27383A3",
+    "content": "[On the Structural Generalization in Text-to-SQL]: Exploring the generalization of a text-to-SQL parser is essential for a\nsystem to automatically adapt the real-world databases. Previous works provided\ninvestigations focusing on lexical diversity, including the influence of the\nsynonym and perturbations in both natural language questions and databases.\nHowever, research on the structure variety of database schema~(DS) is\ndeficient. Specifically, confronted with the same input question, the target\nSQL is probably represented in different ways when the DS comes to a different\nstructure. In this work, we provide in-deep discussions about the structural\ngeneralization of text-to-SQL tasks. We observe that current datasets are too\ntemplated to study structural generalization. To collect eligible test data, we\npropose a framework to generate novel text-to-SQL data via automatic and\nsynchronous (DS, SQL) pair altering. In the experiments, significant\nperformance reduction when evaluating ...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.093933"
+  },
+  "R_67EBC016": {
+    "id": "R_67EBC016",
+    "content": "[Against Algorithmic Exploitation of Human Vulnerabilities]: Decisions such as which movie to watch next, which song to listen to, or\nwhich product to buy online, are increasingly influenced by recommender systems\nand user models that incorporate information on users' past behaviours,\npreferences, and digitally created content. Machine learning models that enable\nrecommendations and that are trained on user data may unintentionally leverage\ninformation on human characteristics that are considered vulnerabilities, such\nas depression, young age, or gambling addiction. The use of algorithmic\ndecisions based on latent vulnerable state representations could be considered\nmanipulative and could have a deteriorating impact on the condition of\nvulnerable individuals. In this paper, we are concerned with the problem of\nmachine learning models inadvertently modelling vulnerabilities, and want to\nraise awareness for this issue to be considered in legislation and AI ethics.\nHence, we define and...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.105168"
+  },
+  "R_B9EBA527": {
+    "id": "R_B9EBA527",
+    "content": "[Persistence-Based Discretization for Learning Discrete Event Systems from Time Series]: To get a good understanding of a dynamical system, it is convenient to have\nan interpretable and versatile model of it. Timed discrete event systems are a\nkind of model that respond to these requirements. However, such models can be\ninferred from timestamped event sequences but not directly from numerical data.\nTo solve this problem, a discretization step must be done to identify events or\nsymbols in the time series. Persist is a discretization method that intends to\ncreate persisting symbols by using a score called persistence score. This\nallows to mitigate the risk of undesirable symbol changes that would lead to a\ntoo complex model. After the study of the persistence score, we point out that\nit tends to favor excessive cases making it miss interesting persisting\nsymbols. To correct this behavior, we replace the metric used in the\npersistence score, the Kullback-Leibler divergence, with the Wa...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.117479"
+  },
+  "R_84C120EC": {
+    "id": "R_84C120EC",
+    "content": "[Discovering and Explaining Driver Behaviour under HoS Regulations]: World wide transport authorities are imposing complex Hours of Service\nregulations to drivers, which constraint the amount of working, driving and\nresting time when delivering a service. As a consequence, transport companies\nare responsible not only of scheduling driving plans aligned with laws that\ndefine the legal behaviour of a driver, but also of monitoring and identifying\nas soon as possible problematic patterns that can incur in costs due to\nsanctions. Transport experts are frequently in charge of many drivers and lack\ntime to analyse the vast amount of data recorded by the onboard sensors, and\ncompanies have grown accustomed to pay sanctions rather than predict and\nforestall wrongdoings. This paper exposes an application for summarising raw\ndriver activity logs according to these regulations and for explaining driver\nbehaviour in a human readable format. The system employs planning, constraint,\nand clusterin...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.128632"
+  },
+  "R_ECE5F00F": {
+    "id": "R_ECE5F00F",
+    "content": "[Multitask Weakly Supervised Learning for Origin Destination Travel Time Estimation]: Travel time estimation from GPS trips is of great importance to order\nduration, ridesharing, taxi dispatching, etc. However, the dense trajectory is\nnot always available due to the limitation of data privacy and acquisition,\nwhile the origin destination (OD) type of data, such as NYC taxi data, NYC bike\ndata, and Capital Bikeshare data, is more accessible. To address this issue,\nthis paper starts to estimate the OD trips travel time combined with the road\nnetwork. Subsequently, a Multitask Weakly Supervised Learning Framework for\nTravel Time Estimation (MWSL TTE) has been proposed to infer transition\nprobability between roads segments, and the travel time on road segments and\nintersection simultaneously. Technically, given an OD pair, the transition\nprobability intends to recover the most possible route. And then, the output of\ntravel time is equal to the summation of all segments' and intersection...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.144263"
+  },
+  "R_48B37673": {
+    "id": "R_48B37673",
+    "content": "[Contrast with Major Classifier Vectors for Federated Medical Relation Extraction with Heterogeneous Label Distribution]: Federated medical relation extraction enables multiple clients to train a\ndeep network collaboratively without sharing their raw medical data. In order\nto handle the heterogeneous label distribution across clients, most of the\nexisting works only involve enforcing regularization between local and global\nmodels during optimization. In this paper, we fully utilize the models of all\nclients and propose a novel concept of \\textit{major classifier vectors}, where\na group of class vectors is obtained in an ensemble rather than the weighted\naverage method on the server. The major classifier vectors are then distributed\nto all clients and the local training of each client is Contrasted with Major\nClassifier vectors (FedCMC), so the local model is not prone to overfitting to\nthe local label distribution. FedCMC requires only a small amount of additional\ntransfer of classi...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.157436"
+  },
+  "R_3932D7A7": {
+    "id": "R_3932D7A7",
+    "content": "[Evolve Path Tracer: Early Detection of Malicious Addresses in Cryptocurrency]: With the ever-increasing boom of Cryptocurrency, detecting fraudulent\nbehaviors and associated malicious addresses draws significant research effort.\nHowever, most existing studies still rely on the full history features or\nfull-fledged address transaction networks, thus cannot meet the requirements of\nearly malicious address detection, which is urgent but seldom discussed by\nexisting studies. To detect fraud behaviors of malicious addresses in the early\nstage, we present Evolve Path Tracer, which consists of Evolve Path Encoder\nLSTM, Evolve Path Graph GCN, and Hierarchical Survival Predictor. Specifically,\nin addition to the general address features, we propose asset transfer paths\nand corresponding path graphs to characterize early transaction patterns.\nFurther, since the transaction patterns are changing rapidly during the early\nstage, we propose Evolve Path Encoder LSTM and Evolve Path Graph GCN to e...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.170546"
+  },
+  "R_2121ADE3": {
+    "id": "R_2121ADE3",
+    "content": "[Trends in Explainable AI (XAI) Literature]: The XAI literature is decentralized, both in terminology and in publication\nvenues, but recent years saw the community converge around keywords that make\nit possible to more reliably discover papers automatically. We use keyword\nsearch using the SemanticScholar API and manual curation to collect a\nwell-formatted and reasonably comprehensive set of 5199 XAI papers, available\nat https://github.com/alonjacovi/XAI-Scholar . We use this collection to\nclarify and visualize trends about the size and scope of the literature,\ncitation trends, cross-field trends, and collaboration trends. Overall, XAI is\nbecoming increasingly multidisciplinary, with relative growth in papers\nbelonging to increasingly diverse (non-CS) scientific fields, increasing\ncross-field collaborative authorship, increasing cross-field citation activity.\nThe collection can additionally be used as a paper discovery engine, by\nretrieving XAI literature which is cited according to...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.182503"
+  },
+  "R_DB43E5F9": {
+    "id": "R_DB43E5F9",
+    "content": "[Using the profile of publishers to predict barriers across news articles]: Detection of news propagation barriers, being economical, cultural,\npolitical, time zonal, or geographical, is still an open research issue. We\npresent an approach to barrier detection in news spreading by utilizing\nWikipedia-concepts and metadata associated with each barrier. Solving this\nproblem can not only convey the information about the coverage of an event but\nit can also show whether an event has been able to cross a specific barrier or\nnot. Experimental results on IPoNews dataset (dataset for information spreading\nover the news) reveals that simple classification models are able to detect\nbarriers with high accuracy. We believe that our approach can serve to provide\nuseful insights which pave the way for the future development of a system for\npredicting information spreading barriers over the news.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.194265"
+  },
+  "R_5647DA6C": {
+    "id": "R_5647DA6C",
+    "content": "[Investigating the Combination of Planning-Based and Data-Driven Methods for Goal Recognition]: An important feature of pervasive, intelligent assistance systems is the\nability to dynamically adapt to the current needs of their users. Hence, it is\ncritical for such systems to be able to recognize those goals and needs based\non observations of the user's actions and state of the environment. In this\nwork, we investigate the application of two state-of-the-art, planning-based\nplan recognition approaches in a real-world setting. So far, these approaches\nwere only evaluated in artificial settings in combination with agents that act\nperfectly rational. We show that such approaches have difficulties when used to\nrecognize the goals of human subjects, because human behaviour is typically not\nperfectly rational. To overcome this issue, we propose an extension to the\nexisting approaches through a classification-based method trained on observed\nbehaviour data. We empirically show that the pro...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.205811"
+  },
+  "R_0A32DDAD": {
+    "id": "R_0A32DDAD",
+    "content": "[Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions]: An abstraction can be used to relate two structural causal models\nrepresenting the same system at different levels of resolution. Learning\nabstractions which guarantee consistency with respect to interventional\ndistributions would allow one to jointly reason about evidence across multiple\nlevels of granularity while respecting the underlying cause-effect\nrelationships. In this paper, we introduce a first framework for causal\nabstraction learning between SCMs based on the formalization of abstraction\nrecently proposed by Rischel (2020). Based on that, we propose a differentiable\nprogramming solution that jointly solves a number of combinatorial\nsub-problems, and we study its performance and benefits against independent and\nsequential approaches on synthetic settings and on a challenging real-world\nproblem related to electric vehicle battery manufacturing.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.217638"
+  },
+  "R_93182DF3": {
+    "id": "R_93182DF3",
+    "content": "[Max-min Learning of Approximate Weight Matrices from Fuzzy Data]: In this article, we study the approximate solutions set $\\Lambda_b$ of an\ninconsistent system of $\\max-\\min$ fuzzy relational equations $(S): A\n\\Box_{\\min}^{\\max}x =b$. Using the $L_\\infty$ norm, we compute by an explicit\nanalytical formula the Chebyshev distance $\\Delta~=~\\inf_{c \\in \\mathcal{C}}\n\\Vert b -c \\Vert$, where $\\mathcal{C}$ is the set of second members of the\nconsistent systems defined with the same matrix $A$. We study the set\n$\\mathcal{C}_b$ of Chebyshev approximations of the second member $b$ i.e.,\nvectors $c \\in \\mathcal{C}$ such that $\\Vert b -c \\Vert = \\Delta$, which is\nassociated to the approximate solutions set $\\Lambda_b$ in the following sense:\nan element of the set $\\Lambda_b$ is a solution vector $x^\\ast$ of a system $A\n\\Box_{\\min}^{\\max}x =c$ where $c \\in \\mathcal{C}_b$. As main results, we\ndescribe both the structure of the set $\\Lambda_b$ and that of the set\n$\\mathcal{C}_b$. We then introdu...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.229874"
+  },
+  "R_667CBB07": {
+    "id": "R_667CBB07",
+    "content": "[PECAN: Leveraging Policy Ensemble for Context-Aware Zero-Shot Human-AI Coordination]: Zero-shot human-AI coordination holds the promise of collaborating with\nhumans without human data. Prevailing methods try to train the ego agent with a\npopulation of partners via self-play. However, these methods suffer from two\nproblems: 1) The diversity of a population with finite partners is limited,\nthereby limiting the capacity of the trained ego agent to collaborate with a\nnovel human; 2) Current methods only provide a common best response for every\npartner in the population, which may result in poor zero-shot coordination\nperformance with a novel partner or humans. To address these issues, we first\npropose the policy ensemble method to increase the diversity of partners in the\npopulation, and then develop a context-aware method enabling the ego agent to\nanalyze and identify the partner's potential policy primitives so that it can\ntake different actions accordingly. In this way, the ego agen...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.241593"
+  },
+  "R_D91777A0": {
+    "id": "R_D91777A0",
+    "content": "[Causal Models with Constraints]: Causal models have proven extremely useful in offering formal representations\nof causal relationships between a set of variables. Yet in many situations,\nthere are non-causal relationships among variables. For example, we may want\nvariables $LDL$, $HDL$, and $TOT$ that represent the level of low-density\nlipoprotein cholesterol, the level of lipoprotein high-density lipoprotein\ncholesterol, and total cholesterol level, with the relation $LDL+HDL=TOT$. This\ncannot be done in standard causal models, because we can intervene\nsimultaneously on all three variables. The goal of this paper is to extend\nstandard causal models to allow for constraints on settings of variables.\nAlthough the extension is relatively straightforward, to make it useful we have\nto define a new intervention operation that $disconnects$ a variable from a\ncausal equation. We give examples showing the usefulness of this extension, and\nprovide a sound and complete axiomatization for cau...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.278027"
+  },
+  "R_A03A047D": {
+    "id": "R_A03A047D",
+    "content": "[Implicit State and Goals in QBF Encodings for Positional Games (extended version)]: We address two bottlenecks for concise QBF encodings of maker-breaker\npositional games, like Hex and Tic-Tac-Toe. Our baseline is a QBF encoding with\nexplicit variables for board positions and an explicit representation of\nwinning configurations. The first improvement is inspired by lifted planning\nand avoids variables for explicit board positions, introducing a universal\nquantifier representing a symbolic board state. The second improvement\nrepresents the winning configurations implicitly, exploiting their structure.\nThe paper evaluates the size of several encodings, depending on board size and\ngame depth. It also reports the performance of QBF solvers on these encodings.\nWe evaluate the techniques on Hex instances and also apply them to Harary's\nTic-Tac-Toe. In particular, we study scalability to 19$\\times$19 boards, played\nin human Hex tournaments.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.290269"
+  },
+  "R_9E1913DB": {
+    "id": "R_9E1913DB",
+    "content": "[Boosting Synthetic Data Generation with Effective Nonlinear Causal Discovery]: Synthetic data generation has been widely adopted in software testing, data\nprivacy, imbalanced learning, and artificial intelligence explanation. In all\nsuch contexts, it is crucial to generate plausible data samples. A common\nassumption of approaches widely used for data generation is the independence of\nthe features. However, typically, the variables of a dataset depend on one\nanother, and these dependencies are not considered in data generation leading\nto the creation of implausible records. The main problem is that dependencies\namong variables are typically unknown. In this paper, we design a synthetic\ndataset generator for tabular data that can discover nonlinear causalities\namong the variables and use them at generation time. State-of-the-art methods\nfor nonlinear causal discovery are typically inefficient. We boost them by\nrestricting the causal discovery among the features appearing in the frequ...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.302305"
+  },
+  "R_E24AB1C5": {
+    "id": "R_E24AB1C5",
+    "content": "[Generalisation Through Negation and Predicate Invention]: The ability to generalise from a small number of examples is a fundamental\nchallenge in machine learning. To tackle this challenge, we introduce an\ninductive logic programming (ILP) approach that combines negation and predicate\ninvention. Combining these two features allows an ILP system to generalise\nbetter by learning rules with universally quantified body-only variables. We\nimplement our idea in N OPI which can learn normal logic programs with negation\nand predicate invention, including Datalog with stratified negation. Our\nexperimental results on multiple domains show that our approach improves\npredictive accuracies and learning times.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.314896"
+  },
+  "R_7EF48AF4": {
+    "id": "R_7EF48AF4",
+    "content": "[Generative AI-empowered Effective Physical-Virtual Synchronization in the Vehicular Metaverse]: Metaverse seamlessly blends the physical world and virtual space via\nubiquitous communication and computing infrastructure. In transportation\nsystems, the vehicular Metaverse can provide a fully-immersive and hyperreal\ntraveling experience (e.g., via augmented reality head-up displays, AR-HUDs) to\ndrivers and users in autonomous vehicles (AVs) via roadside units (RSUs).\nHowever, provisioning real-time and immersive services necessitates effective\nphysical-virtual synchronization between physical and virtual entities, i.e.,\nAVs and Metaverse AR recommenders (MARs). In this paper, we propose a\ngenerative AI-empowered physical-virtual synchronization framework for the\nvehicular Metaverse. In physical-to-virtual synchronization, digital twin (DT)\ntasks generated by AVs are offloaded for execution in RSU with future route\ngeneration. In virtual-to-physical synchronization, MARs customize dive...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.327522"
+  },
+  "R_27D645D9": {
+    "id": "R_27D645D9",
+    "content": "[Decision-Focused Evaluation: Analyzing Performance of Deployed Restless Multi-Arm Bandits]: Restless multi-arm bandits (RMABs) is a popular decision-theoretic framework\nthat has been used to model real-world sequential decision making problems in\npublic health, wildlife conservation, communication systems, and beyond.\nDeployed RMAB systems typically operate in two stages: the first predicts the\nunknown parameters defining the RMAB instance, and the second employs an\noptimization algorithm to solve the constructed RMAB instance.\n  In this work we provide and analyze the results from a first-of-its-kind\ndeployment of an RMAB system in public health domain, aimed at improving\nmaternal and child health. Our analysis is focused towards understanding the\nrelationship between prediction accuracy and overall performance of deployed\nRMAB systems. This is crucial for determining the value of investing in\nimproving predictive accuracy towards improving the final system performance,\nand is use...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.340465"
+  },
+  "R_9D4BD3D6": {
+    "id": "R_9D4BD3D6",
+    "content": "[Subject-Independent Brain-Computer Interfaces with Open-Set Subject Recognition]: A brain-computer interface (BCI) can't be effectively used since\nelectroencephalography (EEG) varies between and within subjects. BCI systems\nrequire calibration steps to adjust the model to subject-specific data. It is\nwidely acknowledged that this is a major obstacle to the development of BCIs.\nTo address this issue, previous studies have trained a generalized model by\nremoving the subjects' information. In contrast, in this work, we introduce a\nstyle information encoder as an auxiliary task that classifies various source\ndomains and recognizes open-set domains. Open-set recognition method was used\nas an auxiliary task to learn subject-related style information from the source\nsubjects, while at the same time helping the shared feature extractor map\nfeatures in an unseen target. This paper compares various OSR methods within an\nopen-set subject recognition (OSSR) framework. As a result of our experi...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.353180"
+  },
+  "R_4670F7EA": {
+    "id": "R_4670F7EA",
+    "content": "[Effective Diversity in Unsupervised Environment Design]: Agent decision making using Reinforcement Learning (RL) heavily relies on\neither a model or simulator of the environment (e.g., moving in an 8x8 maze\nwith three rooms, playing Chess on an 8x8 board). Due to this dependence, small\nchanges in the environment (e.g. positions of obstacles in the maze, size of\nthe board) can severely affect the effectiveness of the policy learnt by the\nagent. To that end, existing work has proposed training RL agents on an\nadaptive curriculum of environments (generated automatically) to improve\nperformance on out-of-distribution (OOD) test scenarios. Specifically, existing\nresearch has employed the potential for the agent to learn in an environment\n(captured using Generalized Advantage Estimation, GAE) as the key factor to\nselect the next environment(s) to train the agent. However, such a mechanism\ncan select similar environments (with a high potential to learn) thereby making\nagent training redun...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.365944"
+  },
+  "R_2D1C66FE": {
+    "id": "R_2D1C66FE",
+    "content": "[causalgraph: A Python Package for Modeling, Persisting and Visualizing Causal Graphs Embedded in Knowledge Graphs]: This paper describes a novel Python package, named causalgraph, for modeling\nand saving causal graphs embedded in knowledge graphs. The package has been\ndesigned to provide an interface between causal disciplines such as causal\ndiscovery and causal inference. With this package, users can create and save\ncausal graphs and export the generated graphs for use in other graph-based\npackages. The main advantage of the proposed package is its ability to\nfacilitate the linking of additional information and metadata to causal\nstructures. In addition, the package offers a variety of functions for graph\nmodeling and plotting, such as editing, adding, and deleting nodes and edges.\nIt is also compatible with widely used graph data science libraries such as\nNetworkX and Tigramite and incorporates a specially developed causalgraph\nontology in the background. This paper provides an o...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.378554"
+  },
+  "R_B386E66A": {
+    "id": "R_B386E66A",
+    "content": "[Generative Logic with Time: Beyond Logical Consistency and Statistical Possibility]: This paper gives a simple theory of inference to logically reason symbolic\nknowledge fully from data over time. We take a Bayesian approach to model how\ndata causes symbolic knowledge. Probabilistic reasoning with symbolic knowledge\nis modelled as a process of going the causality forwards and backwards. The\nforward and backward processes correspond to an interpretation and inverse\ninterpretation of formal logic, respectively. The theory is applied to a\nlocalisation problem to show a robot with broken or noisy sensors can\nefficiently solve the problem in a fully data-driven fashion.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.391118"
+  },
+  "R_9F0BEE89": {
+    "id": "R_9F0BEE89",
+    "content": "[On the Foundations of Cycles in Bayesian Networks]: Bayesian networks (BNs) are a probabilistic graphical model widely used for\nrepresenting expert knowledge and reasoning under uncertainty. Traditionally,\nthey are based on directed acyclic graphs that capture dependencies between\nrandom variables. However, directed cycles can naturally arise when\ncross-dependencies between random variables exist, e.g., for modeling feedback\nloops. Existing methods to deal with such cross-dependencies usually rely on\nreductions to BNs without cycles. These approaches are fragile to generalize,\nsince their justifications are intermingled with additional knowledge about the\napplication context. In this paper, we present a foundational study regarding\nsemantics for cyclic BNs that are generic and conservatively extend the\ncycle-free setting. First, we propose constraint-based semantics that specify\nrequirements for full joint distributions over a BN to be consistent with the\nlocal conditional probabil...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.403917"
+  },
+  "R_0FDA3266": {
+    "id": "R_0FDA3266",
+    "content": "[Counterexample Guided Abstraction Refinement with Non-Refined Abstractions for Multi-Agent Path Finding]: Counterexample guided abstraction refinement (CEGAR) represents a powerful\nsymbolic technique for various tasks such as model checking and reachability\nanalysis. Recently, CEGAR combined with Boolean satisfiability (SAT) has been\napplied for multi-agent path finding (MAPF), a problem where the task is to\nnavigate agents from their start positions to given individual goal positions\nso that the agents do not collide with each other.\n  The recent CEGAR approach used the initial abstraction of the MAPF problem\nwhere collisions between agents were omitted and were eliminated in subsequent\nabstraction refinements. We propose in this work a novel CEGAR-style solver for\nMAPF based on SAT in which some abstractions are deliberately left non-refined.\nThis adds the necessity to post-process the answers obtained from the\nunderlying SAT solver as these answers slightly differ from the corre...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.416161"
+  },
+  "R_A7CAF62E": {
+    "id": "R_A7CAF62E",
+    "content": "[Mathematics, word problems, common sense, and artificial intelligence]: The paper discusses the capacities and limitations of current artificial\nintelligence (AI) technology to solve word problems that combine elementary\nknowledge with commonsense reasoning. No existing AI systems can solve these\nreliably. We review three approaches that have been developed, using AI natural\nlanguage technology: outputting the answer directly, outputting a computer\nprogram that solves the problem, and outputting a formalized representation\nthat can be input to an automated theorem verifier. We review some benchmarks\nthat have been developed to evaluate these systems and some experimental\nstudies. We discuss the limitations of the existing technology at solving these\nkinds of problems. We argue that it is not clear whether these kinds of\nlimitations will be important in developing AI technology for pure mathematical\nresearch, but that they will be important in applications of mathematics, and\nmay we...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.428515"
+  },
+  "R_3525F312": {
+    "id": "R_3525F312",
+    "content": "[Language-guided Task Adaptation for Imitation Learning]: We introduce a novel setting, wherein an agent needs to learn a task from a\ndemonstration of a related task with the difference between the tasks\ncommunicated in natural language. The proposed setting allows reusing\ndemonstrations from other tasks, by providing low effort language descriptions,\nand can also be used to provide feedback to correct agent errors, which are\nboth important desiderata for building intelligent agents that assist humans in\ndaily tasks. To enable progress in this proposed setting, we create two\nbenchmarks -- Room Rearrangement and Room Navigation -- that cover a diverse\nset of task adaptations. Further, we propose a framework that uses a\ntransformer-based model to reason about the entities in the tasks and their\nrelationships, to learn a policy for the target task",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.440757"
+  },
+  "R_7D04132D": {
+    "id": "R_7D04132D",
+    "content": "[Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction]: We study the problem of learning goal-conditioned policies in Minecraft, a\npopular, widely accessible yet challenging open-ended environment for\ndeveloping human-level multi-task agents. We first identify two main challenges\nof learning such policies: 1) the indistinguishability of tasks from the state\ndistribution, due to the vast scene diversity, and 2) the non-stationary nature\nof environment dynamics caused by partial observability. To tackle the first\nchallenge, we propose Goal-Sensitive Backbone (GSB) for the policy to encourage\nthe emergence of goal-relevant visual state representations. To tackle the\nsecond challenge, the policy is further fueled by an adaptive horizon\nprediction module that helps alleviate the learning uncertainty brought by the\nnon-stationary dynamics. Experiments on 20 Minecraft tasks show that our method\nsignificantly outperforms the best baseline ...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.453109"
+  },
+  "R_6408E695": {
+    "id": "R_6408E695",
+    "content": "[Reformulation Techniques for Automated Planning: A Systematic Review]: Automated planning is a prominent area of Artificial Intelligence, and an\nimportant component for intelligent autonomous agents. A cornerstone of\ndomain-independent planning is the separation between planning logic, i.e. the\nautomated reasoning side, and the knowledge model, that encodes a formal\nrepresentation of domain knowledge needed to reason upon a given problem to\nsynthesise a solution plan. Such a separation enables the use of reformulation\ntechniques, which transform how a model is represented in order to improve the\nefficiency of plan generation. Over the past decades, significant research\neffort has been devoted to the design of reformulation techniques. In this\npaper, we present a systematic review of the large body of work on\nreformulation techniques for classical planning, aiming to provide a holistic\nview of the field and to foster future research in the area. As a tangible\noutcome, we provide a q...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.466037"
+  },
+  "R_B37DD17C": {
+    "id": "R_B37DD17C",
+    "content": "[NeSIG: A Neuro-Symbolic Method for Learning to Generate Planning Problems]: In the field of Automated Planning there is often the need for a set of\nplanning problems from a particular domain, e.g., to be used as training data\nfor Machine Learning or as benchmarks in planning competitions. In most cases,\nthese problems are created either by hand or by a domain-specific generator,\nputting a burden on the human designers. In this paper we propose NeSIG, to the\nbest of our knowledge the first domain-independent method for automatically\ngenerating planning problems that are valid, diverse and difficult to solve. We\nformulate problem generation as a Markov Decision Process and train two\ngenerative policies with Deep Reinforcement Learning to generate problems with\nthe desired properties. We conduct experiments on several classical domains,\ncomparing our method with handcrafted domain-specific generators that generate\nvalid and diverse problems but do not optimize difficulty. The results ...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.478526"
+  },
+  "R_80BB3330": {
+    "id": "R_80BB3330",
+    "content": "[PushWorld: A benchmark for manipulation planning with tools and movable obstacles]: While recent advances in artificial intelligence have achieved human-level\nperformance in environments like Starcraft and Go, many physical reasoning\ntasks remain challenging for modern algorithms. To date, few algorithms have\nbeen evaluated on physical tasks that involve manipulating objects when movable\nobstacles are present and when tools must be used to perform the manipulation.\nTo promote research on such tasks, we introduce PushWorld, an environment with\nsimplistic physics that requires manipulation planning with both movable\nobstacles and tools. We provide a benchmark of more than 200 PushWorld puzzles\nin PDDL and in an OpenAI Gym environment. We evaluate state-of-the-art\nclassical planning and reinforcement learning algorithms on this benchmark, and\nwe find that these baseline results are below human-level performance. We then\nprovide a new classical planning heuristic that solves the most p...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.491280"
+  },
+  "R_1B18A900": {
+    "id": "R_1B18A900",
+    "content": "[Leveraging Planning Landmarks for Hybrid Online Goal Recognition]: Goal recognition is an important problem in many application domains (e.g.,\npervasive computing, intrusion detection, computer games, etc.). In many\napplication scenarios it is important that goal recognition algorithms can\nrecognize goals of an observed agent as fast as possible and with minimal\ndomain knowledge. Hence, in this paper, we propose a hybrid method for online\ngoal recognition that combines a symbolic planning landmark based approach and\na data-driven goal recognition approach and evaluate it in a real-world cooking\nscenario. The empirical results show that the proposed method is not only\nsignificantly more efficient in terms of computation time than the\nstate-of-the-art but also improves goal recognition performance. Furthermore,\nwe show that the utilized planning landmark based approach, which was so far\nonly evaluated on artificial benchmark domains, achieves also good recognition\nperformance when ap...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.504337"
+  },
+  "R_7F75A6EB": {
+    "id": "R_7F75A6EB",
+    "content": "[Reflective Artificial Intelligence]: Artificial Intelligence (AI) is about making computers that do the sorts of\nthings that minds can do, and as we progress towards this goal, we tend to\nincreasingly delegate human tasks to machines. However, AI systems usually do\nthese tasks with an unusual imbalance of insight and understanding: new, deeper\ninsights are present, yet many important qualities that a human mind would have\npreviously brought to the activity are utterly absent. Therefore, it is crucial\nto ask which features of minds have we replicated, which are missing, and if\nthat matters. One core feature that humans bring to tasks, when dealing with\nthe ambiguity, emergent knowledge, and social context presented by the world,\nis reflection. Yet this capability is utterly missing from current mainstream\nAI. In this paper we ask what reflective AI might look like. Then, drawing on\nnotions of reflection in complex systems, cognitive science, and agents, we\nsketch an architecture for...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.518322"
+  },
+  "R_92C8D502": {
+    "id": "R_92C8D502",
+    "content": "[Towards Knowledge-Centric Process Mining]: Process analytic approaches play a critical role in supporting the practice\nof business process management and continuous process improvement by leveraging\nprocess-related data to identify performance bottlenecks, extracting insights\nabout reducing costs and optimizing the utilization of available resources.\nProcess analytic techniques often have to contend with real-world settings\nwhere available logs are noisy or incomplete. In this paper we present an\napproach that permits process analytics techniques to deliver value in the face\nof noisy/incomplete event logs. Our approach leverages knowledge graphs to\nmitigate the effects of noise in event logs while supporting process analysts\nin understanding variability associated with event logs.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.531858"
+  },
+  "R_4241389A": {
+    "id": "R_4241389A",
+    "content": "[A Systematic Review of Green AI]: With the ever-growing adoption of AI-based systems, the carbon footprint of\nAI is no longer negligible. AI researchers and practitioners are therefore\nurged to hold themselves accountable for the carbon emissions of the AI models\nthey design and use. This led in recent years to the appearance of researches\ntackling AI environmental sustainability, a field referred to as Green AI.\nDespite the rapid growth of interest in the topic, a comprehensive overview of\nGreen AI research is to date still missing. To address this gap, in this paper,\nwe present a systematic review of the Green AI literature. From the analysis of\n98 primary studies, different patterns emerge. The topic experienced a\nconsiderable growth from 2020 onward. Most studies consider monitoring AI model\nfootprint, tuning hyperparameters to improve model sustainability, or\nbenchmarking models. A mix of position papers, observational studies, and\nsolution papers are present. Most papers focu...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.545264"
+  },
+  "R_1876F7AA": {
+    "id": "R_1876F7AA",
+    "content": "[Generalized Planning as Heuristic Search: A new planning search-space that leverages pointers over objects]: Planning as heuristic search is one of the most successful approaches to\nclassical planning but unfortunately, it does not extend trivially to\nGeneralized Planning (GP). GP aims to compute algorithmic solutions that are\nvalid for a set of classical planning instances from a given domain, even if\nthese instances differ in the number of objects, the number of state variables,\ntheir domain size, or their initial and goal configuration. The generalization\nrequirements of GP make it impractical to perform the state-space search that\nis usually implemented by heuristic planners. This paper adapts the planning as\nheuristic search paradigm to the generalization requirements of GP, and\npresents the first native heuristic search approach to GP. First, the paper\nintroduces a new pointer-based solution space for GP that is independent of the\nnumber of classical planning instances in a G...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.558638"
+  },
+  "R_2E328203": {
+    "id": "R_2E328203",
+    "content": "[Polycraft World AI Lab (PAL): An Extensible Platform for Evaluating Artificial Intelligence Agents]: As artificial intelligence research advances, the platforms used to evaluate\nAI agents need to adapt and grow to continue to challenge them. We present the\nPolycraft World AI Lab (PAL), a task simulator with an API based on the\nMinecraft mod Polycraft World. Our platform is built to allow AI agents with\ndifferent architectures to easily interact with the Minecraft world, train and\nbe evaluated in multiple tasks. PAL enables the creation of tasks in a flexible\nmanner as well as having the capability to manipulate any aspect of the task\nduring an evaluation. All actions taken by AI agents and external actors\n(non-player-characters, NPCs) in the open-world environment are logged to\nstreamline evaluation. Here we present two custom tasks on the PAL platform,\none focused on multi-step planning and one focused on navigation, and\nevaluations of agents solving them. In summary, we report a ...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.572018"
+  },
+  "R_A7D924C6": {
+    "id": "R_A7D924C6",
+    "content": "[Even if Explanations: Prior Work, Desiderata & Benchmarks for Semi-Factual XAI]: Recently, eXplainable AI (XAI) research has focused on counterfactual\nexplanations as post-hoc justifications for AI-system decisions (e.g. a\ncustomer refused a loan might be told: If you asked for a loan with a shorter\nterm, it would have been approved). Counterfactuals explain what changes to the\ninput-features of an AI system change the output-decision. However, there is a\nsub-type of counterfactual, semi-factuals, that have received less attention in\nAI (though the Cognitive Sciences have studied them extensively). This paper\nsurveys these literatures to summarise historical and recent breakthroughs in\nthis area. It defines key desiderata for semi-factual XAI and reports benchmark\ntests of historical algorithms (along with a novel, naieve method) to provide a\nsolid basis for future algorithmic developments.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.585427"
+  },
+  "R_2B81E7D1": {
+    "id": "R_2B81E7D1",
+    "content": "[Context Matters: A Strategy to Pre-train Language Model for Science Education]: This study aims at improving the performance of scoring student responses in\nscience education automatically. BERT-based language models have shown\nsignificant superiority over traditional NLP models in various language-related\ntasks. However, science writing of students, including argumentation and\nexplanation, is domain-specific. In addition, the language used by students is\ndifferent from the language in journals and Wikipedia, which are training\nsources of BERT and its existing variants. All these suggest that a\ndomain-specific model pre-trained using science education data may improve\nmodel performance. However, the ideal type of data to contextualize pre-trained\nlanguage model and improve the performance in automatically scoring student\nwritten responses remains unclear. Therefore, we employ different data in this\nstudy to contextualize both BERT and SciBERT models and compare their\nperformance on...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.598626"
+  },
+  "R_6AA58F20": {
+    "id": "R_6AA58F20",
+    "content": "[HAT-GAE: Self-Supervised Graph Auto-encoders with Hierarchical Adaptive Masking and Trainable Corruption]: Self-supervised auto-encoders have emerged as a successful framework for\nrepresentation learning in computer vision and natural language processing in\nrecent years, However, their application to graph data has been met with\nlimited performance due to the non-Euclidean and complex structure of graphs in\ncomparison to images or text, as well as the limitations of conventional\nauto-encoder architectures. In this paper, we investigate factors impacting the\nperformance of auto-encoders on graph data and propose a novel auto-encoder\nmodel for graph representation learning. Our model incorporates a hierarchical\nadaptive masking mechanism to incrementally increase the difficulty of training\nin order to mimic the process of human cognitive learning, and a trainable\ncorruption scheme to enhance the robustness of learned representations. Through\nextensive experimentation on ten benchmark...",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.611911"
+  },
+  "R_B598CED1": {
+    "id": "R_B598CED1",
+    "content": "[A System for Human-AI collaboration for Online Customer Support]: AI enabled chat bots have recently been put to use to answer customer service\nqueries, however it is a common feedback of users that bots lack a personal\ntouch and are often unable to understand the real intent of the user's\nquestion. To this end, it is desirable to have human involvement in the\ncustomer servicing process. In this work, we present a system where a human\nsupport agent collaborates in real-time with an AI agent to satisfactorily\nanswer customer queries. We describe the user interaction elements of the\nsolution, along with the machine learning techniques involved in the AI agent.",
+    "layer": 3,
+    "features": {
+      "G": 0.9,
+      "C": 0.85,
+      "S": 0.88,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.85
+    },
+    "q_score": 0.8226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T19:26:50.625289"
   }
 }
