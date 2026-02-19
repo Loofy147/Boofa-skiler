@@ -25,12 +25,9 @@ class AutonomousStrategicArchitect:
                 ["kaggle", "competitions", "list", "--search", self.target_competition],
                 capture_output=True, text=True, check=True
             )
-            # Simple parsing for demo/realization purposes
             lines = result.stdout.splitlines()
             team_count = 0
             if len(lines) > 2:
-                # Assuming standard kaggle list output columns
-                # Ref deadline category reward teamCount userHasEntered
                 parts = lines[2].split()
                 if len(parts) >= 5:
                     team_count = int(parts[-2])
@@ -48,22 +45,16 @@ class AutonomousStrategicArchitect:
     def execute_autonomous_planning(self, cycles: int = 150):
         """Performs autonomous strategic planning cycles."""
         print(f"⚙️ Executing {cycles} autonomous planning cycles...")
-
-        # 1. Root the task
         protocol_name = f"Project Alpha: {self.target_competition} Dominance Protocol"
         self.mco.feed_protocol(protocol_name, depth=4)
 
-        # 2. Inject Contextual Realizations
         self.mco.domains["STRATEGIC"].engine.add_realization(
             content=f"Strategic Context: Competition {self.target_competition} has {self.context['team_count']} active competitors. Market density is increasing.",
             features=RealizationFeatures(0.98, 0.95, 0.96, 0.94, 0.98, 0.92),
             turn_number=1
         )
 
-        # 3. Recursive Synthesis
         self.mco.execute_and_merge(cycles=cycles)
-
-        # 4. Generate Protocols
         report = self.mco.get_report()
         top_realization = sorted(report.get("universal_values", []), key=lambda x: x['q'], reverse=True)[0]
 
@@ -72,7 +63,6 @@ class AutonomousStrategicArchitect:
 
     def _generate_protocol_from_realization(self, realization: Dict) -> List[Dict]:
         """Decomposes a peak realization into an actionable protocol."""
-        # Simple rule-based decomposition for Alpha implementation
         content = realization['content']
         q = realization['q']
 
@@ -82,6 +72,32 @@ class AutonomousStrategicArchitect:
             {"step": 3, "action": "Final Submission & Writeup", "weight": 0.3 * q, "desc": "Target reproducibility and clarity."}
         ]
         return protocol
+
+    def discover_new_domains(self) -> List[str]:
+        """
+        Phase 7: Autonomous Domain Discovery.
+        Analyzes the global ledger for unexplored knowledge spaces.
+        """
+        print("🔍 Initiating Autonomous Domain Discovery...")
+        ledger_path = "layers/layer_1_domain/comprehensive_realization_dataset.json"
+        if not os.path.exists(ledger_path):
+            return ["QUANTUM_COMPUTING"] # Default fallback for expansion
+
+        with open(ledger_path, "r") as f:
+            data = json.load(f)
+
+        realizations = data.get("realizations", [])
+        existing_domains = set()
+        for r in realizations:
+            domain = r.get("metadata", {}).get("domain")
+            if domain: existing_domains.add(domain.upper())
+
+        # Potential future domains based on L0 rule symmetries
+        potential_domains = ["QUANTUM_LOGIC", "BIO_DIGITAL_SYNTHESIS", "ASTRONOMICAL_STRATEGY", "MOLECULAR_COMPUTING", "GLOBAL_ETHICS_PROTOCOL"]
+
+        new_domains = [d for d in potential_domains if d not in existing_domains]
+        print(f"🌟 Discovered {len(new_domains)} potential new domains: {new_domains}")
+        return new_domains
 
     def save_strategic_output(self):
         """Saves the strategic roadmap and outcomes."""
@@ -112,12 +128,18 @@ class AutonomousStrategicArchitect:
         for val in top_5:
             md_content += f"- **{val['content']}** (Q={val['q']:.4f})\n"
 
+        # Add New Domains Discovery
+        new_domains = self.discover_new_domains()
+        if new_domains:
+            md_content += "\n--- \n## 🌐 Phase 7: Discovered Knowledge Spaces\n"
+            for domain in new_domains:
+                md_content += f"- **{domain}**: Identified as under-represented in the Global Ledger.\n"
+
         md_content += "\n--- \n**Verified by Autonomous Strategic Architect | Project Alpha**"
 
         with open(f"{output_dir}/ROADMAP_{timestamp}.md", "w") as f:
             f.write(md_content)
 
-        # Update master roadmap
         with open(f"{output_dir}/latest_roadmap.md", "w") as f:
             f.write(md_content)
 

@@ -5410,5 +5410,7019 @@
       "turn": 1
     },
     "timestamp": "2026-02-19T19:26:50.625289"
+  },
+  "R_CEC68554": {
+    "id": "R_CEC68554",
+    "content": "Strategic Context: Competition ai-mathematical-olympiad-progress-prize-3 has 2400 active competitors. Market density is increasing.",
+    "layer": 2,
+    "features": {
+      "G": 0.98,
+      "C": 0.95,
+      "S": 0.96,
+      "A": 0.94,
+      "H": 0.98,
+      "V": 0.92
+    },
+    "q_score": 0.9182,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.052420"
+  },
+  "R_6CFF1EDA": {
+    "id": "R_6CFF1EDA",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9902300644683171,
+      "C": 0.7921840515746537,
+      "S": 0.7921840515746537,
+      "A": 0.7921840515746537,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8036,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.075542"
+  },
+  "R_6A0B8EDA": {
+    "id": "R_6A0B8EDA",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8207786216438346,
+      "C": 0.6566228973150677,
+      "S": 0.6566228973150677,
+      "A": 0.6566228973150677,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6685,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.089571"
+  },
+  "R_09E73B2D": {
+    "id": "R_09E73B2D",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9230473768193119,
+      "C": 0.7384379014554496,
+      "S": 0.7384379014554496,
+      "A": 0.7384379014554496,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7436,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.104555"
+  },
+  "R_07BE6DD2": {
+    "id": "R_07BE6DD2",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9414313227270006,
+      "C": 0.7531450581816005,
+      "S": 0.7531450581816005,
+      "A": 0.7531450581816005,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7598,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.118660"
+  },
+  "R_A7FFB56D": {
+    "id": "R_A7FFB56D",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.928933892881414,
+      "C": 0.7431471143051313,
+      "S": 0.7431471143051313,
+      "A": 0.7431471143051313,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7488,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.132533"
+  },
+  "R_AA04D5E8": {
+    "id": "R_AA04D5E8",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9812428330174019,
+      "C": 0.7849942664139216,
+      "S": 0.7849942664139216,
+      "A": 0.7849942664139216,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7954,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.147010"
+  },
+  "R_5B711925": {
+    "id": "R_5B711925",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9565115957629148,
+      "C": 0.7652092766103319,
+      "S": 0.7652092766103319,
+      "A": 0.7652092766103319,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7732,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.162387"
+  },
+  "R_B31970F4": {
+    "id": "R_B31970F4",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.836303854580187,
+      "C": 0.6690430836641497,
+      "S": 0.6690430836641497,
+      "A": 0.6690430836641497,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6806,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.176374"
+  },
+  "R_A6583D24": {
+    "id": "R_A6583D24",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8788962980574506,
+      "C": 0.7031170384459605,
+      "S": 0.7031170384459605,
+      "A": 0.7031170384459605,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7143,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.190397"
+  },
+  "R_83DDD26D": {
+    "id": "R_83DDD26D",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9163726356735941,
+      "C": 0.7330981085388752,
+      "S": 0.7330981085388752,
+      "A": 0.7330981085388752,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7377,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.203913"
+  },
+  "R_650037C1": {
+    "id": "R_650037C1",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8577638759624071,
+      "C": 0.6862111007699258,
+      "S": 0.6862111007699258,
+      "A": 0.6862111007699258,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6975,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.217564"
+  },
+  "R_1054F973": {
+    "id": "R_1054F973",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9889083585297302,
+      "C": 0.7911266868237843,
+      "S": 0.7911266868237843,
+      "A": 0.7911266868237843,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8024,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.231813"
+  },
+  "R_C38D6B53": {
+    "id": "R_C38D6B53",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9341199544927113,
+      "C": 0.7472959635941692,
+      "S": 0.7472959635941692,
+      "A": 0.7472959635941692,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7533,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.245582"
+  },
+  "R_CAE6E68F": {
+    "id": "R_CAE6E68F",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8824557490669472,
+      "C": 0.7059645992535578,
+      "S": 0.7059645992535578,
+      "A": 0.7059645992535578,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7171,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.259533"
+  },
+  "R_E54A467F": {
+    "id": "R_E54A467F",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9264298559105026,
+      "C": 0.7411438847284022,
+      "S": 0.7411438847284022,
+      "A": 0.7411438847284022,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7466,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.273453"
+  },
+  "R_BE99D088": {
+    "id": "R_BE99D088",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9942053134972926,
+      "C": 0.7953642507978341,
+      "S": 0.7953642507978341,
+      "A": 0.7953642507978341,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8072,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.288109"
+  },
+  "R_049F57D5": {
+    "id": "R_049F57D5",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9812727652449468,
+      "C": 0.7850182121959575,
+      "S": 0.7850182121959575,
+      "A": 0.7850182121959575,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7955,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.301949"
+  },
+  "R_246B8AB5": {
+    "id": "R_246B8AB5",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9689647375168902,
+      "C": 0.7751717900135122,
+      "S": 0.7751717900135122,
+      "A": 0.7751717900135122,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7844,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.315850"
+  },
+  "R_A56313F4": {
+    "id": "R_A56313F4",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9959903213178644,
+      "C": 0.7967922570542916,
+      "S": 0.7967922570542916,
+      "A": 0.7967922570542916,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8088,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.329733"
+  },
+  "R_3E73058E": {
+    "id": "R_3E73058E",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9919328884133616,
+      "C": 0.7935463107306893,
+      "S": 0.7935463107306893,
+      "A": 0.7935463107306893,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8051,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.343821"
+  },
+  "R_1B5C4D44": {
+    "id": "R_1B5C4D44",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9552989906784303,
+      "C": 0.7642391925427443,
+      "S": 0.7642391925427443,
+      "A": 0.7642391925427443,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7721,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.357770"
+  },
+  "R_010CF9F9": {
+    "id": "R_010CF9F9",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9524561339899695,
+      "C": 0.7619649071919756,
+      "S": 0.7619649071919756,
+      "A": 0.7619649071919756,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7696,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.371811"
+  },
+  "R_DF960E31": {
+    "id": "R_DF960E31",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9966454465236702,
+      "C": 0.7973163572189361,
+      "S": 0.7973163572189361,
+      "A": 0.7973163572189361,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8094,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.386134"
+  },
+  "R_4F797967": {
+    "id": "R_4F797967",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9752330351126673,
+      "C": 0.7801864280901339,
+      "S": 0.7801864280901339,
+      "A": 0.7801864280901339,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.79,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.400013"
+  },
+  "R_8AC4A5FD": {
+    "id": "R_8AC4A5FD",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9696858607541464,
+      "C": 0.7757486886033171,
+      "S": 0.7757486886033171,
+      "A": 0.7757486886033171,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.785,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.413803"
+  },
+  "R_F4A29FA5": {
+    "id": "R_F4A29FA5",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9791723732241432,
+      "C": 0.7833378985793146,
+      "S": 0.7833378985793146,
+      "A": 0.7833378985793146,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7936,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.427689"
+  },
+  "R_5C73319A": {
+    "id": "R_5C73319A",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.951751795603933,
+      "C": 0.7614014364831464,
+      "S": 0.7614014364831464,
+      "A": 0.7614014364831464,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.769,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.441618"
+  },
+  "R_7DC9C496": {
+    "id": "R_7DC9C496",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8896289437094987,
+      "C": 0.7117031549675991,
+      "S": 0.7117031549675991,
+      "A": 0.7117031549675991,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7228,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.455555"
+  },
+  "R_5EA12A2C": {
+    "id": "R_5EA12A2C",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9351959098844568,
+      "C": 0.7481567279075655,
+      "S": 0.7481567279075655,
+      "A": 0.7481567279075655,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7543,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.469636"
+  },
+  "R_72446C07": {
+    "id": "R_72446C07",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.905315154572583,
+      "C": 0.7242521236580665,
+      "S": 0.7242521236580665,
+      "A": 0.7242521236580665,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7281,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.483860"
+  },
+  "R_9F5F6394": {
+    "id": "R_9F5F6394",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9693145679381985,
+      "C": 0.7754516543505588,
+      "S": 0.7754516543505588,
+      "A": 0.7754516543505588,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7847,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.498013"
+  },
+  "R_0C4FFCD7": {
+    "id": "R_0C4FFCD7",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9712102392069167,
+      "C": 0.7769681913655334,
+      "S": 0.7769681913655334,
+      "A": 0.7769681913655334,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7864,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.512370"
+  },
+  "R_0B6316E7": {
+    "id": "R_0B6316E7",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8220433134913377,
+      "C": 0.6576346507930703,
+      "S": 0.6576346507930703,
+      "A": 0.6576346507930703,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6695,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.526552"
+  },
+  "R_AA1E1B18": {
+    "id": "R_AA1E1B18",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7117329816254361,
+      "C": 0.8896662270317951,
+      "S": 0.8896662270317951,
+      "A": 0.7117329816254361,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7469,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.558515"
+  },
+  "R_D8871A2E": {
+    "id": "R_D8871A2E",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7820124607620828,
+      "C": 0.9775155759526034,
+      "S": 0.9775155759526034,
+      "A": 0.7820124607620828,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8179,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.572892"
+  },
+  "R_D779AD85": {
+    "id": "R_D779AD85",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7625320788091757,
+      "C": 0.9531650985114696,
+      "S": 0.9531650985114696,
+      "A": 0.7625320788091757,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7923,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.587632"
+  },
+  "R_4A025746": {
+    "id": "R_4A025746",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7996684938042411,
+      "C": 0.9995856172553013,
+      "S": 0.9995856172553013,
+      "A": 0.7996684938042411,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8415,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.602377"
+  },
+  "R_BAFDE154": {
+    "id": "R_BAFDE154",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7954742166350146,
+      "C": 0.9943427707937682,
+      "S": 0.9943427707937682,
+      "A": 0.7954742166350146,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8358,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.616937"
+  },
+  "R_0BFF01F6": {
+    "id": "R_0BFF01F6",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7869163138892897,
+      "C": 0.9836453923616121,
+      "S": 0.9836453923616121,
+      "A": 0.7869163138892897,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8244,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.631747"
+  },
+  "R_DE73327C": {
+    "id": "R_DE73327C",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7984664382860971,
+      "C": 0.9980830478576214,
+      "S": 0.9980830478576214,
+      "A": 0.7984664382860971,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8399,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.646653"
+  },
+  "R_20A0FF7A": {
+    "id": "R_20A0FF7A",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7242024428648959,
+      "C": 0.9052530535811198,
+      "S": 0.9052530535811198,
+      "A": 0.7242024428648959,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.743,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.661247"
+  },
+  "R_6484DAE4": {
+    "id": "R_6484DAE4",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.4349861810537954,
+      "C": 0.5437327263172442,
+      "S": 0.5437327263172442,
+      "A": 0.4349861810537954,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.4705,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.675885"
+  },
+  "R_79D7C073": {
+    "id": "R_79D7C073",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7962908069476519,
+      "C": 0.9953635086845648,
+      "S": 0.9953635086845648,
+      "A": 0.7962908069476519,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8369,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.691281"
+  },
+  "R_8421375E": {
+    "id": "R_8421375E",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7879986937225819,
+      "C": 0.9849983671532273,
+      "S": 0.9849983671532273,
+      "A": 0.7879986937225819,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8259,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.706898"
+  },
+  "R_57B9A406": {
+    "id": "R_57B9A406",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7389233090999708,
+      "C": 0.9236541363749635,
+      "S": 0.9236541363749635,
+      "A": 0.7389233090999708,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7618,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.722827"
+  },
+  "R_1C8334C4": {
+    "id": "R_1C8334C4",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7573289410139726,
+      "C": 0.9466611762674657,
+      "S": 0.9466611762674657,
+      "A": 0.7573289410139726,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7855,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.738505"
+  },
+  "R_9090C100": {
+    "id": "R_9090C100",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7955084889165231,
+      "C": 0.9943856111456538,
+      "S": 0.9943856111456538,
+      "A": 0.7955084889165231,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8359,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.754113"
+  },
+  "R_82469AF3": {
+    "id": "R_82469AF3",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.5671138781727595,
+      "C": 0.7088923477159493,
+      "S": 0.7088923477159493,
+      "A": 0.5671138781727595,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5982,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.769451"
+  },
+  "R_E84C7D77": {
+    "id": "R_E84C7D77",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7140992987799376,
+      "C": 0.8926241234749219,
+      "S": 0.8926241234749219,
+      "A": 0.7140992987799376,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7494,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.784972"
+  },
+  "R_4CFDA8C3": {
+    "id": "R_4CFDA8C3",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.689697504857916,
+      "C": 0.862121881072395,
+      "S": 0.862121881072395,
+      "A": 0.689697504857916,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7236,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.800722"
+  },
+  "R_014A4FD5": {
+    "id": "R_014A4FD5",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7509766481109501,
+      "C": 0.9387208101386876,
+      "S": 0.9387208101386876,
+      "A": 0.7509766481109501,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7773,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.816428"
+  },
+  "R_2D9EA333": {
+    "id": "R_2D9EA333",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.684250598203676,
+      "C": 0.8553132477545949,
+      "S": 0.8553132477545949,
+      "A": 0.684250598203676,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7179,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.832005"
+  },
+  "R_E71FF212": {
+    "id": "R_E71FF212",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6340922190756018,
+      "C": 0.7926152738445021,
+      "S": 0.7926152738445021,
+      "A": 0.6340922190756018,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6659,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.847766"
+  },
+  "R_90A04154": {
+    "id": "R_90A04154",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7744172068425298,
+      "C": 0.9680215085531622,
+      "S": 0.9680215085531622,
+      "A": 0.7744172068425298,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8079,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.863567"
+  },
+  "R_B2D5D6B4": {
+    "id": "R_B2D5D6B4",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7954064065795268,
+      "C": 0.9942580082244085,
+      "S": 0.9942580082244085,
+      "A": 0.7954064065795268,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8358,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.879354"
+  },
+  "R_1ADABEDE": {
+    "id": "R_1ADABEDE",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7418216702412509,
+      "C": 0.9272770878015636,
+      "S": 0.9272770878015636,
+      "A": 0.7418216702412509,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7655,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.895218"
+  },
+  "R_635D2DAB": {
+    "id": "R_635D2DAB",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.761032428703888,
+      "C": 0.9512905358798599,
+      "S": 0.9512905358798599,
+      "A": 0.761032428703888,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7903,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.911230"
+  },
+  "R_152DDD8E": {
+    "id": "R_152DDD8E",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6433814617041873,
+      "C": 0.8042268271302341,
+      "S": 0.8042268271302341,
+      "A": 0.6433814617041873,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6755,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.927200"
+  },
+  "R_A8116A52": {
+    "id": "R_A8116A52",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7742891863160803,
+      "C": 0.9678614828951004,
+      "S": 0.9678614828951004,
+      "A": 0.7742891863160803,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8077,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.943431"
+  },
+  "R_D417D6F2": {
+    "id": "R_D417D6F2",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7887310864728341,
+      "C": 0.7887310864728341,
+      "S": 0.7887310864728341,
+      "A": 0.9859138580910425,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7733,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.961655"
+  },
+  "R_6D7F396B": {
+    "id": "R_6D7F396B",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7593399927332888,
+      "C": 0.7593399927332888,
+      "S": 0.7593399927332888,
+      "A": 0.949174990916611,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7412,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.977836"
+  },
+  "R_1AD8E7E3": {
+    "id": "R_1AD8E7E3",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7909726538383557,
+      "C": 0.7909726538383557,
+      "S": 0.7909726538383557,
+      "A": 0.9887158172979446,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7758,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:22.997206"
+  },
+  "R_A4E0147C": {
+    "id": "R_A4E0147C",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7628245836130678,
+      "C": 0.7628245836130678,
+      "S": 0.7628245836130678,
+      "A": 0.9535307295163347,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.745,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.015265"
+  },
+  "R_0718EC1A": {
+    "id": "R_0718EC1A",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7315084754371984,
+      "C": 0.7315084754371984,
+      "S": 0.7315084754371984,
+      "A": 0.914385594296498,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7112,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.031939"
+  },
+  "R_993F3FD9": {
+    "id": "R_993F3FD9",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6765795553647966,
+      "C": 0.6765795553647966,
+      "S": 0.6765795553647966,
+      "A": 0.8457244442059958,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6646,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.048717"
+  },
+  "R_56B76D9A": {
+    "id": "R_56B76D9A",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6884358822995273,
+      "C": 0.6884358822995273,
+      "S": 0.6884358822995273,
+      "A": 0.8605448528744091,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.676,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.065475"
+  },
+  "R_A2CF75D3": {
+    "id": "R_A2CF75D3",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7759527973722733,
+      "C": 0.7759527973722733,
+      "S": 0.7759527973722733,
+      "A": 0.9699409967153415,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7593,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.081792"
+  },
+  "R_2A571633": {
+    "id": "R_2A571633",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7238324233789973,
+      "C": 0.7238324233789973,
+      "S": 0.7238324233789973,
+      "A": 0.9047905292237466,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7031,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.098436"
+  },
+  "R_861C5FBB": {
+    "id": "R_861C5FBB",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7161446747369307,
+      "C": 0.7161446747369307,
+      "S": 0.7161446747369307,
+      "A": 0.8951808434211632,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7028,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.114976"
+  },
+  "R_73F70EE3": {
+    "id": "R_73F70EE3",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7600868463108648,
+      "C": 0.7600868463108648,
+      "S": 0.7600868463108648,
+      "A": 0.9501085578885808,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.742,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.131437"
+  },
+  "R_E3BBFB8E": {
+    "id": "R_E3BBFB8E",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.731656350245736,
+      "C": 0.731656350245736,
+      "S": 0.731656350245736,
+      "A": 0.91457043780717,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7114,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.147869"
+  },
+  "R_66A01018": {
+    "id": "R_66A01018",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7648672234459809,
+      "C": 0.7648672234459809,
+      "S": 0.7648672234459809,
+      "A": 0.956084029307476,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7472,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.164690"
+  },
+  "R_C30F7A78": {
+    "id": "R_C30F7A78",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.5792449928944946,
+      "C": 0.5792449928944946,
+      "S": 0.5792449928944946,
+      "A": 0.7240562411181182,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.573,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.181236"
+  },
+  "R_31EB20AC": {
+    "id": "R_31EB20AC",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.793280699007469,
+      "C": 0.793280699007469,
+      "S": 0.793280699007469,
+      "A": 0.9916008737593361,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7784,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.197706"
+  },
+  "R_F08F314E": {
+    "id": "R_F08F314E",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7606460838840566,
+      "C": 0.7606460838840566,
+      "S": 0.7606460838840566,
+      "A": 0.9508076048550708,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7426,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.214570"
+  },
+  "R_FA8FCC30": {
+    "id": "R_FA8FCC30",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7298493126704586,
+      "C": 0.7298493126704586,
+      "S": 0.7298493126704586,
+      "A": 0.9123116408380731,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7095,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.231441"
+  },
+  "R_7992AD08": {
+    "id": "R_7992AD08",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7572802144493208,
+      "C": 0.7572802144493208,
+      "S": 0.7572802144493208,
+      "A": 0.946600268061651,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.739,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.248150"
+  },
+  "R_94A57634": {
+    "id": "R_94A57634",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.778481440589213,
+      "C": 0.778481440589213,
+      "S": 0.778481440589213,
+      "A": 0.9731018007365162,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7621,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.265465"
+  },
+  "R_EBBB610F": {
+    "id": "R_EBBB610F",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7860827984436505,
+      "C": 0.7860827984436505,
+      "S": 0.7860827984436505,
+      "A": 0.982603498054563,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7704,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.282412"
+  },
+  "R_F052DDF0": {
+    "id": "R_F052DDF0",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7274951597436452,
+      "C": 0.7274951597436452,
+      "S": 0.7274951597436452,
+      "A": 0.9093689496795564,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.707,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.299439"
+  },
+  "R_4317C026": {
+    "id": "R_4317C026",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7908756991147927,
+      "C": 0.7908756991147927,
+      "S": 0.7908756991147927,
+      "A": 0.9885946238934908,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7757,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.316681"
+  },
+  "R_BC76DFE4": {
+    "id": "R_BC76DFE4",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7225498577466193,
+      "C": 0.7225498577466193,
+      "S": 0.7225498577466193,
+      "A": 0.903187322183274,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7017,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.333664"
+  },
+  "R_BACC0882": {
+    "id": "R_BACC0882",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7834482154365077,
+      "C": 0.7834482154365077,
+      "S": 0.7834482154365077,
+      "A": 0.9793102692956345,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7675,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.350863"
+  },
+  "R_B16A1BAC": {
+    "id": "R_B16A1BAC",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7361669577530606,
+      "C": 0.7361669577530606,
+      "S": 0.7361669577530606,
+      "A": 0.9202086971913257,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7162,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.368233"
+  },
+  "R_879A52C6": {
+    "id": "R_879A52C6",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6491042878076364,
+      "C": 0.6491042878076364,
+      "S": 0.6491042878076364,
+      "A": 0.8113803597595455,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6384,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.385398"
+  },
+  "R_13FF7113": {
+    "id": "R_13FF7113",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.78832852010532,
+      "C": 0.78832852010532,
+      "S": 0.78832852010532,
+      "A": 0.9854106501316499,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7729,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.402900"
+  },
+  "R_0FAA442C": {
+    "id": "R_0FAA442C",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7136140641289955,
+      "C": 0.7136140641289955,
+      "S": 0.7136140641289955,
+      "A": 0.8920175801612443,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7004,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.420765"
+  },
+  "R_A0798AD4": {
+    "id": "R_A0798AD4",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7675873762803221,
+      "C": 0.7675873762803221,
+      "S": 0.7675873762803221,
+      "A": 0.9594842203504026,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7502,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.444559"
+  },
+  "R_55AE0EFF": {
+    "id": "R_55AE0EFF",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7420312023558052,
+      "C": 0.7420312023558052,
+      "S": 0.7420312023558052,
+      "A": 0.9275390029447564,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7225,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.462225"
+  },
+  "R_C0DF9099": {
+    "id": "R_C0DF9099",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7954155942489799,
+      "C": 0.7954155942489799,
+      "S": 0.7954155942489799,
+      "A": 0.9942694928112248,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7807,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.480013"
+  },
+  "R_1760CF12": {
+    "id": "R_1760CF12",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7457961103626267,
+      "C": 0.7457961103626267,
+      "S": 0.7457961103626267,
+      "A": 0.9322451379532833,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7266,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.497734"
+  },
+  "R_3D479E1A": {
+    "id": "R_3D479E1A",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7999085739050092,
+      "C": 0.7999085739050092,
+      "S": 0.7999085739050092,
+      "A": 0.9998857173812615,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7857,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.516283"
+  },
+  "R_15C283D1": {
+    "id": "R_15C283D1",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7895930975801637,
+      "C": 0.7895930975801637,
+      "S": 0.7895930975801637,
+      "A": 0.9869913719752046,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7743,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.533889"
+  },
+  "R_B55B6DD8": {
+    "id": "R_B55B6DD8",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7766845370598073,
+      "C": 0.7766845370598073,
+      "S": 0.7766845370598073,
+      "A": 0.9708556713247591,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7601,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.551650"
+  },
+  "R_6AB00B95": {
+    "id": "R_6AB00B95",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7785837813824769,
+      "C": 0.7785837813824769,
+      "S": 0.7785837813824769,
+      "A": 0.973229726728096,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7622,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.569501"
+  },
+  "R_F465099D": {
+    "id": "R_F465099D",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7553118920282824,
+      "C": 0.7553118920282824,
+      "S": 0.7553118920282824,
+      "A": 0.944139865035353,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7368,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.587318"
+  },
+  "R_898926F7": {
+    "id": "R_898926F7",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7718058231658682,
+      "C": 0.7718058231658682,
+      "S": 0.7718058231658682,
+      "A": 0.9647572789573352,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7548,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.605095"
+  },
+  "R_91A406AA": {
+    "id": "R_91A406AA",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.661217970332135,
+      "C": 0.661217970332135,
+      "S": 0.661217970332135,
+      "A": 0.8265224629151687,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6499,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.623293"
+  },
+  "R_56CAC77B": {
+    "id": "R_56CAC77B",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7496031521385326,
+      "C": 0.7496031521385326,
+      "S": 0.7496031521385326,
+      "A": 0.9370039401731657,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7307,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.641189"
+  },
+  "R_16330AB8": {
+    "id": "R_16330AB8",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7835262024664008,
+      "C": 0.7835262024664008,
+      "S": 0.7835262024664008,
+      "A": 0.979407753083001,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7676,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.659136"
+  },
+  "R_500D6E71": {
+    "id": "R_500D6E71",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7999199984996487,
+      "C": 0.7999199984996487,
+      "S": 0.7999199984996487,
+      "A": 0.9998999981245608,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7857,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.677036"
+  },
+  "R_C7835B82": {
+    "id": "R_C7835B82",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7183699725630911,
+      "C": 0.7183699725630911,
+      "S": 0.7183699725630911,
+      "A": 0.8979624657038638,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.705,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.695078"
+  },
+  "R_95FCC525": {
+    "id": "R_95FCC525",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6067141116058532,
+      "C": 0.6067141116058532,
+      "S": 0.6067141116058532,
+      "A": 0.7583926395073164,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5985,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.713284"
+  },
+  "R_F8BA05D2": {
+    "id": "R_F8BA05D2",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.5626121119160653,
+      "C": 0.5626121119160653,
+      "S": 0.7032651398950817,
+      "A": 0.5626121119160653,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5602,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.734623"
+  },
+  "R_785095DB": {
+    "id": "R_785095DB",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7221441394341556,
+      "C": 0.7221441394341556,
+      "S": 0.9026801742926944,
+      "A": 0.7221441394341556,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7037,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.753099"
+  },
+  "R_EB229515": {
+    "id": "R_EB229515",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.5648746057164884,
+      "C": 0.5648746057164884,
+      "S": 0.7060932571456104,
+      "A": 0.5648746057164884,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.5622,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.771555"
+  },
+  "R_AE80FEBF": {
+    "id": "R_AE80FEBF",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7988894875833431,
+      "C": 0.7988894875833431,
+      "S": 0.9986118594791789,
+      "A": 0.7988894875833431,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7883,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.789775"
+  },
+  "R_777327C9": {
+    "id": "R_777327C9",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7868968597360219,
+      "C": 0.7868968597360219,
+      "S": 0.9836210746700272,
+      "A": 0.7868968597360219,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7748,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.808143"
+  },
+  "R_17F0806B": {
+    "id": "R_17F0806B",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.791882727905181,
+      "C": 0.791882727905181,
+      "S": 0.9898534098814762,
+      "A": 0.791882727905181,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7804,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.826633"
+  },
+  "R_DD405512": {
+    "id": "R_DD405512",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7908284058833328,
+      "C": 0.7908284058833328,
+      "S": 0.988535507354166,
+      "A": 0.7908284058833328,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7792,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.845013"
+  },
+  "R_E3A3B764": {
+    "id": "R_E3A3B764",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7871430553317532,
+      "C": 0.7871430553317532,
+      "S": 0.9839288191646914,
+      "A": 0.7871430553317532,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7751,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.863422"
+  },
+  "R_2409E781": {
+    "id": "R_2409E781",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7787848572311206,
+      "C": 0.7787848572311206,
+      "S": 0.9734810715389006,
+      "A": 0.7787848572311206,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7658,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.881888"
+  },
+  "R_66B0FE4B": {
+    "id": "R_66B0FE4B",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.785176347302035,
+      "C": 0.785176347302035,
+      "S": 0.9814704341275438,
+      "A": 0.785176347302035,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7729,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.900418"
+  },
+  "R_DB71DCA7": {
+    "id": "R_DB71DCA7",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6923934402904494,
+      "C": 0.6923934402904494,
+      "S": 0.8654918003630616,
+      "A": 0.6923934402904494,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6829,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.919023"
+  },
+  "R_ED8A288E": {
+    "id": "R_ED8A288E",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.757125121526386,
+      "C": 0.757125121526386,
+      "S": 0.9464064019079824,
+      "A": 0.757125121526386,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7418,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.937759"
+  },
+  "R_01A1CEE6": {
+    "id": "R_01A1CEE6",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.6528534156521162,
+      "C": 0.6528534156521162,
+      "S": 0.8160667695651451,
+      "A": 0.6528534156521162,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6448,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.956457"
+  },
+  "R_7C6AE002": {
+    "id": "R_7C6AE002",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6468633291572581,
+      "C": 0.6468633291572581,
+      "S": 0.8085791614465725,
+      "A": 0.6468633291572581,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6391,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.975813"
+  },
+  "R_8A5B3E1C": {
+    "id": "R_8A5B3E1C",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7551158122944304,
+      "C": 0.7551158122944304,
+      "S": 0.9438947653680378,
+      "A": 0.7551158122944304,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7396,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:23.994459"
+  },
+  "R_F5BC847F": {
+    "id": "R_F5BC847F",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6267716727267845,
+      "C": 0.6267716727267845,
+      "S": 0.7834645909084805,
+      "A": 0.6267716727267845,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.62,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.013198"
+  },
+  "R_9543296A": {
+    "id": "R_9543296A",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6879786851002049,
+      "C": 0.6879786851002049,
+      "S": 0.8599733563752561,
+      "A": 0.6879786851002049,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6786,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.032073"
+  },
+  "R_64AEC9ED": {
+    "id": "R_64AEC9ED",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7764416596625042,
+      "C": 0.7764416596625042,
+      "S": 0.9705520745781302,
+      "A": 0.7764416596625042,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7632,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.050904"
+  },
+  "R_021CCBAE": {
+    "id": "R_021CCBAE",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7721192571403699,
+      "C": 0.7721192571403699,
+      "S": 0.9651490714254622,
+      "A": 0.7721192571403699,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7584,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.070053"
+  },
+  "R_E8217ABD": {
+    "id": "R_E8217ABD",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7812509756252589,
+      "C": 0.7812509756252589,
+      "S": 0.9765637195315736,
+      "A": 0.7812509756252589,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7685,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.089321"
+  },
+  "R_AB345A18": {
+    "id": "R_AB345A18",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7940125229264497,
+      "C": 0.7940125229264497,
+      "S": 0.9925156536580622,
+      "A": 0.7940125229264497,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7828,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.108533"
+  },
+  "R_C3CF7D37": {
+    "id": "R_C3CF7D37",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7497669709272972,
+      "C": 0.7497669709272972,
+      "S": 0.9372087136591214,
+      "A": 0.7497669709272972,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7337,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.127866"
+  },
+  "R_7CEAD5B1": {
+    "id": "R_7CEAD5B1",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7286603349233047,
+      "C": 0.7286603349233047,
+      "S": 0.9108254186541309,
+      "A": 0.7286603349233047,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7108,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.147319"
+  },
+  "R_00F09155": {
+    "id": "R_00F09155",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7871847974083059,
+      "C": 0.7871847974083059,
+      "S": 0.9839809967603824,
+      "A": 0.7871847974083059,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7752,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.166638"
+  },
+  "R_71ED026C": {
+    "id": "R_71ED026C",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7853946694798379,
+      "C": 0.7853946694798379,
+      "S": 0.9817433368497973,
+      "A": 0.7853946694798379,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7732,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.186148"
+  },
+  "R_D52882F3": {
+    "id": "R_D52882F3",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7382622633290428,
+      "C": 0.7382622633290428,
+      "S": 0.9228278291613035,
+      "A": 0.7382622633290428,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7212,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.205535"
+  },
+  "R_3F093915": {
+    "id": "R_3F093915",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7453787448971951,
+      "C": 0.7453787448971951,
+      "S": 0.9317234311214938,
+      "A": 0.7453787448971951,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7289,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.225105"
+  },
+  "R_3118E076": {
+    "id": "R_3118E076",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7580456690372996,
+      "C": 0.7580456690372996,
+      "S": 0.9475570862966245,
+      "A": 0.7580456690372996,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7428,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.244661"
+  },
+  "R_48724517": {
+    "id": "R_48724517",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7708617781245896,
+      "C": 0.7708617781245896,
+      "S": 0.9635772226557369,
+      "A": 0.7708617781245896,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.757,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.264258"
+  },
+  "R_FF5E334B": {
+    "id": "R_FF5E334B",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7284558767539445,
+      "C": 0.7284558767539445,
+      "S": 0.9105698459424306,
+      "A": 0.7284558767539445,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7106,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.284521"
+  },
+  "R_FA71E4E9": {
+    "id": "R_FA71E4E9",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7338748636234458,
+      "C": 0.7338748636234458,
+      "S": 0.9173435795293072,
+      "A": 0.7338748636234458,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7164,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.304408"
+  },
+  "R_1D412362": {
+    "id": "R_1D412362",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.791374785205225,
+      "C": 0.791374785205225,
+      "S": 0.9892184815065311,
+      "A": 0.791374785205225,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7798,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.324277"
+  },
+  "R_3CFF6F52": {
+    "id": "R_3CFF6F52",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9913454410174096,
+      "C": 0.7930763528139277,
+      "S": 0.7930763528139277,
+      "A": 0.7930763528139277,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8046,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.346588"
+  },
+  "R_733D7EEA": {
+    "id": "R_733D7EEA",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9598411595187266,
+      "C": 0.7678729276149814,
+      "S": 0.7678729276149814,
+      "A": 0.7678729276149814,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7762,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.366409"
+  },
+  "R_F1B70086": {
+    "id": "R_F1B70086",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9607942989678449,
+      "C": 0.7686354391742759,
+      "S": 0.7686354391742759,
+      "A": 0.7686354391742759,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7771,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.386233"
+  },
+  "R_ED5D19E7": {
+    "id": "R_ED5D19E7",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9546023478563522,
+      "C": 0.7636818782850818,
+      "S": 0.7636818782850818,
+      "A": 0.7636818782850818,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7715,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.406227"
+  },
+  "R_AFECE668": {
+    "id": "R_AFECE668",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9369111046881738,
+      "C": 0.7495288837505392,
+      "S": 0.7495288837505392,
+      "A": 0.7495288837505392,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7558,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.426200"
+  },
+  "R_46E4F6B5": {
+    "id": "R_46E4F6B5",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9453722785052328,
+      "C": 0.7562978228041862,
+      "S": 0.7562978228041862,
+      "A": 0.7562978228041862,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7633,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.446252"
+  },
+  "R_76206AF0": {
+    "id": "R_76206AF0",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9205825603505351,
+      "C": 0.7364660482804282,
+      "S": 0.7364660482804282,
+      "A": 0.7364660482804282,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7414,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.466234"
+  },
+  "R_DB837574": {
+    "id": "R_DB837574",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8178065288118087,
+      "C": 0.654245223049447,
+      "S": 0.654245223049447,
+      "A": 0.654245223049447,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6662,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.486486"
+  },
+  "R_826A8B53": {
+    "id": "R_826A8B53",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8421313151606776,
+      "C": 0.6737050521285421,
+      "S": 0.6737050521285421,
+      "A": 0.6737050521285421,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6852,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.506881"
+  },
+  "R_49AFBF3C": {
+    "id": "R_49AFBF3C",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9408731683660637,
+      "C": 0.752698534692851,
+      "S": 0.752698534692851,
+      "A": 0.752698534692851,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7593,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.527729"
+  },
+  "R_9C9C150D": {
+    "id": "R_9C9C150D",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9681460624177753,
+      "C": 0.7745168499342203,
+      "S": 0.7745168499342203,
+      "A": 0.7745168499342203,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7836,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.548126"
+  },
+  "R_D2EA8BF7": {
+    "id": "R_D2EA8BF7",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9868202015258238,
+      "C": 0.7894561612206591,
+      "S": 0.7894561612206591,
+      "A": 0.7894561612206591,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8005,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.568410"
+  },
+  "R_0D7383B7": {
+    "id": "R_0D7383B7",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9953327471513042,
+      "C": 0.7962661977210433,
+      "S": 0.7962661977210433,
+      "A": 0.7962661977210433,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8082,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.589568"
+  },
+  "R_4CDB8B4C": {
+    "id": "R_4CDB8B4C",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9832947712391299,
+      "C": 0.7866358169913039,
+      "S": 0.7866358169913039,
+      "A": 0.7866358169913039,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7973,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.610207"
+  },
+  "R_332B3C8A": {
+    "id": "R_332B3C8A",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9886738176071735,
+      "C": 0.7909390540857388,
+      "S": 0.7909390540857388,
+      "A": 0.7909390540857388,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8021,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.630542"
+  },
+  "R_23D32A74": {
+    "id": "R_23D32A74",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9932632977519041,
+      "C": 0.7946106382015233,
+      "S": 0.7946106382015233,
+      "A": 0.7946106382015233,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8063,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.651365"
+  },
+  "R_B4B537C0": {
+    "id": "R_B4B537C0",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8275765286404806,
+      "C": 0.6620612229123846,
+      "S": 0.6620612229123846,
+      "A": 0.6620612229123846,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6738,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.671836"
+  },
+  "R_AE93B60E": {
+    "id": "R_AE93B60E",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9783984958373353,
+      "C": 0.7827187966698683,
+      "S": 0.7827187966698683,
+      "A": 0.7827187966698683,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7929,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.692503"
+  },
+  "R_4061C405": {
+    "id": "R_4061C405",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9039390654930162,
+      "C": 0.723151252394413,
+      "S": 0.723151252394413,
+      "A": 0.723151252394413,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7269,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.713064"
+  },
+  "R_139D8691": {
+    "id": "R_139D8691",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9589464408968807,
+      "C": 0.7671571527175046,
+      "S": 0.7671571527175046,
+      "A": 0.7671571527175046,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7754,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.734144"
+  },
+  "R_17D8F3F9": {
+    "id": "R_17D8F3F9",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9799036470129076,
+      "C": 0.7839229176103261,
+      "S": 0.7839229176103261,
+      "A": 0.7839229176103261,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7942,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.754988"
+  },
+  "R_9FABE956": {
+    "id": "R_9FABE956",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8672144746484831,
+      "C": 0.6937715797187866,
+      "S": 0.6937715797187866,
+      "A": 0.6937715797187866,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.705,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.775716"
+  },
+  "R_C54FF8AE": {
+    "id": "R_C54FF8AE",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.889808701940944,
+      "C": 0.7118469615527552,
+      "S": 0.7118469615527552,
+      "A": 0.7118469615527552,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.723,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.796675"
+  },
+  "R_917EE972": {
+    "id": "R_917EE972",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8230177745931071,
+      "C": 0.6584142196744858,
+      "S": 0.6584142196744858,
+      "A": 0.6584142196744858,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6702,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.817490"
+  },
+  "R_68F9C152": {
+    "id": "R_68F9C152",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9690763484122235,
+      "C": 0.7752610787297788,
+      "S": 0.7752610787297788,
+      "A": 0.7752610787297788,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7845,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.838453"
+  },
+  "R_E3FC5049": {
+    "id": "R_E3FC5049",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8740229845410606,
+      "C": 0.6992183876328486,
+      "S": 0.6992183876328486,
+      "A": 0.6992183876328486,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7104,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.859340"
+  },
+  "R_7D8C66CB": {
+    "id": "R_7D8C66CB",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9376613689895169,
+      "C": 0.7501290951916135,
+      "S": 0.7501290951916135,
+      "A": 0.7501290951916135,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7565,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.880205"
+  },
+  "R_C49A6CC4": {
+    "id": "R_C49A6CC4",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9944786044209176,
+      "C": 0.7955828835367341,
+      "S": 0.7955828835367341,
+      "A": 0.7955828835367341,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8074,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.901366"
+  },
+  "R_95B6094B": {
+    "id": "R_95B6094B",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9519036516600737,
+      "C": 0.761522921328059,
+      "S": 0.761522921328059,
+      "A": 0.761522921328059,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7691,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.922425"
+  },
+  "R_8EBE0A73": {
+    "id": "R_8EBE0A73",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9435167420991756,
+      "C": 0.7548133936793405,
+      "S": 0.7548133936793405,
+      "A": 0.7548133936793405,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7617,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.943532"
+  },
+  "R_DBA5959D": {
+    "id": "R_DBA5959D",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B3_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9221264587194336,
+      "C": 0.7377011669755469,
+      "S": 0.7377011669755469,
+      "A": 0.7377011669755469,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7428,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:47:24.964627"
+  },
+  "R_ABFE69CA": {
+    "id": "R_ABFE69CA",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9984951681671523,
+      "C": 0.7987961345337219,
+      "S": 0.7987961345337219,
+      "A": 0.7987961345337219,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8111,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.752545"
+  },
+  "R_1AAC6198": {
+    "id": "R_1AAC6198",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9839420764524665,
+      "C": 0.7871536611619732,
+      "S": 0.7871536611619732,
+      "A": 0.7871536611619732,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7979,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.780485"
+  },
+  "R_51DBCEE7": {
+    "id": "R_51DBCEE7",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9891340468658958,
+      "C": 0.7913072374927167,
+      "S": 0.7913072374927167,
+      "A": 0.7913072374927167,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8026,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.802062"
+  },
+  "R_26147629": {
+    "id": "R_26147629",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9372935859866602,
+      "C": 0.7498348687893283,
+      "S": 0.7498348687893283,
+      "A": 0.7498348687893283,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7561,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.824996"
+  },
+  "R_717FCDC4": {
+    "id": "R_717FCDC4",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9844282788721244,
+      "C": 0.7875426230976995,
+      "S": 0.7875426230976995,
+      "A": 0.7875426230976995,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7983,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.847190"
+  },
+  "R_7BB936FA": {
+    "id": "R_7BB936FA",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9860945676738131,
+      "C": 0.7888756541390505,
+      "S": 0.7888756541390505,
+      "A": 0.7888756541390505,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7998,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.869191"
+  },
+  "R_12D33206": {
+    "id": "R_12D33206",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B3_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9688360871366393,
+      "C": 0.7750688697093114,
+      "S": 0.7750688697093114,
+      "A": 0.7750688697093114,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7843,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.899079"
+  },
+  "R_31915656": {
+    "id": "R_31915656",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B3_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8610554770309008,
+      "C": 0.6888443816247207,
+      "S": 0.6888443816247207,
+      "A": 0.6888443816247207,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7001,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.921842"
+  },
+  "R_506B10AC": {
+    "id": "R_506B10AC",
+    "content": "D:STRATEGIC T:Boofa-Skiler achievement protocol_B3_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.985358781638231,
+      "C": 0.7882870253105848,
+      "S": 0.7882870253105848,
+      "A": 0.7882870253105848,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7991,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.943735"
+  },
+  "R_B482C5C8": {
+    "id": "R_B482C5C8",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6499395057607081,
+      "C": 0.8124243822008851,
+      "S": 0.8124243822008851,
+      "A": 0.6499395057607081,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6822,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:43.979884"
+  },
+  "R_D74C9351": {
+    "id": "R_D74C9351",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B0_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7400961466985363,
+      "C": 0.9251201833731703,
+      "S": 0.9251201833731703,
+      "A": 0.7400961466985363,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7633,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.006681"
+  },
+  "R_A33C2E0C": {
+    "id": "R_A33C2E0C",
+    "content": "D:TECHNICAL T:Boofa-Skiler achievement protocol_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.713163122974351,
+      "C": 0.8914539037179388,
+      "S": 0.8914539037179388,
+      "A": 0.713163122974351,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7484,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.029751"
+  },
+  "R_BC2494D6": {
+    "id": "R_BC2494D6",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7654481383186101,
+      "C": 0.7654481383186101,
+      "S": 0.7654481383186101,
+      "A": 0.9568101728982626,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7478,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.060474"
+  },
+  "R_DBFE2A70": {
+    "id": "R_DBFE2A70",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7830232194750152,
+      "C": 0.7830232194750152,
+      "S": 0.7830232194750152,
+      "A": 0.978779024343769,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7671,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.083180"
+  },
+  "R_70ACC1F7": {
+    "id": "R_70ACC1F7",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7941850114770479,
+      "C": 0.7941850114770479,
+      "S": 0.7941850114770479,
+      "A": 0.9927312643463099,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7794,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.108920"
+  },
+  "R_68E5A84E": {
+    "id": "R_68E5A84E",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B0_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.794607424130934,
+      "C": 0.794607424130934,
+      "S": 0.794607424130934,
+      "A": 0.9932592801636674,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7798,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.130940"
+  },
+  "R_7A88B6B7": {
+    "id": "R_7A88B6B7",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7935990007832668,
+      "C": 0.7935990007832668,
+      "S": 0.7935990007832668,
+      "A": 0.9919987509790835,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7787,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.153169"
+  },
+  "R_3D9ADA52": {
+    "id": "R_3D9ADA52",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7025908758919202,
+      "C": 0.7025908758919202,
+      "S": 0.7025908758919202,
+      "A": 0.8782385948649001,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6896,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.176223"
+  },
+  "R_B1BB4509": {
+    "id": "R_B1BB4509",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7996021892604314,
+      "C": 0.7996021892604314,
+      "S": 0.7996021892604314,
+      "A": 0.9995027365755391,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7854,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.198384"
+  },
+  "R_8353C6D7": {
+    "id": "R_8353C6D7",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7927684551949221,
+      "C": 0.7927684551949221,
+      "S": 0.7927684551949221,
+      "A": 0.9909605689936526,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7778,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.220847"
+  },
+  "R_741C4A24": {
+    "id": "R_741C4A24",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.79292091544323,
+      "C": 0.79292091544323,
+      "S": 0.79292091544323,
+      "A": 0.9911511443040374,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.778,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.247755"
+  },
+  "R_D2AD55C1": {
+    "id": "R_D2AD55C1",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6961703715344969,
+      "C": 0.6961703715344969,
+      "S": 0.6961703715344969,
+      "A": 0.870212964418121,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6834,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.270443"
+  },
+  "R_24775885": {
+    "id": "R_24775885",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7057433515540076,
+      "C": 0.7057433515540076,
+      "S": 0.7057433515540076,
+      "A": 0.8821791894425094,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6927,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.293437"
+  },
+  "R_D519E7CE": {
+    "id": "R_D519E7CE",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7312841460420008,
+      "C": 0.7312841460420008,
+      "S": 0.7312841460420008,
+      "A": 0.9141051825525008,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.711,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.318246"
+  },
+  "R_66FE1B17": {
+    "id": "R_66FE1B17",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7786479422072708,
+      "C": 0.7786479422072708,
+      "S": 0.7786479422072708,
+      "A": 0.9733099277590885,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7623,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.341369"
+  },
+  "R_18B79143": {
+    "id": "R_18B79143",
+    "content": "D:ETHICAL T:Boofa-Skiler achievement protocol_B3_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7552636193934822,
+      "C": 0.7552636193934822,
+      "S": 0.7552636193934822,
+      "A": 0.9440795242418527,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7368,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.364177"
+  },
+  "R_A6C6987F": {
+    "id": "R_A6C6987F",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7714278910550558,
+      "C": 0.7714278910550558,
+      "S": 0.9642848638188197,
+      "A": 0.7714278910550558,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7576,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.388766"
+  },
+  "R_4D2DE3D8": {
+    "id": "R_4D2DE3D8",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7397764877970512,
+      "C": 0.7397764877970512,
+      "S": 0.9247206097463139,
+      "A": 0.7397764877970512,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7228,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.411675"
+  },
+  "R_014EA1C7": {
+    "id": "R_014EA1C7",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7996070529545205,
+      "C": 0.7996070529545205,
+      "S": 0.9995088161931506,
+      "A": 0.7996070529545205,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7891,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.435028"
+  },
+  "R_2F437FAF": {
+    "id": "R_2F437FAF",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7845659899738855,
+      "C": 0.7845659899738855,
+      "S": 0.9807074874673568,
+      "A": 0.7845659899738855,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7722,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.461865"
+  },
+  "R_814F08CE": {
+    "id": "R_814F08CE",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7641947837313223,
+      "C": 0.7641947837313223,
+      "S": 0.9552434796641529,
+      "A": 0.7641947837313223,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7496,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.484623"
+  },
+  "R_15276792": {
+    "id": "R_15276792",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7439908910404479,
+      "C": 0.7439908910404479,
+      "S": 0.9299886138005599,
+      "A": 0.7439908910404479,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7274,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.507846"
+  },
+  "R_13D351C1": {
+    "id": "R_13D351C1",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7442233196260166,
+      "C": 0.7442233196260166,
+      "S": 0.9302791495325208,
+      "A": 0.7442233196260166,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7277,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.531159"
+  },
+  "R_2F3811A2": {
+    "id": "R_2F3811A2",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B2_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.6586180127982134,
+      "C": 0.6586180127982134,
+      "S": 0.8232725159977667,
+      "A": 0.6586180127982134,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6503,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.554141"
+  },
+  "R_1317E6A2": {
+    "id": "R_1317E6A2",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7929182253136753,
+      "C": 0.7929182253136753,
+      "S": 0.991147781642094,
+      "A": 0.7929182253136753,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7816,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.577535"
+  },
+  "R_0683E9C1": {
+    "id": "R_0683E9C1",
+    "content": "D:CONSCIOUSNESS T:Boofa-Skiler achievement protocol_B3_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7965215124047452,
+      "C": 0.7965215124047452,
+      "S": 0.9956518905059315,
+      "A": 0.7965215124047452,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7856,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.609109"
+  },
+  "R_7436CB30": {
+    "id": "R_7436CB30",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.8490031506153477,
+      "C": 0.6792025204922782,
+      "S": 0.6792025204922782,
+      "A": 0.6792025204922782,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6906,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.639366"
+  },
+  "R_803F018F": {
+    "id": "R_803F018F",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9306450742505107,
+      "C": 0.7445160594004085,
+      "S": 0.7445160594004085,
+      "A": 0.7445160594004085,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7503,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.662778"
+  },
+  "R_1BA42CB5": {
+    "id": "R_1BA42CB5",
+    "content": "D:VISION T:Boofa-Skiler achievement protocol_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.971276883062338,
+      "C": 0.7770215064498704,
+      "S": 0.7770215064498704,
+      "A": 0.7770215064498704,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7864,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:44.691081"
+  },
+  "R_FAFC4764": {
+    "id": "R_FAFC4764",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.934550248432757,
+      "C": 0.7476401987462057,
+      "S": 0.7476401987462057,
+      "A": 0.7476401987462057,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7537,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.743572"
+  },
+  "R_9628AB9C": {
+    "id": "R_9628AB9C",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9883674579635313,
+      "C": 0.7906939663708251,
+      "S": 0.7906939663708251,
+      "A": 0.7906939663708251,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8019,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.767596"
+  },
+  "R_90350B19": {
+    "id": "R_90350B19",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9424964601271862,
+      "C": 0.753997168101749,
+      "S": 0.753997168101749,
+      "A": 0.753997168101749,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7608,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.791770"
+  },
+  "R_D886FB95": {
+    "id": "R_D886FB95",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9833865791328943,
+      "C": 0.7867092633063155,
+      "S": 0.7867092633063155,
+      "A": 0.7867092633063155,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7974,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.815251"
+  },
+  "R_DBD82870": {
+    "id": "R_DBD82870",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9971551115963541,
+      "C": 0.7977240892770833,
+      "S": 0.7977240892770833,
+      "A": 0.7977240892770833,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8098,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.838517"
+  },
+  "R_4A314CD8": {
+    "id": "R_4A314CD8",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9838400922424259,
+      "C": 0.7870720737939407,
+      "S": 0.7870720737939407,
+      "A": 0.7870720737939407,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7978,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.862554"
+  },
+  "R_DAFCF73C": {
+    "id": "R_DAFCF73C",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8768145886092497,
+      "C": 0.7014516708873998,
+      "S": 0.7014516708873998,
+      "A": 0.7014516708873998,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7126,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.887056"
+  },
+  "R_9F4019FA": {
+    "id": "R_9F4019FA",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9863572526973784,
+      "C": 0.7890858021579028,
+      "S": 0.7890858021579028,
+      "A": 0.7890858021579028,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.910596"
+  },
+  "R_DEA807B8": {
+    "id": "R_DEA807B8",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9773701964928804,
+      "C": 0.7818961571943044,
+      "S": 0.7818961571943044,
+      "A": 0.7818961571943044,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7919,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.938315"
+  },
+  "R_16E76310": {
+    "id": "R_16E76310",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9870840493583901,
+      "C": 0.7896672394867121,
+      "S": 0.7896672394867121,
+      "A": 0.7896672394867121,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8007,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.962633"
+  },
+  "R_B3BE599C": {
+    "id": "R_B3BE599C",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9781457968765395,
+      "C": 0.7825166375012316,
+      "S": 0.7825166375012316,
+      "A": 0.7825166375012316,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7926,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:46.986351"
+  },
+  "R_C04C3462": {
+    "id": "R_C04C3462",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9252509364972247,
+      "C": 0.7402007491977798,
+      "S": 0.7402007491977798,
+      "A": 0.7402007491977798,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7455,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.010168"
+  },
+  "R_A19089E4": {
+    "id": "R_A19089E4",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9416697713981396,
+      "C": 0.7533358171185117,
+      "S": 0.7533358171185117,
+      "A": 0.7533358171185117,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.76,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.034128"
+  },
+  "R_990E5DBF": {
+    "id": "R_990E5DBF",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9125953375938093,
+      "C": 0.7300762700750475,
+      "S": 0.7300762700750475,
+      "A": 0.7300762700750475,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7344,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.057761"
+  },
+  "R_0FF47D58": {
+    "id": "R_0FF47D58",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9878237147548399,
+      "C": 0.790258971803872,
+      "S": 0.790258971803872,
+      "A": 0.790258971803872,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8014,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.081517"
+  },
+  "R_ACCE7F7A": {
+    "id": "R_ACCE7F7A",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9159573442453735,
+      "C": 0.7327658753962988,
+      "S": 0.7327658753962988,
+      "A": 0.7327658753962988,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7374,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.105178"
+  },
+  "R_17B4328D": {
+    "id": "R_17B4328D",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9474980301905132,
+      "C": 0.7579984241524106,
+      "S": 0.7579984241524106,
+      "A": 0.7579984241524106,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7652,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.129323"
+  },
+  "R_C19D5818": {
+    "id": "R_C19D5818",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9889481327509362,
+      "C": 0.791158506200749,
+      "S": 0.791158506200749,
+      "A": 0.791158506200749,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8024,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.153622"
+  },
+  "R_C0638DED": {
+    "id": "R_C0638DED",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9273975427424184,
+      "C": 0.7419180341939348,
+      "S": 0.7419180341939348,
+      "A": 0.7419180341939348,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7474,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.181878"
+  },
+  "R_EFC1C4B7": {
+    "id": "R_EFC1C4B7",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.87452761933461,
+      "C": 0.699622095467688,
+      "S": 0.699622095467688,
+      "A": 0.699622095467688,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7108,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.205597"
+  },
+  "R_BEC77C2E": {
+    "id": "R_BEC77C2E",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9065045731997612,
+      "C": 0.725203658559809,
+      "S": 0.725203658559809,
+      "A": 0.725203658559809,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7291,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.229329"
+  },
+  "R_604CB9E2": {
+    "id": "R_604CB9E2",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.891598135876664,
+      "C": 0.7132785087013312,
+      "S": 0.7132785087013312,
+      "A": 0.7132785087013312,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7244,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.253530"
+  },
+  "R_C6831238": {
+    "id": "R_C6831238",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9885831940327986,
+      "C": 0.7908665552262389,
+      "S": 0.7908665552262389,
+      "A": 0.7908665552262389,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8021,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.282110"
+  },
+  "R_73061449": {
+    "id": "R_73061449",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9969960695895485,
+      "C": 0.7975968556716388,
+      "S": 0.7975968556716388,
+      "A": 0.7975968556716388,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8097,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.306356"
+  },
+  "R_784ACC2C": {
+    "id": "R_784ACC2C",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.88930019935991,
+      "C": 0.711440159487928,
+      "S": 0.711440159487928,
+      "A": 0.711440159487928,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7226,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.331018"
+  },
+  "R_8264E8C2": {
+    "id": "R_8264E8C2",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9934697849518281,
+      "C": 0.7947758279614625,
+      "S": 0.7947758279614625,
+      "A": 0.7947758279614625,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8065,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.355373"
+  },
+  "R_F3EE44FF": {
+    "id": "R_F3EE44FF",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9786614460632406,
+      "C": 0.7829291568505925,
+      "S": 0.7829291568505925,
+      "A": 0.7829291568505925,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7931,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.380117"
+  },
+  "R_CEA7D3F5": {
+    "id": "R_CEA7D3F5",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8737047609189589,
+      "C": 0.6989638087351672,
+      "S": 0.6989638087351672,
+      "A": 0.6989638087351672,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7102,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.404722"
+  },
+  "R_3E5BAF45": {
+    "id": "R_3E5BAF45",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9671289077593863,
+      "C": 0.7737031262075091,
+      "S": 0.7737031262075091,
+      "A": 0.7737031262075091,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7827,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.428805"
+  },
+  "R_03C16CA4": {
+    "id": "R_03C16CA4",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9543141413320316,
+      "C": 0.7634513130656253,
+      "S": 0.7634513130656253,
+      "A": 0.7634513130656253,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7713,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.457227"
+  },
+  "R_71565CCB": {
+    "id": "R_71565CCB",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8986043913343734,
+      "C": 0.7188835130674988,
+      "S": 0.7188835130674988,
+      "A": 0.7188835130674988,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.73,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.481732"
+  },
+  "R_885B90AD": {
+    "id": "R_885B90AD",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9604669069769154,
+      "C": 0.7683735255815324,
+      "S": 0.7683735255815324,
+      "A": 0.7683735255815324,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7768,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.506764"
+  },
+  "R_FE1CBAB7": {
+    "id": "R_FE1CBAB7",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8465958406467,
+      "C": 0.67727667251736,
+      "S": 0.67727667251736,
+      "A": 0.67727667251736,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6887,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.530983"
+  },
+  "R_5864A91D": {
+    "id": "R_5864A91D",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9966242242496549,
+      "C": 0.797299379399724,
+      "S": 0.797299379399724,
+      "A": 0.797299379399724,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8094,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.555335"
+  },
+  "R_94FDC19F": {
+    "id": "R_94FDC19F",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9841157903494703,
+      "C": 0.7872926322795762,
+      "S": 0.7872926322795762,
+      "A": 0.7872926322795762,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.798,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.580140"
+  },
+  "R_144A3499": {
+    "id": "R_144A3499",
+    "content": "D:STRATEGIC T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9303688282556482,
+      "C": 0.7442950626045186,
+      "S": 0.7442950626045186,
+      "A": 0.7442950626045186,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.75,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.605049"
+  },
+  "R_0FF7E573": {
+    "id": "R_0FF7E573",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.799662385082022,
+      "C": 0.9995779813525275,
+      "S": 0.9995779813525275,
+      "A": 0.799662385082022,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8415,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.634134"
+  },
+  "R_298969DC": {
+    "id": "R_298969DC",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7111312318618768,
+      "C": 0.8889140398273458,
+      "S": 0.8889140398273458,
+      "A": 0.7111312318618768,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7462,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.658878"
+  },
+  "R_E28F736C": {
+    "id": "R_E28F736C",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7478652560251985,
+      "C": 0.9348315700314981,
+      "S": 0.9348315700314981,
+      "A": 0.7478652560251985,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7733,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.684100"
+  },
+  "R_BE303B43": {
+    "id": "R_BE303B43",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7174288860922217,
+      "C": 0.896786107615277,
+      "S": 0.896786107615277,
+      "A": 0.7174288860922217,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7529,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.708787"
+  },
+  "R_D5BB2B86": {
+    "id": "R_D5BB2B86",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.772828934923367,
+      "C": 0.9660361686542087,
+      "S": 0.9660361686542087,
+      "A": 0.772828934923367,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8058,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.733413"
+  },
+  "R_22DD4987": {
+    "id": "R_22DD4987",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7610927876061774,
+      "C": 0.9513659845077217,
+      "S": 0.9513659845077217,
+      "A": 0.7610927876061774,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7904,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.758728"
+  },
+  "R_1A8BA556": {
+    "id": "R_1A8BA556",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7429685853096262,
+      "C": 0.9287107316370327,
+      "S": 0.9287107316370327,
+      "A": 0.7429685853096262,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.767,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.784181"
+  },
+  "R_CA300409": {
+    "id": "R_CA300409",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7872291521358737,
+      "C": 0.9840364401698422,
+      "S": 0.9840364401698422,
+      "A": 0.7872291521358737,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8248,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.809105"
+  },
+  "R_4A7F43B5": {
+    "id": "R_4A7F43B5",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7658799954055237,
+      "C": 0.9573499942569045,
+      "S": 0.9573499942569045,
+      "A": 0.7658799954055237,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7967,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.833898"
+  },
+  "R_EAF3CF73": {
+    "id": "R_EAF3CF73",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7280937448933686,
+      "C": 0.9101171811167107,
+      "S": 0.9101171811167107,
+      "A": 0.7280937448933686,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.748,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.859307"
+  },
+  "R_D6D45357": {
+    "id": "R_D6D45357",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7139253978144323,
+      "C": 0.8924067472680404,
+      "S": 0.8924067472680404,
+      "A": 0.7139253978144323,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7492,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.884560"
+  },
+  "R_26557519": {
+    "id": "R_26557519",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7774410590910305,
+      "C": 0.971801323863788,
+      "S": 0.971801323863788,
+      "A": 0.7774410590910305,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8119,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.909860"
+  },
+  "R_654B8190": {
+    "id": "R_654B8190",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7984171165511567,
+      "C": 0.9980213956889458,
+      "S": 0.9980213956889458,
+      "A": 0.7984171165511567,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8398,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.934944"
+  },
+  "R_3958491A": {
+    "id": "R_3958491A",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7832606510543506,
+      "C": 0.9790758138179382,
+      "S": 0.9790758138179382,
+      "A": 0.7832606510543506,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8196,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.960510"
+  },
+  "R_CE2653BD": {
+    "id": "R_CE2653BD",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.637165243945478,
+      "C": 0.7964565549318474,
+      "S": 0.7964565549318474,
+      "A": 0.637165243945478,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6691,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:47.990883"
+  },
+  "R_CEEB8C70": {
+    "id": "R_CEEB8C70",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7870698326192325,
+      "C": 0.9838372907740406,
+      "S": 0.9838372907740406,
+      "A": 0.7870698326192325,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8246,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.025764"
+  },
+  "R_08B55EB8": {
+    "id": "R_08B55EB8",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7981648771266586,
+      "C": 0.9977060964083232,
+      "S": 0.9977060964083232,
+      "A": 0.7981648771266586,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8395,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.051888"
+  },
+  "R_78C0F7F0": {
+    "id": "R_78C0F7F0",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7392792938731284,
+      "C": 0.9240991173414105,
+      "S": 0.9240991173414105,
+      "A": 0.7392792938731284,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7622,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.077885"
+  },
+  "R_8F3B69FB": {
+    "id": "R_8F3B69FB",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7900185194615528,
+      "C": 0.9875231493269409,
+      "S": 0.9875231493269409,
+      "A": 0.7900185194615528,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8286,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.103494"
+  },
+  "R_F4166C1B": {
+    "id": "R_F4166C1B",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6642346678555566,
+      "C": 0.8302933348194458,
+      "S": 0.8302933348194458,
+      "A": 0.6642346678555566,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.697,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.129123"
+  },
+  "R_7B3E5CEE": {
+    "id": "R_7B3E5CEE",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7944032284527888,
+      "C": 0.9930040355659859,
+      "S": 0.9930040355659859,
+      "A": 0.7944032284527888,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8344,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.154756"
+  },
+  "R_1A06FEAE": {
+    "id": "R_1A06FEAE",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7620380606480689,
+      "C": 0.9525475758100861,
+      "S": 0.9525475758100861,
+      "A": 0.7620380606480689,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7916,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.180485"
+  },
+  "R_63EBF7AB": {
+    "id": "R_63EBF7AB",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7978770619431219,
+      "C": 0.9973463274289023,
+      "S": 0.9973463274289023,
+      "A": 0.7978770619431219,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8391,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.206846"
+  },
+  "R_C311F20A": {
+    "id": "R_C311F20A",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7805180397533263,
+      "C": 0.9756475496916579,
+      "S": 0.9756475496916579,
+      "A": 0.7805180397533263,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.8159,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.233937"
+  },
+  "R_0F3D4E9C": {
+    "id": "R_0F3D4E9C",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7650198027034221,
+      "C": 0.9562747533792776,
+      "S": 0.9562747533792776,
+      "A": 0.7650198027034221,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7955,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.260372"
+  },
+  "R_87196679": {
+    "id": "R_87196679",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7350243882274894,
+      "C": 0.9187804852843617,
+      "S": 0.9187804852843617,
+      "A": 0.7350243882274894,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7568,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.291311"
+  },
+  "R_0F447320": {
+    "id": "R_0F447320",
+    "content": "D:TECHNICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7018942254767105,
+      "C": 0.8773677818458882,
+      "S": 0.8773677818458882,
+      "A": 0.7018942254767105,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7365,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.317513"
+  },
+  "R_1A4AF61A": {
+    "id": "R_1A4AF61A",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6949067267464093,
+      "C": 0.6949067267464093,
+      "S": 0.6949067267464093,
+      "A": 0.8686334084330116,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6822,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.347128"
+  },
+  "R_545E28EE": {
+    "id": "R_545E28EE",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.794886034350337,
+      "C": 0.794886034350337,
+      "S": 0.794886034350337,
+      "A": 0.9936075429379212,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7801,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.373723"
+  },
+  "R_2F855057": {
+    "id": "R_2F855057",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7995154103859163,
+      "C": 0.7995154103859163,
+      "S": 0.7995154103859163,
+      "A": 0.9993942629823954,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7853,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.405721"
+  },
+  "R_E2E03D4D": {
+    "id": "R_E2E03D4D",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7051097728736844,
+      "C": 0.7051097728736844,
+      "S": 0.7051097728736844,
+      "A": 0.8813872160921055,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6921,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.436887"
+  },
+  "R_984FFD12": {
+    "id": "R_984FFD12",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7575328288946567,
+      "C": 0.7575328288946567,
+      "S": 0.7575328288946567,
+      "A": 0.9469160361183208,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7392,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.463059"
+  },
+  "R_3BA544D5": {
+    "id": "R_3BA544D5",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7370953136870128,
+      "C": 0.7370953136870128,
+      "S": 0.7370953136870128,
+      "A": 0.9213691421087659,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7172,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.489241"
+  },
+  "R_C99B5255": {
+    "id": "R_C99B5255",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7951059942313572,
+      "C": 0.7951059942313572,
+      "S": 0.7951059942313572,
+      "A": 0.9938824927891965,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7804,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.516256"
+  },
+  "R_524C6682": {
+    "id": "R_524C6682",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7546142881904789,
+      "C": 0.7546142881904789,
+      "S": 0.7546142881904789,
+      "A": 0.9432678602380986,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7361,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.542966"
+  },
+  "R_92875D81": {
+    "id": "R_92875D81",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7607811573447916,
+      "C": 0.7607811573447916,
+      "S": 0.7607811573447916,
+      "A": 0.9509764466809894,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7428,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.569768"
+  },
+  "R_E4627E8F": {
+    "id": "R_E4627E8F",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6141486687839638,
+      "C": 0.6141486687839638,
+      "S": 0.6141486687839638,
+      "A": 0.7676858359799547,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6054,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.598033"
+  },
+  "R_1F69D997": {
+    "id": "R_1F69D997",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7036125949326848,
+      "C": 0.7036125949326848,
+      "S": 0.7036125949326848,
+      "A": 0.8795157436658559,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6906,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.631576"
+  },
+  "R_7405EBA9": {
+    "id": "R_7405EBA9",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7986585982413243,
+      "C": 0.7986585982413243,
+      "S": 0.7986585982413243,
+      "A": 0.9983232478016554,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7843,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.658621"
+  },
+  "R_7713F7A9": {
+    "id": "R_7713F7A9",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7669194918160817,
+      "C": 0.7669194918160817,
+      "S": 0.7669194918160817,
+      "A": 0.958649364770102,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7494,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.685257"
+  },
+  "R_3168898D": {
+    "id": "R_3168898D",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7285003719036701,
+      "C": 0.7285003719036701,
+      "S": 0.7285003719036701,
+      "A": 0.9106254648795876,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.708,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.723482"
+  },
+  "R_D6392248": {
+    "id": "R_D6392248",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.765951062038773,
+      "C": 0.765951062038773,
+      "S": 0.765951062038773,
+      "A": 0.9574388275484661,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7484,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.750638"
+  },
+  "R_21086594": {
+    "id": "R_21086594",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7665171308860504,
+      "C": 0.7665171308860504,
+      "S": 0.7665171308860504,
+      "A": 0.958146413607563,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.749,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.779081"
+  },
+  "R_8D7F090F": {
+    "id": "R_8D7F090F",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7490631648955236,
+      "C": 0.7490631648955236,
+      "S": 0.7490631648955236,
+      "A": 0.9363289561194045,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7301,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.807321"
+  },
+  "R_57C6CF68": {
+    "id": "R_57C6CF68",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.6565233594969769,
+      "C": 0.6565233594969769,
+      "S": 0.6565233594969769,
+      "A": 0.8206541993712211,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6454,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.834646"
+  },
+  "R_D3C859C6": {
+    "id": "R_D3C859C6",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7483805250366878,
+      "C": 0.7483805250366878,
+      "S": 0.7483805250366878,
+      "A": 0.9354756562958597,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7293,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.863191"
+  },
+  "R_13EED25E": {
+    "id": "R_13EED25E",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7480746177644779,
+      "C": 0.7480746177644779,
+      "S": 0.7480746177644779,
+      "A": 0.9350932722055973,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.729,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.891370"
+  },
+  "R_C39171F5": {
+    "id": "R_C39171F5",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7901243722795859,
+      "C": 0.7901243722795859,
+      "S": 0.7901243722795859,
+      "A": 0.9876554653494823,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7749,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.923477"
+  },
+  "R_448E50F2": {
+    "id": "R_448E50F2",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7768952128179057,
+      "C": 0.7768952128179057,
+      "S": 0.7768952128179057,
+      "A": 0.9711190160223822,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7603,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.951295"
+  },
+  "R_E7A82E95": {
+    "id": "R_E7A82E95",
+    "content": "D:ETHICAL T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6086313563243108,
+      "C": 0.6086313563243108,
+      "S": 0.6086313563243108,
+      "A": 0.7607891954053884,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6003,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:48.978856"
+  },
+  "R_BB48C2A6": {
+    "id": "R_BB48C2A6",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.695941988848128,
+      "C": 0.695941988848128,
+      "S": 0.8699274860601599,
+      "A": 0.695941988848128,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6864,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.008591"
+  },
+  "R_DEA16D1B": {
+    "id": "R_DEA16D1B",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7681718740973813,
+      "C": 0.7681718740973813,
+      "S": 0.9602148426217266,
+      "A": 0.7681718740973813,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.754,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.040767"
+  },
+  "R_BB677932": {
+    "id": "R_BB677932",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B0_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7858135138573549,
+      "C": 0.7858135138573549,
+      "S": 0.9822668923216935,
+      "A": 0.7858135138573549,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7736,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.067989"
+  },
+  "R_862AE1AC": {
+    "id": "R_862AE1AC",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.6093527314684779,
+      "C": 0.6093527314684779,
+      "S": 0.7616909143355973,
+      "A": 0.6093527314684779,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6036,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.095494"
+  },
+  "R_3ADEB526": {
+    "id": "R_3ADEB526",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B1_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7624429167682193,
+      "C": 0.7624429167682193,
+      "S": 0.9530536459602741,
+      "A": 0.7624429167682193,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7477,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.123112"
+  },
+  "R_E550FC81": {
+    "id": "R_E550FC81",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7491246326151964,
+      "C": 0.7491246326151964,
+      "S": 0.9364057907689954,
+      "A": 0.7491246326151964,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.733,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.150447"
+  },
+  "R_BEA5746D": {
+    "id": "R_BEA5746D",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.752010817655596,
+      "C": 0.752010817655596,
+      "S": 0.9400135220694948,
+      "A": 0.752010817655596,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7362,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.187423"
+  },
+  "R_561F95C7": {
+    "id": "R_561F95C7",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B3_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7530301065643696,
+      "C": 0.7530301065643696,
+      "S": 0.9412876332054619,
+      "A": 0.7530301065643696,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7373,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.214562"
+  },
+  "R_68A5647E": {
+    "id": "R_68A5647E",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7797325785375043,
+      "C": 0.7797325785375043,
+      "S": 0.9746657231718804,
+      "A": 0.7797325785375043,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7668,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.241870"
+  },
+  "R_6B87DE63": {
+    "id": "R_6B87DE63",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7410743196205012,
+      "C": 0.7410743196205012,
+      "S": 0.9263428995256264,
+      "A": 0.7410743196205012,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7242,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.274184"
+  },
+  "R_DFAAD7F6": {
+    "id": "R_DFAAD7F6",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B3_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.75011990881653,
+      "C": 0.75011990881653,
+      "S": 0.9376498860206625,
+      "A": 0.75011990881653,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7341,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.301920"
+  },
+  "R_7088AB24": {
+    "id": "R_7088AB24",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7693415228126206,
+      "C": 0.7693415228126206,
+      "S": 0.9616769035157756,
+      "A": 0.7693415228126206,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7553,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.330820"
+  },
+  "R_1DEE29A8": {
+    "id": "R_1DEE29A8",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B3_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6765777886823424,
+      "C": 0.6765777886823424,
+      "S": 0.8457222358529279,
+      "A": 0.6765777886823424,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6676,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.358562"
+  },
+  "R_3122CBCB": {
+    "id": "R_3122CBCB",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7856000057565651,
+      "C": 0.7856000057565651,
+      "S": 0.9820000071957062,
+      "A": 0.7856000057565651,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7734,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.386342"
+  },
+  "R_E9DF5B6E": {
+    "id": "R_E9DF5B6E",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.7309879084153569,
+      "C": 0.7309879084153569,
+      "S": 0.913734885519196,
+      "A": 0.7309879084153569,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7133,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.414732"
+  },
+  "R_8252C00C": {
+    "id": "R_8252C00C",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B0_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.7884370122223824,
+      "C": 0.7884370122223824,
+      "S": 0.985546265277978,
+      "A": 0.7884370122223824,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7766,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.442668"
+  },
+  "R_C194604C": {
+    "id": "R_C194604C",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B1_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7673902950108248,
+      "C": 0.7673902950108248,
+      "S": 0.9592378687635309,
+      "A": 0.7673902950108248,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7531,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.470903"
+  },
+  "R_A0CAF22D": {
+    "id": "R_A0CAF22D",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.781952112158096,
+      "C": 0.781952112158096,
+      "S": 0.9774401401976199,
+      "A": 0.781952112158096,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7693,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.499065"
+  },
+  "R_9CB27A10": {
+    "id": "R_9CB27A10",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7659162275945195,
+      "C": 0.7659162275945195,
+      "S": 0.9573952844931493,
+      "A": 0.7659162275945195,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7515,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.532522"
+  },
+  "R_101D87A1": {
+    "id": "R_101D87A1",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7574316118832597,
+      "C": 0.7574316118832597,
+      "S": 0.9467895148540746,
+      "A": 0.7574316118832597,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7421,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.560596"
+  },
+  "R_EA4E1997": {
+    "id": "R_EA4E1997",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.7610336881977222,
+      "C": 0.7610336881977222,
+      "S": 0.9512921102471528,
+      "A": 0.7610336881977222,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7461,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.588670"
+  },
+  "R_0D3FE2A5": {
+    "id": "R_0D3FE2A5",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.7951228951245127,
+      "C": 0.7951228951245127,
+      "S": 0.9939036189056408,
+      "A": 0.7951228951245127,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.7841,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.616572"
+  },
+  "R_15042602": {
+    "id": "R_15042602",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.6989048146393069,
+      "C": 0.6989048146393069,
+      "S": 0.8736310182991335,
+      "A": 0.6989048146393069,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6892,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.644508"
+  },
+  "R_BF596B0F": {
+    "id": "R_BF596B0F",
+    "content": "D:CONSCIOUSNESS T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B1_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.6940777564280529,
+      "C": 0.6940777564280529,
+      "S": 0.8675971955350661,
+      "A": 0.6940777564280529,
+      "H": 0.95,
+      "V": 0.7
+    },
+    "q_score": 0.6845,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.672601"
+  },
+  "R_D7E2DD40": {
+    "id": "R_D7E2DD40",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9759699250214982,
+      "C": 0.7807759400171985,
+      "S": 0.7807759400171985,
+      "A": 0.7807759400171985,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7907,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.708263"
+  },
+  "R_635DAF11": {
+    "id": "R_635DAF11",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9680389149957599,
+      "C": 0.774431131996608,
+      "S": 0.774431131996608,
+      "A": 0.774431131996608,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7835,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.736153"
+  },
+  "R_6B204D65": {
+    "id": "R_6B204D65",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B2_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.8866317677292379,
+      "C": 0.7093054141833903,
+      "S": 0.7093054141833903,
+      "A": 0.7093054141833903,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7205,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.764254"
+  },
+  "R_D03246E2": {
+    "id": "R_D03246E2",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.989043343399982,
+      "C": 0.7912346747199857,
+      "S": 0.7912346747199857,
+      "A": 0.7912346747199857,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8025,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.792440"
+  },
+  "R_553DCD82": {
+    "id": "R_553DCD82",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.8466368715345574,
+      "C": 0.6773094972276459,
+      "S": 0.6773094972276459,
+      "A": 0.6773094972276459,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6888,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.820663"
+  },
+  "R_091F834B": {
+    "id": "R_091F834B",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B0_B3_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9993177120193193,
+      "C": 0.7994541696154555,
+      "S": 0.7994541696154555,
+      "A": 0.7994541696154555,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8118,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.848864"
+  },
+  "R_A61A7152": {
+    "id": "R_A61A7152",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.8605301362550066,
+      "C": 0.6884241090040053,
+      "S": 0.6884241090040053,
+      "A": 0.6884241090040053,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6997,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.878517"
+  },
+  "R_14633510": {
+    "id": "R_14633510",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9181498732342046,
+      "C": 0.7345198985873638,
+      "S": 0.7345198985873638,
+      "A": 0.7345198985873638,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7393,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.907514"
+  },
+  "R_754C1BD8": {
+    "id": "R_754C1BD8",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9631382806522867,
+      "C": 0.7705106245218294,
+      "S": 0.7705106245218294,
+      "A": 0.7705106245218294,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7791,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.935827"
+  },
+  "R_2FC5A07A": {
+    "id": "R_2FC5A07A",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B1_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9855015811494938,
+      "C": 0.7884012649195951,
+      "S": 0.7884012649195951,
+      "A": 0.7884012649195951,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7993,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.964405"
+  },
+  "R_BC5E4658": {
+    "id": "R_BC5E4658",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B0_B2_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.874727300910956,
+      "C": 0.6997818407287648,
+      "S": 0.6997818407287648,
+      "A": 0.6997818407287648,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.711,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:49.992749"
+  },
+  "R_009E355A": {
+    "id": "R_009E355A",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B0_B0",
+    "layer": 3,
+    "features": {
+      "G": 0.9495757751002973,
+      "C": 0.7596606200802379,
+      "S": 0.7596606200802379,
+      "A": 0.7596606200802379,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.767,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.032252"
+  },
+  "R_D52B2CBA": {
+    "id": "R_D52B2CBA",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B1_B2_B2_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9951140748301576,
+      "C": 0.7960912598641261,
+      "S": 0.7960912598641261,
+      "A": 0.7960912598641261,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.808,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.061848"
+  },
+  "R_36B6CA63": {
+    "id": "R_36B6CA63",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B0_B3_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.9220498518523886,
+      "C": 0.737639881481911,
+      "S": 0.737639881481911,
+      "A": 0.737639881481911,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.7427,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.101188"
+  },
+  "R_79E7E3A3": {
+    "id": "R_79E7E3A3",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B0_B2",
+    "layer": 3,
+    "features": {
+      "G": 0.9967667245974893,
+      "C": 0.7974133796779914,
+      "S": 0.7974133796779914,
+      "A": 0.7974133796779914,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8095,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.130626"
+  },
+  "R_E5A8923A": {
+    "id": "R_E5A8923A",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B1_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.9972558000298595,
+      "C": 0.7978046400238876,
+      "S": 0.7978046400238876,
+      "A": 0.7978046400238876,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.8099,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.159452"
+  },
+  "R_02CDF601": {
+    "id": "R_02CDF601",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B2_B2_B3",
+    "layer": 3,
+    "features": {
+      "G": 0.8587402134731867,
+      "C": 0.6869921707785495,
+      "S": 0.6869921707785495,
+      "A": 0.6869921707785495,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.6983,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.188702"
+  },
+  "R_53109617": {
+    "id": "R_53109617",
+    "content": "D:VISION T:Project Alpha: ai-mathematical-olympiad-progress-prize-3 Dominance Protocol_B2_B3_B0_B1",
+    "layer": 3,
+    "features": {
+      "G": 0.8747688291083855,
+      "C": 0.6998150632867084,
+      "S": 0.6998150632867084,
+      "A": 0.6998150632867084,
+      "H": 0.95,
+      "V": 0.9
+    },
+    "q_score": 0.711,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T20:49:50.217769"
   }
 }
