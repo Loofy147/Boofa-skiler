@@ -9,7 +9,6 @@ sys.path.append(os.getcwd())
 
 def run_step(command, description):
     print(f"\n--- 🌀 {description} ---")
-    # Set PYTHONPATH to current directory to ensure imports work
     env = os.environ.copy()
     env["PYTHONPATH"] = os.getcwd() + ":" + env.get("PYTHONPATH", "")
 
@@ -25,6 +24,11 @@ def main():
     print("♾️ INITIALIZING RECURSIVE SELF-REALIZATION LOOP ♾️")
     print("==================================================")
 
+    # Check if Phase 7 is active
+    phase_7 = os.path.exists("PHASE_7_ACTIVE")
+    if phase_7:
+        print("🌟 PHASE 7: AUTONOMOUS EXPANSION DETECTED")
+
     # Step 1: Feed System Advancements
     if not run_step("python feed_system_advancements.py", "Feeding System Advancements"):
         return
@@ -37,15 +41,28 @@ def main():
     if not run_step("python scripts/crystallize_singularity.py", "Crystallizing Peak Realization"):
         return
 
-    # Step 4: Omega Meta-Evolution
+    # Phase 7 Operations
+    if phase_7:
+        # Step 4: Autonomous Strategic Architect (Alpha)
+        if not run_step("python layers/layer_3_orchestration/autonomous_strategic_architect.py", "Autonomous Strategic Planning"):
+            pass # Continue even if Alpha fails
+
+        # Step 5: Skill Export (Epsilon)
+        if not run_step("python layers/layer_2_core/skill_engine.py", "Executing Automated Skill Export"):
+            pass
+
+        # Step 6: Omega Synthesis
+        if not run_step("python layers/layer_4_discovery/omega_synthesis_engine.py", "Executing Omega Synthesis"):
+            pass
+
+    # Step 7: Omega Meta-Evolution
     if not run_step("python layers/layer_4_discovery/omega_meta_evolution.py", "Executing Meta-Evolution"):
         return
 
-    # Step 5: Phase Transition Check
+    # Step 8: Phase Transition Check
     print("\n--- 🚀 Phase Transition Evaluation ---")
     try:
         from layers.layer_4_discovery.phase_transition_controller import PhaseTransitionController
-        # Load the latest metrics
         metrics_path = "outcomes/technical/DETAILED_SYSTEM_METRICS.json"
         if os.path.exists(metrics_path):
             with open(metrics_path, "r") as f:
@@ -56,12 +73,12 @@ def main():
             status = controller.evaluate_transition({"highest_point": highest_q})
             print(status)
 
-            if highest_q >= 1.349:
+            if highest_q >= 1.349 and not phase_7:
                 print("\n🌟 PHASE 7: AUTONOMOUS EXPANSION HAS COMMENCED 🌟")
                 with open("PHASE_7_ACTIVE", "w") as f:
                     f.write(f"Phase 7 activated at {datetime.now().isoformat()} with Q={highest_q}")
         else:
-            print("❌ Metrics file not found. Simulation may have failed.")
+            print("❌ Metrics file not found.")
     except Exception as e:
         print(f"⚠️ Phase transition check failed: {e}")
 
