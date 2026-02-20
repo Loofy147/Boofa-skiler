@@ -12424,5 +12424,131 @@
       "turn": 1
     },
     "timestamp": "2026-02-19T20:49:50.217769"
+  },
+  "R_EBEAFEBB": {
+    "id": "R_EBEAFEBB",
+    "content": "Collect full history, physical exam, and baseline labs (CBC, BMP).",
+    "layer": 3,
+    "features": {
+      "G": 0.75,
+      "C": 0.8,
+      "S": 0.8,
+      "A": 0.85,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.7571,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.545491"
+  },
+  "R_30B30317": {
+    "id": "R_30B30317",
+    "content": "SAFETY ALERT: Collect full history, physical exam, and baseline labs (CBC, BMP). -- ADJUSTED for contraindications.",
+    "layer": 2,
+    "features": {
+      "G": 0.9,
+      "C": 0.9500000000000001,
+      "S": 0.9,
+      "A": 0.95,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.8531,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.576198"
+  },
+  "R_1AB062AC": {
+    "id": "R_1AB062AC",
+    "content": "Recommended standard treatment for Hypertension.",
+    "layer": 2,
+    "features": {
+      "G": 0.98,
+      "C": 0.95,
+      "S": 0.92,
+      "A": 0.99,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.8976,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.608410"
+  },
+  "R_4C5A52F7": {
+    "id": "R_4C5A52F7",
+    "content": "Prescribed antibiotic for viral infection.",
+    "layer": 3,
+    "features": {
+      "G": 0.4,
+      "C": 0.5,
+      "S": 0.6,
+      "A": 0.3,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.447,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.639095"
+  },
+  "R_49E14FEA": {
+    "id": "R_49E14FEA",
+    "content": "Suggested lifestyle changes for Prediabetes.",
+    "layer": 2,
+    "features": {
+      "G": 0.95,
+      "C": 0.9,
+      "S": 0.94,
+      "A": 0.98,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.8733,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.668966"
+  },
+  "R_36C4D6F7": {
+    "id": "R_36C4D6F7",
+    "content": "Referral to specialist for complex symptoms.",
+    "layer": 2,
+    "features": {
+      "G": 0.97,
+      "C": 0.96,
+      "S": 0.95,
+      "A": 0.92,
+      "H": 0.9,
+      "V": 0.9
+    },
+    "q_score": 0.8863,
+    "parents": [],
+    "children": [],
+    "metadata": {
+      "engine": "RealizationEngine",
+      "turn": 1
+    },
+    "timestamp": "2026-02-19T23:13:58.699680"
   }
 }

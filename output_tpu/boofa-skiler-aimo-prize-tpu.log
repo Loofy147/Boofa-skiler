@@ -1,0 +1,9 @@
+[{"stream_name":"stderr","time":28.719398247,"data":"/usr/local/lib/python3.12/site-packages/torch_xla/experimental/gru.py:113: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":28.719471857,"data":"  * **h_n**: tensor of shape :math:`(D * \\text{num\\_layers}, H_{out})` or\n"}
+,{"stream_name":"stderr","time":29.873907665,"data":"/usr/local/lib/python3.12/site-packages/torch_xla/__init__.py:258: UserWarning: `tensorflow` can conflict with `torch-xla`. Prefer `tensorflow-cpu` when using PyTorch/XLA. To silence this warning, `pip uninstall -y tensorflow \u0026\u0026 pip install tensorflow-cpu`. If you are in a notebook environment such as Colab or Kaggle, restart your notebook runtime afterwards.\n"}
+,{"stream_name":"stderr","time":29.873928015,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":31.862712339,"data":"⚠️ API Error: No module named 'polars'\n"}
+,{"stream_name":"stdout","time":31.92939867,"data":"💾 Final submission.parquet written with 1 rows.\n"}
+,{"stream_name":"stderr","time":36.27634887,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":38.498227936,"data":"[NbConvertApp] Writing 322891 bytes to __results__.html\n"}
+]
