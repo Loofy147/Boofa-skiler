@@ -1,0 +1,11 @@
+[{"stream_name":"stdout","time":41.888196882,"data":"🚀 Serving AIMO 3 API...\n"}
+,{"stream_name":"stdout","time":42.064869391,"data":"💾 Final submission.parquet written with 1 rows.\n"}
+,{"stream_name":"stderr","time":46.571294748,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":46.57134212,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":46.894614705,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":46.894640297,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":47.563820655,"data":"/usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":47.563857474,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":47.6107335,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":49.281721796,"data":"[NbConvertApp] Writing 321318 bytes to __results__.html\n"}
+]

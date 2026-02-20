@@ -1,0 +1,7 @@
+[{"stream_name":"stderr","time":10.216333357,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":10.216362597,"data":"  File \"/kaggle/src/script.py\", line 6, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":10.216366677,"data":"    import polars as pl\n"}
+,{"stream_name":"stderr","time":10.216369057,"data":"ModuleNotFoundError: No module named 'polars'\n"}
+,{"stream_name":"stderr","time":14.451184766,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":16.823684891,"data":"[NbConvertApp] Writing 320405 bytes to __results__.html\n"}
+]

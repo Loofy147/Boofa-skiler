@@ -3,11 +3,17 @@ import re
 import torch
 import subprocess
 import sys
-import polars as pl
 import pandas as pd
 import json
 from collections import Counter
 from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Optional Polars
+try:
+    import polars as pl
+    HAS_POLARS = True
+except ImportError:
+    HAS_POLARS = False
 
 # --- 1. Robust Infrastructure ---
 
@@ -136,14 +142,18 @@ def predict(*args, **kwargs):
         # Flexible input handling for Kaggle API variants
         sources = list(args) + list(kwargs.values())
         for s in sources:
-            if isinstance(s, (pl.DataFrame, pd.DataFrame)):
-                if 'id' in s.columns:
-                    id_val = s['id'][0] if hasattr(s, 'iloc') else s['id'].item(0)
-                if 'problem' in s.columns:
-                    problem_text = s['problem'][0] if hasattr(s, 'iloc') else s['problem'].item(0)
-            elif isinstance(s, (pl.Series, pd.Series)):
+            if HAS_POLARS and isinstance(s, pl.DataFrame):
+                if 'id' in s.columns: id_val = s['id'].item(0)
+                if 'problem' in s.columns: problem_text = s['problem'].item(0)
+            elif isinstance(s, pd.DataFrame):
+                if 'id' in s.columns: id_val = s['id'].iloc[0]
+                if 'problem' in s.columns: problem_text = s['problem'].iloc[0]
+            elif HAS_POLARS and isinstance(s, pl.Series):
                 if id_val is None and s.name == 'id': id_val = s[0]
                 if problem_text is None and s.name == 'problem': problem_text = s[0]
+            elif isinstance(s, pd.Series):
+                if id_val is None and s.name == 'id': id_val = s.iloc[0]
+                if problem_text is None and s.name == 'problem': problem_text = s.iloc[0]
             elif isinstance(s, str):
                 if id_val is None: id_val = s
                 elif problem_text is None: problem_text = s
@@ -155,7 +165,7 @@ def predict(*args, **kwargs):
         problem_text = str(problem_text)
     except Exception as e:
         print(f"DEBUG: Unpacking error: {e}")
-        return pl.DataFrame({'id': ['err'], 'answer': [0]})
+        return pd.DataFrame({'id': ['err'], 'answer': [0]})
 
     print(f"🧩 Solving [{id_val}]...")
 
@@ -163,16 +173,16 @@ def predict(*args, **kwargs):
     known = MockSolver.solve_known(problem_text)
     if known is not None:
         ALL_PREDS.append({'id': id_val, 'answer': known})
-        return pl.DataFrame({'id': [id_val], 'answer': [known]})
+        return pd.DataFrame({'id': [id_val], 'answer': [known]})
 
     basic = MockSolver.solve_basic(problem_text)
     if basic is not None:
         ALL_PREDS.append({'id': id_val, 'answer': basic})
-        return pl.DataFrame({'id': [id_val], 'answer': [basic]})
+        return pd.DataFrame({'id': [id_val], 'answer': [basic]})
 
     if not MODEL:
         ALL_PREDS.append({'id': id_val, 'answer': 0})
-        return pl.DataFrame({'id': [id_val], 'answer': [0]})
+        return pd.DataFrame({'id': [id_val], 'answer': [0]})
 
     # Step 2: Strategic Batch Inference
     mode = StrategicRouter.get_mode(problem_text)
@@ -224,7 +234,12 @@ def predict(*args, **kwargs):
     final_ans = Counter(non_zero if non_zero else answers).most_common(1)[0][0]
     ALL_PREDS.append({'id': id_val, 'answer': final_ans})
     print(f"   Consensus: {final_ans} from {answers}")
-    return pl.DataFrame({'id': [id_val], 'answer': [final_ans]})
+
+    # Return Pandas DataFrame (Polars wrapper if needed by API, but usually Pandas works)
+    res_df = pd.DataFrame({'id': [id_val], 'answer': [final_ans]})
+    if HAS_POLARS:
+        return pl.from_pandas(res_df)
+    return res_df
 
 # --- 4. Main Execution ---
 
@@ -254,9 +269,9 @@ if __name__ == '__main__':
     finally:
         # ABSOLUTE REQUIREMENT: submission.parquet must exist
         if ALL_PREDS:
-            df_final = pl.DataFrame(ALL_PREDS)
+            df_final = pd.DataFrame(ALL_PREDS)
         else:
-            df_final = pl.DataFrame({'id': ['dummy'], 'answer': [0]})
+            df_final = pd.DataFrame({'id': ['dummy'], 'answer': [0]})
 
-        df_final.write_parquet('submission.parquet')
+        df_final.to_parquet('submission.parquet')
         print(f"💾 Final submission.parquet written with {len(df_final)} rows.")
