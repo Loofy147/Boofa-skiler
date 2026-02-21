@@ -15,6 +15,18 @@ try:
 except ImportError:
     HAS_POLARS = False
 
+# --- Bolt Optimization: Pre-compiled Regex Patterns ---
+ANSWER_PATTERNS = [
+    re.compile(r"\\+boxed\s*\{(.*?)\}", re.IGNORECASE),
+    re.compile(r"final answer is\s*[:\s]*(\d+)", re.IGNORECASE),
+    re.compile(r"answer is\s*[:\s]*(\d+)", re.IGNORECASE),
+    re.compile(r"boxed\s+(\d+)", re.IGNORECASE),
+    re.compile(r"\\boxed\{(.*?)\}", re.IGNORECASE)
+]
+NUMERIC_PATTERN = re.compile(r"-?\d+")
+SIMPLE_NUMERIC_PATTERN = re.compile(r"\d+")
+PYTHON_CODE_PATTERN = re.compile(r"```python\s*(.*?)\s*```", re.DOTALL)
+
 # --- 1. Robust Infrastructure ---
 
 class StrategicRouter:
@@ -73,7 +85,7 @@ def execute_code(code):
         )
         if result.returncode == 0:
             stdout = result.stdout.strip()
-            nums = re.findall(r'-?\d+', stdout)
+            nums = NUMERIC_PATTERN.findall(stdout)
             if nums:
                 val = int(nums[-1])
                 return max(0, val) % 100000
@@ -83,25 +95,19 @@ def execute_code(code):
 def extract_answer(text):
     """
     Robust multi-pattern regex as per AGENTS.md guidelines.
+    Optimized by Bolt: uses pre-compiled regex objects.
     """
-    patterns = [
-        r'\\+boxed\s*\{(.*?)\}',  # Handles one or more backslashes
-        r'final answer is\s*[:\s]*(\d+)',
-        r'answer is\s*[:\s]*(\d+)',
-        r'boxed\s+(\d+)',
-        r'\\boxed\{(.*?)\}'
-    ]
-    for p in patterns:
+    for p in ANSWER_PATTERNS:
         try:
-            matches = re.findall(p, text, re.IGNORECASE)
+            matches = p.findall(text)
             if matches:
-                ans_str = matches[-1].replace(',', '').strip()
-                nums = re.findall(r'-?\d+', ans_str)
+                ans_str = matches[-1].replace(",", "").strip()
+                nums = NUMERIC_PATTERN.findall(ans_str)
                 if nums: return max(0, int(nums[0])) % 100000
         except: continue
 
     # Final fallback: last number in the text
-    nums = re.findall(r'\d+', text)
+    nums = SIMPLE_NUMERIC_PATTERN.findall(text)
     if nums: return int(nums[-1]) % 100000
     return 0
 
@@ -206,10 +212,9 @@ def predict(*args, **kwargs):
             "<|assistant|>\n<|thought|>\n"
         )
 
-        # BATCH INFERENCE IMPLEMENTATION
-        prompts = [prompt] * num_samples
-        inputs = TOKENIZER(prompts, return_tensors='pt', padding=True).to(MODEL.device)
-        inputs = {k: v for k, v in inputs.items() if k in ['input_ids', 'attention_mask']}
+        # Optimized tokenization: encode once, then repeat tensors (Bolt optimization)
+        inputs = TOKENIZER(prompt, return_tensors='pt').to(MODEL.device)
+        inputs = {k: v.repeat(num_samples, 1) for k, v in inputs.items() if k in ['input_ids', 'attention_mask']}
 
         with torch.no_grad():
             outputs = MODEL.generate(
@@ -220,7 +225,7 @@ def predict(*args, **kwargs):
         for out in outputs:
             response = TOKENIZER.decode(out, skip_special_tokens=True)
             # RTC: Extraction and execution
-            code_blocks = re.findall(r'```python\s*(.*?)\s*```', response, re.DOTALL)
+            code_blocks = PYTHON_CODE_PATTERN.findall(response)
             rtc_ans = None
             if code_blocks: rtc_ans = execute_code(code_blocks[-1])
             ans = rtc_ans if rtc_ans is not None else extract_answer(response)
