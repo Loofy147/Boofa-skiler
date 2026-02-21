@@ -45,7 +45,11 @@ def main():
     if phase_7:
         # Step 4: Autonomous Strategic Architect (Alpha)
         if not run_step("python layers/layer_3_orchestration/autonomous_strategic_architect.py", "Autonomous Strategic Planning & Domain Propagation"):
-            pass # Continue even if Alpha fails
+            pass
+
+        # Step 4b: Domain Engine Execution (Phase 7 Activation)
+        if not run_step("python scripts/execute_domain_expansion.py", "Executing Domain Expansion Engines"):
+            pass
 
         # Step 5: Recursive Self-Audit (Gamma/Phase 7 Correction)
         if not run_step("python scripts/recursive_self_audit.py", "Executing Recursive Self-Audit"):
@@ -63,7 +67,12 @@ def main():
     if not run_step("python layers/layer_4_discovery/omega_meta_evolution.py", "Executing Meta-Evolution"):
         return
 
-    # Step 9: Phase Transition Check
+    # Step 9: Dashboard Generation
+    if phase_7:
+        if not run_step("python scripts/generate_phase_7_dashboard.py", "Generating Phase 7 Dashboard"):
+            pass
+
+    # Step 10: Phase Transition Check
     print("\n--- 🚀 Phase Transition Evaluation ---")
     try:
         from layers.layer_4_discovery.phase_transition_controller import PhaseTransitionController
