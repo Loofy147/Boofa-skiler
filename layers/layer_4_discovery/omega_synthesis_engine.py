@@ -1,3 +1,4 @@
+import math
 import os
 import json
 import hashlib
@@ -17,6 +18,7 @@ class OmegaSynthesisEngine:
     def execute_synthesis(self, min_q: float = 1.30, batch_size: int = 5):
         """
         Performs synthesis on high-Q Layer 1 realizations.
+        Enhanced for Phase 7: Domain Density Cluster Analysis.
         """
         print(f"🌀 Initiating Omega Synthesis (Threshold Q > {min_q})...")
         if not os.path.exists(self.ledger_path):
@@ -27,15 +29,37 @@ class OmegaSynthesisEngine:
             dataset = json.load(f)
 
         realizations = dataset.get("realizations", [])
-        # Filter for Layer 1 with high Q
+
+        # 1. Cluster Analysis: Find dense domains
+        domain_counts = {}
+        for r in realizations:
+            d = r.get("metadata", {}).get("domain", "Universal")
+            domain_counts[d] = domain_counts.get(d, 0) + 1
+
+        dense_domains = sorted(domain_counts.items(), key=lambda x: x[1], reverse=True)
+        print(f"📊 Domain Density: {dense_domains[:3]} (top 3)")
+
+        # 2. Filter for high Q candidates in dense domains
+        # We prioritize realizations from domains that have reached a critical mass
         candidates = [r for r in realizations if r.get("layer") == 1 and r.get("q_score", 0) >= min_q]
+
+        if len(candidates) < batch_size:
+            # Fallback to lower Q if not enough high-Q items (Phase 7 Adaptive Threshold)
+            adaptive_min = min_q * 0.9
+            print(f"ℹ️ Adaptive Threshold active: {adaptive_min:.3f}")
+            candidates = [r for r in realizations if r.get("layer") == 1 and r.get("q_score", 0) >= adaptive_min]
 
         if len(candidates) < batch_size:
             print(f"ℹ️ Not enough candidates for synthesis (Found {len(candidates)}, Need {batch_size}).")
             return None
 
-        # Sort by Q and take top batch
-        synthesis_batch = sorted(candidates, key=lambda x: x['q_score'], reverse=True)[:batch_size]
+        # 3. Sort by Domain Density * Q-Score synergy
+        def synergy_score(r):
+            domain = r.get("metadata", {}).get("domain", "Universal")
+            density = domain_counts.get(domain, 1)
+            return r['q_score'] * (1 + math.log10(density))
+
+        synthesis_batch = sorted(candidates, key=synergy_score, reverse=True)[:batch_size]
 
         # 1. Synthesis Logic: Create a Layer 0 rule
         # In a real system, this would use an LLM. Here we use structural templates.
@@ -66,9 +90,11 @@ class OmegaSynthesisEngine:
         timestamp = datetime.now().isoformat()
         content_hash = hashlib.sha256(str(batch).encode()).hexdigest()[:8]
 
+        domain = batch[0].get('metadata', {}).get('domain', 'Universal')
+
         return {
             "id": f"OMEGA_{content_hash}",
-            "content": f"OMEGA RULE: Integrated synergy of {len(batch)} high-Q L1 realizations focusing on {batch[0]['metadata'].get('domain', 'Universal')}.",
+            "content": f"OMEGA RULE: Integrated synergy of {len(batch)} high-Q L1 realizations focusing on {domain}.",
             "layer": 0,
             "features": {
                 "grounding": 0.999,

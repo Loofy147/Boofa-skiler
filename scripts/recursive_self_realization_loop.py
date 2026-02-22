@@ -44,22 +44,35 @@ def main():
     # Phase 7 Operations
     if phase_7:
         # Step 4: Autonomous Strategic Architect (Alpha)
-        if not run_step("python layers/layer_3_orchestration/autonomous_strategic_architect.py", "Autonomous Strategic Planning"):
-            pass # Continue even if Alpha fails
+        if not run_step("python layers/layer_3_orchestration/autonomous_strategic_architect.py", "Autonomous Strategic Planning & Domain Propagation"):
+            pass
 
-        # Step 5: Skill Export (Epsilon)
+        # Step 4b: Domain Engine Execution (Phase 7 Activation)
+        if not run_step("python scripts/execute_domain_expansion.py", "Executing Domain Expansion Engines"):
+            pass
+
+        # Step 5: Recursive Self-Audit (Gamma/Phase 7 Correction)
+        if not run_step("python scripts/recursive_self_audit.py", "Executing Recursive Self-Audit"):
+            pass
+
+        # Step 6: Skill Export (Epsilon)
         if not run_step("python layers/layer_2_core/skill_engine.py", "Executing Automated Skill Export"):
             pass
 
-        # Step 6: Omega Synthesis
+        # Step 7: Omega Synthesis
         if not run_step("python layers/layer_4_discovery/omega_synthesis_engine.py", "Executing Omega Synthesis"):
             pass
 
-    # Step 7: Omega Meta-Evolution
+    # Step 8: Omega Meta-Evolution
     if not run_step("python layers/layer_4_discovery/omega_meta_evolution.py", "Executing Meta-Evolution"):
         return
 
-    # Step 8: Phase Transition Check
+    # Step 9: Dashboard Generation
+    if phase_7:
+        if not run_step("python scripts/generate_phase_7_dashboard.py", "Generating Phase 7 Dashboard"):
+            pass
+
+    # Step 10: Phase Transition Check
     print("\n--- 🚀 Phase Transition Evaluation ---")
     try:
         from layers.layer_4_discovery.phase_transition_controller import PhaseTransitionController

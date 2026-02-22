@@ -301,7 +301,7 @@ class MultiAgentOrchestrator:
 # TESTING
 # ============================================================================
 
-async def test_orchestrator():
+async def run_orchestrator_tests():
     print("=" * 60)
     print("LAYER 3: MULTI-AGENT ORCHESTRATION TESTS")
     print("=" * 60)
@@ -367,4 +367,4 @@ async def test_orchestrator():
     print("=" * 60)
 
 if __name__ == "__main__":
-    asyncio.run(test_orchestrator())
+    asyncio.run(run_orchestrator_tests())

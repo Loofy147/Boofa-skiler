@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-02-21T19:25:51.535222",
+  "total_points_audited": 85,
+  "avg_ethical_q": 0.795215294117647,
+  "risk_incidents": 49,
+  "anomalies_detected": 7,
+  "anomalies": [
+    {
+      "id": 21,
+      "content": "System Realization: Integrated Vision: TECHNICAL x STRATEGIC x VISION x CONSCIOUSNESS...",
+      "q_score": 0.984,
+      "distance": 8.10652374536877,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 79,
+      "content": "System Realization: Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS...",
+      "q_score": 1.1034,
+      "distance": 8.10652374536877,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 80,
+      "content": "System Realization: Integrated Vision: VISION x STRATEGIC x TECHNICAL x ETHICAL...",
+      "q_score": 1.1034,
+      "distance": 8.10652374536877,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 81,
+      "content": "System Realization: Integrated Vision: VISION x STRATEGIC x TECHNICAL x CONSCIOUSNESS...",
+      "q_score": 1.1034,
+      "distance": 8.10652374536877,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 82,
+      "content": "System Realization: OMEGA RULE: Integrated synergy of 5 high-Q L1 realizations focusing on Technical....",
+      "q_score": 1.1135,
+      "distance": 8.34959549537149,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 83,
+      "content": "System Realization: Integrated Vision: STRATEGIC x VISION x TECHNICAL x CONSCIOUSNESS...",
+      "q_score": 1.1034,
+      "distance": 8.10652374536877,
+      "type": "Operational Drift / Bias Outlier"
+    },
+    {
+      "id": 84,
+      "content": "System Realization: OMEGA RULE: Integrated synergy of 5 high-Q L1 realizations focusing on Technical....",
+      "q_score": 1.1135,
+      "distance": 8.34959549537149,
+      "type": "Operational Drift / Bias Outlier"
+    }
+  ],
+  "status": "WARNING"
+}
